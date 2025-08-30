@@ -1,4 +1,4 @@
-# VTX Targets
+# HDZero Video Transmitters
 
 ## Summary
 

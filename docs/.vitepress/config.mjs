@@ -81,19 +81,9 @@ export default defineConfig({
                     {
                         text: 'VTX',
                         items: [
-                            {text: 'VTX targets', link: '/vtx-summary',
-                                collapsed: true,
-                                items: [
-                                    {text: 'HDZero AIO5', link: '/aio5'},
-                                    {text: 'HDZero ECO Bundle', link: '/eco-bundle'},
-                                    {text: 'HDZero Freestyle V2', link: '/freestyle-v2'},
-                                    {text: 'HDZero Freestyle V1 (EOL)', link: '/freestyle-v1'},
-                                    {text: 'HDZero Race V3', link: '/race-v3'},
-                                    {text: 'HDZero Race V2 (EOL)', link: '/race-v2'},
-                                    {text: 'HDZero Race V1 (EOL)', link: '/race-v1'},
-                                ]},
-                            {text: 'Camera targets', link: '/camera-summary',},
-                            {text: 'User manual', link: '/vtx-user-manual',},
+                            {text: 'HDZero VTX Products', link: '/vtx-summary'},
+                            {text: 'VTX Installation Diagram', link: '/vtx-installation',},
+                            {text: 'General Considerations', link: '/vtx-general',},
                             {text: 'Troubleshoot', link: '/vtx-troubleshoot',}
                         ]
                     },
