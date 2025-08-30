@@ -58,7 +58,7 @@ During the initialization phase, VTX will detect whether the serial port can cor
 
 ### Update VTX and VRX/Goggle firmware
 
-- Download the latest firmware from [www.hd-zero.com/document](www.hd-zero.com/document).
+- Download the latest firmware from [www.hd-zero.com/document](http://www.hd-zero.com/document).
 - Firmware package(Rev_ddmmyyyy.zip) contains the firmware for all the VTX and VRX/Goggle.
 - You can also get the latest release fw of vtx and goggle from github.
 
