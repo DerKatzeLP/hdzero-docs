@@ -3,10 +3,10 @@ import {defineConfig} from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     head: [['link', {rel: 'icon', href: '/short-icon.png'}]],
-    title: "HDZero Docs",
+    title: "HDZero",
     description: "HDZero offers industry-leading low latency, giving you more time to react and the best possible chance of hitting that next gap. With its smooth, consistent FPV video feed, you'll experience the same locked-in feeling you get with analog video–but with the clarity of HD.",
     themeConfig: {
-        logo: '/icon.png',
+        logo: '/short-icon.png',
 
         socialLinks: [
             {icon: 'github', link: 'https://github.com/hd-zero'},
@@ -69,7 +69,7 @@ export default defineConfig({
                     pattern: 'https://github.com/hd-zero/hdzero-docs.github.io/main/docs/:path'
                 },
                 nav: [
-                    {text: 'Docs', link: '/what-is-hdzero'}
+                    {text: 'Documents', link: '/what-is-hdzero'}
                 ],
                 sidebar: [
                     {
@@ -95,6 +95,25 @@ export default defineConfig({
                             {text: 'Camera targets', link: '/camera-summary',},
                             {text: 'User manual', link: '/vtx-user-manual',},
                             {text: 'Troubleshoot', link: '/vtx-troubleshoot',}
+                        ]
+                    },
+                    {
+                        text: 'VRX',
+                        items: [
+                            {text: 'Box Pro', link: '/',
+                                collapsed: true,
+                                items: [
+                                ]},
+                            {text: 'Goggles', link: '/',},
+                        ]
+                    },
+                    {
+                        text: 'FC',
+                        items: [
+                            {text: 'HaLo', link: '/',
+                                collapsed: true,
+                                items: [
+                                ]},
                         ]
                     }
                 ],
@@ -136,6 +155,25 @@ export default defineConfig({
                             {text: 'Camera targets', link: '/camera-summary',},
                             {text: 'User manual', link: '/vtx-user-manual',},
                             {text: 'Troubleshoot', link: '/vtx-troubleshoot',}
+                        ]
+                    },
+                    {
+                        text: '视频接收机',
+                        items: [
+                            {text: 'Box Pro', link: '/',
+                                collapsed: true,
+                                items: [
+                                ]},
+                            {text: 'Goggles', link: '/',},
+                        ]
+                    },
+                    {
+                        text: '飞控',
+                        items: [
+                            {text: 'HaLo', link: '/',
+                                collapsed: true,
+                                items: [
+                                ]},
                         ]
                     }
                 ],
