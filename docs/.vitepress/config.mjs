@@ -80,9 +80,9 @@ export default defineConfig({
                     },
                     {
                         text: 'VTX',
-                        collapsed: true,
                         items: [
                             {text: 'HDZero VTX Products', link: '/vtx-summary',
+                                collapsed: true,
                                 items: [
                                     {text: 'Whoop V2 VTX', link: '/whoop-v2'},
                                     {text: 'Race V3 VTX', link: '/race-v3',},
@@ -95,6 +95,7 @@ export default defineConfig({
                             {text: 'VTX Firmware Update Guide', link: '/vtx-firmware-update',},
                             {text: 'FAQ', link: '/vtx-faq',},
                             {text: 'Discontinued Video Transmitters', link: '/vtx-dis-summary',
+                                collapsed: true,
                                 items: [
                                     {text: 'Whoop VTX', link: '/whoop'},
                                     {text: 'Whoop lite VTX', link: '/whoop-lite',},
@@ -107,7 +108,6 @@ export default defineConfig({
                     },
                     {
                         text: 'VRX',
-                        collapsed: true,
                         items: [
                             {text: 'Box Pro', link: '/',
                                 collapsed: true,
@@ -118,7 +118,6 @@ export default defineConfig({
                     },
                     {
                         text: 'FC',
-                        collapsed: true,
                         items: [
                             {text: 'HaLo', link: '/',
                                 collapsed: true,
@@ -150,9 +149,9 @@ export default defineConfig({
                     },
                     {
                         text: '视频发射机',
-                        collapsed: true,
                         items: [
                             {text: 'HDZero VTX Products', link: '/vtx-summary',
+                                collapsed: true,
                                 items: [
                                     {text: 'Whoop V2 VTX', link: '/whoop-v2'},
                                     {text: 'Race V3 VTX', link: '/race-v3',},
@@ -165,6 +164,7 @@ export default defineConfig({
                             {text: 'VTX Firmware Update Guide', link: '/vtx-firmware-update',},
                             {text: 'FAQ', link: '/vtx-faq',},
                             {text: 'Discontinued Video Transmitters', link: '/vtx-dis-summary',
+                                collapsed: true,
                                 items: [
                                     {text: 'Whoop VTX', link: '/whoop'},
                                     {text: 'Whoop lite VTX', link: '/whoop-lite',},
@@ -177,7 +177,6 @@ export default defineConfig({
                     },
                     {
                         text: '视频接收机',
-                        collapsed: true,
                         items: [
                             {text: 'Box Pro', link: '/',
                                 collapsed: true,
@@ -188,7 +187,6 @@ export default defineConfig({
                     },
                     {
                         text: '飞控',
-                        collapsed: true,
                         items: [
                             {text: 'HaLo', link: '/',
                                 collapsed: true,
