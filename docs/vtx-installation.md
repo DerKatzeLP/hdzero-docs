@@ -1,3 +1,5 @@
+# VTX Installation Diagram
+
 <img src="/media/image7.png" id="image5">
 
 ## Notes

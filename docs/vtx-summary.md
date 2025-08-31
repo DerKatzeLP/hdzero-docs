@@ -3,10 +3,10 @@
 <table id="table1">
 <tr>
 <td rowspan="2">VTX Name</td>
-<td rowspan="2">Whoop V2</td>
-<td rowspan="2">Race V3</td>
-<td rowspan="2">Freestyle V2</td>
-<td rowspan="2">ECO</td>
+<td rowspan="2">Whoop V2<img src="/media/image4.jpeg" width="70"></td>
+<td rowspan="2">Race V3<img src="/media/image3.png"  width="70"></td>
+<td rowspan="2">Freestyle V2<img src="/media/image6.png"  width="70"></td>
+<td rowspan="2">ECO<img src="/media/image5.png"  width="70"></td>
 </tr>
 <tr>
 </tr>

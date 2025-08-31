@@ -1,52 +1,124 @@
-# HDZero Race V1 Video Transmitter (EOL)
+# Race V1 VTX
 
-The HDZero Race VTX is a digital HD 720p 60fps video transmitter capable of delivering up to 200mw on 5.8GHz.
+The HDZero Race VTX is a digital HD 720p 60fps video transmitter capable of delivering up to 200mW on 5.8GHz.
 
-The power input range is 7V – 17V (2S – 4S).
+The power input range is 7V – 17V.
 
-<img src="https://raw.githubusercontent.com/hd-zero/hdzero-vtx-docs/main/img/HDZero_RaceV1_intro_1.png" style="width:100">
+<img src="/media/image39.png" id="image34">
 
-| No. | Description                                            |
-| :-: | :----------------------------------------------------- |
-|  1  | Power/UART Connector                                   |
-|  2  | FW Update Connector                                    |
-|  3  | MIPI Connector                                         |
-|  4  | u.FL Antenna Connector                                 |
-|  5  | u.FL Antenna Retention Holes                           |
-|  6  | Power on LED(red)                                      |
-|  7  | Status LED(blue)                                       |
-|  8  | Mounting Holes (20x20 M4)                              |
-|  9  | Zip Ties (4x)                                          |
-| 10 | u.FL Antenna Retention<br />Scews(4x)/Nut(4x)/Plate    |
-| 11 | Rubber Grommet(M4 to M3 4x)                            |
-| 12 | Power/UART harness (20cm) and a PH2.0 connector (6P) |
+<table id="table14">
+<tr>
+<td>1</td>
+<td>Power/UART Connector</td>
+</tr>
+<tr>
+<td>2</td>
+<td>FW Update Connector</td>
+</tr>
+<tr>
+<td>3</td>
+<td>MIPI Connector</td>
+</tr>
+<tr>
+<td>4</td>
+<td>u.FL Antenna Connector</td>
+</tr>
+<tr>
+<td>5</td>
+<td>u.FL Antenna Retention Holes</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Power on LED (red)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Status LED (blue)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Mounting Holes (20x20 M4)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Zip Ties (4x)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>u.FL Antenna Retention Screws(4x)/Nut(4x)/Plate</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rubber Grommet (M4 to M3 4x)</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Power/UART harness (20cm) and a PH2.0 connector (6P)</td>
+</tr>
+</table>
 
-<img src="https://raw.githubusercontent.com/hd-zero/hdzero-vtx-docs/main/img/HDZero_RaceV1_intro_2.png" style="width:100">
+<img src="/media/image40.png" id="image35">
 
-| Power/UART Connector | Cable Color | Connected with |
-| :------------------- | ----------- | -------------- |
-| Ground               | Black       | Ground         |
-| Power                | Red         | Power          |
-| T1                   | Green       | FC.RX          |
-| R1                   | Yellow      | FC.TX          |
-| T2                   | White       | DO NOT CONNECT |
-| R2/SA, Optional     | Gray        | FC.SA(TX)      |
+<table id="table15">
+<tr>
+<td>Power/UART Connector</td>
+<td>Cable Color</td>
+<td>Connected with</td>
+</tr>
+<tr>
+<td>Ground</td>
+<td>Black</td>
+<td>Ground</td>
+</tr>
+<tr>
+<td>Power</td>
+<td>7-17V</td>
+<td>Power</td>
+</tr>
+<tr>
+<td>T1</td>
+<td>Green</td>
+<td>FC.RX</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>Yellow</td>
+<td>FC.TX</td>
+</tr>
+<tr>
+<td>T2</td>
+<td>White</td>
+<td>DO NOT CONNECT</td>
+</tr>
+<tr>
+<td>R2/SA</td>
+<td>Gray</td>
+<td>FC.SA (TX)</td>
+</tr>
+</table>
 
 ## Connection between Race V1 VTX and FC
 
 There are 3 methods to connect the VTX and flight controller:
 
-- Plug the included harness, cut the cables to appropriate length, and solder them on FC
+- Plug the included harness, cut the cables to
+
+- appropriate length, and solder them on FC
+
 - Use solder pads on the back of the connector
+
 - For FCs having BEC and UART connector, install harness to the included PH2.0 connector (Shown above), and connect the harness with FC without any soldering.
 
-**Warning: Check that pinout matches the FC pinout before installing to be safe if plugging directly.**
+::: warning
+Check that pinout matches the FC pinout before installing to be safe if plugging directly.
+:::
 
-## Mounting an u.FL antenna or pigtail
+## Mounting a u.FL antenna or pigtail
 
-<img src="https://raw.githubusercontent.com/hd-zero/hdzero-vtx-docs/main/img/HDZero_RaceV1_intro_3.png" style="width:100">
+<img src="/media/image41.png" id="image36">
 
 There are 2 methods to mount antenna on VTX:
 
-- Use included retention screws, nuts and plate.
+- Use included retention screws, nuts and plate;
+
 - Use included zip-ties.

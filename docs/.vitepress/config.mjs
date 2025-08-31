@@ -80,15 +80,34 @@ export default defineConfig({
                     },
                     {
                         text: 'VTX',
+                        collapsed: true,
                         items: [
-                            {text: 'HDZero VTX Products', link: '/vtx-summary'},
+                            {text: 'HDZero VTX Products', link: '/vtx-summary',
+                                items: [
+                                    {text: 'Whoop V2 VTX', link: '/whoop-v2'},
+                                    {text: 'Race V3 VTX', link: '/race-v3',},
+                                    {text: 'Freestyle V2 VTX', link: '/freestyle-v2',},
+                                    {text: 'ECO VTX', link: '/eco-bundle',},
+                                ]},
                             {text: 'VTX Installation Diagram', link: '/vtx-installation',},
                             {text: 'General Considerations', link: '/vtx-general',},
-                            {text: 'Troubleshoot', link: '/vtx-troubleshoot',}
+                            {text: 'VTX LED Pattern', link: '/vtx-led',},
+                            {text: 'VTX Firmware Update Guide', link: '/vtx-firmware-update',},
+                            {text: 'FAQ', link: '/vtx-faq',},
+                            {text: 'Discontinued Video Transmitters', link: '/vtx-dis-summary',
+                                items: [
+                                    {text: 'Whoop VTX', link: '/whoop'},
+                                    {text: 'Whoop lite VTX', link: '/whoop-lite',},
+                                    {text: 'Race V1 VTX', link: '/race-v1',},
+                                    {text: 'Race V2 VTX', link: '/race-v2',},
+                                    {text: 'Freestyle V1 VTX', link: '/freestyle-v1',},
+                                ],},
+                            {text: 'Warranty', link: '/vtx-warranty',},
                         ]
                     },
                     {
                         text: 'VRX',
+                        collapsed: true,
                         items: [
                             {text: 'Box Pro', link: '/',
                                 collapsed: true,
@@ -99,6 +118,7 @@ export default defineConfig({
                     },
                     {
                         text: 'FC',
+                        collapsed: true,
                         items: [
                             {text: 'HaLo', link: '/',
                                 collapsed: true,
@@ -130,25 +150,34 @@ export default defineConfig({
                     },
                     {
                         text: '视频发射机',
+                        collapsed: true,
                         items: [
-                            {text: 'VTX targets', link: '/vtx-summary',
-                                collapsed: true,
+                            {text: 'HDZero VTX Products', link: '/vtx-summary',
                                 items: [
-                                    {text: 'HDZero AIO5', link: '/aio5'},
-                                    {text: 'HDZero ECO Bundle', link: '/eco-bundle'},
-                                    {text: 'HDZero Freestyle V2', link: '/freestyle-v2'},
-                                    {text: 'HDZero Freestyle V1 (EOL)', link: '/freestyle-v1'},
-                                    {text: 'HDZero Race V3', link: '/race-v3'},
-                                    {text: 'HDZero Race V2 (EOL)', link: '/race-v2'},
-                                    {text: 'HDZero Race V1 (EOL)', link: '/race-v1'},
+                                    {text: 'Whoop V2 VTX', link: '/whoop-v2'},
+                                    {text: 'Race V3 VTX', link: '/race-v3',},
+                                    {text: 'Freestyle V2 VTX', link: '/freestyle-v2',},
+                                    {text: 'ECO VTX', link: '/eco-bundle',},
                                 ]},
-                            {text: 'Camera targets', link: '/camera-summary',},
-                            {text: 'User manual', link: '/vtx-user-manual',},
-                            {text: 'Troubleshoot', link: '/vtx-troubleshoot',}
+                            {text: 'VTX Installation Diagram', link: '/vtx-installation',},
+                            {text: 'General Considerations', link: '/vtx-general',},
+                            {text: 'VTX LED Pattern', link: '/vtx-led',},
+                            {text: 'VTX Firmware Update Guide', link: '/vtx-firmware-update',},
+                            {text: 'FAQ', link: '/vtx-faq',},
+                            {text: 'Discontinued Video Transmitters', link: '/vtx-dis-summary',
+                                items: [
+                                    {text: 'Whoop VTX', link: '/whoop'},
+                                    {text: 'Whoop lite VTX', link: '/whoop-lite',},
+                                    {text: 'Race V1 VTX', link: '/race-v1',},
+                                    {text: 'Race V2 VTX', link: '/race-v2',},
+                                    {text: 'Freestyle V1 VTX', link: '/freestyle-v1',},
+                                ],},
+                            {text: 'Warranty', link: '/vtx-warranty',},
                         ]
                     },
                     {
                         text: '视频接收机',
+                        collapsed: true,
                         items: [
                             {text: 'Box Pro', link: '/',
                                 collapsed: true,
@@ -159,6 +188,7 @@ export default defineConfig({
                     },
                     {
                         text: '飞控',
+                        collapsed: true,
                         items: [
                             {text: 'HaLo', link: '/',
                                 collapsed: true,
