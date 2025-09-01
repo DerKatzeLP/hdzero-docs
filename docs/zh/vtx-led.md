@@ -1,54 +1,53 @@
-# VTX LED Pattern
+# VTX LED模式
 
-All HDZero VTXes have two LEDs: Red and Blue.
+所有HDZero VTX都有两个 LED ：红色和蓝色。
 
-## Red LED
+## 红色LED灯语
 
-The red LED serves as the power indicator. If it's off or flashing, this signals a VTX failure. A healthy unit should display a steady red light. If there is no red light, check if power wires to VTX are connected, and check if voltage is expected value with a multi-meter.
+红色 LED 指示灯为电源指示灯。如果指示灯熄灭或闪烁，则表示 VTX 出现故障。正常状态的设备应显示稳定的红灯。如果没有红灯，请检查 VTX 的电源线是否连接，并用万用表检查电压是否达到预期值。
+## 蓝色LED灯语
 
-## Blue LED Pattern
+蓝色LED灯指示工作状态：
 
-Working status indicator light.
+VTX上电，快闪三次：VTX与 FC 的三个通信处于活动状态。如果没有快闪三次则表示VTX和FC通信没有成功，将会没有OSD，也不会工作。
 
-Upon boot, three rapid LED flickers confirm MSP communication with FC is active.
-
-Specific modes are represented with patterns of long (1 seconds) and short (1/4 seconds) pulses, within a 4 seconds timeframe.
+VTX工作时，具体模式以 4 秒时间范围内的长（1 秒）和短（1/4 秒）脉冲模式表示。
 
 <img src="/media/image12.png" id="image10">
 
 <table id="table2">
 <tr>
-<td>BLUE LED pattern</td>
-<td>What does it mean?</td>
-<td>What to do?</td>
+<td>蓝色LED灯语</td>
+<td>这是什么意思？</td>
+<td>该怎么办？</td>
 </tr>
 <tr>
-<td>2 short flashes</td>
-<td>Camera not detected</td>
-<td>Reseat MIPI cable on VTX and Camera<br>Check if MIPI cable is damaged<br>Check MIPI connector for damage<br>Replace Camera</td>
+<td>2次短闪</td>
+<td>未检测到相机</td>
+<td>VTX 和摄像头上的MIPI 电缆<br>检查MIPI线是否损坏<br>检查 MIPI 连接器是否损坏<br>更换相机</td>
 </tr>
 <tr>
-<td>3 short flashes</td>
-<td>Over-heating</td>
-<td>Use a fan to cool VTX</td>
+<td>3次短闪</td>
+<td>过热​​</td>
+<td>调试飞机时，务必使用风扇冷却VTX</td>
 </tr>
 <tr>
-<td>4 short flashes</td>
-<td>RF failure</td>
-<td>Replace VTX</td>
+<td>4次短闪</td>
+<td>VTX射频故障</td>
+<td>更换VTX</td>
 </tr>
 <tr>
-<td>1 long 1 short flash</td>
-<td>In 0 mW mode</td>
-<td>Use Stick command (\ /) exit 0mW</td>
+<td>1长1短闪</td>
+<td>在0 mW模式下</td>
+<td>使用 Stick command (\ /) 退出 0mW</td>
 </tr>
 <tr>
-<td>1 long 2 short flashes</td>
-<td>In 0.1mW mode</td>
-<td>Turn off PIT mode</td>
+<td>1长2短闪</td>
+<td>0.1mW模式</td>
+<td>关闭PIT模式</td>
 </tr>
 </table>
 
 ::: tip
-Note: The first three LED patterns indicate error conditions and take priority over all others. If an error is active—such as the VTX entering heat protection mode—it will override other settings. For example, setting the board to 0mW won't visibly change the LED if heat protection is engaged.
+注意：前三种 LED 模式指示错误情况，优先级高于其他所有模式。如果发生错误（例如 VTX 进入热保护模式），该模式将覆盖其他设置。例如，如果已启用热保护，将开发板设置为 0mW 不会在 LED 上产生明显变化。
 :::

@@ -1,73 +1,67 @@
-# General Considerations
-## Update VTX Firmware
+# 基础说明
+## 更新 VTX 固件
 
-Please update VTX firmware to the latest version to ensure compatibility with the latest cameras, flight controller software, and video receivers. It is not required for VTX firmware version to match video receiver version, but it is recommended. See [firmware update instructions](vtx-firmware-update.md) below.
+请将 VTX 固件更新至最新版本，以确保与最新相机、飞控软件和视频接收器兼容。VTX 固件版本无需与视频接收器版本匹配，但建议这样做。请参阅下方的。
 
-## Caution: UFL Connectors Are Fragile
+## 注意：UFL 连接器易碎
 
-All HDZero VTXes use a U.FL connector for its smaller footprint and lighter weight. However, it is not a mechanically strong connector. Treat it as if it’s made of glass. Here are notes for installing and uninstalling an antenna:
+所有 HDZero VTX均采用 U.FL 连接器，因为其体积更小、重量更轻。然而，这种连接器的机械强度并不高。请将其视为玻璃材质。以下是安装和卸载天线的注意事项：
 
-- Use the included brass or plastic retaining bar on VTXes that include it
+- 请使用VTX自带的上的黄铜或塑料压片以及螺丝固定
 
-- If retaining bar is not used, never run a cable from the UFL connector straight off the side of a board. Instead, run the antenna cable towards the middle of the board, and secure it in one of the following ways as a strain relief:
+- 如果不使用压片，切勿将UFL连接器的线缆直接从电路板侧面引出。相反，应将天线线缆引向电路板中间，并采用以下任一方式固定，以减轻线缆张力：
 
-  * Temperature resistant glue like E6000
+    * 耐高温胶水，例如E6000，但需注意：
 
-    - Avoid using glue on top of the hot components on the board.
+      - 不要在电路板上的发热元件上使用胶水。
 
-    - Preferably, apply glue to the side of the board where the cable leaves the top of the board.
+      - 在电缆离开电路板顶部的一侧使用胶水。
 
-  * Kapton tape to secure it to the surface of the VTX
+  * 用胶带将其固定到 VTX 表面
 
-  * Zip tie it to a nearby standoff (be careful not to crush the coax)
+  * 用扎带将其绑在附近的支架上（小心不要压坏同轴电缆）
 
-- Unless you need maximum RF performance or minimum weight, consider a UFL->SMA pigtail for larger builds. This allows you to thoroughly secure the SMA connector to your aircraft to prevent movement of the antenna cable. Note: a common failure point with SMA connectors is where the coax cable is crimped to the SMA jack; if this joint snaps and is loose, RF performance will suffer greatly.
+- 除非您需要最高的射频性能或最小的重量，否则对于较大的设备，请考虑使用 UFL->SMA 尾纤。这样可以将 SMA 连接器牢固地固定在飞机上，以防止天线电缆移动。注意：SMA 连接器的一个常见故障点是同轴电缆压接到 SMA 插孔的位置；如果此接头断裂并松动，射频性能将受到极大影响。
 
-- When removing the antenna, use care not to apply too much stress in any one direction. It is best to use a tweezer at the base of the neck of the connector and then pull straight up (do not pry), away from the board, so that force is evenly distributed on each supporting leg of the U.FL jack. There are tools designed to remove/insert UFL connectors from their sockets, which can help avoid damage to the UFL connector or socket.
+- 移除天线时，请小心，不要在任何一个方向上施加过大的力。最好用镊子夹住连接器颈部的底部，然后垂直向上拉（不要撬），远离电路板，这样力才能均匀分布在 U.FL 插孔的每个支撑脚上。市面上有一些专门用于从插座中拔出/插入 UFL 连接器的工具，这有助于避免损坏 UFL 连接器或插座。
 
-Please visit the following link for more information:
+## 为 VTX 供电：BEC
 
-https://www.facebook.com/groups/hdzero/permalink/448657693828864/
+强烈建议使用电池补偿电路 (BEC)，以避免电压尖峰损坏 VTX。虽然您可以直接使用电池 (VBAT) 为 VTX 供电，但 BEC 可以提供更稳定的供电，并有助于吸收任何电压尖峰，从而保护您的 VTX 免受过压和欠压（电压掉电）的影响。
 
-## Powering the VTX: BEC
+选择一个电压在 VTX 可接受范围内，并且能够提供足够电流为 VTX 供电的 BEC 至关重要。无论您使用的是飞控内置的 BEC 还是独立的 BEC，请务必检查其额定电压和电流，并将其与 VTX 所需的电压和电流进行比较。
 
-Using a battery eliminator circuit (BEC) is highly recommended to avoid voltage spikes, which can damage the VTX. Although you can power the VTX directly from the battery (VBAT), a BEC will provide more consistent power and will help absorb any voltage spikes, protecting your VTX from over-voltage conditions and under-voltage (brown-outs).
+总结一下：
 
-It is important to select a BEC that provides voltage that is within the range of what the VTX accepts, and that is capable of supplying enough current to power the VTX. Whether you are using a BEC that is built into your flight controller or a standalone BEC, be sure to check its voltage and current ratings and compare them to the required voltage and current for your VTX.
+- 检查您的 FC 规格，看看您是否可以从FC 的 BEC运行您的 VTX ；
 
-All the FCs that include an integrated BEC for DJI VTXes should also work for HDZero VTXes.
+- 如果没有，您可以从合适的独立 BEC运行 VTX ；
 
-To summarize:
+- 如果没有，那么由于飞机的电压环境恶劣，使用 VBAT 运行始终是最后选择。
 
-- Check your FC specs to see if you can run your VTX from the FC’s BEC;
+- 所有 HDZero VTX （Freestyle V 2除外）都不支持 6S VBAT。
 
-- If not, you could run the VTX from a suitable standalone BEC;
+## 安装注意事项
 
-- If not, running on VBAT is always the last choice due to the challenging voltage environment in an aircraft.
+保持 VTX 和 ESC/FC 板之间的一定距离非常重要，原因如下：
 
-- All HDZero VTXes, except Freestyle V2, do not support 6S VBAT.
+- VTX 的 RF 部分容易受到 ESC/电机引起的电子噪声的影响；
 
-## Mounting Considerations
+- 射频信号可能会从电路板或碳纤维板表面反射回来，并反馈到 VTX 中的功率放大器。这会降低射频信号的完整性，并可能损坏放大器。
 
-It is very important to keep some distance between the VTX and ESC/FC boards for the following reasons:
+为了避免这些问题，请遵循以下指导安装 VTX：
 
-- The RF portion of VTX is vulnerable to electronic noise caused by ESC/motors;
+- **请勿使用 胶带将 VTX 安装到无人机框架上** (Freestyle V2 除外)
 
-- The RF signal can be bounced back from surfaces of boards or carbon fiber plates, and fed back to the power amplifier in the VTX. This will deteriorate the RF signal integrity and could damage the amplifier.
+- 如果 VTX 安装在飞塔顶部，请与顶部碳纤维板保持5毫米的距离。
 
-To avoid these concerns, follow this guidance for mounting the VTX:
+- 避免将 VTX 安装在飞塔中间。
 
-- **Do not use tape to mount VTX to drone frame** (except for Freestyle V2)
+- 如果 VTX 安装在飞塔底部，则 VTX 需要倒置（U.FL插座朝下）并且需要与底部碳纤维板保持至少5 毫米的距离。
 
-- If the VTX is mounted on the top of the stack, please keep 5mm distance from the top carbon fiber plates.
+## OSD/MSP 设置
 
-- Avoid mounting the VTX in the middle of the stack.
-
-- If the VTX is mounted on the bottom of the stack, the VTX needs to be upside down (U.FL socket faces down) and needs to have a minimum of 5mm distance from the bottom carbon fiber plates.
-
-## OSD/MSP Setup
-
-### 1. Pre-requisite
+### 1. 先决条件
 
 Betaflight >= 4.4.0
 
@@ -77,137 +71,155 @@ KISS ULTRA >= 2.0.1-B35
 
 FlightOne >= 10.1.1.5576 | 10.1 Alpha 29
 
-### 2. Update firmware VTX and VRX
+### 2. 更新固件VTX和VRX
 
-Download the latest firmware: www.hd-zero.com/document
+下载最新固件：https://www.alipan.com/s/WdoCPa2odz5
 
-### 3. Solder/Connect VTX UART to an available UART on your FC board
+### 3. 将 VTX UART 焊接/连接到 FC 板上的可用 UART
 
-See [installation diagram](vtx-installation.md) above
+参见 [安装图](vtx-installation.md)
 
-### 4. Flight controller Configuration (Betaflight)
+### 4. 飞控配置（Betaflight）
 
-Connect the FC board to computer with a USB cable
+1. 使用 USB 线将 FC 板连接到计算机
 
-Start Betaflight configurator
+2. 启动 Betaflight 配置器
 
-Go to Port TAB
+3. 前往Port标签页
 
-Activate VTX (MSP + Displayport) on UART number that is used to connect the VTX
+4. 在连接 VTX 的 UART 号 选择 VTX（MSP + Displayport ）
 
-Save and Reboot
+5. 保存并重启
 
-Note: A soft serial UART is not supported for VTX (MSP + Displayport).
+::: tip
+注意： VTX（MSP + Displayport ）不支持 软串行 UART 。
+:::
 
-As an example: UART5 on picture below is used for VTX (MSP + Displayport).<img src="/media/image8.png" id="image6">
+举例来说：上图中的 UART5 用于 VTX（MSP + Displayport ）。
 
-### 5. Restart/Connect Flight controller Configuration (Betaflight)
+### 5. 重启/连接飞控配置（Betaflight）
 
-Go to configuration tab
+1. 转到Configuration tab
 
-Activate OSD function
+2. 打开OSD功能
 
-SAVE<img src="/media/image9.png" id="image7">
+3. SAVE
 
-Go to OSD tab, and configure the items you want to show on your screen
+<img src="/media/image9.png" id="image7">
 
-SAVE
+4. 转到OSD tab，配置您想要在屏幕上显示的项目
+
+5. SAVE
 
 ## VTX Tables
 
-The HDZero VTX tables have been integrated into the VTX firmware. It will automatically be configured if power on, which means you don’t need to configure it manually.
+HDZero VTX表已集成到 VTX 固件中。开机时会自动配置，无需手动配置。
 
-## SmartAudio (Not Supported)
+## SmartAudio（不支持）
 
-HDZero VTX does no longer supports SmartAudio. Use MSP OSD instead.
+HDZero VTX 不再支持SmartAudio 。请改用MSP OSD 。
 
-## Stick Command Gestures
+## 摇杆指令手势
 
 <img src="/media/image10.png" id="image8"><div class="page"></div>
 
-## Using VTX Menu
+## 使用 VTX 菜单
 
-All HDZero VTXes have the following settings for its RF power level management. These settings can be changed using the VTX menu.
+所有 HDZero VTX均可设置射频发射功率大小，频道。这些设置可通过 VTX 菜单进行更改。
 
 <img src="/media/image11.jpeg" id="image9">
 
-CHANNEL:
+### 频道 CHANNEL：
 
-All VTXes support R1-R8, E1, F1, F2 and F4 channels. You will get an additional 8 channels L1-L8 if you unlock the low band.
+VTX均支持 R1-R8、E1、F1、F2 和 F4 通道。解锁低频段后，您将获得额外的 8 个 L1-L8 通道。
 
-POWER:
+### 发射功率 POWER：
 
-The desired RF power level is selectable between 25mW, 200mW (and 500mW or MAX for certain VTXes). The actual RF power level depends on the following settings and FC status.
+所需的射频功率水平可在 25mW、200mW 或某些VTX的 500mW 或 MAX 之间选择。实际射频功率水平取决于以下设置和 FC 状态。
 
-PIT_MODE:  (Set to ’OFF’ if you don’t know how it works)
+### PIT_MODE：（如果您不知道它如何工作，请设置为“ OFF ” ）
 
-- OFF: The output RF power will be set to POWER setting.
+- OFF ：输出 RF 功率将设置为POWER设置。
 
-- P1MW: The output RF power will be 0.1mW (in order to not interfere with other pilots) in this mode. If the aircraft is armed, RF output power will be automatically set to the POWER within seconds.
+- P1MW ：此模式下，射频输出功率为 0.1mW（以避免干扰其他飞手）。如果飞机处于待命状态，射频输出功率将在数秒内自动设置为POWER 。
 
-- 0MW: There will be zero RF output in this mode. If aircraft is armed, RF output power will be automatically set to POWER within seconds.
-
-::: tip
-Note that after first arm, the vtx will not enter pit mode again until vbat power is reset
-:::
-
-LP_MODE:  (Set to ‘OFF’ if you don’t know how it works)
-
-- OFF: The output RF power will be set to POWER setting.
-
-- ON: If PIT_MODE is OFF and the aircraft is disarmed, the RF power level will be forced to 25mW regardless of POWER setting. The output RF power will be set to POWER setting when aircraft is armed.
-
-- 1ST: If PIT_MODE is OFF, the RF power level will be forced to 25mW regardless of POWER setting when aircraft is power on, the output RF power will be set to POWER setting when aircraft is armed.
+- 0MW ：此模式下射频输出为零。如果无人机已开启，射频输出功率将在数秒内自动设置为POWER 。
 
 ::: tip
-Note that after first arm, the vtx will not enter LP mode again until vbat power is reset
+请注意，在第一次解锁后，vtx 将不会再次进入PIT MODE，直到重新上电
 :::
 
-OFFSET_25MW: (Set to ‘0’ if you don’t know how it works)
+### LP_MODE:  （如果您不知道它如何工作，请设置为“ OFF ” ）
 
-It is to fine tune the RF output power to be exactly 25mW. The range is [-10:10], and step size is about 0.1dB per step.
+- OFF ：输出 RF 功率将设置为POWER。
 
-TEAM_RACE: (Set to ‘OFF’ if you don’t know how it works)
+- ON ：如果PIT_MODE为 OFF 且飞机锁定状态，则无论POWER设置如何，RF 功率水平都将被强制为 25mW。 当无人机处于解锁状态时，输出射频功率将设置为POWER。
 
-- OFF: The RF power of VTXs after power-on is determined by other settings.
-
-- MODE1: VTX RF remains off (0mW) after power-up, and exits 0mW under the following conditions: 1. Aircraft is armed. 2. Exit 0mw mode through stick command. 3. Configure VTX power to non-0mW through FC UART. If the UART communication between VTX and FC is disconnected, VTX will turn off the RF until UART communication is restored and repower the VTX.
-
-- MODE2: VTX RF remains off (0mW) after power-up, and exits 0mW under the following conditions: 1. Aircraft is armed. 2. Exit 0mW mode through stick command. 3. Configure VTX power to non-0mW through FC.
-
-SHORTCUTS: Two different stick commands are provided for switching or exiting 0mW. See the Stick Movement diagram (OPT_A and OPT_B) for details.
+- 1ST ：如果PIT_MODE为 OFF，则当飞机上电后，无论POWER设置如何，RF 功率水平都将被强制为 25mW ，当飞机解锁后，输出 RF 功率将设置为POWER设置。
 
 ::: tip
-Notes:
-
-- HDZero VTX will still become hot even on P1mW mode. It is better to keep VTX on 0mW when it will be idle for a while. Though the receiver will not have live video on this mode, it will come back as soon as the aircraft is armed.
-
-- Use sticks shortcut to enter 0mW, and to exit 0mW mode.
+请注意，在第一次解锁后，vtx 将不会再次进入LP模式，直到重新上电
 :::
 
-### Typical Setting for Racing or daily practicing
+### OFFSET_25MW: （如果您不知道它如何工作，请设置为“ 0 ” ）
 
-- Channel: Set to the assigned number
-- Power: 25mW
-- PIT_MODE: OFF
-- LP_MODE: OFF
-- OFFSET_25MW: 0
-- TEAM_RACE: OFF
-- SHORTCUT: OPT_A
+用于将射频输出功率微调至精确的 25mW。范围为 [-10:10]，步长约为每步0.1 dB。
 
-  - When you are waiting for ARM command from race director, Use Stick Command (OPT-A  /  \) to enter into 0mW to avoid VTX overheats, no video in goggle
-  - Right before ARM command from director, use Stick Command (OPT-A  \ /) to exit 0mW, you will have video in Goggle right away.
-### Typical Setting for Team Racing
+### TEAM_RACE: （如果您不知道它如何工作，请设置为“ OFF ” ）
 
-- Channel: Set to the assigned number
-- Power: 25mW
-- PIT_MODE: OFF
-- LP_MODE: OFF
-- OFFSET_25MW: 0
-- TEAM_RACE: MODE1
-- SHORTCUT: OPT_A
+- OFF ：开机后图传的射频功率由其他设置决定。
 
-  - When VTX boots up, it is on 0mW. It will start to transmit when armed or Stick Command (OPT-A \ /) exit 0mW
-  - When you crash during the race, your VTX might continue transmitting, which will interference your teammate’s video signal that is on the same channel as yours, you need to
-    - Disarm, and use Stick Command (OPT-A  /  \) to enter into 0mW, this will work only when your FC still functions,
-    - VTX will automatically switch to 0mW after several seconds if VTX fails to communicate with FC (FC could be dead because of crash)
+- MODE1 ：VTX 射频在上电后保持关闭状态（0mW），并在以下情况下退出 0mW 模式：1. 无人机已解锁；2. 通过摇杆指令退出 0mW 模式；3. 通过飞控 UART 将 VTX 功率配置为非 0mW。如果 VTX 与飞控之间的 UART 通信断开，VTX 将关闭射频，直到 UART 通信恢复并VTX 重新上电。
+
+- MODE2 ：VTX RF 上电后保持关闭状态（0mW），并在以下条件下退出 0mW：1. 无人机已解锁；2. 通过摇杆指令退出 0mW 模式；3. 通过 FC 将 VTX 功率配置为非 0mW。
+
+### 快捷键: 
+
+提供两种不同的摇杆命令，用于切换或退出 0mW。详情请参阅  [摇杆指令手势图](#摇杆指令手势)（ OPT_A 和 OPT_B） 。
+
+::: tip
+注意：
+
+- HDZero VTX 即使在 1mW 模式下仍会发热。当 VTX 需要一段时间闲置时，最好将其保持在 0mW 模式。虽然在此模式下接收器无法接收实时视频，但一旦飞机启动，它就会立即恢复。
+
+- 使用摇杆快捷键可以非常快速得进入和退出0mW。
+:::
+
+### 比赛和日常训练的典型设置
+
+- 频道：设置为 指定频道
+
+- 功率：25mW
+
+- PIT_MODE ：关闭
+
+- LP_MODE：关闭
+
+- OFFSET_25MW： 0
+
+- TEAM_RACE：关闭
+
+- 快捷方式：OPT_A
+
+  - 当您等待比赛主管发出 ARM 命令时，使用摇杆命令 (OPT-A / \) 进入 0mW 以避免 VTX 过热，眼镜中无视频
+  - 起飞解锁之前，使用 Stick Command (OPT-A \ /) 退出 0mW，您将立即在 Goggle 中看到视频。
+### TEAM RACING的典型设置
+
+- 频道：设置为 指定频道
+
+- 功率：25mW
+
+- PIT_MODE ：关闭
+
+- LP_MODE：关闭
+
+- OFFSET_25MW： 0
+
+- 团队比赛：MODE1
+
+- 快捷方式：OPT_A
+
+  - VTX 启动时，功率为 0mW。当解锁或使用摇杆指令 (OPT-A \ /) 退出 0mW时，VTX 才会开始发射。
+  - 当撞机时，VTX 可能还在继续发射，这将会干扰与您在同一频道的队友的视频信号，此时你需要：
+    - 锁定（ARM）飞机，然后使用摇杆命令（OPT-A / \）进入0mW，这仅在您的FC仍然正常工作时才有效；
+    - 在FC 不正常工作，如因撞机崩溃而死机，此时 VTX将 无法与 FC 通信， VTX 将在几秒钟后自动切换到 0mW，免得影响队友；

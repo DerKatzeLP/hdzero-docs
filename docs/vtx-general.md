@@ -87,31 +87,35 @@ See [installation diagram](vtx-installation.md) above
 
 ### 4. Flight controller Configuration (Betaflight)
 
-Connect the FC board to computer with a USB cable
+1. Connect the FC board to computer with a USB cable
 
-Start Betaflight configurator
+2. Start Betaflight configurator
 
-Go to Port TAB
+3. Go to Port TAB
 
-Activate VTX (MSP + Displayport) on UART number that is used to connect the VTX
+4. Activate VTX (MSP + Displayport) on UART number that is used to connect the VTX
 
-Save and Reboot
+5. Save and Reboot
 
+::: tip
 Note: A soft serial UART is not supported for VTX (MSP + Displayport).
+:::
 
 As an example: UART5 on picture below is used for VTX (MSP + Displayport).<img src="/media/image8.png" id="image6">
 
 ### 5. Restart/Connect Flight controller Configuration (Betaflight)
 
-Go to configuration tab
+1. Go to configuration tab
 
-Activate OSD function
+2. Activate OSD function
 
-SAVE<img src="/media/image9.png" id="image7">
+3. SAVE
 
-Go to OSD tab, and configure the items you want to show on your screen
+<img src="/media/image9.png" id="image7">
 
-SAVE
+4. Go to OSD tab, and configure the items you want to show on your screen
+
+5. SAVE
 
 ## VTX Tables
 
@@ -131,15 +135,15 @@ All HDZero VTXes have the following settings for its RF power level management. 
 
 <img src="/media/image11.jpeg" id="image9">
 
-CHANNEL:
+### CHANNEL:
 
 All VTXes support R1-R8, E1, F1, F2 and F4 channels. You will get an additional 8 channels L1-L8 if you unlock the low band.
 
-POWER:
+### POWER:
 
 The desired RF power level is selectable between 25mW, 200mW (and 500mW or MAX for certain VTXes). The actual RF power level depends on the following settings and FC status.
 
-PIT_MODE:  (Set to ’OFF’ if you don’t know how it works)
+### PIT_MODE:  (Set to ’OFF’ if you don’t know how it works)
 
 - OFF: The output RF power will be set to POWER setting.
 
@@ -151,7 +155,7 @@ PIT_MODE:  (Set to ’OFF’ if you don’t know how it works)
 Note that after first arm, the vtx will not enter pit mode again until vbat power is reset
 :::
 
-LP_MODE:  (Set to ‘OFF’ if you don’t know how it works)
+### LP_MODE:  (Set to ‘OFF’ if you don’t know how it works)
 
 - OFF: The output RF power will be set to POWER setting.
 
@@ -163,11 +167,11 @@ LP_MODE:  (Set to ‘OFF’ if you don’t know how it works)
 Note that after first arm, the vtx will not enter LP mode again until vbat power is reset
 :::
 
-OFFSET_25MW: (Set to ‘0’ if you don’t know how it works)
+### OFFSET_25MW: (Set to ‘0’ if you don’t know how it works)
 
 It is to fine tune the RF output power to be exactly 25mW. The range is [-10:10], and step size is about 0.1dB per step.
 
-TEAM_RACE: (Set to ‘OFF’ if you don’t know how it works)
+### TEAM_RACE: (Set to ‘OFF’ if you don’t know how it works)
 
 - OFF: The RF power of VTXs after power-on is determined by other settings.
 
@@ -175,7 +179,9 @@ TEAM_RACE: (Set to ‘OFF’ if you don’t know how it works)
 
 - MODE2: VTX RF remains off (0mW) after power-up, and exits 0mW under the following conditions: 1. Aircraft is armed. 2. Exit 0mW mode through stick command. 3. Configure VTX power to non-0mW through FC.
 
-SHORTCUTS: Two different stick commands are provided for switching or exiting 0mW. See the Stick Movement diagram (OPT_A and OPT_B) for details.
+### SHORTCUTS: 
+
+Two different stick commands are provided for switching or exiting 0mW. See the [Stick Movement diagram](#stick-command-gestures) (OPT_A and OPT_B) for details.
 
 ::: tip
 Notes:

@@ -171,15 +171,6 @@ export default defineConfig({
                             {text: 'VTX LED 模式', link: '/zh/vtx-led',},
                             {text: 'VTX 固件更新指南', link: '/zh/vtx-firmware-update',},
                             {text: '常问问题', link: '/zh/vtx-faq',},
-                            {text: '已停产 VTX 产品', link: '/zh/vtx-dis-summary',
-                                collapsed: true,
-                                items: [
-                                    {text: 'Whoop VTX', link: '/zh/whoop'},
-                                    {text: 'Whoop lite VTX', link: '/zh/whoop-lite',},
-                                    {text: 'Race V1 VTX', link: '/zh/race-v1',},
-                                    {text: 'Race V2 VTX', link: '/zh/race-v2',},
-                                    {text: 'Freestyle V1 VTX', link: '/zh/freestyle-v1',},
-                                ],},
                             {text: '保修', link: '/zh/vtx-warranty',},
                         ]
                     },

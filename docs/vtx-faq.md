@@ -13,7 +13,7 @@ HDZero Discord Server: https://discord.gg/JPesSHpmCU
 A1: The RED LED should be on and not blinking. Please check the following:
 
 - Check power connection to your VTX;
-- Make sure input voltage is within range, see Power Input;
+- Make sure input voltage is within range, see [Power Input](vtx-summary.md);
 - Ensure the power source can provide sufficient current. A 200mW VTX draws around 5 watts, while a Freestyle VTX can require up to 15 watts. Keep in mind, some flight controllers (FCs) may not be capable of supplying adequate amperage.
 - The VTX's power circuit may be damaged, which can result in no red LED or a blinking red LED indicator.
 
@@ -26,7 +26,7 @@ A2:  The blue LED reflects the current status of the VTX as follows:
 - Absence of the blue LED suggests a critical failure—your VTX may be completely non-operational.
 - Upon boot, three rapid blue LED flickers confirm MSP communication is active, if it is connected with a flight controller
 - The blue LED should remain steadily lit under normal operating conditions.
-- Check LED pattern table if the blue LED blinks
+- Check LED pattern table if the [blue LED blinks](vtx-led.md#blue-led-pattern)
 
 ---
 
@@ -76,13 +76,13 @@ A5: This might be caused by noisy/insufficient power to VTX. Verify the followin
 A6: It’s a complex issue that could involve multiple components—namely the camera, MIPI cable, VTX, or goggles. Verify the following
 
 - Blue LED is not solid on:
-- If the blue LED is completely off, it means VTX is bad;
-- If the blue LED flashes one long and one short periodically, the VTX is in 0mW mode. Use stick command to exit 0mW mode
-- If the blue LED flashes 2 shorts periodically, it indicates that the VTX is unable to detect the camera, it could be (1) damaged camera; (2) bad MIPI cable; (3) loose MIPI cable connection; (4) damaged MIPI connectors on camera and/or VTX; (5) damaged VTX
-- Check other blue LED patterns
+  1. If the blue LED is completely off, it means VTX is bad;
+  2. If the blue LED flashes one long and one short periodically, the VTX is in 0mW mode. Use [stick command](vtx-general.md#stick-command-gestures) to exit 0mW mode
+  3. If the blue LED flashes 2 shorts periodically, it indicates that the VTX is unable to detect the camera, it could be (1) damaged camera; (2) bad MIPI cable; (3) loose MIPI cable connection; (4) damaged MIPI connectors on camera and/or VTX; (5) damaged VTX
+  4. Check other [blue LED patterns]((vtx-led.md#blue-led-pattern))
 - Blue LED is solid on:
-- Verify whether the VTX is set to Low Band while the goggles are configured differently, or vice versa.
-- If the Nano90 camera is configured to 540p60 mode, the goggles must be set to HDZero BW = Narrow via the following path: Goggle Menu → Source → HDZero BW.
+  1. Verify whether the VTX is set to Low Band while the goggles are configured differently, or vice versa.
+  2. If the Nano90 camera is configured to 540p60 mode, the goggles must be set to HDZero BW = Narrow via the following path: Goggle Menu → Source → HDZero BW.
 
 ---
 

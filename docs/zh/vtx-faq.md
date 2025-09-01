@@ -1,101 +1,127 @@
-# FAQ
+# 常问问题
 
-## Discussion
+## 讨论
 
-HDZero Facebook Group: https://www.facebook.com/groups/HDZero
+微信：HDZero官方技术支持群
 
-HDZero Discord Server: https://discord.gg/JPesSHpmCU
+Facebook: https://www.facebook.com/groups/HDZero
 
-##  Troubleshooting
+Discord: https://discord.gg/JPesSHpmCU
 
-**Q1. What causes the red LED on my VTX to blink, or not show up at all?**
+##  故障排除
 
-A1: The RED LED should be on and not blinking. Please check the following:
+**Q1： 什么原因导致我的 VTX 上的红色 LED 闪烁，或者根本不亮？**
 
-- Check power connection to your VTX;
-- Make sure input voltage is within range, see Power Input;
-- Ensure the power source can provide sufficient current. A 200mW VTX draws around 5 watts, while a Freestyle VTX can require up to 15 watts. Keep in mind, some flight controllers (FCs) may not be capable of supplying adequate amperage.
-- The VTX's power circuit may be damaged, which can result in no red LED or a blinking red LED indicator.
+A1：红色LED灯应亮起且不闪烁。请检查以下内容：
 
----
+- 检查 VTX 的电源连接；
 
-**Q2. What causes the blue LED on my VTX to blink, or not show up at all?**
+- 确保输入电压在范围内，参见 [电源输入](vtx-summary.md)；
 
-A2:  The blue LED reflects the current status of the VTX as follows:
+- 确保电源能够提供足够的电流。200mW 的 VTX 功耗约为 5 瓦，而 Freestyle VTX 的功耗则高达 15 瓦。请注意，某些飞控 (FC) 可能无法提供足够的电流。
 
-- Absence of the blue LED suggests a critical failure—your VTX may be completely non-operational.
-- Upon boot, three rapid blue LED flickers confirm MSP communication is active, if it is connected with a flight controller
-- The blue LED should remain steadily lit under normal operating conditions.
-- Check LED pattern table if the blue LED blinks
+- VTX 的电源电路可能已损坏，导致红色 LED 不亮或红色 LED 指示灯闪烁。
 
 ---
 
-**Q3. Why am I experiencing snow noise at minimal range?**
+**Q2. 是什么原因导致我的 VTX 上的蓝色LED 闪烁，或者根本不亮？**
 
-A3: Under normal conditions, video quality should remain clear at short distances. Please verify the following:
+A2:  蓝色 LED 反映 VTX 的当前状态如下：
 
-- Check if the VTX is set to P1MW mode—this is indicated by one long flash followed by two short blue LED flashes.
-- The VTX is configured for high RF power output, and placing the goggles or receiver too close causes signal saturation.
-- Position the radio receiver (RX) and its antenna away from the video transmitter (VTX) on the drone to minimize signal interference.
-- Lower the transmit (TX) RF power and increase the separation between the TX and your HDZero goggles or receiver.
-- Do not place VTX next to ESC board.
-- VTX (antenna side) must have 5mm vertical clearance.
-- Replace VTX antenna or pigtail to ensure proper signal transmission.
-- Verify if another VTX (analog, DJI, HDZero) is operating on the same channel.
-- Identify potential Wi-Fi interference; overlapping frequencies typically produce diagonal noise patterns.
--  Faulty RF circuit on the VTX
+- 如果没有蓝色 LED 则表明发生了严重故障 - 您的 VTX 可能完全无法运行。
+
+- 启动时，如果已连接飞控，则三个快速的蓝色LED 闪烁确认 MSP 通信处于活动状态
+
+- 在正常工作条件下，蓝色 LED 应保持稳定亮起。
+
+- 如果蓝色LED 闪烁，请检查 [蓝色灯语](vtx-led.md#蓝色led灯语) 确定问题。
 
 ---
 
-**Q4: My video feed is working but why is no OSD displayed?**
+**Q3：为什么在很小距离内图像也有雪花？**
 
-A4: Here is how HDZero OSD works: HDZero VTX communicates using the MSP protocol to retrieve telemetry data from the flight controller, then transmits this data wirelessly to the goggles or receiver, where it's overlaid onto the video stream.
+A3：正常情况下，近距离接收机视频质量应该很清晰但也会有零星雪花。请确认以下事项：
 
-Ensure proper VTX–FC connection by checking the following:
+- 检查VTX 是否设置为 P1MW 模式 – 蓝色LED会一次长闪后跟两次短闪。
 
-- VTX/Goggle/Receiver Firmware mismatch: Update both VTX/Goggle/Receiver to the latest firmware
-- Wire connection: UART TX/RX of FC board should be connected with RX and TX pads of VTX respectively.
-- Betaflight setting:  See OSD instruction
-- The UART port on the FC could be damaged. Try another UART port on FC (avoid using soft-serial and SA ports),
-- Try another FC
+- VTX 配置为高射频功率输出，而眼镜或接收器放置的离VTX的太近导致信号饱和。
 
----
+- 将遥控接收器 (RX) 及其天线远离VTX，以最大限度地减少信号干扰。
 
-**Q5: Why does my video signal become noisy when I arm the quad and apply throttle?**
+- 降低遥控器发射机 RF 功率，增加遥控器 与 HDZero 眼镜或接收器之间的距离。
 
-A5: This might be caused by noisy/insufficient power to VTX. Verify the following:
+- 请勿将 VTX 放置在 ESC 板旁边。
 
-- If VTX is powered by a BEC of FC, make sure the BEC is capable of supplying adequate amperage.
-- Install a large capacitor (≥350µF, 50V) across the battery leads.
-- It may be due to the radio transmitter affecting the video receiver. Lower TX power and place well away from the goggles or video receiver.
+- VTX （天线所在的那一面）和碳板或者其他板子如飞控，必须有 5mm垂直间隙。
 
----
+- 更换 VTX 天线或Pigtail以确保信号传输正常。
 
-**Q6: Why can’t I receive video with my goggle?**
+- 检查是否有另一个 VTX（模拟、DJI、HDZero）是否在同一频道上。
 
-A6: It’s a complex issue that could involve multiple components—namely the camera, MIPI cable, VTX, or goggles. Verify the following
+- 检查Wi-Fi 干扰，通常会产生斜条纹噪声。
 
-- Blue LED is not solid on:
-- If the blue LED is completely off, it means VTX is bad;
-- If the blue LED flashes one long and one short periodically, the VTX is in 0mW mode. Use stick command to exit 0mW mode
-- If the blue LED flashes 2 shorts periodically, it indicates that the VTX is unable to detect the camera, it could be (1) damaged camera; (2) bad MIPI cable; (3) loose MIPI cable connection; (4) damaged MIPI connectors on camera and/or VTX; (5) damaged VTX
-- Check other blue LED patterns
-- Blue LED is solid on:
-- Verify whether the VTX is set to Low Band while the goggles are configured differently, or vice versa.
-- If the Nano90 camera is configured to 540p60 mode, the goggles must be set to HDZero BW = Narrow via the following path: Goggle Menu → Source → HDZero BW.
+- VTX 上的 RF 电路故障
 
 ---
 
-**Q7. Why does the VTX fail to flash properly?**
+**Q4：我的眼镜正常接收到视频，但为什么没有显示OSD ？**
+
+A4：HDZero OSD 的工作原理如下： HDZero VTX 使用 MSP 协议进行通信，从飞控获取遥测数据后，然后将该数据无线传输到眼镜或接收器，并将其叠加到视频流上。
+
+通过检查以下内容确保 VTX和FC的连接正确：
+
+- VTX /Goggle/接收器固件不匹配：将 VTX/Goggle/接收器都更新至最新固件
+
+- 线路连接： FC板的UART TX / RX分别与VTX的RX、TX焊盘连接。
+
+- Betaflight 设置：参见 [OSD指令](vtx-general.md#osd-msp-设置) 。
+
+- UART端口 FC 上的 UART 端口可能已损坏。请尝试使用 FC 上的其他 UART 端口（避免使用软串行端口和 SA 端口） 。
+
+- 尝试另一个 FC
+
+---
+
+**Q5: 当我解锁无人机并推油门时，为什么我的视频信号会有很多噪声？**
+
+A5: 这可能是由于图传噪音大或供电不足造成的。请检查以下情况：
+
+
+- 如果 VTX 由 FC 的 BEC 供电，请确保 BEC能够提供足够的电流。
+
+- 在电池引线上安装一个大电容器（≥350µF，50V）。
+
+- 这可能是由于遥控器的发射机影响了视频接收。请降低遥控器发射功率并放置 远离眼镜或HDZero接收器。
+
+---
+
+**为什么我的眼镜无法接收视频？**
+
+A6: 这个问题比较复杂，可能涉及多个组件，例如摄像头、MIPI 线缆、图传或眼镜。请确认以下事项：
+
+- 蓝色 LED不是常亮：
+  1. 如果蓝色LED完全熄灭，则表示VTX损坏；
+  2. 如果蓝色 LED周期性地一长一短闪烁，则表示图传处于 0mW 模式。使用 [摇杆指令](vtx-general.md#摇杆指令手势) 退出 0mW 模式
+  3. 如果蓝色 LED 周期性地闪烁 2 次，则表示 VTX 无法检测到摄像头，可能的原因是 (1) 摄像头损坏；(2) MIPI 电缆损坏；(3) MIPI 电缆连接松动；(4) 摄像头损坏；(5) 摄像头和/或 VTX 上的 MIPI 连接器损坏；(5) VTX 损坏
+  4. 检查其他 [蓝色灯语](vtx-led.md#蓝色led灯语)
+
+- 蓝色LED常亮：
+  1. 验证 VTX 是否设置为低频段（Low Band），而眼镜的配置不同；或者眼镜设置成Low Band，VTX不是。
+  2. 如果 Nano90 相机配置为 540p60 模式，则必须将眼镜设置 HDZero BW = Narrow ：眼镜Main Menu → Source → HDZero BW 。
+
+---
+
+**Q7.  为什么图传无法正常刷机？**
 
 <img src="/media/image28.png" id="image25">
 
-A7: Make sure all pins on the VTX and the firmware (FW) port of your goggles are perfectly straight—any bent or misaligned pins can disrupt the flashing process. Even a single crooked pin on the VRX module has been known to trigger flashing failures.
+A7: 确保头盔 VTX 和固件 (FW) 端口上的所有针脚都笔直——任何弯曲或错位的针脚都可能影响刷机过程。即使 VRX 模块上有一个弯曲的针脚，也可能导致刷机失败。
 
 ---
 
-**Q8: Why is my FC dropping to bootloader when connected to a HDZero VTX?**
+**Q8: 为什么我的 FC 在连接到 HDZero VTX 时会下降到引导加载程序？**
 
-A8. It has been reported that some flight controllers may randomly enter bootloader mode when connected to early-production HDZero VTX modules. To resolve this issue, add a 200-ohm resistor in-line between the FC UART.TX and VTX UART.RX wires.
+A8. 某些飞控在连接到早期生产的 HDZero VTX 模块时可能会随机进入引导加载程序模式。要解决此问题，请在FC UART.TX和VTX UART.RX线之间串联一个200 欧姆电阻。
 
-All HDZero VTX units produced after 2023 already include this resistor by default, eliminating the need for manual fixes on newer hardware.
+2023 年后生产的所有 HDZero VTX 设备都已默认包含此电阻器，无需在较新的硬件上进行手动修复。
+

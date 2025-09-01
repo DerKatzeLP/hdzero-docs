@@ -1,96 +1,93 @@
 # ECO VTX
-
-HDZero ECO Bundle is designed to bring digital FPV to more pilots by offering a low cost, light weight, and durable alternative to analog video. The digital video signal has stable color reproduction and 720p progressive scan video with the low latency HDZero is known for. This budget-friendly Air Unit is a groundbreaking product—it's the first VTX/camera combination that utilizes a HD composite video signal, eliminating the need for a delicate MIPI cable. The ECO FPV System was meticulously designed for ultra-lightweight drones like Tiny Whoops, where every fraction of a gram counts. The camera's huge 98deg vertical FOV is perfect for fast indoor proximity flying. The ECO VTX weighs approximately 4.5g, while the camera (including wires) comes in at about 1.6g. With the included 0.2g dipole antenna, the entire Eco Bundle weighs about mere 6.3g in total.
+HDZero ECO VTX旨在通过提供低成本、轻便且耐用的模拟视频替代方案，将数字 FPV 带给更多飞手。数字视频信号色彩还原稳定，并支持 720p 逐行扫描视频，同时具备 HDZero 赖以成名的低延迟特性。这款经济实惠的空中单元是一款突破性的产品——它是首款采用高清复合视频信号的图传/摄像头组合，无需使用精密的 MIPI 线缆。ECO FPV 系统专为 Tiny Whoops 等超轻量级无人机精心设计，每一克都至关重要。摄像头巨大的 98 度垂直视场角非常适合室内快速近距飞行。ECO VTX 重约 4.5 克，摄像头（含线缆）重约 1.6 克。加上附带的 0.2 克偶极子天线，整个 套装总重仅约 6.3 克。
 <img src="/media/image21.png" id="image18">
 <table id="table8">
 <tr>
 <td>1</td>
-<td>FW Update Connector</td>
+<td>固件更新连接器</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Camera Connector</td>
+<td>Camera连接</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Keypad Connector</td>
+<td>键盘连接器</td>
 </tr>
 <tr>
 <td>4</td>
-<td>Power(4-12V)/UART Connector</td>
+<td>电源（ 4 - 12 V）/UART连接器</td>
 </tr>
 <tr>
 <td>5</td>
-<td>Secured U.FL Connector</td>
+<td>带固定的U.FL 连接器</td>
 </tr>
 </table>
 
 <table id="table9">
 <tr>
-<td>Camera Connector</td>
-<td>Cable Color</td>
-<td>Connected with</td>
+<td>CAMERA连接器</td>
+<td>电缆颜色</td>
+<td>连接</td>
 </tr>
 <tr>
-<td>5V</td>
-<td>Red</td>
-<td>Camera Power</td>
+<td>5伏</td>
+<td>红色</td>
+<td>相机电源</td>
 </tr>
 <tr>
 <td>GND</td>
-<td>Red</td>
-<td>Camera Ground</td>
+<td>红色</td>
+<td>相机地</td>
 </tr>
 <tr>
-<td>CAM</td>
-<td>Yellow</td>
-<td>Camera Video</td>
+<td>CAM​</td>
+<td>黄色</td>
+<td>相机输出视频</td>
 </tr>
 <tr>
 <td>OSD</td>
-<td>White</td>
-<td>Camera Menu</td>
+<td>白色</td>
+<td>相机菜单</td>
 </tr>
 <tr>
 <td>SCL</td>
 <td></td>
-<td>NC</td>
+<td>未使用</td>
 </tr>
 <tr>
 <td>SDA</td>
 <td></td>
-<td>NC</td>
+<td>未使用</td>
 </tr>
 </table>
-
-
 
 <img src="/media/image22.png" id="image19">
 
 <table id="table10">
 <tr>
-<td>Power/UART Connector</td>
-<td>Cable Color</td>
-<td>Connected with</td>
+<td>电源/<br>UART连接器</td>
+<td>电缆颜色</td>
+<td>连接</td>
 </tr>
 <tr>
 <td>V</td>
-<td>Red</td>
-<td>Power</td>
+<td>红色</td>
+<td>电源</td>
 </tr>
 <tr>
 <td>G</td>
-<td>Black</td>
-<td>Ground</td>
+<td>黑色</td>
+<td>地</td>
 </tr>
 <tr>
 <td>T</td>
-<td>White</td>
-<td>FC.RX</td>
+<td>白色</td>
+<td>FC. RX</td>
 </tr>
 <tr>
 <td>R</td>
-<td>Yellow</td>
+<td>黄色</td>
 <td>FC.TX</td>
 </tr>
 </table>
@@ -98,11 +95,11 @@ HDZero ECO Bundle is designed to bring digital FPV to more pilots by offering a 
 <img src="/media/image23.jpeg" id="image20">
 
 ::: tip
-Notes:
+注意：
 
-- The following connection methods are recommended when using BEC power supply:
-  - The BEC only support 5V, it needs a minimum of 2.0A current output.
-  - It is recommended to connect the BEC to the capacitor as shown for the 1R2 batch.
-  - It is recommended to connect the BEC to the pad as shown for not 1R2 batch.
-- Use VBAT (1S or 2S) for power supply when BEC is not available
+- 使用BEC供电时建议采用以下连接方式：
+  - 仅支持BEC 5 V，则需要至少2.0 A 的电流输出。
+  - 建议将 BEC 连接到电容器，如图所示 适用于1R2批次。
+  - 对于非 1R2批次，建议将 BEC 连接到焊盘，如图所示。
+- 如果没有合适的BEC供电，使用VBAT（限于1S/2S）供电。
 :::

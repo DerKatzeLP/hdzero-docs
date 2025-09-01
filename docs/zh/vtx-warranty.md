@@ -1,19 +1,19 @@
-# Warranty
+# 保修
 
-Due to the nature of this hobby, warranty claims are accepted only for items determined to be Dead on Arrival (DOA).
+由于这种爱好的性质，仅接受被确定为到货即损坏 (DOA) 的物品的保修索赔。
 
-Please note that we do not cover any damages resulting from crashes, misuse, or improper handling under any circumstances. This includes but is not limited to:
+请注意，在任何情况下，我们不承保因碰撞、误用或不当操作造成的任何损坏。这包括但不限于：
 
-- Minor or major crashes
+- 轻微或严重碰撞
 
-- Hard landings
+- 硬着陆
 
-- Faulty soldering
+- 焊接不良
 
-- Incorrect polarity connection
+- 极性连接不正确
 
-- Insufficient cooling
+- 冷却不足
 
-- Powering the device without an antenna
+- 无需天线即可为设备供电
 
-If you experience any issues or have questions, feel free to reach out to us at: support@divimath.com
+如果您遇到任何问题或有任何疑问，请随时联系我们：support@divimath.com

@@ -1,39 +1,39 @@
 # Whoop V2 VTX
 
-The HDZero Whoop lite VTX is a digital HD 720p 60fps video transmitter capable of delivering up to 200mW on 5.8GHz.
+HDZero Whoop lite VTX 是一款数字高清 720p 60fps 视频发射器，能够在 5.8GHz 上传输高达 200mW 的功率。
 
-The power input range is 3V – 12.6V.
+Whoop V2 VTX电源输入范围为3V ～ 12.6V 。
 
-- This VTX does not have reverse polarity protection circuit, it will be permanently damaged if voltage input is connected backwards. This is the number one failure cause. Reverse polarity protection circuit would have prevented VTX from operating at 1S voltage range.
+- 这款 VTX 没有反极性保护电路，如果电压输入接反，会导致永久性损坏。这是导致 VTX 故障的首要原因。反极性保护电路会阻止 VTX 在 1S 电压范围内工作。
 
-- When powered by a 5V pad of FC/BEC, make sure that 5V has 1.5A current output.
+- 当使用FC/BEC的5V焊盘供电时，确保5V有1.5A的电流输出。
 
-- When powered by a 1S battery directly, note that a rapid throttle up may cause voltage to drop below 3V instantly, and that will cause video drop.
+- 当直接使用 1S 电池供电时，请注意快速加大油门可能会导致电压瞬间降至3 V 以下，这将导致视频丢失。
 
-- There is no need for an external capacitor when if connected with FC/BEC or 1S battery. However, it is strongly suggested to install a capacitor when powered by a 3S battery.
+- 使用 FC/BEC 或 1S 电池供电时无需外接电容。使用 3S 电池供电时强烈建议安装电容。
 
-This VTX includes M2 rubber grommets for soft mounting, and a brass bar for antenna retention. Though the VTX can be mounted on racing and other high-speed aircraft, it is highly recommended to consider HDZero Race V3 VTX for such applications.
+这款 VTX 包含用于软安装的 M2 橡胶垫圈和用于固定天线的黄铜杆。虽然 VTX 可以安装在赛车和其他高速飞机上，但强烈建议考虑使用 HDZero Race V3 VTX 进行此类应用。
 
-Solder pads:
+焊盘：
 
 <img src="/media/image13.jpeg" id="image11" width="300">
 
 <table id="table3">
 <tr>
 <td>1</td>
-<td>MIPI Connector</td>
+<td>MIPI连接器</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Status LEDs</td>
+<td>状态 LED</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Power/UART/SA solder pads</td>
+<td>电源/UART/SA焊盘</td>
 </tr>
 <tr>
 <td>4</td>
-<td>u.FL Connector</td>
+<td>u.FL连接器</td>
 </tr>
 </table>
 
@@ -44,7 +44,7 @@ Solder pads:
 </tr>
 <tr>
 <td>V</td>
-<td>3V -12.6V</td>
+<td>3伏-12.6伏</td>
 </tr>
 <tr>
 <td>RX</td>
@@ -56,10 +56,11 @@ Solder pads:
 </tr>
 </table>
 
+
 ::: tip
 Notes:
 
-1. Read first: [General Consideration for VTX Installation](vtx-general.md)
+1. 请先阅读： [基础说明](vtx-general.md)
 
-2. This VTX does not support using a keypad to tune channel and RF output power level. It is designed to work with a flight controller.
+2. 此 VTX 不支持使用键盘调整频道和射频输出功率级别，必须通过飞控的MSP协议调整。
 :::

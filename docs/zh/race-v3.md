@@ -1,8 +1,8 @@
 # Race V3 VTX
 
-Designed for FPV racing, the HDZero Race V3 VTX is our 3rd generation digital video transmitter. With a voltage range starting at 4V, it can be powered by the 5V 1.5A regulator of most FC’s or up to 12V for FC’s that include a HD VTX plug. It is small (28x32x5mm) and light (5.5 grams). With a width of only 28mm, the VTX is now a similar width to many FC's, which improves durability and reduces weight. The antenna is securely attached with a metal bar and screws. No soldering needed – just plug the wire harness into a compatible HD-ready FC.
+HDZero Race V3 VTX 是专为 FPV 竞速设计的，是我们第三代数字视频发射器。其最低电压范围为 4V，可由大多数飞控的 5V 1.5A 稳压器供电，或由配备 HD VTX 插头的飞控供电，最高电压可达 12V。它体积小巧（28x32x5mm），重量轻（5.5 克）。VTX 的宽度仅为 28mm，与许多飞控的宽度相近，从而提高了耐用性并减轻了重量。天线通过金属杆和螺钉牢固固定。无需焊接 - 只需将线束插入兼容的 HD 飞控即可。
 
-The HDZero Race V3 VTX is designed with durability in mind, rather than weight. It is made with a 1.6mm thick PCB, in comparison to the 1.0mm PCB used in the Whoop lite VTX. Moreover, it uses more large package size components for stability consideration. For the smaller components, an additional glue coating is applied to increase crash protection.
+HDZero Race V3 VTX 的设计更注重耐用性，而非重量。它的 PCB 厚度为 1.6 毫米。此外，为了提高稳定性，它使用了更多大尺寸封装元件。对于较小的元件，还额外涂上了一层胶水，以增强防撞保护。
 
 <div style="display: flex;gap: 10px;">
 <img src="/media/image14.png" id="image13">
@@ -11,32 +11,32 @@ The HDZero Race V3 VTX is designed with durability in mind, rather than weight. 
 <table id="table5">
 <tr>
 <td>1</td>
-<td>VTX-R3 board</td>
+<td>VTX-R3 板</td>
 </tr>
 <tr>
 <td>2</td>
-<td>SmartAudio/Tramp (Optional)</td>
+<td>SmartAudio/Tramp（可选）</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Wire harness to connect with FC<br>Red = BEC 4-12V<br>Black = GND<br>White = VTX UART TX (Connect to FC.RX) <br>Yellow= VTX UART RX (Connect to FC.TX)</td>
+<td>与 FC 连接的线束<br>红色=BEC 4-12V<br>黑色=GND<br>白色 = VTX UART TX（连接到 FC.RX）<br>黄色= VTX UART RX（连接到 FC.TX）</td>
 </tr>
 <tr>
 <td>4</td>
-<td>Rubber Grommet (M4 to M3),</td>
+<td>橡胶垫圈（M4至M3），</td>
 </tr>
 <tr>
 <td>5</td>
-<td>Metal bar and screws for securing antenna</td>
+<td>用于固定天线的金属条和螺丝</td>
 </tr>
 </table>
 
-## Installation
+## 安装
 
-The right figure shows the typical connection with FC supports MSP VTX protocol.<img src="/media/image15.png" id="image12"> Do not power Race V3 VTX from VBAT, it is designed to be plugged into a digital VTX port on a FC which has a BEC (5V-12V). Race V3 can also be powered on most FC 5V pads if rated for at least 2A.
+右图显示了支持 MSP VTX 协议的飞控的典型连接。<img src="/media/image15.png" id="image12"> 请勿使用 VBAT 为 Race V3 VTX 供电，它设计为插入带有 BEC（5V-12V）的飞控的数字 VTX 端口。Race V3 也可以使用大多数 5V 飞控供电板供电，前提是额定电流至少为 2A。
 
-Install on top of a 20x20mm stack using the included M3 rubber grommets. Orient the VTX so that the MIPI or antenna connector faces the front of the drone. This ensures the most protection for the PCB.
+使用随附的 M3 橡胶垫圈将其安装在 20x20mm 的堆叠顶部。调整 VTX 的方向，使 MIPI 或天线连接器朝向无人机的正面。这样可以最大程度地保护 PCB。
 
 ::: warning
-Do not tape the VTX to the stack or frame, as this does not provide enough physical separation for the RF circuit to function optimally.
+请勿将 VTX 粘贴到飞塔或框架上，因为这无法提供足够的物理分离以使 RF 电路发挥最佳功能。
 :::
