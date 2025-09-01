@@ -16,7 +16,7 @@ This VTX includes M2 rubber grommets for soft mounting, and a brass bar for ante
 
 Solder pads:
 
-<img src="/media/image13.jpeg" id="image11">
+<img src="/media/image13.jpeg" id="image11" width="300">
 
 <table id="table3">
 <tr>
