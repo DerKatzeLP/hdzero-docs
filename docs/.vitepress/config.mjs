@@ -66,7 +66,7 @@ export default defineConfig({
             lang: 'en',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hd-zero/hdzero-docs.github.io/main/docs/:path'
+                    pattern: 'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path'
                 },
                 nav: [
                     {text: 'Documents', link: '/what-is-hdzero'}
@@ -134,7 +134,7 @@ export default defineConfig({
             link: '/zh',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hd-zero/hdzero-docs.github.io/main/docs/:path',
+                    pattern: 'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path',
                     text: '在 GitHub 上编辑'
                 },
                 nav: [
