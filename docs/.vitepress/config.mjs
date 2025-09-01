@@ -109,9 +109,14 @@ export default defineConfig({
                     {
                         text: 'VRX',
                         items: [
-                            {text: 'Box Pro', link: '/',
+                            {text: 'Box Pro', link: '/box-introduction',
                                 collapsed: true,
                                 items: [
+                                    {text: 'Setup', link: '/box-setup'},
+                                    {text: 'Operation', link: '/box-operation'},
+                                    {text: 'Firmware Update', link: '/box-firmware-update'},
+                                    {text: 'Troubleshooting', link: '/box-troubleshooting'},
+                                    {text: 'Warranty', link: '/box-warranty'},
                                 ]},
                             {text: 'Goggles', link: '/',},
                         ]
@@ -180,6 +185,7 @@ export default defineConfig({
                             {text: 'Box Pro', link: '/',
                                 collapsed: true,
                                 items: [
+
                                 ]},
                             {text: 'Goggles', link: '/',},
                         ]
