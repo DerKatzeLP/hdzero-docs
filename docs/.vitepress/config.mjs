@@ -119,6 +119,14 @@ export default defineConfig({
                     {
                         text: 'FC',
                         items: [
+                            {text: 'HaLo', link: '/'},
+                            {text: 'AIO5', link: '/'},
+                            {text: 'AIO15', link: '/'},
+                        ]
+                    },
+                        {
+                        text: 'ESC',
+                        items: [
                             {text: 'HaLo', link: '/',
                                 collapsed: true,
                                 items: [
@@ -150,29 +158,29 @@ export default defineConfig({
                     {
                         text: '视频发射机',
                         items: [
-                            {text: 'HDZero VTX Products', link: '/vtx-summary',
+                            {text: 'HDZero VTX 产品', link: '/zh/vtx-summary',
                                 collapsed: true,
                                 items: [
-                                    {text: 'Whoop V2 VTX', link: '/whoop-v2'},
-                                    {text: 'Race V3 VTX', link: '/race-v3',},
-                                    {text: 'Freestyle V2 VTX', link: '/freestyle-v2',},
-                                    {text: 'ECO VTX', link: '/eco-bundle',},
+                                    {text: 'Whoop V2 VTX', link: '/zh/whoop-v2'},
+                                    {text: 'Race V3 VTX', link: '/zh/race-v3',},
+                                    {text: 'Freestyle V2 VTX', link: '/zh/freestyle-v2',},
+                                    {text: 'ECO VTX', link: '/zh/eco-bundle',},
                                 ]},
-                            {text: 'VTX Installation Diagram', link: '/vtx-installation',},
-                            {text: 'General Considerations', link: '/vtx-general',},
-                            {text: 'VTX LED Pattern', link: '/vtx-led',},
-                            {text: 'VTX Firmware Update Guide', link: '/vtx-firmware-update',},
-                            {text: 'FAQ', link: '/vtx-faq',},
-                            {text: 'Discontinued Video Transmitters', link: '/vtx-dis-summary',
+                            {text: 'VTX 安装图', link: '/zh/vtx-installation',},
+                            {text: '基础说明', link: '/zh/vtx-general',},
+                            {text: 'VTX LED 模式', link: '/zh/vtx-led',},
+                            {text: 'VTX 固件更新指南', link: '/zh/vtx-firmware-update',},
+                            {text: '常问问题', link: '/zh/vtx-faq',},
+                            {text: '已停产 VTX 产品', link: '/zh/vtx-dis-summary',
                                 collapsed: true,
                                 items: [
-                                    {text: 'Whoop VTX', link: '/whoop'},
-                                    {text: 'Whoop lite VTX', link: '/whoop-lite',},
-                                    {text: 'Race V1 VTX', link: '/race-v1',},
-                                    {text: 'Race V2 VTX', link: '/race-v2',},
-                                    {text: 'Freestyle V1 VTX', link: '/freestyle-v1',},
+                                    {text: 'Whoop VTX', link: '/zh/whoop'},
+                                    {text: 'Whoop lite VTX', link: '/zh/whoop-lite',},
+                                    {text: 'Race V1 VTX', link: '/zh/race-v1',},
+                                    {text: 'Race V2 VTX', link: '/zh/race-v2',},
+                                    {text: 'Freestyle V1 VTX', link: '/zh/freestyle-v1',},
                                 ],},
-                            {text: 'Warranty', link: '/vtx-warranty',},
+                            {text: '保修', link: '/zh/vtx-warranty',},
                         ]
                     },
                     {
@@ -187,6 +195,14 @@ export default defineConfig({
                     },
                     {
                         text: '飞控',
+                        items: [
+                            {text: 'HaLo', link: '/'},
+                            {text: 'AIO5', link: '/'},
+                            {text: 'AIO15', link: '/'},
+                        ]
+                    },
+                    {
+                        text: '电调',
                         items: [
                             {text: 'HaLo', link: '/',
                                 collapsed: true,
