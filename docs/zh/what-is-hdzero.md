@@ -1,5 +1,3 @@
-# 欢迎来到 HDZero Docs!
-
 ![icon](/icon.png)
 
 ## 什么是 HDZero?
