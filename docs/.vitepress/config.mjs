@@ -112,17 +112,6 @@ export default defineConfig({
                             { text: 'AIO5', link: '/' },
                             { text: 'AIO15', link: '/' },
                         ]
-                    },
-                    {
-                        text: 'ESC',
-                        items: [
-                            {
-                                text: 'HaLo', link: '/',
-                                collapsed: true,
-                                items: [
-                                ]
-                            },
-                        ]
                     }
                 ],
             }
@@ -191,17 +180,6 @@ export default defineConfig({
                             { text: 'HaLo', link: '/' },
                             { text: 'AIO5', link: '/' },
                             { text: 'AIO15', link: '/' },
-                        ]
-                    },
-                    {
-                        text: '电调',
-                        items: [
-                            {
-                                text: 'HaLo', link: '/',
-                                collapsed: true,
-                                items: [
-                                ]
-                            },
                         ]
                     }
                 ],
