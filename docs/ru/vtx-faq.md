@@ -1,7 +1,6 @@
 # FAQ
 
 ## Обсуждения
-HDZero чат в Telegram: https://t.me/SharkByteFPVru
 
 HDZero Facebook (международный): https://www.facebook.com/groups/HDZero
 
