@@ -14,56 +14,59 @@ export default defineConfig({
             { icon: 'facebook', link: 'https://www.facebook.com/groups/hdzero' }
         ],
         lastUpdated: true,
-        algolia: {
-            indexName: 'hd_zero_github_io_84bdmpstp7_pages',
-            appId: '84BDMPSTP7',
-            apiKey: '7fcc8ccaff1dcc4fca32dbac8522e6ed',
-            locales: {
-                zh: {
-                    placeholder: '搜索文档',
-                    translations: {
-                        button: {
-                            buttonText: '文档搜索',
-                            buttonAriaLabel: '文档搜索'
-                        },
-                        modal: {
-                            searchBox: {
-                                resetButtonTitle: '清除查询条件',
-                                resetButtonAriaLabel: '清除查询条件',
-                                cancelButtonText: '取消',
-                                cancelButtonAriaLabel: '取消'
+        search: {
+            provider: 'algolia',
+            options: {
+                indexName: 'main',
+                appId: '84BDMPSTP7',
+                apiKey: '7fcc8ccaff1dcc4fca32dbac8522e6ed',
+                locales: {
+                    zh: {
+                        placeholder: '搜索文档',
+                        translations: {
+                            button: {
+                                buttonText: '文档搜索',
+                                buttonAriaLabel: '文档搜索'
                             },
-                            startScreen: {
-                                recentSearchesTitle: '搜索历史',
-                                noRecentSearchesText: '没有搜索历史',
-                                saveRecentSearchButtonTitle: '保存至搜索历史',
-                                removeRecentSearchButtonTitle:
-                                    '从搜索历史中移除',
-                                favoriteSearchesTitle: '收藏',
-                                removeFavoriteSearchButtonTitle: '从收藏中移除'
-                            },
-                            errorScreen: {
-                                titleText: '无法获取结果',
-                                helpText:
-                                    '你可能需要检查你的网络连接'
-                            },
-                            footer: {
-                                selectText: '选择',
-                                navigateText: '切换',
-                                closeText: '关闭'
-                            },
-                            noResultsScreen: {
-                                noResultsText: '无法找到相关结果',
-                                suggestedQueryText: '你可以尝试查询',
-                                reportMissingResultsText:
-                                    '你认为该查询应该有结果？',
-                                reportMissingResultsLinkText: '点击反馈'
+                            modal: {
+                                searchBox: {
+                                    resetButtonTitle: '清除查询条件',
+                                    resetButtonAriaLabel: '清除查询条件',
+                                    cancelButtonText: '取消',
+                                    cancelButtonAriaLabel: '取消'
+                                },
+                                startScreen: {
+                                    recentSearchesTitle: '搜索历史',
+                                    noRecentSearchesText: '没有搜索历史',
+                                    saveRecentSearchButtonTitle: '保存至搜索历史',
+                                    removeRecentSearchButtonTitle:
+                                        '从搜索历史中移除',
+                                    favoriteSearchesTitle: '收藏',
+                                    removeFavoriteSearchButtonTitle: '从收藏中移除'
+                                },
+                                errorScreen: {
+                                    titleText: '无法获取结果',
+                                    helpText:
+                                        '你可能需要检查你的网络连接'
+                                },
+                                footer: {
+                                    selectText: '选择',
+                                    navigateText: '切换',
+                                    closeText: '关闭'
+                                },
+                                noResultsScreen: {
+                                    noResultsText: '无法找到相关结果',
+                                    suggestedQueryText: '你可以尝试查询',
+                                    reportMissingResultsText:
+                                        '你认为该查询应该有结果？',
+                                    reportMissingResultsLinkText: '点击反馈'
+                                }
                             }
                         }
                     }
                 }
-            }
-        },
+            },
+        }
     },
     locales: {
         root: {
