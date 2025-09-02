@@ -25,11 +25,11 @@ Whoop V2 VTX电源输入范围为3V ～ 12.6V 。
 </tr>
 <tr>
 <td>2</td>
-<td>状态 LED</td>
+<td>电源/UART/SA焊盘</td>
 </tr>
 <tr>
 <td>3</td>
-<td>电源/UART/SA焊盘</td>
+<td>状态 LED</td>
 </tr>
 <tr>
 <td>4</td>
