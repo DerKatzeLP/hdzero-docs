@@ -10,9 +10,9 @@ export default defineConfig({
         logo: '/short-icon.png',
 
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/hd-zero' },
-            { icon: 'discord', link: 'https://discord.gg/kGsnEDMb2V' },
-            { icon: 'facebook', link: 'https://www.facebook.com/groups/hdzero' }
+            {  icon: 'github', link: 'https://github.com/hd-zero'  },
+            {  icon: 'discord', link: 'https://discord.gg/kGsnEDMb2V'  },
+            {  icon: 'facebook', link: 'https://www.facebook.com/groups/hdzero'  }
         ],
         lastUpdated: true,
         search: {
@@ -50,8 +50,29 @@ export default defineConfig({
                                 }
                             }
                         }
+        search: {
+            provider: 'local',
+            options: {
+                locales: {
+                    zh: {
+                        translations: {
+                            button: {
+                                buttonText: '搜索文档',
+                                buttonAriaLabel: '搜索文档'
+                            },
+                            modal: {
+                                noResultsText: '无法找到相关结果',
+                                resetButtonTitle: '清除查询条件',
+                                footer: {
+                                    selectText: '选择',
+                                    navigateText: '切换'
+                                }
+                            }
+                        }
                     }
                 }
+            },
+        }
             },
         }
     },
@@ -65,73 +86,81 @@ export default defineConfig({
                     pattern: 'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path'
                 },
                 nav: [
-                    {text: 'Documents', link: '/what-is-hdzero'}
+                    { text: 'Documents', link: '/what-is-hdzero' }
                 ],
                 sidebar: [
                     {
                         text: 'Home',
                         items: [
-                            {text: 'What is HDZero?', link: '/what-is-hdzero'},
+                            { text: 'What is HDZero?', link: '/what-is-hdzero' },
                         ]
                     },
                     {
                         text: 'VTX',
                         items: [
-                            {text: 'HDZero VTX Products', link: '/vtx-summary',
+                            {
+                                text: 'HDZero VTX Products', link: '/vtx-summary',
                                 collapsed: true,
                                 items: [
-                                    {text: 'Whoop V2 VTX', link: '/whoop-v2'},
-                                    {text: 'Race V3 VTX', link: '/race-v3',},
-                                    {text: 'Freestyle V2 VTX', link: '/freestyle-v2',},
-                                    {text: 'ECO VTX', link: '/eco-bundle',},
-                                ]},
-                            {text: 'VTX Installation Diagram', link: '/vtx-installation',},
-                            {text: 'General Considerations', link: '/vtx-general',},
-                            {text: 'VTX LED Pattern', link: '/vtx-led',},
-                            {text: 'VTX Firmware Update Guide', link: '/vtx-firmware-update',},
-                            {text: 'FAQ', link: '/vtx-faq',},
-                            {text: 'Discontinued Video Transmitters', link: '/vtx-dis-summary',
+                                    { text: 'Whoop V2 VTX', link: '/whoop-v2' },
+                                    { text: 'Race V3 VTX', link: '/race-v3', },
+                                    { text: 'Freestyle V2 VTX', link: '/freestyle-v2', },
+                                    { text: 'ECO VTX', link: '/eco-bundle', },
+                                ]
+                            },
+                            { text: 'VTX Installation Diagram', link: '/vtx-installation', },
+                            { text: 'General Considerations', link: '/vtx-general', },
+                            { text: 'VTX LED Pattern', link: '/vtx-led', },
+                            { text: 'VTX Firmware Update Guide', link: '/vtx-firmware-update', },
+                            { text: 'FAQ', link: '/vtx-faq', },
+                            {
+                                text: 'Discontinued Video Transmitters', link: '/vtx-dis-summary',
                                 collapsed: true,
                                 items: [
-                                    {text: 'Whoop VTX', link: '/whoop'},
-                                    {text: 'Whoop lite VTX', link: '/whoop-lite',},
-                                    {text: 'Race V1 VTX', link: '/race-v1',},
-                                    {text: 'Race V2 VTX', link: '/race-v2',},
-                                    {text: 'Freestyle V1 VTX', link: '/freestyle-v1',},
-                                ],},
-                            {text: 'Warranty', link: '/vtx-warranty',},
+                                    { text: 'Whoop VTX', link: '/whoop' },
+                                    { text: 'Whoop lite VTX', link: '/whoop-lite', },
+                                    { text: 'Race V1 VTX', link: '/race-v1', },
+                                    { text: 'Race V2 VTX', link: '/race-v2', },
+                                    { text: 'Freestyle V1 VTX', link: '/freestyle-v1', },
+                                ],
+                            },
+                            { text: 'Warranty', link: '/vtx-warranty', },
                         ]
                     },
                     {
                         text: 'VRX',
                         items: [
-                            {text: 'Box Pro', link: '/box-introduction',
+                            {
+                                text: 'Box Pro', link: '/box-introduction',
                                 collapsed: true,
                                 items: [
-                                    {text: 'Setup', link: '/box-setup'},
-                                    {text: 'Operation', link: '/box-operation'},
-                                    {text: 'Firmware Update', link: '/box-firmware-update'},
-                                    {text: 'Troubleshooting', link: '/box-troubleshooting'},
-                                    {text: 'Warranty', link: '/box-warranty'},
-                                ]},
-                            {text: 'Goggles', link: '/',},
+                                    { text: 'Setup', link: '/box-setup' },
+                                    { text: 'Operation', link: '/box-operation' },
+                                    { text: 'Firmware Update', link: '/box-firmware-update' },
+                                    { text: 'Troubleshooting', link: '/box-troubleshooting' },
+                                    { text: 'Warranty', link: '/box-warranty' },
+                                ]
+                            },
+                            { text: 'Goggles', link: '/', },
                         ]
                     },
                     {
                         text: 'FC',
                         items: [
-                            {text: 'HaLo', link: '/'},
-                            {text: 'AIO5', link: '/'},
-                            {text: 'AIO15', link: '/'},
+                            { text: 'HaLo', link: '/' },
+                            { text: 'AIO5', link: '/' },
+                            { text: 'AIO15', link: '/' },
                         ]
                     },
-                        {
+                    {
                         text: 'ESC',
                         items: [
-                            {text: 'HaLo', link: '/',
+                            {
+                                text: 'HaLo', link: '/',
                                 collapsed: true,
                                 items: [
-                                ]},
+                                ]
+                            },
                         ]
                     }
                 ],
@@ -148,65 +177,71 @@ export default defineConfig({
                     text: '在 GitHub 上编辑'
                 },
                 nav: [
-                    { text: '文档', link: '/zh/what-is-hdzero' }
+                    {  text: '文档', link: '/zh/what-is-hdzero'  }
                 ],
                 sidebar: [
                     {
                         text: '首页',
                         items: [
-                            { text: '什么是 HDZero?', link: '/zh/what-is-hdzero' },
+                            {  text: '什么是 HDZero?', link: '/zh/what-is-hdzero'  },
                         ]
                     },
                     {
                         text: '视频发射机',
                         items: [
                             {
+                                
                                 text: 'HDZero VTX 产品', link: '/zh/vtx-summary',
                                 collapsed: true,
                                 items: [
-                                    { text: 'Whoop V2 VTX', link: '/zh/whoop-v2' },
-                                    { text: 'Race V3 VTX', link: '/zh/race-v3', },
-                                    { text: 'Freestyle V2 VTX', link: '/zh/freestyle-v2', },
-                                    { text: 'ECO VTX', link: '/zh/eco-bundle', },
+                                    {  text: 'Whoop V2 VTX', link: '/zh/whoop-v2'  },
+                                    {  text: 'Race V3 VTX', link: '/zh/race-v3',  },
+                                    {  text: 'Freestyle V2 VTX', link: '/zh/freestyle-v2',  },
+                                    {  text: 'ECO VTX', link: '/zh/eco-bundle',  },
                                 ]
+                            
                             },
-                            { text: 'VTX 安装图', link: '/zh/vtx-installation', },
-                            { text: '基础说明', link: '/zh/vtx-general', },
-                            { text: 'VTX LED 模式', link: '/zh/vtx-led', },
-                            { text: 'VTX 固件更新指南', link: '/zh/vtx-firmware-update', },
-                            { text: '常问问题', link: '/zh/vtx-faq', },
-                            { text: '保修', link: '/zh/vtx-warranty', },
+                            {  text: 'VTX 安装图', link: '/zh/vtx-installation',  },
+                            {  text: '基础说明', link: '/zh/vtx-general',  },
+                            {  text: 'VTX LED 模式', link: '/zh/vtx-led',  },
+                            {  text: 'VTX 固件更新指南', link: '/zh/vtx-firmware-update',  },
+                            {  text: '常问问题', link: '/zh/vtx-faq',  },
+                            {  text: '保修', link: '/zh/vtx-warranty',  },
                         ]
                     },
                     {
                         text: '视频接收机',
                         items: [
                             {
+                                
                                 text: 'Box Pro', link: '/',
                                 collapsed: true,
                                 items: [
 
                                 ]
+                            
                             },
-                            { text: 'Goggles', link: '/', },
+                            {  text: 'Goggles', link: '/',  },
                         ]
                     },
                     {
                         text: '飞控',
                         items: [
-                            { text: 'HaLo', link: '/' },
-                            { text: 'AIO5', link: '/' },
-                            { text: 'AIO15', link: '/' },
+                            {  text: 'HaLo', link: '/'  },
+                            {  text: 'AIO5', link: '/'  },
+                            {  text: 'AIO15', link: '/'  },
                         ]
                     },
                     {
                         text: '电调',
                         items: [
                             {
+                                
                                 text: 'HaLo', link: '/',
                                 collapsed: true,
                                 items: [
                                 ]
+                            
                             },
                         ]
                     }

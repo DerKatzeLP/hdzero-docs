@@ -2,12 +2,12 @@
 
 Support should be attempted in the following manner.
 
-Read this manual first
+1. Read this manual first
 
-Follow us on Facebook/Discord if possible
+2. Follow us on Facebook/Discord if possible
 
-Facebook:
+    a. Facebook: https://www.facebook.com/groups/HDZero
 
-Discord Server:
+    b. Discord Server: https://discord.gg/VSkXzkKPHt
 
-Email Technical Support: 
+3. Email Technical Support: support@divimath.com
