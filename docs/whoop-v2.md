@@ -25,11 +25,11 @@ Solder pads:
 </tr>
 <tr>
 <td>2</td>
-<td>Status LEDs</td>
+<td>Power/UART/SA solder pads</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Power/UART/SA solder pads</td>
+<td>Status LEDs</td>
 </tr>
 <tr>
 <td>4</td>
