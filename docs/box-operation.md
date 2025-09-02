@@ -171,21 +171,6 @@ The HDZero BoxPro integrates a DVR for the HDZero digital receiver, analog input
 
     3. AV in (From AV in Jack)
 
-::: tip
-Note:
-
-The file system on SD card can be corrupted by suddenly power off while goggle is writing data to it.  The HDZero BoxPro runs on Linux, and it does not have a big capacitor that saves power for saving the last emergency bits. The DVR will not work if SD file system is corrupted. Here are tips on how to avoid powering off while recording is ongoing:
-
-- Auto record mode: after quad is landed, do one of the following
-
-    - Long press “Enter” button to switch to menu mode, then power off the goggle, or
-
-    - Power off quad first, and wait for 10 seconds, then power off the goggle
-
-- Manual record mode:  Click “Func” button to stop DVR before power off the goggle
-
-- Select “Scan and Fix” if Windows or Mac reports problem when SD card is inserted.
-
 TABLE 3: DVR resolution
 
 <table id="table5">
@@ -226,6 +211,23 @@ TABLE 3: DVR resolution
 <td>H.264</td>
 </tr>
 </table>
+
+::: warning
+
+**The file system on SD card can be corrupted by suddenly power off while goggle is writing data to it.**
+
+  The HDZero BoxPro runs on Linux, and it does not have a big capacitor that saves power for saving the last emergency bits. The DVR will not work if SD file system is corrupted. Here are tips on how to avoid powering off while recording is ongoing:
+
+- Auto record mode: after quad is landed, do one of the following
+
+    - Long press “Enter” button to switch to menu mode, then power off the goggle, or
+
+    - Power off quad first, and wait for 10 seconds, then power off the goggle
+
+- Manual record mode:  Click “Func” button to stop DVR before power off the goggle
+
+- Select “Scan and Fix” if Windows or Mac reports problem when SD card is inserted.
+
 :::
 
 ## DVR for HDMI in

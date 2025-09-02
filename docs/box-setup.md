@@ -59,7 +59,7 @@ Note:
 
 The HDZero BoxPro optics include a lens that focus the image and ensure a clear, immersive view for the pilot.
 
-Note: The lens is made of plastic rather than glass. To prevent scratches, only clean it with a soft micro fiber cloth or wipes designed for cleaning glasses.
+*Note: The lens is made of plastic rather than glass. To prevent scratches, only clean it with a soft micro fiber cloth or wipes designed for cleaning glasses.*
 
 ## Diopter Lens Insert
 

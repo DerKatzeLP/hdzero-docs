@@ -171,10 +171,15 @@ export default defineConfig({
                         text: '视频接收机',
                         items: [
                             {
-                                text: 'Box Pro', link: '/',
+                                text: 'Box Pro', link: '/zh/box-introduction',
                                 collapsed: true,
                                 items: [
-
+                                    { text: '设置', link: '/zh/box-setup' },
+                                    { text: '操作说明', link: '/zh/box-operation' },
+                                    { text: '固件更新', link: '/zh/box-firmware-update' },
+                                    { text: '多语言支持', link: '/zh/box-lang' },
+                                    { text: '故障排除', link: '/zh/box-troubleshooting' },
+                                    { text: '保修', link: '/zh/box-warranty' },
                                 ]
                             },
                             { text: 'Goggles', link: '/', },
