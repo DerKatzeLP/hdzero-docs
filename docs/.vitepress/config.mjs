@@ -34,6 +34,22 @@ export default defineConfig({
                                 }
                             }
                         }
+                    },
+                    ru: {
+                        translations: {
+                            button: {
+                                buttonText: 'Поиск',
+                                buttonAriaLabel: 'Поиск'
+                            },
+                            modal: {
+                                noResultsText: 'Не найдено',
+                                resetButtonTitle: 'Стереть',
+                                footer: {
+                                    selectText: 'Выбор',
+                                    navigateText: 'Навигация'
+                                }
+                            }
+                        }
                     }
                 }
             },
@@ -113,6 +129,17 @@ export default defineConfig({
                             { text: 'AIO5', link: '/' },
                             { text: 'AIO15', link: '/' },
                         ]
+                    },
+                    {
+                        text: 'ESC',
+                        items: [
+                            {
+                                text: 'HaLo', link: '/',
+                                collapsed: true,
+                                items: [
+                                ]
+                            },
+                        ]
                     }
                 ],
             }
@@ -161,15 +188,10 @@ export default defineConfig({
                         text: '视频接收机',
                         items: [
                             {
-                                text: 'Box Pro', link: '/zh/box-introduction',
+                                text: 'Box Pro', link: '/',
                                 collapsed: true,
                                 items: [
-                                    { text: '设置', link: '/zh/box-setup' },
-                                    { text: '操作说明', link: '/zh/box-operation' },
-                                    { text: '固件更新', link: '/zh/box-firmware-update' },
-                                    { text: '多语言支持', link: '/zh/box-lang' },
-                                    { text: '故障排除', link: '/zh/box-troubleshooting' },
-                                    { text: '保修', link: '/zh/box-warranty' },
+
                                 ]
                             },
                             { text: 'Goggles', link: '/', },
@@ -182,9 +204,61 @@ export default defineConfig({
                             { text: 'AIO5', link: '/' },
                             { text: 'AIO15', link: '/' },
                         ]
+                    },
+                    {
+                        text: '电调',
+                        items: [
+                            {
+                                text: 'HaLo', link: '/',
+                                collapsed: true,
+                                items: [
+                                ]
+                            },
+                        ]
                     }
                 ],
             }
-        }
-    }
-})
+        },
+            ru: {
+                label: 'Русский',
+                lang: 'ru-RU',
+                link: '/ru',
+                themeConfig: {
+                    editLink: {
+                    pattern:
+                        'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path',
+                    text: 'Редактировать на GitHub'
+                    },
+                    nav: [{ text: 'Документы', link: '/ru/what-is-hdzero' }],
+                    sidebar: [
+                    {
+                        text: 'Главная',
+                        items: [{ text: 'Что такое HDZero?', link: '/ru/what-is-hdzero' }]
+                    },
+                    {
+                        text: 'Передатчики (VTX)',
+                        items: [
+                        {
+                            text: 'HDZero VTX',
+                            link: '/ru/vtx-summary',
+                            collapsed: true,
+                            items: [
+                            { text: 'Whoop V2 VTX', link: '/ru/whoop-v2' },
+                            { text: 'Race V3 VTX', link: '/ru/race-v3' },
+                            { text: 'Freestyle V2 VTX', link: '/ru/freestyle-v2' },
+                            { text: 'ECO VTX', link: '/ru/eco-bundle' }
+                            ]
+                        },
+                        { text: 'Схема установки VTX', link: '/ru/vtx-installation' },
+                        { text: 'Основные рекомендации', link: '/ru/vtx-general' },
+                        { text: 'LED-индикация VTX', link: '/ru/vtx-led' },
+                        { text: 'Обновление прошивки', link: '/ru/vtx-firmware-update' },
+                        { text: 'Часто задаваемые вопросы', link: '/ru/vtx-faq' },
+                        { text: 'Гарантия', link: '/ru/vtx-warranty' }
+                        ]
+                    }
+                    ]
+                }
+                }
+            }
+            })
