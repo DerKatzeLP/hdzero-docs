@@ -17,7 +17,7 @@ export default defineConfig({
         search: {
             provider: 'algolia',
             options: {
-                indexName: 'hdzero-wiki',
+                indexName: 'hd_zero_github_io_4zgl8elgf4_pages',
                 appId: '4ZGL8ELGF4',
                 apiKey: '36c8ca0a33a2b8c331fff4fb7ddffefc',
                 locales: {
