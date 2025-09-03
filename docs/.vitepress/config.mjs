@@ -119,7 +119,18 @@ export default defineConfig({
                                     { text: 'Warranty', link: '/box-warranty' },
                                 ]
                             },
-                            { text: 'Goggles', link: '/', },
+                            {
+                                text: 'Goggles', link: '/goggles-introduction',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Setup', link: '/goggles-setup' },
+                                    { text: 'Operation', link: '/goggles-operation' },
+                                    { text: 'Firmware Update', link: '/goggles-firmware-update' },
+                                    { text: 'Troubleshooting', link: '/goggles-troubleshooting' },
+                                    { text: 'OLED Display Disclaimer', link: '/goggles-oled-display-disclaimer' },
+                                    { text: 'Warranty', link: '/goggles-warranty' },
+                                ]
+                            },
                         ]
                     },
                     {
