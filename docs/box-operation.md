@@ -367,7 +367,7 @@ The HDZero BoxPro supports a built-in ESP32 Backpack that achieves:
 
 - Start/Stop DVR using a radio switch
 
-## Update BoxPro Backpack Firmware
+### Update BoxPro Backpack Firmware
 
 - Create a folder name as ELRS in the root directory of the SD card
 
@@ -397,7 +397,7 @@ The HDZero BoxPro supports a built-in ESP32 Backpack that achieves:
 
 <img src="/boxmedia/image15.png" id="image10">         <img src="/boxmedia/image16.png" id="image11">
 
-## Bind BoxPro and Radio
+### Bind BoxPro and Radio
 
 Please flash your ELRS TX of Radio to the same version as BoxPro Backpack firmware version. Refer to ELRS official [Tx Backpack Setup](https://www.expresslrs.org/hardware/backpack/backpack-tx-setup/) here.
 
@@ -411,7 +411,7 @@ If the binding phrase of goggle is different with Radio, it is needed to bind ma
 
 After a few seconds, the goggle will display success if the binding is complete.
 
-## Start/Stop DVR using a radio switch
+### Start/Stop DVR using a radio switch
 
 The HDZero goggle supports start/stop recording using a switch on radio. Here are steps to setup on BoxPro and Radio:
 

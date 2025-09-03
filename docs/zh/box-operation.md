@@ -374,7 +374,7 @@ HDZero BoxPro 支持内置 ESP32 背包，可实现：
 
 - 使用遥控器开关启动/停止 DVR
 
-## 更新BoxPro背包固件
+### 更新BoxPro背包固件
 
 - 在SD卡根目录下创建文件夹ELRS
 
@@ -405,7 +405,7 @@ HDZero BoxPro 支持内置 ESP32 背包，可实现：
 
 <img src="/boxmedia/image15.png" id="image10">         <img src="/boxmedia/image16.png" id="image11">
 
-## 绑定BoxPro和遥控器
+### 绑定BoxPro和遥控器
 
 请将您的 ELRS 无线电发射端 (TX) 刷写至与 BoxPro 背包固件版本相同的版本。请参阅此处的 [ELRS官方设置](https://www.expresslrs.org/hardware/backpack/backpack-tx-setup/) 
 
@@ -419,7 +419,7 @@ HDZero BoxPro 支持内置 ESP32 背包，可实现：
 
 几秒钟后， goggle 将显示绑定是否完成。
 
-## 使用遥控器开关启动/停止DVR
+### 使用遥控器开关启动/停止DVR
 
 HDZero 眼镜支持通过无线电上的开关开始/停止录制。以下是在 BoxPro 和 Radio 上设置的步骤：
 
