@@ -110,6 +110,7 @@ export default defineConfig({
                                     { text: 'Operation', link: '/goggles-operation' },
                                     { text: 'Firmware Update', link: '/goggles-firmware-update' },
                                     { text: 'Troubleshooting', link: '/goggles-troubleshooting' },
+                                    { text: 'OLED Display Disclaimer', link: '/goggles-oled-display-disclaimer' },
                                     { text: 'Warranty', link: '/goggles-warranty' },
                                 ]
                             },
