@@ -282,45 +282,45 @@ The HDZero Goggle supports a built-in ESP32 Backpack that achieves:
 
 ### Update ELRS backpack firmware
 
-Install ExpressLRS Configurator from 
+- Install **ExpressLRS Configurator** from [Eeleases](https://github.com/ExpressLRS/ExpressLRS-Configurator/releases)
 
-Open ExpressLRS Configurator to build firmware for goggle:
+- Open **ExpressLRS Configurator** to build firmware for goggle:
 
-Switch to Backpack menu
+    1. Switch to Backpack menu
 
-Select the same release version with the radio backpack
+    2. Select the same release version with the radio backpack
 
-Select target HDZero Goggles -> Built-in ESP32 Backpack
+    3. Select target HDZero Goggles -> Built-in ESP32 Backpack
 
-Set the same binding phrase as the radio backpack, otherwise your backpack needs to be bonded manually
+    4. Set the same binding phrase as the radio backpack, otherwise your backpack needs to be bonded manually
 
-Click “BUILD”. A folder will pop up automatically containing the following 4 files when completed. Copy them to “ELRS” directory under SD card root
+    5. Click “BUILD”. A folder will pop up automatically containing the following 4 files when completed. Copy them to “ELRS” directory under SD card root
 
-boot_app0.bin
+        a. boot_app0.bin
 
-bootloader.bin
+        b. bootloader.bin
 
-firmware.bin
+        c. firmware.bin
 
-partitions.bin
+        d. partitions.bin
 
-Insert SD card to HDZero Goggle
+- Insert SD card to HDZero Goggle
 
-Goggle main Menu: Firmware -> Update ESP32 to flash Backpack firmware for the Goggle
+- Goggle main Menu: Firmware -> Update ESP32 to flash Backpack firmware for the Goggle
 
 <img src="/gogglesmedia/image14.png" id="image8">    <img src="/gogglesmedia/image15.png" id="image9">
 
 ### Bind HDZero Goggle and ELRS TX
 
-Please flash your ELRS Transmitter backpack firmware of Radio to the same version as HDZero Goggle Backpack firmware. Refer to .
+Please flash your ELRS Transmitter backpack firmware of Radio to the same version as HDZero Goggle Backpack firmware. Refer to [Tx Backpack Setup](https://www.expresslrs.org/hardware/backpack/backpack-tx-setup/).
 
 If the binding phrase of goggle is different with Radio, it is needed to bind manually for first use.
 
-Goggle: ELRS -> Backpack = on
+1. Goggle: ELRS -> Backpack = on
 
-Goggle: ELRS -> Bind
+2. Goggle: ELRS -> Bind
 
-Radio: ExpressLRS Lua -> Bind
+3. Radio: ExpressLRS Lua -> Bind
 
 After a few seconds, the goggle will display success if the binding is complete.
 
@@ -328,21 +328,21 @@ After a few seconds, the goggle will display success if the binding is complete.
 
 The HDZero goggle supports start/stop recording using a switch on radio. Here are steps to setup on Goggle and Radio:
 
-Goggle: Record Option -> Record Mode = Manual
+1. Goggle: Record Option -> Record Mode = Manual
 
-Radio ExpressLRS Lua -> Backpack -> DVR Rec = AUXn↑ | AUXn↓, where n is aux channel number of the switch which is specified to start/stop Goggle DVR.
+2. Radio ExpressLRS Lua -> Backpack -> DVR Rec = AUXn↑ | AUXn↓, where n is aux channel number of the switch which is specified to start/stop Goggle DVR.
 
 ### Set Channel Number Using Radio
 
 The HDZero goggle supports set channel number using ExpressLRS Lua on radio. Here are steps to setup on Radio:
 
-Enter Radio ExpressLRS Lua -> VTX Admin
+1. Enter Radio ExpressLRS Lua -> VTX Admin
 
-Set Band and Channel you want to
+2. Set Band and Channel you want to
 
-Send VTx
+3. Send VTx
 
-Note: Channel number of both HDZero receiver and built-in Analog Receiver can be set by the method.
+**Note: Channel number of both HDZero receiver and built-in Analog Receiver can be set by the method.**
 
 <div class="page"></div>
 
@@ -356,53 +356,53 @@ WiFi Module page supports both “Basic” and “Advanced” configuration fiel
 
 ### Basic Fields
 
-Enable – Powers On or Off the WiFi Module hardware.
+- Enable – Powers On or Off the WiFi Module hardware.
 
-Mode – Host (Access Point) or Client (Join Network).
+- Mode – Host (Access Point) or Client (Join Network).
 
-SSID – User can specify a Host and Client network names individually based on Mode.
+- SSID – User can specify a Host and Client network names individually based on Mode.
 
-Password – User can specify a Host and Client network password individually based on Mode.
+- Password – User can specify a Host and Client network password individually based on Mode.
 
-Note that password requires a minimum of 8 characters.
+    > Note that password requires a minimum of 8 characters.
 
-Apply Settings – Stores and configures the WiFi Module hardware with the settings the user has modified.
+- Apply Settings – Stores and configures the WiFi Module hardware with the settings the user has modified.
 
 <img src="/gogglesmedia/image16.png" id="image10">
 
 ### Advanced Fields
 
-DHCP – This setting only applies to Client Mode.
+- DHCP – This setting only applies to Client Mode.
 
-Note the Address specified will be requested for use by the WiFi.  Ultimately it is up to the router to find and available address if the address requested is not in use, then the one specified will be used.
+    > Note the Address specified will be requested for use by the WiFi.  Ultimately it is up to the router to find and available address if the address requested is not in use, then the one specified will be used.
 
-Address – The network ip address.
+- Address – The network ip address.
 
-This setting applies for both Host and Client modes.
+    > This setting applies for both Host and Client modes.
 
-Netmask – The network subnet mask.
+- Netmask – The network subnet mask.
 
-This setting applies for both Host and Client modes.
+    > This setting applies for both Host and Client modes.
 
-Gateway – The network gateway ip address.
+- Gateway – The network gateway ip address.
 
-This setting applies for both Host and Client modes.
+    > This setting applies for both Host and Client modes.
 
-DNS – the Domain Network Service ip address.
+- DNS – the Domain Network Service ip address.
 
-RF Channel – This setting only applies to Host Mode and a user can specify which radio frequency channel they want to communicate on.
+- RF Channel – This setting only applies to Host Mode and a user can specify which radio frequency channel they want to communicate on.
 
 <img src="/gogglesmedia/image17.png" id="image11">
 
 ### System Fields
 
-Root PW – Update the root password for the goggles.
+- Root PW – Update the root password for the goggles.
 
-This applies to SSH and SCP communications.
+    > This applies to SSH and SCP communications.
 
-SSH – Enable/Disable Access to the goggles.
+- SSH – Enable/Disable Access to the goggles.
 
-Defaults to disabled as a security precaution.
+    > Defaults to disabled as a security precaution.
 
 <img src="/gogglesmedia/image18.png" id="image12">
 
@@ -410,17 +410,17 @@ Finally, if either page is modified “Basic” or “Advanced”, the user must
 
 In order to establish a wireless video stream with the HDZero Goggles via a smartphone or computer, the user must follow these steps:
 
-The “Basic” page within the WiFi Module page will contain the necessary information in order to establish communications with the HDZero Goggles:
+1. The “Basic” page within the WiFi Module page will contain the necessary information in order to establish communications with the HDZero Goggles:
 
-Host Mode – Refer to the SSID and Password fields in order to join the HDZero Goggle wireless network.
+    a. **Host Mode** – Refer to the SSID and Password fields in order to join the HDZero Goggle wireless network.
 
-Client Mode – Refer to your wireless access point user manual.
+    b. **Client Mode** – Refer to your wireless access point user manual.
 
-Install VLC app (or other similar app that supports RTSP) on your device.
+2. Install VLC app (or other similar app that supports RTSP) on your device.
 
-Open the above app, choose “Open Network Stream”, and type the RTSP URL provided by the “Basic” page footnote as it will provided the necessary URL in order to establish a video stream via VLC app, below is the default ip address if the user has not made modifications within the  “Advanced” page: 
+3. Open the above app, choose “Open Network Stream”, and type the RTSP URL provided by the “Basic” page footnote as it will provided the necessary URL in order to establish a video stream via VLC app, below is the default ip address if the user has not made modifications within the  “Advanced” page: 
 
- rtsp://192.168.2.122:8554/hdzero 
+    > rtsp://192.168.2.122:8554/hdzero 
 
 Video latency is expected due to networking protocols, buffering schema of the app, and OS platforms. 
 
@@ -432,6 +432,6 @@ The HDZero Goggle includes a Real Time Clock (RTC). Goggle 1 is shipped without 
 
 <img src="/gogglesmedia/image19.png" id="image13">
 
-An aftermarket battery could be CR2032 laptop battery with MX1.25-2P male connector. An example can be found .
+An aftermarket battery could be CR2032 laptop battery with MX1.25-2P male connector. An example can be found [here](https://www.amazon.com/dp/B08M6FXT8Q?ref=ppx_yo2ov_dt_b_product_details&th=1&fbclid=IwAR0W2mmgafoAp03hVMCtfE8o-vBdCsCR-B5YXFN_fpaUc31RkRhlUvJvIog).
 
-Note: It is user’s full responsibility for any damage due to opening the goggle to install the battery. 
+**Note: It is user’s full responsibility for any damage due to opening the goggle to install the battery.**
