@@ -2,11 +2,11 @@
 
 ## Обсуждения
 
-HDZero Facebook (международный): https://www.facebook.com/groups/HDZero
+HDZero Telegram (неофициальный): https://t.me/HDZeroFPV_ru
 
-HDZero Discord (международный): https://discord.gg/JPesSHpmCU
+HDZero Facebook: https://www.facebook.com/groups/HDZero
 
-
+HDZero Discord: https://discord.gg/JPesSHpmCU
 
 ##  Поиск неисправностей
 
