@@ -2,11 +2,12 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    head: [['link', { rel: 'icon', href: '/short-icon.png' }]],
-    title: "HDZero",
-    description: "HDZero offers industry-leading low latency, giving you more time to react and the best possible chance of hitting that next gap. With its smooth, consistent FPV video feed, you'll experience the same locked-in feeling you get with analog video–but with the clarity of HD.",
-    themeConfig: {
-        logo: '/short-icon.png',
+  head: [['link', { rel: 'icon', href: '/short-icon.png' }]],
+  title: 'HDZero',
+  description:
+    'HDZero offers industry-leading low latency, giving you more time to react and the best possible chance of hitting that next gap. With its smooth, consistent FPV video feed, you\'ll experience the same locked-in feeling you get with analog video–but with the clarity of HD.',
+  themeConfig: {
+    logo: '/short-icon.png',
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/hd-zero' },
@@ -30,6 +31,22 @@ export default defineConfig({
                                 footer: {
                                     selectText: '选择',
                                     navigateText: '切换'
+                                }
+                            }
+                        }
+                    },
+                    ru: {
+                        translations: {
+                            button: {
+                                buttonText: 'Поиск',
+                                buttonAriaLabel: 'Поиск'
+                            },
+                            modal: {
+                                noResultsText: 'Не найдено',
+                                resetButtonTitle: 'Стереть',
+                                footer: {
+                                    selectText: 'Выбор',
+                                    navigateText: 'Навигация'
                                 }
                             }
                         }
@@ -123,6 +140,17 @@ export default defineConfig({
                             { text: 'AIO5', link: '/' },
                             { text: 'AIO15', link: '/' },
                         ]
+                    },
+                    {
+                        text: 'ESC',
+                        items: [
+                            {
+                                text: 'HaLo', link: '/',
+                                collapsed: true,
+                                items: [
+                                ]
+                            },
+                        ]
                     }
                 ],
             }
@@ -171,15 +199,10 @@ export default defineConfig({
                         text: '视频接收机',
                         items: [
                             {
-                                text: 'Box Pro', link: '/zh/box-introduction',
+                                text: 'Box Pro', link: '/',
                                 collapsed: true,
                                 items: [
-                                    { text: '设置', link: '/zh/box-setup' },
-                                    { text: '操作说明', link: '/zh/box-operation' },
-                                    { text: '固件更新', link: '/zh/box-firmware-update' },
-                                    { text: '多语言支持', link: '/zh/box-lang' },
-                                    { text: '故障排除', link: '/zh/box-troubleshooting' },
-                                    { text: '保修', link: '/zh/box-warranty' },
+
                                 ]
                             },
                             { text: 'Goggles', link: '/', },
@@ -192,11 +215,22 @@ export default defineConfig({
                             { text: 'AIO5', link: '/' },
                             { text: 'AIO15', link: '/' },
                         ]
+                    },
+                    {
+                        text: '电调',
+                        items: [
+                            {
+                                text: 'HaLo', link: '/',
+                                collapsed: true,
+                                items: [
+                                ]
+                            },
+                        ]
                     }
                 ],
             }
         },
-        ru: {
+            ru: {
                 label: 'Русский',
                 lang: 'ru-RU',
                 link: '/ru',
@@ -237,5 +271,5 @@ export default defineConfig({
                     ]
                 }
                 }
-    }
-})
+            }
+            })
