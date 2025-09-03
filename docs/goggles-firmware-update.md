@@ -2,8 +2,6 @@
 
 Download the latest Goggle firmware from [HDZero download](https://www.hd-zero.com/document). 
 
-TABLE 4.  Goggle Firmware File
-
 <table id="table6">
 <tr>
 <td></td>
@@ -32,6 +30,8 @@ TABLE 4.  Goggle Firmware File
 <td>For emergency recovery</td>
 </tr>
 </table>
+
+> TABLE 4.  Goggle Firmware File
 
 ## Flashing Firmware to a HDZero VTX
 
