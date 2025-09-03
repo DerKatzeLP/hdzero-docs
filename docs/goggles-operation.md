@@ -282,7 +282,7 @@ The HDZero Goggle supports a built-in ESP32 Backpack that achieves:
 
 ### Update ELRS backpack firmware
 
-- Install **ExpressLRS Configurator** from [Eeleases](https://github.com/ExpressLRS/ExpressLRS-Configurator/releases)
+- Install **ExpressLRS Configurator** from [Releases](https://github.com/ExpressLRS/ExpressLRS-Configurator/releases)
 
 - Open **ExpressLRS Configurator** to build firmware for goggle:
 
