@@ -81,7 +81,7 @@ Before you start to update firmware, go to Main menu|Firmware|Current version. I
 
     - app:n-xx rx yy va zzz
 
-If n is greater or equal than 9, take [Normal Goggle Firmware Update Process](#normal-goggle-firmware-update-process-for-n-9), otherwise take [A Special One Time Goggle Firmware Update Process](#a-special-one-time-goggle-firmware-update-process-for-n--9).
+If n is greater or equal than 9, take [Normal Goggle Firmware Update Process](#normal-goggle-firmware-update-process-for-n≥-9), otherwise take [A Special One Time Goggle Firmware Update Process](#a-special-one-time-goggle-firmware-update-process-for-n--9).
 
 ### Normal Goggle Firmware Update Process (for n≥ 9)
 
@@ -121,7 +121,7 @@ If n is greater or equal than 9, take [Normal Goggle Firmware Update Process](#n
 Note:
      (1)HDZG_BOOT.bin/HDZG_OS.bin will be removed from SD card if update successfully. (2) Have to wait for the above specified time, DO NOT move to next step in a hurry.
 :::
-The goggle can be bricked under some rare cases. If the goggle is on the firmware version n  is 9 or later before bricked, follow [Goggle Emergency Firmware Update Process](#goggle-emergency-firmware-update-process--for-n-9); if n is earlier than version 9 or you are not sure which version it was on, please follow [Goggle Emergency Firmware Update Process using Phoenix App](#goggle-emergency-firmware-update-process-using-phoenix-app--for-all-versions) using Phoeix App.
+The goggle can be bricked under some rare cases. If the goggle is on the firmware version n  is 9 or later before bricked, follow [Goggle Emergency Firmware Update Process](#goggle-emergency-firmware-update-process-for-n≥-9); if n is earlier than version 9 or you are not sure which version it was on, please follow [Goggle Emergency Firmware Update Process using Phoenix App](#goggle-emergency-firmware-update-process-using-phoenix-app--for-all-versions) using Phoeix App.
 
 ### Goggle Emergency Firmware Update Process  (for n≥ 9)
 

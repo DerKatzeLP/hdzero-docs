@@ -205,8 +205,8 @@ export default defineConfig({
                                     { text: '设置', link: '/zh/goggles-setup' },
                                     { text: '操作说明', link: '/zh/goggles-operation' },
                                     { text: '固件更新', link: '/zh/goggles-firmware-update' },
-                                    { text: '故障排除', link: '/zh/goggles-troubleshooting' },
                                     { text: '多语言支持', link: '/zh/goggles-lang' },
+                                    { text: '故障排除', link: '/zh/goggles-troubleshooting' },
                                     { text: 'OLED 显示屏免责声明', link: '/zh/goggles-oled-display-disclaimer' },
                                     { text: '保修', link: '/zh/goggles-warranty' },
                                 ]
@@ -225,17 +225,17 @@ export default defineConfig({
             }
         },
         ru: {
-                label: 'Русский',
-                lang: 'ru-RU',
-                link: '/ru',
-                themeConfig: {
-                    editLink: {
+            label: 'Русский',
+            lang: 'ru-RU',
+            link: '/ru',
+            themeConfig: {
+                editLink: {
                     pattern:
                         'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path',
                     text: 'Редактировать на GitHub'
-                    },
-                    nav: [{ text: 'Документы', link: '/ru/what-is-hdzero' }],
-                    sidebar: [
+                },
+                nav: [{ text: 'Документы', link: '/ru/what-is-hdzero' }],
+                sidebar: [
                     {
                         text: 'Главная',
                         items: [{ text: 'Что такое HDZero?', link: '/ru/what-is-hdzero' }]
@@ -243,27 +243,27 @@ export default defineConfig({
                     {
                         text: 'Передатчики (VTX)',
                         items: [
-                        {
-                            text: 'HDZero VTX',
-                            link: '/ru/vtx-summary',
-                            collapsed: true,
-                            items: [
-                            { text: 'Whoop V2 VTX', link: '/ru/whoop-v2' },
-                            { text: 'Race V3 VTX', link: '/ru/race-v3' },
-                            { text: 'Freestyle V2 VTX', link: '/ru/freestyle-v2' },
-                            { text: 'ECO VTX', link: '/ru/eco-bundle' }
-                            ]
-                        },
-                        { text: 'Схема установки VTX', link: '/ru/vtx-installation' },
-                        { text: 'Основные рекомендации', link: '/ru/vtx-general' },
-                        { text: 'LED-индикация VTX', link: '/ru/vtx-led' },
-                        { text: 'Обновление прошивки', link: '/ru/vtx-firmware-update' },
-                        { text: 'Часто задаваемые вопросы', link: '/ru/vtx-faq' },
-                        { text: 'Гарантия', link: '/ru/vtx-warranty' }
+                            {
+                                text: 'HDZero VTX',
+                                link: '/ru/vtx-summary',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Whoop V2 VTX', link: '/ru/whoop-v2' },
+                                    { text: 'Race V3 VTX', link: '/ru/race-v3' },
+                                    { text: 'Freestyle V2 VTX', link: '/ru/freestyle-v2' },
+                                    { text: 'ECO VTX', link: '/ru/eco-bundle' }
+                                ]
+                            },
+                            { text: 'Схема установки VTX', link: '/ru/vtx-installation' },
+                            { text: 'Основные рекомендации', link: '/ru/vtx-general' },
+                            { text: 'LED-индикация VTX', link: '/ru/vtx-led' },
+                            { text: 'Обновление прошивки', link: '/ru/vtx-firmware-update' },
+                            { text: 'Часто задаваемые вопросы', link: '/ru/vtx-faq' },
+                            { text: 'Гарантия', link: '/ru/vtx-warranty' }
                         ]
                     }
-                    ]
-                }
-                }
+                ]
+            }
+        }
     }
 })

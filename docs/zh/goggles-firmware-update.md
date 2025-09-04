@@ -1,188 +1,201 @@
-# HDZero Firmware Update
+# HDZero Goggles 固件更新
 
-Download the latest Goggle firmware from [HDZero download](https://www.hd-zero.com/document). 
+从 [HDZero download](https://www.alipan.com/s/WdoCPa2odz5) 下载最新的Goggle固件。
 
 <table id="table6">
 <tr>
 <td></td>
-<td>Downloaded Firmware (.Zip file)</td>
-<td>Zip File Content</td>
-<td >Purpose</td>
+<td>下载的固件（ .Zip 文件）</td>
+<td>Zip文件内容</td>
+<td>目的</td>
 </tr>
 <tr>
-<td rowspan="2">HDZero Goggle 1</td>
-<td rowspan="2">HDZEROGOGGLE_<br>Revyyyymmdd.zip</td>
+<td rowspan="2">HDZero 眼镜 1</td>
+<td rowspan="2">HDZEROGOGGLE_Revyyyymmdd.zip</td>
 <td>HDZERO_GOGGLE_nnn.bin</td>
-<td>To flash firmware from Goggle main menu</td>
+<td>从 Goggle 主菜单刷新固件</td>
 </tr>
 <tr>
-<td>Recovery/HDZG_OS.bin<br>Recovery/HDZG_BOOT.bin<br>Recovery/HDZGOGGLE_RX.bin<br>Recovery/HDZGOGGLE_VA.bin</td>
-<td>For emergency recovery</td>
+<td>restore/HDZG_OS.bin<br>restore/HDZG_BOOT.bin<br>restore/HDZGOGGLE_RX.bin<br>restore/HDZGOGGLE_VA.bin</td>
+<td>用于紧急恢复</td>
 </tr>
 <tr>
-<td rowspan="2">HDZero Goggle 2</td>
-<td rowspan="2">HDZEROGOGGLE2_<br>Revyyyymmdd.zip</td>
-<td>HDZERO_GOGGLE2_nnn.bin</td>
-<td>To flash firmware from Goggle main menu</td>
+<td rowspan="2">HDZero 眼镜 2</td>
+<td rowspan="2">HDZEROGOGGLE2_Revyyyymmdd.zip</td>
+<td>HDZERO_GOGGLE 2 _nnn.bin</td>
+<td>从 Goggle 主菜单刷新固件</td>
 </tr>
 <tr>
-<td>Recovery/HDZG_OS.bin<br>Recovery/HDZGOGGLE_RX.bin<br>Recovery/HDZGOGGLE_VA.bin</td>
-<td>For emergency recovery</td>
+<td>restore/HDZG_OS.bin<br>restore/HDZGOGGLE_RX.bin<br>restore/HDZGOGGLE_VA.bin</td>
+<td>用于紧急恢复</td>
 </tr>
 </table>
 
-> TABLE 4.  Goggle Firmware File
+> 表 4. Goggle固件文件
 
-## Flashing Firmware to a HDZero VTX
+## 刷写 HDZero VTX 固件
 
-The HDZero goggle can flash firmware to a HDZero video transmitter via its FW port. Here are the steps:
+HDZero 眼镜可以通过其固件端口将固件刷入 HDZero VTX。步骤如下：
 
-### To flash a single VTX:
+### 刷写单个 VTX：
 
-1. Copy HDZERO_TX.bin to root directory of a SD card that is formatted as FAT32 
+1. HDZERO_TX.bin复制到 FAT32 格式的 SD 卡根目录
 
-2. Power on the goggle
+2. 打开眼镜
 
-3. Connect the VTX and HDZero goggle with the included programming cable
+3. 使用附带的编程线连接 VTX 和 HDZero 眼镜
 
-4. Go to Main menu | Firmware |Update VTX, the display will show the status of the flashing process 
+4. 进入主菜单 |固件|更新VTX，显示屏将显示闪烁过程的状态
 
-5. Disconnect the VTX
+5. 断开 VTX
 
-6. This VTX is now flashed with the latest firmware
+6. 此 VTX 现已刷入最新固件
 
-### To flash multiple VTXes of the same type:
+### 要刷写同一类型的多个VTX ：
 
-1. Copy HDZERO_TX.bin to root directory of a SD card that is formatted as FAT32 
+1. HDZERO_TX.bin复制到 FAT32 格式的 SD 卡根目录
 
-2. Power on the goggle
+2. 打开眼镜
 
-3. Connect one VTX to the HDZero goggle with the included programming cable
+3. 使用附带的编程线将一个 VTX 连接到 HDZero 眼镜
 
-4. Go to Main menu | Firmware | Update VTX, the display will show the status, 
+4. 进入主菜单 | 固件 | 更新VTX，显示屏将显示状态，
 
-5. Disconnect the VTX, this VTX is flashed
+5. 断开 VTX，此 VTX 已刷入最新固件
 
-6. Repeat 3-5 for the other VTXes
+6. 对其他VTX重复 3-5
 
 ::: tip
 Note: 
 
-Flashing VTX firmware with Goggle is highly not recommended for Goggle safety consideration. [HDZero Programming Cable](https://www.hd-zero.com/product-page/hdzero-programming-cable) is preferred for its convenience and safety. However, a Windows system is needed to run the HDZero Programmer app, Mac is not supported for now.
+出于 Goggle 安全考虑，强烈建议不要使用 Goggle 刷写 VTX  [HDZero 编程器](https://item.taobao.com/item.htm?id=923351151370) 因其便捷性和安全性而更受欢迎。但是，运行 HDZero 编程器应用程序需要 Windows 系统，目前不支持 Mac 系统。
+
 :::
 
-## Flashing Firmware to the Goggle
+## 刷写 Goggle 固件
 
-The HDZero Goggle runs on Linux. Its firmware contains the customized Linux distribution and its application software. We only need to update the application instead of updating the whole OS and application in most cases. However, there are some rare cases where the OS could become corrupted, such as losing power during update process. It is also possible that changes may have to be made to the OS in the future to add new functionality.
+HDZero Goggle运行在 Linux 系统上。其固件包含定制的 Linux 发行版及其应用软件。大多数情况下，我们只需更新应用程序，而无需更新整个操作系统和应用程序。然而，在极少数情况下，操作系统可能会损坏，例如在更新过程中断电。未来也可能需要对操作系统进行更改以添加新功能。
 
-Before you start to update firmware, go to Main menu|Firmware|Current version. It should be in the following format:
+在开始更新固件之前，请前往主菜单|固件|当前版本。其格式如下：
 
-    - n.xx.yyy, or
 
-    - app:n-xx rx yy va zzz
+    - n.xx.yyy ，或
 
-If n is greater or equal than 9, take [Normal Goggle Firmware Update Process](#normal-goggle-firmware-update-process-for-n-9), otherwise take [A Special One Time Goggle Firmware Update Process](#a-special-one-time-goggle-firmware-update-process-for-n--9).
+    - app: n -xx rx yy va zzz​
 
-### Normal Goggle Firmware Update Process (for n≥ 9)
+如果n大于或等于 9，则采取 [正常 Goggle 固件更新流程（n ≥ 9）](#正常-goggle-固件更新流程-n-≥-9), 否则采取 [特殊的一次性 Goggles 固件更新过程（n < 9）](#特殊的一次性-goggles-固件更新过程-n-9)。
 
-1. Disconnect all cables from the goggle. Keep the power cable only;
+### 正常 Goggle 固件更新流程（n ≥ 9）
 
-2. Prepare the firmware file:
+1. 断开眼镜上的所有线缆。仅保留电源线；
 
-    a. For Goggle 1: HDZERO_GOGGLE_nnn.bin
+2. 准备固件文件：
 
-    b. For Goggle 2: HDZERO_GOGGLE2_nnn.bin
+    a. 对于 Goggle 1： HDZERO_GOGGLE_nnn.bin
 
-    Copy it to root directory of SD card that is formatted as FAT32, and make sure there is no previous firmware in the root directory;
+    b. 对于 Goggle 2：HDZERO_GOGGLE2_nnn.bin
 
-3. Power on the goggle;
+    将其复制到FAT32格式的SD卡根目录下，并确保根目录下没有之前的固件；
 
-4. Go to Main menu | Firmware | Update Goggle, the display will show the current version;
+3. 打开眼镜电源；
 
-5. Wait for the completion (about 3 minutes), then power off; 
+4. 进入主菜单 | 固件 | 更新 Goggle，显示屏将显示当前版本；
 
-6. Done!
+5. 等待完成（约3分钟），然后关机；
 
-### A Special One Time Goggle Firmware Update Process (for n < 9)
+6. 完毕！
 
-1. Disconnect all cables from the goggle. Keep the power cable only;
+### 特殊的一次性 Goggles 固件更新过程（n < 9）
 
-2. Extract HDZERO_GOGGLE- nnn.bin/HDZG_BOOT.bin/HDZG_OS.bin, and copy them to root directory of a FAT32 formatted SD card;
+1. 断开眼镜上的所有线缆。仅保留电源线；
 
-3. Insert SD card, Select Main menu | Firmware | Update Goggle. Power off after completion;
+2. 提取 HDZERO_GOGGLE- nnn .bin / HDZG_BOOT.bin / HDZG_OS.bin ，并将它们复制到FAT32格式的SD卡根目录下；
 
-4. Power on goggle, wait for 2 min then power off;
+3. 插入SD卡，选择主菜单 | 固件 | 更新Goggle。完成后关机；
 
-5. Power on goggle, wait for 5 mins then power off;
+4. 打开眼镜，等待2分钟后关闭；
 
-6. Done! 
+5. 打开眼镜，等待5分钟然后关闭；
+
+6. 完毕！
 
 ::: tip
-Note:
-     (1)HDZG_BOOT.bin/HDZG_OS.bin will be removed from SD card if update successfully. (2) Have to wait for the above specified time, DO NOT move to next step in a hurry.
+注意： 
+     （1）如果更新成功， HDZG_BOOT.bin / HDZG_OS.bin将从 SD 卡中删除。 
+     （2）必须等待上述指定时间，请勿着急进入下一步。
+
 :::
-The goggle can be bricked under some rare cases. If the goggle is on the firmware version n  is 9 or later before bricked, follow [Goggle Emergency Firmware Update Process](#goggle-emergency-firmware-update-process--for-n-9); if n is earlier than version 9 or you are not sure which version it was on, please follow [Goggle Emergency Firmware Update Process using Phoenix App](#goggle-emergency-firmware-update-process-using-phoenix-app--for-all-versions) using Phoeix App.
+某些罕见情况下，眼镜可能会无法启动。如果眼镜的固件版本为n 变砖前是 9 或更高版本，请按照 [Goggle 紧急固件更新流程（n ≥ 9）](#goggle-紧急固件更新流程-n-≥-9)进行操作；如果n早于版本 9 或者您不确定它使用的是哪个版本，请使用Phoeix App按照流程 [使用 Phoenix App 进行 Goggle 紧急固件更新流程（适用于所有版本）](#使用-phoenix-app-进行-goggle-紧急固件更新流程-适用于所有版本) 进行操作。
 
-### Goggle Emergency Firmware Update Process  (for n≥ 9)
+### Goggle 紧急固件更新流程（n ≥ 9）
 
-1. Disconnect all cables from the goggle. Keep the power cable only;
+1. 断开眼镜上的所有线缆。仅保留电源线；
 
-2. Extract HDZG_OS.bin/ HDZGOGGLE_RX.BIN/ HDZGOGGLE_VA.BIN, and copy them to root directory of a FAT32 formatted SD card, and insert SD card to the goggle;
+2. 解压HDZG_OS.bin / HDZGOGGLE_RX.BIN / HDZGOGGLE_VA.BIN ，并复制到FAT32格式的SD卡根目录下，将SD卡插入眼镜；
 
-3. Power on goggle, wait for 5 min then power off;
 
-4. Done! 
+3. 打开眼镜，等待5分钟后关闭；
+
+4. 完毕！
 
 ::: tip
-Note:
-     (1)HDZG_OS.bin/ HDZGOGGLE_RX.BIN/HDZGOGGLE_VA.BIN will be removed from SD card if update successfully. 
-     (2) Have to wait for the above specified time, DO NOT move to next step in a hurry.
+注意：
+    （1）如果更新成功， HDZG_OS.bin / HDZGOGGLE_RX.BIN / HDZGOGGLE_VA.BIN将从 SD 卡中删除。 
+    （2） 必须等待上述指定的时间，不要着急进入下一步。
+
 :::
  
 
-### Goggle Emergency Firmware Update Process using Phoenix App  (for all versions)
+### 使用 Phoenix App 进行 Goggle 紧急固件更新流程（适用于所有版本）
 
-Download PhoenixCard.zip from the [HDZero download](https://www.hd-zero.com/document) site, and extract it to a location on a Windows machine, for example, C:\PhoenixCard. This is a one-time process. There is no Mac or Linux version for now.
+从 [HDZero 下载站点](https://www.alipan.com/s/WdoCPa2odz5) 下载 PhoenixCard.zip，并将其解压到 Windows 计算机上的某个位置，例如 C:\PhoenixCard。此过程只需操作一次。目前尚无 Mac 或 Linux 版本。
 
-Download the latest firmware package from the [HDZero download](https://www.hd-zero.com/document) site, and extract all files in the zip file to your local drive, i.e. C:\Temp.
 
-1. Launch C:\PhoenixCard\PhoenixCard.exe; 
+从 [HDZero 下载站点](https://www.alipan.com/s/WdoCPa2odz5) 下载最新的固件包，并将zip 文件中的所有文件解压到本地驱动器，即 C:\Temp。
 
-2. Follow the steps on FIG.5 to make a bootable SD card; 
+
+1. 启动 C:\PhoenixCard\PhoenixCard.exe；
+
+2. 按照图5的步骤制作可启动的SD卡；
 
 <img src="/gogglesmedia/image20.png" id="image14">
 
-> FIG 5. Make a bootable SD Card
+> 图 5. 制作可启动 SD 卡
 
-3. Eject the SD card from Windows, and insert the SD card into the SD card slot of the goggle;
+3. 从 Windows 中弹出 SD 卡，然后将 SD 卡插入眼镜的 SD 卡插槽；
 
- Unplug all of the cables, i.e., HDMI in/out, Line in/out, AV in. Keep the power cable only. Power on the goggle, you will hear a long beep im/gogglesmediately. Wait for 3 minutes and you will hear another long beep;
+ 拔掉所有线缆，例如 HDMI 输入/输出、Line 输入/输出、AV 输入。只保留电源线。打开眼镜电源，您会立即听到一声长音。等待 3 分钟，您会再次听到一声长音；
 
-4. Power off the goggle, and pull out the SD card from the goggle. (Do not power on goggle now);
 
-5. Follow the FIG.6 to restore the SD Card from BOOT mode, and format it as FAT32 on Windows;
+4. 关闭眼镜，并从眼镜中拔出 SD 卡。（此时请勿打开眼镜电源）
+
+5. 按照图6将SD卡从BOOT模式恢复，并在Windows上格式化为FAT32；
 
 <img src="/gogglesmedia/image22.png" id="image16">
 <img src="/gogglesmedia/image21.png" id="image15">
 
-> FIG 6. Restore a SD Card
+> 图 6. 恢复 SD 卡
 
-6. Copy HDZGOGGLE_RX.bin and HDZGOGGLE_VA.bin to the SD card root directory;
+6. HDZGOGGLE_RX.bin和HDZGOGGLE_VA.bin复制到SD卡根目录；
 
-7. Insert SD card into goggle, power on the goggle, wait for 2 minutes, and there will be a long beep;
 
-8. (Optional) Pull out the SD card, and check SD card contents on the PC. The 2 files should be removed if flash process is successful;
+7. 将SD卡插入眼镜，打开眼镜电源，等待2分钟，会听到一声长音；
 
-9. Power the goggle off and then on again.
+
+8. （可选）拔出 SD 卡，并在 PC 上检查 SD 卡内容。如果刷写成功，则应删除这两个文件；
+
+
+9. 关闭眼镜然后重新打开。
 
 ::: tip
-Notes: 
+注意事项： 
 
-(1) A bootable SD card has a hidden partition that Windows Explorer will not show. And it can’t be removed even SD card is formatted with Windows Explorer. It means the goggle will flash itself from the bootable SD card unexpectedly and mess up goggle firmware if a bootable SD card is inserted when the goggle is powered on.
+（1）可启动 SD 卡上有一个隐藏分区，Windows 资源管理器不会显示该分区。即使使用 Windows 资源管理器格式化 SD 卡，也无法将其移除。这意味着，如果在眼镜开机状态下插入可启动 SD 卡，眼镜会意外地从可启动 SD 卡中读取数据，并导致眼镜固件崩溃。
 
-(2) The above Step (5) must be followed strictly to get rid of the hidden bootable partition. Otherwise, it will brick the goggle when goggle is powered with this SD card inserted. If this happens, you will need to repeat the emergency firmware update process described in this section.
+（2）必须严格执行上述步骤（ 5 ），以清除隐藏的可启动分区。否则，在插入此 SD 卡的情况下，云眼镜通电后会变砖。如果发生这种情况，您需要重复本节中描述的紧急固件更新过程。
 
-(3) Have to wait for the above specified time, DO NOT move to next step in a hurry.
+（3）必须等待上述指定的时间，请勿着急进入下一步。
 
-(4) When the goggle is bricked, it shows HDZero Boot screen and will not get into Main menu.  
+（4）当眼镜变砖时，它会显示 HDZero 启动屏幕并且不会进入主菜单。
+
 :::
