@@ -6,7 +6,7 @@
 
 HDZero Goggle 是一款多功能 FPV 眼镜：支持数字、模拟和 HDMI 视频。使用前，请仔细阅读本操作手册。
 
-## 图示
+## 示意图
 
 <img src="/gogglesmedia/image5.png" id="image3">
 

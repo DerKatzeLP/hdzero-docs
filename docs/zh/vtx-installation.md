@@ -1,4 +1,4 @@
-# VTX 安装图
+# VTX 安装示意图
 
 <img src="/media/image7.png" id="image5">
 

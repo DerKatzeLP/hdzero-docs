@@ -142,9 +142,31 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: 'FC',
+                        text: 'FC & ESC',
                         items: [
-                            { text: 'HaLo', link: '/' },
+                            {
+                                text: 'Halo Stack', link: '/halo-stack-introduction',
+                                collapsed: true,
+                                items: [
+                                    {
+                                        text: 'Halo Flight Controller', link: '/halo-introduction',
+                                        collapsed: true,
+                                        items: [
+                                            { text: 'Wiring', link: '/halo-wiring' },
+                                            { text: 'Bind with ELRS', link: '/halo-bind' },
+                                            { text: 'Firmware', link: '/halo-firmware' },
+                                        ]
+                                    },
+                                    {
+                                        text: 'Halo 4in1 70A ESC', link: '/halo-esc-introduction',
+                                        collapsed: true,
+                                        items: [
+                                            { text: 'Wiring', link: '/halo-esc-wiring' },
+                                            { text: 'Firmware', link: '/halo-esc-firmware' },
+                                        ]
+                                    },
+                                ]
+                            },
                             { text: 'AIO5', link: '/' },
                             { text: 'AIO15', link: '/' },
                         ]
@@ -184,7 +206,7 @@ export default defineConfig({
                                     { text: 'ECO 图传', link: '/zh/eco-bundle', },
                                 ]
                             },
-                            { text: '图传安装图', link: '/zh/vtx-installation', },
+                            { text: '安装示意图', link: '/zh/vtx-installation', },
                             { text: '基础说明', link: '/zh/vtx-general', },
                             { text: '图传 LED 模式', link: '/zh/vtx-led', },
                             { text: '图传固件更新指南', link: '/zh/vtx-firmware-update', },
@@ -219,7 +241,16 @@ export default defineConfig({
                                     { text: 'OLED 显示屏免责声明', link: '/zh/goggles-oled-display-disclaimer' },
                                     { text: '保修', link: '/zh/goggles-warranty' },
                                 ]
-                            }
+                            },
+                            {
+                                text: 'Monitor 小飞手', link: '/zh/monitor-introduction',
+                                collapsed: true,
+                                items: [
+                                    { text: '设置', link: '/zh/monitor-setup' },
+                                    { text: '操作说明', link: '/zh/monitor-operation' },
+                                    { text: '固件更新', link: '/zh/monitor-firmware-update' },
+                                ]
+                            },
                         ]
                     },
                     {

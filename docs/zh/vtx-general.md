@@ -77,7 +77,7 @@ FlightOne >= 10.1.1.5576 | 10.1 Alpha 29
 
 ### 3. 将 VTX UART 焊接/连接到 FC 板上的可用 UART
 
-参见 [安装图](vtx-installation.md)
+参见 [安装示意图](vtx-installation.md)
 
 ### 4. 飞控配置（Betaflight）
 
