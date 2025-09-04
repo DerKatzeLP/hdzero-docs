@@ -175,19 +175,19 @@ export default defineConfig({
                         text: '视频发射机',
                         items: [
                             {
-                                text: 'HDZero VTX 图传产品', link: '/zh/vtx-summary',
+                                text: 'HDZero 图传产品', link: '/zh/vtx-summary',
                                 collapsed: true,
                                 items: [
-                                    { text: 'Whoop V2 VTX 图传', link: '/zh/whoop-v2' },
-                                    { text: 'Race V3 VTX 图传', link: '/zh/race-v3', },
-                                    { text: 'Freestyle V2 VTX 图传', link: '/zh/freestyle-v2', },
-                                    { text: 'ECO VTX 图传', link: '/zh/eco-bundle', },
+                                    { text: 'Whoop V2 图传', link: '/zh/whoop-v2' },
+                                    { text: 'Race V3 图传', link: '/zh/race-v3', },
+                                    { text: 'Freestyle V2 图传', link: '/zh/freestyle-v2', },
+                                    { text: 'ECO 图传', link: '/zh/eco-bundle', },
                                 ]
                             },
-                            { text: 'VTX 安装图', link: '/zh/vtx-installation', },
+                            { text: '图传安装图', link: '/zh/vtx-installation', },
                             { text: '基础说明', link: '/zh/vtx-general', },
-                            { text: 'VTX LED 模式', link: '/zh/vtx-led', },
-                            { text: 'VTX 固件更新指南', link: '/zh/vtx-firmware-update', },
+                            { text: '图传 LED 模式', link: '/zh/vtx-led', },
+                            { text: '图传固件更新指南', link: '/zh/vtx-firmware-update', },
                             { text: '常问问题', link: '/zh/vtx-faq', },
                             { text: '保修', link: '/zh/vtx-warranty', },
                         ]
