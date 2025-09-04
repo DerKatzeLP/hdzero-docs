@@ -191,7 +191,7 @@ HDZero Goggle operates on a Linux-based system, and it is unable to store final 
 - Select “Scan and Fix” if Windows or Mac reports problem when SD card is inserted.
 
 ::: tip
-Note: It is convenient to start/stop DVR with ELRS backpack function. See [ESP32/Backpack Module](#esp32backpack-module).
+Note: It is convenient to start/stop DVR with ELRS backpack function. See [ESP32/Backpack Module](#esp32-backpack-module).
 
  
 

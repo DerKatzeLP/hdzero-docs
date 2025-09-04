@@ -182,7 +182,19 @@ export default defineConfig({
                                     { text: '保修', link: '/zh/box-warranty' },
                                 ]
                             },
-                            { text: 'Goggles', link: '/', },
+                            {
+                                text: 'Goggles', link: '/zh/goggles-introduction',
+                                collapsed: true,
+                                items: [
+                                    { text: '设置', link: '/zh/goggles-setup' },
+                                    { text: '操作说明', link: '/zh/goggles-operation' },
+                                    { text: '固件更新', link: '/zh/goggles-firmware-update' },
+                                    { text: '故障排除', link: '/zh/goggles-troubleshooting' },
+                                    { text: '多语言支持', link: '/zh/goggles-lang' },
+                                    { text: 'OLED 显示屏免责声明', link: '/zh/goggles-oled-display-disclaimer' },
+                                    { text: '保修', link: '/zh/goggles-warranty' },
+                                ]
+                            }
                         ]
                     },
                     {

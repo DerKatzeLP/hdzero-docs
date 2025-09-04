@@ -48,7 +48,7 @@ The HDZero Goggle is an all-in-one FPV goggle for digital, analog and HDMI video
 
 - Add-on 2.4Ghz WiFi video streaming module for live streaming
 
-- Added features for the Goggle 2
+### Added features for the Goggle 2
 
 - Fully enclosed optical module to keep dust out
 

@@ -12,7 +12,7 @@
 
 <img src="/boxmedia/image9.png" id="image4">
 
-## Video View和Menu View
+## 视频视图和菜单视图
 
 <img src="/boxmedia/image10.png" id="image5">
 
