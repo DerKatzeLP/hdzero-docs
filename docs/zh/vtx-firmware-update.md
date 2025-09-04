@@ -1,7 +1,7 @@
 # VTX 固件更新指南
 ## HDZero VTX Programmer
 
-<img src="/media/image24.png" id="image21">强烈建议使用 [HDZero 编程器](https://www.hd-zero.com/product-page/hdzero-vtx-programmer) 更新 VTX。目前仅支持 Windows 系统。
+<img src="/media/image24.png" id="image21">强烈建议使用 [HDZero 编程器](https://item.taobao.com/item.htm?id=923351151370) 更新 VTX。目前仅支持 Windows 系统。
 
 1. 从 [HDZero Download](https://www.alipan.com/s/WdoCPa2odz5) 下载HDZeroProgrammer.zip.    
 2. 从 zip 文件中提取 HDZeroProgrammer.exe 到 C:\HDZero

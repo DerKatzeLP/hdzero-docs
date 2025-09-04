@@ -65,7 +65,7 @@ HDZero BoxPro 光学系统包括一个可聚焦图像的镜头，可确保飞手
 
 ## 屈光度镜片插件
 
-这款眼镜没有内置光学调节功能。不过，用户可以根据自己的视力处方，在 [HDZero shop](http://www.hd-zero.com/shop) 定制屈光度镜片插件。
+这款眼镜没有内置光学调节功能。不过，用户可以根据自己的视力处方，在 [HDZero官方淘宝店](https://shop452674819.taobao.com/) 定制屈光度镜片插件。
 
 ::: tip
 注意：不包括屈光度镜片插入件，需要单独购买。
@@ -129,23 +129,23 @@ HDMI 输出将显示与 OLED 显示屏上完全相同的内容。
 
 HDZero BoxPro 支持通过 3.5 毫米 AV 插孔进行 AV 输入。其引脚排列如图 1 所示。
 
-不包含 AV 输入线。可在 [HDZero shop](http://www.hd-zero.com/shop) 和其他在线商店购买。
+不包含 AV 输入线。可在 [HDZero官方淘宝店](https://shop452674819.taobao.com/) 和其他在线商店购买。
 
 <div style="display: flex; justify-content: space-around; text-align: center; gap: 20px;">
 
   <div style="flex: 1">
     <img src="/boxmedia/image3.png" alt="FIG 1" style="height:180px; object-fit: contain;"><br>
-    FIG 1. AV input Jack
+    图 1. AV input Jack
   </div>
 
   <div style="flex: 1">
     <img src="/boxmedia/image7.png" alt="FIG 2" style="height:180px; object-fit: contain;"><br>
-    FIG 2. HT output Jack
+    图 2. HT output Jack
   </div>
 
   <div style="flex: 1">
     <img src="/boxmedia/image4.png" alt="FIG 3" style="height:180px; object-fit: contain;"><br>
-    FIG 3. Line In/Out Jack
+    图 3. Line In/Out Jack
   </div>
 
 </div>
@@ -154,7 +154,7 @@ HDZero BoxPro 支持通过 3.5 毫米 AV 插孔进行 AV 输入。其引脚排�
 
 HDZero BoxPro 配备 6 轴智能惯性测量单元，支持头部跟踪云台旋转。HT 输出插孔引脚排列如图 2 所示。
 
-HT 线缆不包含在内。可在 [HDZero shop](http://www.hd-zero.com/shop) 和其他在线商店购买。
+HT 线缆不包含在内。可在 [HDZero官方淘宝店](https://shop452674819.taobao.com/) 和其他在线商店购买。
 
 ## 音频线路输入/线路输出
 
