@@ -175,13 +175,13 @@ export default defineConfig({
                         text: '视频发射机',
                         items: [
                             {
-                                text: 'HDZero VTX 产品', link: '/zh/vtx-summary',
+                                text: 'HDZero VTX 图传产品', link: '/zh/vtx-summary',
                                 collapsed: true,
                                 items: [
-                                    { text: 'Whoop V2 VTX', link: '/zh/whoop-v2' },
-                                    { text: 'Race V3 VTX', link: '/zh/race-v3', },
-                                    { text: 'Freestyle V2 VTX', link: '/zh/freestyle-v2', },
-                                    { text: 'ECO VTX', link: '/zh/eco-bundle', },
+                                    { text: 'Whoop V2 VTX 图传', link: '/zh/whoop-v2' },
+                                    { text: 'Race V3 VTX 图传', link: '/zh/race-v3', },
+                                    { text: 'Freestyle V2 VTX 图传', link: '/zh/freestyle-v2', },
+                                    { text: 'ECO VTX 图传', link: '/zh/eco-bundle', },
                                 ]
                             },
                             { text: 'VTX 安装图', link: '/zh/vtx-installation', },
