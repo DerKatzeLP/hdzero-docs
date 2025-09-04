@@ -33,6 +33,22 @@ export default defineConfig({
                                 }
                             }
                         }
+                    },
+                    ru: {
+                        translations: {
+                            button: {
+                                buttonText: 'Поиск',
+                                buttonAriaLabel: 'Поиск'
+                            },
+                            modal: {
+                                noResultsText: 'Не найдено',
+                                resetButtonTitle: 'Стереть',
+                                footer: {
+                                    selectText: 'Выбор',
+                                    navigateText: 'Навигация'
+                                }
+                            }
+                        }
                     }
                 }
             },
