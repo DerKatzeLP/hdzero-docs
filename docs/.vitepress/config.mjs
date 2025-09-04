@@ -225,9 +225,9 @@ export default defineConfig({
                     {
                         text: '飞控',
                         items: [
-                            { text: 'HaLo', link: '/' },
-                            { text: 'AIO5', link: '/' },
-                            { text: 'AIO15', link: '/' },
+                            { text: 'HaLo', link: '/zh' },
+                            { text: 'AIO5', link: '/zh' },
+                            { text: 'AIO15', link: '/zh' },
                         ]
                     }
                 ],
