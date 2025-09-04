@@ -130,6 +130,15 @@ export default defineConfig({
                                     { text: 'Warranty', link: '/goggles-warranty' },
                                 ]
                             },
+                            {
+                                text: 'Monitor', link: '/monitor-introduction',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Setup', link: '/monitor-setup' },
+                                    { text: 'Operation', link: '/monitor-operation' },
+                                    { text: 'Firmware Update', link: '/monitor-firmware-update' },
+                                ]
+                            },
                         ]
                     },
                     {
