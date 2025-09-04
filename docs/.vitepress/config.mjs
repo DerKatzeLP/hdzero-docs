@@ -196,7 +196,7 @@ export default defineConfig({
                         text: '视频接收机',
                         items: [
                             {
-                                text: 'Box Pro', link: '/zh/box-introduction',
+                                text: 'Box Pro 盒式眼镜', link: '/zh/box-introduction',
                                 collapsed: true,
                                 items: [
                                     { text: '设置', link: '/zh/box-setup' },
@@ -208,7 +208,7 @@ export default defineConfig({
                                 ]
                             },
                             {
-                                text: 'Goggles', link: '/zh/goggles-introduction',
+                                text: 'Goggles 眼镜', link: '/zh/goggles-introduction',
                                 collapsed: true,
                                 items: [
                                     { text: '设置', link: '/zh/goggles-setup' },
