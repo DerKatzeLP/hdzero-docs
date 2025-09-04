@@ -1,0 +1,608 @@
+<img src="media/image1.png" id="image1">
+
+User Manual of
+
+HDZero Halo Flight Controller and 4in1 70A ESC 
+
+<img src="media/image2.png" id="image2">
+
+<table id="table1">
+<tr>
+<td>Revision</td>
+<td>Date</td>
+<td>Description</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>Jan 14, 2025</td>
+<td>Initial draft</td>
+</tr>
+<tr>
+<td>1.3</td>
+<td>Feb 6, 2025</td>
+<td>Added Halo Flight Controller</td>
+</tr>
+<tr>
+<td>1.4</td>
+<td>June 24, 2025</td>
+<td>Added Halo 4in1 70A ESC</td>
+</tr>
+<tr>
+<td>1.5</td>
+<td>July 24, 2025</td>
+<td>Added support for DSHOT2400</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+For more product information, please visit:
+
+www.hd-zero.com
+
+All Rights Reserved
+
+HDZero Halo Mini Flight Controller with Gemini ELRS RX
+
+Introduction
+
+The HDZero Halo is a compact flight controller powered by the H743 MCU for high-performance computation. It integrates a Gemini ELRS receiver and features a switchable 9V/3A BEC output for video transmitters, along with a 5V/4A output for LED strips and other peripherals. The integrated ELRS RX simplifies quad assembly and ensures high-performance link quality with its Gemini.
+
+The Halo Flight Controller makes connecting parallel LED strips for single colors straightforward and simplifies the routing of addressable LED strip wires. Designed for digital video systems, it eliminates the analog OSD chip to save space and reduce costs. It's particularly optimized for use with the HDZero Race v3 VTX, ensuring a low-profile stack.
+
+The Halo Flight Controller features dedicated sockets for connecting ESCs with a maximum 4A included cable, as well as for connecting any digital VTXes. This design makes it a solderless flight controller, ensuring easy assembly and quick swaps in the field.
+
+The Halo Flight Controller is available in two versions, MPU6000 and ICM42688, to meet different pilot preferences.
+
+<img src="media/image3.png" id="image3"><img src="media/image4.png" id="image4"> <img src="media/image5.jpg" id="image5">
+
+<div class="page"></div>
+
+Specification
+
+<table id="table2">
+<tr>
+<td>Model</td>
+<td>HDZero Halo Flight Controller</td>
+</tr>
+<tr>
+<td colspan="2">Flight Controller</td>
+</tr>
+<tr>
+<td>MCU</td>
+<td>STM32H743 (480MHz)</td>
+</tr>
+<tr>
+<td>Gyro</td>
+<td>MPU6000 or ICM42688</td>
+</tr>
+<tr>
+<td>BEC output</td>
+<td>DC 5V/4A <br>DC 9V/3A<br>DC 4.5V/0.5A</td>
+</tr>
+<tr>
+<td>Black Box</td>
+<td>16MB Flash memory</td>
+</tr>
+<tr>
+<td>I2C Pads</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>UART Pads</td>
+<td>TX2/RX2, TX7/RX7, TX8/RX8</td>
+</tr>
+<tr>
+<td>ESC Telemetry</td>
+<td>RX4</td>
+</tr>
+<tr>
+<td>VTX MSP UART</td>
+<td>TX5/RX5</td>
+</tr>
+<tr>
+<td>DJI HDL</td>
+<td>RX3</td>
+</tr>
+<tr>
+<td>Buzzer Pads</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LED Strip</td>
+<td>Parallel or Serial</td>
+</tr>
+<tr>
+<td>USB</td>
+<td>Type-C</td>
+</tr>
+<tr>
+<td>Analog OSD</td>
+<td>No</td>
+</tr>
+<tr>
+<td>FC Firmware</td>
+<td>Betaflight: HDZERO_HALO</td>
+</tr>
+<tr>
+<td colspan="2">ELRS Receiver</td>
+</tr>
+<tr>
+<td>Chip Set</td>
+<td>ESP32 + 2x SX1280</td>
+</tr>
+<tr>
+<td>FC UART</td>
+<td>TX1/RX1</td>
+</tr>
+<tr>
+<td>Gemini RX</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>RF Frequency</td>
+<td>2.4GHz</td>
+</tr>
+<tr>
+<td>Max TX RF Power</td>
+<td>10mW</td>
+</tr>
+<tr>
+<td>Antenna Interface</td>
+<td>2xU.FL</td>
+</tr>
+<tr>
+<td>ELRS Firmware</td>
+<td>HDZero Halo FC 2.4G Gemini RX</td>
+</tr>
+<tr>
+<td colspan="2">Dimensions</td>
+</tr>
+<tr>
+<td>Power Supply</td>
+<td>3S ~ 8S</td>
+</tr>
+<tr>
+<td>Size</td>
+<td>29x30.5mm with 20x20 M4 mounting holes</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>5.6g</td>
+</tr>
+<tr>
+<td>Dedicated sockets for</td>
+<td>ESC, and HDZero and other Digital VTX’s</td>
+</tr>
+</table>
+
+<div class="page"></div>
+
+Includes
+
+- 1x HDZero Halo FC
+
+- 5x Rubber Grommet(6.6mm)
+
+- 5x Rubber Grommet(8.0mm)
+
+- 1x ELRS T-sharp short antenna (40mm) 
+
+- 1x ELRS T-sharp long antenna (90mm)
+
+- 2x ELRS antenna retainers
+
+- 1x ESC Cable (8-pin SH1.0, 30mm)
+
+- 1x 8-pin SH1.0 connector
+
+<img src="media/image6.png" id="image6"><div class="page"></div>
+
+Diagram
+
+<img src="media/image7.jpg" id="image7"><img src="media/image8.jpg" id="image8">
+
+<img src="media/image9.jpg" id="image9">
+
+<div class="page"></div>
+
+Wiring
+
+HDZero RACE V3 VTX Wiring
+
+<img src="media/image10.jpg" id="image10">
+
+Unfortunately, the previous batches of HDZero VTX-R3 have different signal definitions for its connector, requiring users to re-pin it (see picture below) to match the correct connections. However, the latest HDZero Race v3 VTX features an updated connector that perfectly matches the Halo FC, enabling seamless plug-and-play installation. 
+
+<img src="media/image11.png" id="image11">                      <img src="media/image12.png" id="image12">
+
+                       The previous batches of VTX-R3 (after re-pinning)                                       The newest batch of HDZero VTX-R3 
+
+HDZero Freestyle V2 VTX Wiring
+
+<img src="media/image13.jpg" id="image13">
+
+DJI O3/O4 Wiring
+
+<img src="media/image14.jpg" id="image14">
+
+DJI VISTA Wiring
+
+<img src="media/image15.jpg" id="image15">
+
+<div class="page"></div>
+
+Wiring of Peripherals (External Radio RX, GPS)
+
+<img src="media/image16.jpeg" id="image16">
+
+<div class="page"></div>
+
+LED Strip Wiring (Parallel, all strips share the same config)
+
+<img src="media/image17.jpg" id="image17">
+
+     
+
+LED Strip Wiring (Individually, addressable LED strips)
+
+<img src="media/image18.jpg" id="image18">
+
+<div class="page"></div>
+
+Racing Stack 
+
+Here are two examples of how to mount the HDZero Race v3 VTX and the HDZero Halo stack in a racing drone. The configuration on the left fits a frame with 21.5 mm of clearance between the carbon plates, while the one on the right is suited for taller frames with a minimum clearance of 23 mm. To reduce space between FC and ESC, install the FC and ESC with plugs facing downward (note, this requires changing the order of the motors in Betaflight Motors tab).
+
+<img src="media/image19.png" id="image19"><img src="media/image20.png" id="image20">
+
+ELRS Antennas Mount
+
+Use the included antenna retainers—indicated by red circles below—to guide the antenna wires to the top plate and one of the arms. If space is limited, such as on compact racing drones, mounting only one antenna is acceptable.
+
+<img src="media/image21.jpg" id="image21"><img src="media/image22.jpg" id="image22">
+
+<div class="page"></div>
+
+Bind with ELRS TX radio
+
+There are two ways to configure Halo FC for binding:
+
+Connect HDZero Halo FC to PC via USB-C. Open Betaflight and connect to the FC. Navigate to the “Receiver” tab and click “Bind” to initiate binding mode; or
+
+Power off the Halo FC.
+
+Power-cycle the Halo FC 3 times.
+
+Supply power to the Halo FC
+
+The ELRS LED lights up.
+
+Turn it off within 2 seconds.
+
+Repeat 2 more times.
+
+Once RX is in binding mode, insert the ELRS TX module into your OpenTX Radio transmitter, select External RF mode and set it to the CRSF protocol. You will find the ELRS menu in the Radio system (ensure the ELRS.LUA file is copied to the SD-Card tools first). Enter the ELRS menu and press [Bind]. The RX LED on the flight controller will become solid if the binding is successful.
+
+NOTE: Make sure you use the matching ELRS preset for your link rate, failure to do so can lead to un-commanded movement in turns.
+
+The green ELRS LED on Halo FC status:
+
+Solid means bind successful or Connection established;
+
+Double-flash means in bind mode;
+
+Flash slowly means no signal established with the TX module
+
+<div class="page"></div>
+Firmware
+
+Flash Betaflight firmware
+
+Download and install the .
+
+Launch the Betaflight Configurator
+
+To flash firmware: 
+
+      <img src="media/image23.jpg" id="image23">
+
+Select the target port
+
+Click "Update Firmware" to enter Firmware Flasher tab
+
+Select target "HAZERO_HALO" and version, The factory version is 4.5.1[27-Jun-2024]
+
+Click "Load Firmware [Online] " to download the firmware
+
+Click "Flash Firmware" to Flash the Flight controller
+
+DFU flash:
+
+If you have lost communication with your board follow these steps to restore communication:
+
+1)    Power off HALO FC
+
+2)    Enable ‘No reboot sequence’, enable ‘Full chip erase’
+
+3)    Hold FC BOOT button and Power on via USB-C into PC, then release BOOT button
+
+4)    Install all STM32 drivers and Zadig if required (see  section of Betaflight manual)
+
+5)    Close Betaflight configurator, Restart Betaflight configurator
+
+6)    Click "Update Firmware" to enter Firmware Flasher tab
+
+7)    Select target " HAZERO_HALO " and version, The factory version is 4.5.1[27-Jun-2024]
+
+8)    Click "Load Firmware [Online] " to download the firmware
+
+9)    Click "Flash Firmware" to Flash the Flight controller
+
+Execute CLI
+
+HDZero HALO online firmware already contains the required CLI, predefined cli are available if needed by following these steps:
+
+Download the file from Flight Configurator tab at https://www.hd-zero.com/document, and unzip HDZEROHALO_RevXYZ.zip into a temporary directory, i.e. c:\123
+
+<img src="media/image24.png" id="image24">
+
+1)  Switch to Betaflight Configurator CLI tab 
+
+2)  Click “Load from file”, and select file c:\123\ HDZERO_HALO.txt for HDZero HALO
+
+3)  Click “Execute”
+
+<img src="media/image25.png" id="image25">
+
+VTX table is not included in the HDZero HALO online firmware, but it can be added in several ways:
+
+1)  When you use HDZero VTX with HDZero HALO,
+
+the VTX will provide this over MSP, and VTX firmware needs to be version 1.7.0 or newer, or
+
+2)  The CLI file HDZERO_HALO.txt provides, or
+
+3)  Use Betaflight Configurator preset, search for
+
+HDZero VTXs to find this preset
+
+<img src="media/image26.png" id="image26">
+
+<img src="media/image27.png" id="image27">
+
+Flash ELRS firmware
+
+The HDZero Halo factory ELRS firmware version is Released 3.5.1, If you need to update the firmware, please refer to the ELRS update tutorials (Typical Updating Steps), and the Device Category and Device target&nbsp;are as follow:
+
+Device Category: HDZero
+
+Device target: HDZero Halo FC 2.4G Gemini RX
+
+<img src="media/image28.jpg" id="image28"><div class="page"></div>
+
+Switchable 9v BEC
+
+Launch the Betaflight Configurator
+
+Switch to CLI tab
+
+Enter CLI:
+
+resource PINIO 1 E03
+
+set pinio_config = 1
+
+set pinio_box = 40
+
+save
+
+Switch to Modes tab
+
+Add Range for USER1 mode
+
+Then you can use the remote control to switch 9v BEC
+
+<img src="media/image29.jpeg" id="image29">
+
+<img src="media/image30.jpeg" id="image30">
+
+HDZero Halo 4in1 70A ESC
+
+Introduction
+
+The HDZero Halo ESC is a 4in1 ESC built for both racing and freestyle drone applications. It is engineered for exceptional reliability, crash resilience, and high current output—perfectly suited for the demands of drone racing.
+
+The Halo ESC utilizes a split-board design with a dedicated MCU/driver board and a high-voltage power board, integrating 24 MOSFETs and an 8-layer PCB with over 3 oz copper thickness per layer to optimize current flow and thermal efficiency. A rear-mounted copper bar further enhances current delivery and heat dissipation. Each motor can sustain outputs over 70A for 30 seconds and peak at 100A for up to 3 seconds.
+
+The Halo ESC supplies exceptionally clean power to the MCUs, safeguarding them against voltage spikes triggered by sudden motor acceleration or deceleration. This vital protection helps prevent MCU brownouts or lockups—common culprits behind burnt motors, failed MOSFETs, and critical flight failures.
+
+The Halo ESC is protected with a conformal coating for enhanced resistance to moisture, dust, and corrosion.
+
+The Halo ESC is available in two versions, BLHeli32 and AM32, to meet different pilot preferences.
+
+Specification
+
+<table id="table3">
+<tr>
+<td>Model</td>
+<td colspan="2">HDZero Halo 4in1 70A ESC</td>
+</tr>
+<tr>
+<td>MCU</td>
+<td colspan="2">AT32F421 (120MHz)</td>
+</tr>
+<tr>
+<td>Firmware</td>
+<td>BLHeli 32.10</td>
+<td>AM32 2.18<br>Target: HDZ_ESC_1R0_F421</td>
+</tr>
+<tr>
+<td>Input Voltage</td>
+<td colspan="2">DC 9V – 40V (3S – 8S)</td>
+</tr>
+<tr>
+<td>Telemetry</td>
+<td colspan="2">Supported</td>
+</tr>
+<tr>
+<td>Input signal</td>
+<td colspan="2">DSHOT 150/300/600/1200/2400, MultiShot, OneShot&nbsp;</td>
+</tr>
+<tr>
+<td>Output Voltage</td>
+<td colspan="2">VBAT (to power the FC)</td>
+</tr>
+<tr>
+<td>Max Current</td>
+<td colspan="2">Over 70Ax4 (Continuous) / 100Ax4 (Burst)</td>
+</tr>
+<tr>
+<td>Current Sensor</td>
+<td colspan="2">Scale = 170, offset = 0</td>
+</tr>
+<tr>
+<td>Dual-sided solder pads</td>
+<td colspan="2">YES</td>
+</tr>
+<tr>
+<td>Dimension</td>
+<td colspan="2">33x43mm</td>
+</tr>
+<tr>
+<td>Mounting</td>
+<td colspan="2">20x20mm, Φ4mm, M3 Rubber Grommets</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td colspan="2">13.4g</td>
+</tr>
+</table>
+
+<div class="page"></div>
+
+<img src="media/image31.png" id="image31">Includes  
+
+- 1x HDZero ESC
+
+- 5x Rubber Grommet (4.5mm height)
+
+- 5x Rubber Grommet (6.6mm height)
+
+- 5x Nylon washer (M3 1.0mm thick)
+
+- 5x 304 steel nuts (M3 2.3mm thick)
+
+- 1x ESC Cable (-pin SH1.0, 30mm)
+
+- 1x 8-pin SH1.0 connector
+
+- 1x XT60 Cable(70mm,12AWG)
+
+- 1x 35V/1000uf capacitor
+
+Diagram
+
+<img src="media/image32.png" id="image32">
+
+<div class="page"></div>
+
+Configuration/Firmware
+
+<img src="media/image33.png" id="image33">BLHeli32
+
+Download BLHeliSuite32
+
+Remove all propellers from the drone that flight controller and Halo ESC are correctly installed
+
+Power on the drone, and connect the FC to PC via USB
+
+Execute BLHeliSuite32.exe
+
+Select ESC Setup tab, Port | Connect | Check
+
+Adjust parameters as needed, Write Setup to save the setting to ESCs
+
+AM32
+
+<img src="media/image34.png" id="image34">Remove all propellers from the drone that flight controller and Halo ESC are correctly installed
+
+Power on the drone, and connect the FC to PC via USB
+
+Open the AM32 Configurator: 
+
+Click Port Select and Connect, then Read.
+
+Adjust parameters as needed, then Save.
+
+If needed, click [Flash firmware] to update the ESC firmware
+
+<div class="page"></div>
+
+HDZero Halo Stack
+
+The HDZero Halo Stack features the Halo Flight Controller paired with the Halo ESC. It has 4 variations:
+
+Halo Flight Controller (MPU6000) + Halo ESC (AM32)
+
+Halo Flight Controller (ICM42688) + Halo ESC (AM32)
+
+Halo Flight Controller (MPU6000) + Halo ESC (BLHeLi32)
+
+Halo Flight Controller (ICM42688) + Halo ESC (BLHeLi32)
+
+Includes  
+
+1x HDZero Halo FC
+
+<img src="media/image35.png" id="image35">1x HDZero Halo ESC
+
+1x ESC cable (8-pin SH1.0, 30mm)
+
+1x XT60 cable (70mm,12AWG)
+
+1x 35V/1000uf capacitor
+
+9x Rubber grommet (4.5mm height)
+
+6x Rubber grommet (6.6mm height)
+
+5x Nylon washer (M3 1.0mm thick)
+
+5x 304 Steel nuts (M3 2.3mm thick)
+
+4x 12.9 Carbon steel screws (M3 25mm length)
+
+1x ELRS T-sharp short antenna (40mm)
+
+1x ELRS T-sharp long antenna (90mm)
+
+2x ELRS Antenna retainers
