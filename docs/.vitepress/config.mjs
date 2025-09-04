@@ -33,6 +33,22 @@ export default defineConfig({
                                 }
                             }
                         }
+                    },
+                    ru: {
+                        translations: {
+                            button: {
+                                buttonText: 'Поиск',
+                                buttonAriaLabel: 'Поиск'
+                            },
+                            modal: {
+                                noResultsText: 'Не найдено',
+                                resetButtonTitle: 'Стереть',
+                                footer: {
+                                    selectText: 'Выбор',
+                                    navigateText: 'Навигация'
+                                }
+                            }
+                        }
                     }
                 }
             },
@@ -207,6 +223,47 @@ export default defineConfig({
                     }
                 ],
             }
-        }
+        },
+        ru: {
+                label: 'Русский',
+                lang: 'ru-RU',
+                link: '/ru',
+                themeConfig: {
+                    editLink: {
+                    pattern:
+                        'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path',
+                    text: 'Редактировать на GitHub'
+                    },
+                    nav: [{ text: 'Документы', link: '/ru/what-is-hdzero' }],
+                    sidebar: [
+                    {
+                        text: 'Главная',
+                        items: [{ text: 'Что такое HDZero?', link: '/ru/what-is-hdzero' }]
+                    },
+                    {
+                        text: 'Передатчики (VTX)',
+                        items: [
+                        {
+                            text: 'HDZero VTX',
+                            link: '/ru/vtx-summary',
+                            collapsed: true,
+                            items: [
+                            { text: 'Whoop V2 VTX', link: '/ru/whoop-v2' },
+                            { text: 'Race V3 VTX', link: '/ru/race-v3' },
+                            { text: 'Freestyle V2 VTX', link: '/ru/freestyle-v2' },
+                            { text: 'ECO VTX', link: '/ru/eco-bundle' }
+                            ]
+                        },
+                        { text: 'Схема установки VTX', link: '/ru/vtx-installation' },
+                        { text: 'Основные рекомендации', link: '/ru/vtx-general' },
+                        { text: 'LED-индикация VTX', link: '/ru/vtx-led' },
+                        { text: 'Обновление прошивки', link: '/ru/vtx-firmware-update' },
+                        { text: 'Часто задаваемые вопросы', link: '/ru/vtx-faq' },
+                        { text: 'Гарантия', link: '/ru/vtx-warranty' }
+                        ]
+                    }
+                    ]
+                }
+                }
     }
 })
