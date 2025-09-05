@@ -1,4 +1,4 @@
-# # Wiring
+# Wiring
 
 This section describes the diagram and wiring of the Halo ESC.
 
