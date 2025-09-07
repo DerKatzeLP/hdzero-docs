@@ -167,8 +167,20 @@ export default defineConfig({
                                     },
                                 ]
                             },
-                            { text: 'AIO5', link: '/' },
-                            { text: 'AIO15', link: '/' },
+                            { text: 'AIO5', link: '/aio5-introduction',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Installation', link: '/aio5-installation' },
+                                    { text: 'Bind with ELRS', link: '/aio5-bind' },
+                                    { text: 'Firmware', link: '/aio5-firmware' },
+                                ]},
+                            { text: 'AIO15', link: '/aio15-introduction',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Installation', link: '/aio15-installation' },
+                                    { text: 'Bind with ELRS', link: '/aio15-bind' },
+                                    { text: 'Firmware', link: '/aio15-firmware' },
+                                ]},
                         ]
                     }
                 ],
@@ -254,11 +266,45 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: '飞控',
+                        text: '飞控 & 电调',
                         items: [
-                            { text: 'HaLo', link: '/zh' },
-                            { text: 'AIO5', link: '/zh' },
-                            { text: 'AIO15', link: '/zh' },
+                            {
+                                text: 'Halo 飞塔', link: '/zh/halo-stack-introduction',
+                                collapsed: true,
+                                items: [
+                                    {
+                                        text: 'Halo 飞控', link: '/zh/halo-introduction',
+                                        collapsed: true,
+                                        items: [
+                                            { text: '接线', link: '/zh/halo-wiring' },
+                                            { text: '与 ELRS 遥控器绑定', link: '/zh/halo-bind' },
+                                            { text: '固件', link: '/zh/halo-firmware' },
+                                        ]
+                                    },
+                                    {
+                                        text: 'Halo 4in1 70A 电调', link: '/zh/halo-esc-introduction',
+                                        collapsed: true,
+                                        items: [
+                                            { text: '接线', link: '/zh/halo-esc-wiring' },
+                                            { text: '固件', link: '/zh/halo-esc-firmware' },
+                                        ]
+                                    },
+                                ]
+                            },
+                            { text: 'AIO5', link: '/zh/aio5-introduction',
+                                collapsed: true,
+                                items: [
+                                    { text: '安装', link: '/zh/aio5-installation' },
+                                    { text: '与 ELRS 遥控器绑定', link: '/zh/aio5-bind' },
+                                    { text: '固件', link: '/zh/aio5-firmware' },
+                                ]},
+                            { text: 'AIO15', link: '/zh/aio15-introduction',
+                                collapsed: true,
+                                items: [
+                                    { text: '安装', link: '/zh/aio15-installation' },
+                                    { text: '与 ELRS 遥控器绑定', link: '/zh/aio15-bind' },
+                                    { text: '固件', link: '/zh/aio15-firmware' },
+                                ]},
                         ]
                     }
                 ],

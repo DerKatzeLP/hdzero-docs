@@ -2,7 +2,7 @@
 
 在更新固件之前，请确保你已经下载了最新版本的 HDZero Programmer。  
 
-你可以从以下网站下载：[https://www.hd-zero.com/document](https://www.hd-zero.com/document)  
+你可以从以下网站下载：[HDZero Download](https://www.alipan.com/s/WdoCPa2odz5)
 
 <img src="/monitormedia/image10.png" id="image8">
 
