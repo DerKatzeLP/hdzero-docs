@@ -22,9 +22,7 @@ export default defineConfig({
                     },
                 ]
             }),
-            GitChangelogMarkdownSection({
-                exclude: (id) => id.endsWith('what-is-hdzero.md'),
-            }),
+            GitChangelogMarkdownSection(),
         ],
     },
     head: [['link', { rel: 'icon', href: '/short-icon.png' }]],
@@ -88,13 +86,13 @@ export default defineConfig({
                     pattern: 'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path'
                 },
                 nav: [
-                    { text: 'Documents', link: '/what-is-hdzero' }
+                    { text: 'Documents', link: '/' }
                 ],
                 sidebar: [
                     {
                         text: 'Home',
                         items: [
-                            { text: 'What is HDZero?', link: '/what-is-hdzero' },
+                            { text: 'What is HDZero?', link: '/' },
                         ]
                     },
                     {
@@ -221,13 +219,13 @@ export default defineConfig({
                     text: '在 GitHub 上编辑'
                 },
                 nav: [
-                    { text: '文档', link: '/zh/what-is-hdzero' }
+                    { text: '文档', link: '/zh' }
                 ],
                 sidebar: [
                     {
                         text: '首页',
                         items: [
-                            { text: '什么是 HDZero?', link: '/zh/what-is-hdzero' },
+                            { text: '什么是 HDZero?', link: '/zh' },
                         ]
                     },
                     {
@@ -345,11 +343,11 @@ export default defineConfig({
                         'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path',
                     text: 'Редактировать на GitHub'
                 },
-                nav: [{ text: 'Документы', link: '/ru/what-is-hdzero' }],
+                nav: [{ text: 'Документы', link: '/ru' }],
                 sidebar: [
                     {
                         text: 'Главная',
-                        items: [{ text: 'Что такое HDZero?', link: '/ru/what-is-hdzero' }]
+                        items: [{ text: 'Что такое HDZero?', link: '/ru' }]
                     },
                     {
                         text: 'Передатчики (VTX)',
