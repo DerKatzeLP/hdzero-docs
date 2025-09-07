@@ -22,7 +22,9 @@ export default defineConfig({
                     },
                 ]
             }),
-            GitChangelogMarkdownSection(),
+            GitChangelogMarkdownSection({
+                exclude: (id) => id.endsWith('index.md'),
+            }),
         ],
     },
     head: [['link', { rel: 'icon', href: '/short-icon.png' }]],
