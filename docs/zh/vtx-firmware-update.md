@@ -18,6 +18,8 @@
 3. “加载本地固件”指定本地HDZERO_TX.bin ，
 4. “ Flash VTX ”开始更新过程。
 
+<iframe style="width: 100%; height: 500px" src="//player.bilibili.com/player.html?isOutside=true&aid=115161025224094&bvid=BV1ZyYVzvEED&cid=32217500209&p=1&muted=false&poster=true" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 ## 下载 VTX 固件
 
 如果您位于限制访问 GitHub 的防火墙后面，则需要手动下载 VTX 固件并执行本地刷新过程。
@@ -47,6 +49,8 @@ HDZero 眼镜可以通过其固件端口将固件刷入 HDZero 视频发射器�
 5. 断开 VTX
 
 6. 此 VTX 现已刷入最新固件
+
+<iframe style="width: 100%; height: 500px" src="//player.bilibili.com/player.html?isOutside=true&aid=115161058775192&bvid=BV1omYVzYECA&cid=32217630986&p=1&muted=false&poster=true" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ### 使用 HDZero VRX4更新 VTX 固件的步骤
 

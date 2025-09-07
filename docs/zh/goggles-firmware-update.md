@@ -51,6 +51,8 @@ HDZero 眼镜可以通过其固件端口将固件刷入 HDZero VTX。步骤如�
 
 6. 此 VTX 现已刷入最新固件
 
+<iframe style="width: 100%; height: 500px" src="//player.bilibili.com/player.html?isOutside=true&aid=115161058775192&bvid=BV1omYVzYECA&cid=32217630986&p=1&muted=false&poster=true" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 ### 要刷写同一类型的多个VTX ：
 
 1. HDZERO_TX.bin复制到 FAT32 格式的 SD 卡根目录
@@ -104,6 +106,8 @@ HDZero Goggle运行在 Linux 系统上。其固件包含定制的 Linux 发行�
 5. 等待完成（约3分钟），然后关机；
 
 6. 完毕！
+
+<iframe style="width: 100%; height: 500px" src="//player.bilibili.com/player.html?isOutside=true&aid=115161142726860&bvid=BV1uPY5zXE7c&cid=32218025696&p=1&muted=false&poster=true" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ### 特殊的一次性 Goggles 固件更新过程（n < 9）
 

@@ -2,6 +2,10 @@
 
 The HDZero goggle has many features that can be customized to the individual pilot. 
 
+## Recommended Setting
+
+<iframe style="width: 100%; height: 500px" src="https://www.youtube.com/embed/ZORL5_-4nqc?si=tBm6f64G9J0-6ae7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Power Switch
 
 There is a sliding power switch on the right side of the goggles. You may use it to turn on/off the goggle, or just leave it on and plug/unplug the DC barrel plug to turn the goggle on and off. 

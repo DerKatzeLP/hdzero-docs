@@ -2,6 +2,10 @@
 
 HDZero 眼镜具有许多可根据飞行员个人需求定制的功能。
 
+## 推荐眼镜设置
+
+<iframe style="width: 100%; height: 500px" src="//player.bilibili.com/player.html?isOutside=true&aid=114993219509433&bvid=BV19St2zkEUq&cid=31570200195&p=1&muted=false&poster=true" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 ## 电源开关
 
 眼镜右侧有一个滑动电源开关。您可以使用它来打开/关闭眼镜，或者保持眼镜开启状态，然后插拔直流电源插头来打开或关闭眼镜。
