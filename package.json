@@ -2,7 +2,8 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "git fetch --unshallow && vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "docs:check": "vitepress build docs"
   },
   "devDependencies": {
     "@nolebase/vitepress-plugin-git-changelog": "^2.18.2",
