@@ -4,12 +4,10 @@ import {
     GitChangelogMarkdownSection,
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
     vite: {
         plugins: [
             GitChangelog({
-                // 填写在此处填写您的仓库链接
                 repoURL: () => 'https://github.com/hd-zero/hd-zero.github.io',
                 mapAuthors: [
                     {
