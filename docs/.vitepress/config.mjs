@@ -1,7 +1,34 @@
 import { defineConfig } from 'vitepress'
+import {
+    GitChangelog,
+    GitChangelogMarkdownSection,
+} from '@nolebase/vitepress-plugin-git-changelog/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+    vite: {
+        plugins: [
+            GitChangelog({
+                // 填写在此处填写您的仓库链接
+                repoURL: () => 'https://github.com/hd-zero/hd-zero.github.io',
+                mapAuthors: [
+                    {
+                        name: 'Eason FPV',
+                        username: 'ZhouYixun',
+                        mapByEmailAliases: ['291028775@qq.com']
+                    },
+                    {
+                        name: 'Alexey Rodin',
+                        username: 'lesharodin',
+                        mapByEmailAliases: ['lesharodin@gmail.com']
+                    },
+                ]
+            }),
+            GitChangelogMarkdownSection({
+                exclude: (id) => id.endsWith('what-is-hdzero.md'),
+            }),
+        ],
+    },
     head: [['link', { rel: 'icon', href: '/short-icon.png' }]],
     title: "HDZero",
     description: "HDZero offers industry-leading low latency, giving you more time to react and the best possible chance of hitting that next gap. With its smooth, consistent FPV video feed, you'll experience the same locked-in feeling you get with analog video–but with the clarity of HD.",
