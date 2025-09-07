@@ -1,6 +1,6 @@
 # Bind with TX radio
 
-*There are two ways to configure AIO for binding:*
+*There are two ways to configure AIO15 for binding:*
 
 1. Connect HDZero AIO15 to PC via micro-USB. Open Betaflight and connect to the AIO15. Navigate to the “Receiver” tab and click “Bind” to initiate binding mode; or
 
