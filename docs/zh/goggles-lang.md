@@ -18,3 +18,5 @@
 
 2. 当语言设置生效后，无论SD中有无chn.txt，HDero眼镜都会记住当前语言设置。
 :::
+
+<iframe style="width: 100%; height: 500px" src="//player.bilibili.com/player.html?isOutside=true&aid=115169044799484&bvid=BV11HaZzKE78&cid=32251776367&p=1&muted=false&poster=true" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
