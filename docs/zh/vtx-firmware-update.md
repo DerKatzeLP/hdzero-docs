@@ -22,7 +22,7 @@
 
 ## 下载 VTX 固件
 
-如果您位于限制访问 GitHub 的防火墙后面，则需要手动下载 VTX 固件并执行本地刷新过程。
+如果您无法访问 GitHub 的页面，则需要手动下载 VTX 固件并执行本地刷新过程。
 
 [HDZero Download](https://www.alipan.com/s/WdoCPa2odz5) VTX 固件下载。修订号格式为 HDZEROVTX_RevYYYYMMDD.zip，其中“YYYYMMDD”表示其发布日期。
 
