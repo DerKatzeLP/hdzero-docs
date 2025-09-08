@@ -33,44 +33,6 @@ Download the latest Goggle firmware from [HDZero download](https://www.hd-zero.c
 
 > TABLE 4.  Goggle Firmware File
 
-## Flashing Firmware to a HDZero VTX
-
-The HDZero goggle can flash firmware to a HDZero video transmitter via its FW port. Here are the steps:
-
-### To flash a single VTX:
-
-1. Copy HDZERO_TX.bin to root directory of a SD card that is formatted as FAT32 
-
-2. Power on the goggle
-
-3. Connect the VTX and HDZero goggle with the included programming cable
-
-4. Go to Main menu | Firmware |Update VTX, the display will show the status of the flashing process 
-
-5. Disconnect the VTX
-
-6. This VTX is now flashed with the latest firmware
-
-### To flash multiple VTXes of the same type:
-
-1. Copy HDZERO_TX.bin to root directory of a SD card that is formatted as FAT32 
-
-2. Power on the goggle
-
-3. Connect one VTX to the HDZero goggle with the included programming cable
-
-4. Go to Main menu | Firmware | Update VTX, the display will show the status, 
-
-5. Disconnect the VTX, this VTX is flashed
-
-6. Repeat 3-5 for the other VTXes
-
-::: tip
-Note: 
-
-Flashing VTX firmware with Goggle is highly not recommended for Goggle safety consideration. [HDZero Programming Cable](https://www.hd-zero.com/product-page/hdzero-programming-cable) is preferred for its convenience and safety. However, a Windows system is needed to run the HDZero Programmer app, Mac is not supported for now.
-:::
-
 ## Flashing Firmware to the Goggle
 
 The HDZero Goggle runs on Linux. Its firmware contains the customized Linux distribution and its application software. We only need to update the application instead of updating the whole OS and application in most cases. However, there are some rare cases where the OS could become corrupted, such as losing power during update process. It is also possible that changes may have to be made to the OS in the future to add new functionality.
@@ -185,4 +147,42 @@ Notes:
 (3) Have to wait for the above specified time, DO NOT move to next step in a hurry.
 
 (4) When the goggle is bricked, it shows HDZero Boot screen and will not get into Main menu.  
+:::
+
+## Flashing Firmware to a HDZero VTX
+
+The HDZero goggle can flash firmware to a HDZero video transmitter via its FW port. Here are the steps:
+
+### To flash a single VTX:
+
+1. Copy HDZERO_TX.bin to root directory of a SD card that is formatted as FAT32 
+
+2. Power on the goggle
+
+3. Connect the VTX and HDZero goggle with the included programming cable
+
+4. Go to Main menu | Firmware |Update VTX, the display will show the status of the flashing process 
+
+5. Disconnect the VTX
+
+6. This VTX is now flashed with the latest firmware
+
+### To flash multiple VTXes of the same type:
+
+1. Copy HDZERO_TX.bin to root directory of a SD card that is formatted as FAT32 
+
+2. Power on the goggle
+
+3. Connect one VTX to the HDZero goggle with the included programming cable
+
+4. Go to Main menu | Firmware | Update VTX, the display will show the status, 
+
+5. Disconnect the VTX, this VTX is flashed
+
+6. Repeat 3-5 for the other VTXes
+
+::: tip
+Note: 
+
+Flashing VTX firmware with Goggle is highly not recommended for Goggle safety consideration. [HDZero Programming Cable](https://www.hd-zero.com/product-page/hdzero-programming-cable) is preferred for its convenience and safety. However, a Windows system is needed to run the HDZero Programmer app, Mac is not supported for now.
 :::

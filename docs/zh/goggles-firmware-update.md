@@ -33,47 +33,6 @@
 
 > 表 4. Goggle固件文件
 
-## 刷写 HDZero VTX 固件
-
-HDZero 眼镜可以通过其固件端口将固件刷入 HDZero VTX。步骤如下：
-
-### 刷写单个 VTX：
-
-1. HDZERO_TX.bin复制到 FAT32 格式的 SD 卡根目录
-
-2. 打开眼镜
-
-3. 使用附带的编程线连接 VTX 和 HDZero 眼镜
-
-4. 进入主菜单 |固件|更新VTX，显示屏将显示闪烁过程的状态
-
-5. 断开 VTX
-
-6. 此 VTX 现已刷入最新固件
-
-<iframe style="width: 100%; height: 500px" src="//player.bilibili.com/player.html?isOutside=true&aid=115161058775192&bvid=BV1omYVzYECA&cid=32217630986&p=1&muted=false&poster=true" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
-### 要刷写同一类型的多个VTX ：
-
-1. HDZERO_TX.bin复制到 FAT32 格式的 SD 卡根目录
-
-2. 打开眼镜
-
-3. 使用附带的编程线将一个 VTX 连接到 HDZero 眼镜
-
-4. 进入主菜单 | 固件 | 更新VTX，显示屏将显示状态，
-
-5. 断开 VTX，此 VTX 已刷入最新固件
-
-6. 对其他VTX重复 3-5
-
-::: tip
-Note: 
-
-出于 Goggle 安全考虑，强烈建议不要使用 Goggle 刷写 VTX  [HDZero 编程器](https://item.taobao.com/item.htm?id=923351151370) 因其便捷性和安全性而更受欢迎。但是，运行 HDZero 编程器应用程序需要 Windows 系统，目前不支持 Mac 系统。
-
-:::
-
 ## 刷写 Goggle 固件
 
 HDZero Goggle运行在 Linux 系统上。其固件包含定制的 Linux 发行版及其应用软件。大多数情况下，我们只需更新应用程序，而无需更新整个操作系统和应用程序。然而，在极少数情况下，操作系统可能会损坏，例如在更新过程中断电。未来也可能需要对操作系统进行更改以添加新功能。
@@ -201,5 +160,46 @@ HDZero Goggle运行在 Linux 系统上。其固件包含定制的 Linux 发行�
 （3）必须等待上述指定的时间，请勿着急进入下一步。
 
 （4）当眼镜变砖时，它会显示 HDZero 启动屏幕并且不会进入主菜单。
+
+:::
+
+## 使用 Goggles 刷写图传固件
+
+HDZero 眼镜可以通过其固件端口将固件刷入 HDZero 图传。步骤如下：
+
+### 刷写单个图传：
+
+1. HDZERO_TX.bin复制到 FAT32 格式的 SD 卡根目录
+
+2. 打开眼镜
+
+3. 使用附带的编程线连接 VTX 和 HDZero 眼镜
+
+4. 进入主菜单 |固件|更新VTX，显示屏将显示闪烁过程的状态
+
+5. 断开 VTX
+
+6. 此 VTX 现已刷入最新固件
+
+<iframe style="width: 100%; height: 500px" src="//player.bilibili.com/player.html?isOutside=true&aid=115161058775192&bvid=BV1omYVzYECA&cid=32217630986&p=1&muted=false&poster=true" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+### 要刷写同一类型的多个图传 ：
+
+1. HDZERO_TX.bin复制到 FAT32 格式的 SD 卡根目录
+
+2. 打开眼镜
+
+3. 使用附带的编程线将一个 VTX 连接到 HDZero 眼镜
+
+4. 进入主菜单 | 固件 | 更新VTX，显示屏将显示状态，
+
+5. 断开 VTX，此 VTX 已刷入最新固件
+
+6. 对其他VTX重复 3-5
+
+::: tip
+Note: 
+
+出于 Goggle 安全考虑，强烈建议不要使用 Goggle 刷写 VTX， [HDZero 编程器](https://item.taobao.com/item.htm?id=923351151370) 因其便捷性和安全性而更受欢迎。但是，运行 HDZero 编程器应用程序需要 Windows 系统，目前不支持 Mac 系统。
 
 :::

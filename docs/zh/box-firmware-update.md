@@ -41,6 +41,8 @@
 
 6. 完毕！
 
+<iframe style="width: 100%; height: 500px" src="//player.bilibili.com/player.html?isOutside=true&aid=115161142726860&bvid=BV1uPY5zXE7c&cid=32218025696&p=1&muted=false&poster=true" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 ## 紧急固件更新流程
 
 1. 断开眼镜上的所有线缆。仅保留电源线；
