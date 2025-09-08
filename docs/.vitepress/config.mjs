@@ -296,6 +296,14 @@ export default defineConfig({
                                     { text: '固件更新', link: '/zh/monitor-firmware-update' },
                                 ]
                             },
+                            {
+                                text: 'Event VRX 接收机', link: '/zh/event-introduction',
+                                collapsed: true,
+                                items: [
+                                    { text: '操作说明', link: '/zh/event-operation' },
+                                    { text: '固件更新', link: '/zh/event-firmware-update' },
+                                ]
+                            },
                         ]
                     },
                     {
