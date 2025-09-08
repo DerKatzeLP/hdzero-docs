@@ -221,13 +221,13 @@ export default defineConfig({
                     text: '在 GitHub 上编辑'
                 },
                 nav: [
-                    { text: '文档', link: '/zh' }
+                    { text: '文档', link: '/zh/' }
                 ],
                 sidebar: [
                     {
                         text: '首页',
                         items: [
-                            { text: '什么是 HDZero?', link: '/zh' },
+                            { text: '什么是 HDZero?', link: '/zh/' },
                         ]
                     },
                     {
@@ -345,11 +345,11 @@ export default defineConfig({
                         'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path',
                     text: 'Редактировать на GitHub'
                 },
-                nav: [{ text: 'Документы', link: '/ru' }],
+                nav: [{ text: 'Документы', link: '/ru/' }],
                 sidebar: [
                     {
                         text: 'Главная',
-                        items: [{ text: 'Что такое HDZero?', link: '/ru' }]
+                        items: [{ text: 'Что такое HDZero?', link: '/ru/' }]
                     },
                     {
                         text: 'Передатчики (VTX)',
