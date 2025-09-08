@@ -164,6 +164,14 @@ export default defineConfig({
                                     { text: 'Firmware Update', link: '/monitor-firmware-update' },
                                 ]
                             },
+                            {
+                                text: 'Event VRX', link: '/event-introduction',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Operation', link: '/event-operation' },
+                                    { text: 'Firmware Update', link: '/event-firmware-update' },
+                                ]
+                            },
                         ]
                     },
                     {
