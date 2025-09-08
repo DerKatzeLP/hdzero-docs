@@ -98,3 +98,13 @@ set pinio_config = 1
 set pinio_box = 40
 
 save
+```
+- 切换到“模式”选项卡
+
+- 为 USER1 模式添加范围
+
+- 然后您可以使用遥控器切换 9V BEC
+
+<img src="/halomedia/image29.jpeg" id="image29">
+
+<img src="/halomedia/image30.jpeg" id="image30">
