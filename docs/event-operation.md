@@ -6,7 +6,9 @@
 
 ## Work (Display auto off with 60 seconds)
 
-* <img src="/eventmedia/image3.png" id="image3">“UP/DN” key Selects between Channels
+<img src="/eventmedia/image3.png" id="image3">
+
+* "UP/DN" key Selects between Channels
 * Short Press “Enter” Moves tri-angle cursor
 * Long Press “Enter” toggles channel mode.
 * Star means “HDZero Only”
