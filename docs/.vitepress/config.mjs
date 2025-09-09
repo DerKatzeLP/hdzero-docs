@@ -13,7 +13,7 @@ export default defineConfig({
                     {
                         name: 'Eason FPV',
                         username: 'ZhouYixun',
-                        mapByEmailAliases: ['291028775@qq.com']
+                        mapByEmailAliases: ['easonfpv@gmail.com', '291028775@qq.com']
                     },
                     {
                         name: 'Alexey Rodin',
@@ -200,20 +200,24 @@ export default defineConfig({
                                     },
                                 ]
                             },
-                            { text: 'AIO5', link: '/aio5-introduction',
+                            {
+                                text: 'AIO5', link: '/aio5-introduction',
                                 collapsed: true,
                                 items: [
                                     { text: 'Installation', link: '/aio5-installation' },
                                     { text: 'Bind with ELRS', link: '/aio5-bind' },
                                     { text: 'Firmware', link: '/aio5-firmware' },
-                                ]},
-                            { text: 'AIO15', link: '/aio15-introduction',
+                                ]
+                            },
+                            {
+                                text: 'AIO15', link: '/aio15-introduction',
                                 collapsed: true,
                                 items: [
                                     { text: 'Installation', link: '/aio15-installation' },
                                     { text: 'Bind with ELRS', link: '/aio15-bind' },
                                     { text: 'Firmware', link: '/aio15-firmware' },
-                                ]},
+                                ]
+                            },
                         ]
                     }
                 ],
@@ -332,20 +336,24 @@ export default defineConfig({
                                     },
                                 ]
                             },
-                            { text: 'AIO5', link: '/zh/aio5-introduction',
+                            {
+                                text: 'AIO5', link: '/zh/aio5-introduction',
                                 collapsed: true,
                                 items: [
                                     { text: '安装', link: '/zh/aio5-installation' },
                                     { text: '与 ELRS 遥控器绑定', link: '/zh/aio5-bind' },
                                     { text: '固件', link: '/zh/aio5-firmware' },
-                                ]},
-                            { text: 'AIO15', link: '/zh/aio15-introduction',
+                                ]
+                            },
+                            {
+                                text: 'AIO15', link: '/zh/aio15-introduction',
                                 collapsed: true,
                                 items: [
                                     { text: '安装', link: '/zh/aio15-installation' },
                                     { text: '与 ELRS 遥控器绑定', link: '/zh/aio15-bind' },
                                     { text: '固件', link: '/zh/aio15-firmware' },
-                                ]},
+                                ]
+                            },
                         ]
                     }
                 ],
