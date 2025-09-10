@@ -8,7 +8,7 @@ export default defineConfig({
     vite: {
         plugins: [
             GitChangelog({
-                repoURL: () => 'https://github.com/hd-zero/hd-zero.github.io',
+                repoURL: () => 'https://github.com/hd-zero/hdzero-docs',
                 mapAuthors: [
                     {
                         name: 'Eason FPV',
@@ -85,7 +85,7 @@ export default defineConfig({
             lang: 'en',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path'
+                    pattern: 'https://github.com/hd-zero/hdzero-docs/edit/main/docs/:path'
                 },
                 nav: [
                     { text: 'Documents', link: '/' }
@@ -229,7 +229,7 @@ export default defineConfig({
             link: '/zh',
             themeConfig: {
                 editLink: {
-                    pattern: 'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path',
+                    pattern: 'https://github.com/hd-zero/hdzero-docs/edit/main/docs/:path',
                     text: '在 GitHub 上编辑'
                 },
                 nav: [
@@ -366,7 +366,7 @@ export default defineConfig({
             themeConfig: {
                 editLink: {
                     pattern:
-                        'https://github.com/hd-zero/hd-zero.github.io/edit/main/docs/:path',
+                        'https://github.com/hd-zero/hdzero-docs/edit/main/docs/:path',
                     text: 'Редактировать на GitHub'
                 },
                 nav: [{ text: 'Документы', link: '/ru/' }],
