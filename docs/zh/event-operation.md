@@ -4,7 +4,7 @@
 
 <img src="/eventmedia/image2.png" id="image2">
 
-## 工作（显示屏 60 秒无操作自动关闭）
+## 运作（显示屏 60 秒无操作自动关闭）
 
 <img src="/eventmedia/image3.png" id="image3">
 
