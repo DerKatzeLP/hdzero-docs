@@ -20,6 +20,11 @@ export default defineConfig({
                         username: 'lesharodin',
                         mapByEmailAliases: ['lesharodin@gmail.com']
                     },
+                    {
+                        name: 'Ligen',
+                        username: 'ligenxxxx',
+                        mapByEmailAliases: ['ligenxxxx@gmail.com']
+                    },
                 ]
             }),
             GitChangelogMarkdownSection({
