@@ -14,7 +14,8 @@
 ### ELRS  antenna
 
 A line antenna (¼ wavelength) for the ELRS receiver is pre-soldered and positioned close to the board for low-profile and easy packaging. However, the ELRS antenna needs to be lifted to maintain at least 3 mm of clearance from the board.
-`<img src="/aio15media/image4.png" id="image4">`
+
+<img src="/aio15media/image4.png" id="image4">
 
 If the line antenna is removed, the ELRS internal antenna will continue to be used for reception, but the sensitivity will not be as good as the line antenna.
 
