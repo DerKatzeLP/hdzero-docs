@@ -6,6 +6,8 @@
 
 HDZero AIO15 is the world’s first digital video AIO, enabling bind and fly 80mm whoops to weigh less than 33.4g. AIO15 integrates a G4 based flight controller, HDZero 5.8GHz digital video transmitter, Serial 2.4GHz ExpressLRS 3.0 receiver, BlueJay 4-in-1 15Ax4 ESC, and a 5V/1A BEC. It is ideal for tiny whoop freestyle.
 
+The AIO15 utilizes a composite video interface rather than MIPI, reducing both footprint and weight. It is fully compatible with the HDZero Lux and Eco cameras, but not with any other camera that has MIPI connectors.
+
 It is available at major FPV resellers worldwide, and also at Happymodel and HDZero official online shops.
 
 ## Specifications
