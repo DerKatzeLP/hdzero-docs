@@ -1,6 +1,6 @@
 # Race V1 VTX
 
-The HDZero Race VTX is a digital HD 720p 60fps video transmitter capable of delivering up to 200mW on 5.8GHz.
+The HDZero Race VTX is a digital HD video transmitter capable of delivering up to 200mW on 5.8GHz. It supports all the HDZero cameras with MIPI connector, including Nano90.
 
 The power input range is 7V – 17V.
 
