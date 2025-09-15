@@ -1,6 +1,6 @@
 # Whoop V2 VTX
 
-The HDZero Whoop lite VTX is a digital HD 720p 60fps video transmitter capable of delivering up to 200mW on 5.8GHz.
+The HDZero Whoop lite VTX is a digital HD video transmitter capable of delivering up to 200mW on 5.8GHz. It supports all the HDZero cameras with MIPI connector. 
 
 The power input range is 3V – 12.6V.
 
