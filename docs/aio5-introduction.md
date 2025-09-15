@@ -7,6 +7,8 @@
 
 HDZero AIO5 is the world’s first digital video AIO, enabling bind and fly 65mm whoops to weigh less than 19.5g. AIO5 integrates a F4 flight controller, HDZero 5.8GHz digital video transmitter, SPI 2.4GHz ExpressLRS 3.0 receiver, DSHOT protocol 4-in-1 ESC, and a 5V/1A BEC. It is ideal for tiny whoop racing and freestyle.
 
+The AIO5 utilizes a composite video interface rather than MIPI, reducing both footprint and weight. It is fully compatible with the HDZero Lux and Eco cameras, but not with any other camera that has MIPI connectors.
+
 The HDZero AIO5 is an excellent collaboration between Happymodel and HDZero. It is available at major FPV resellers worldwide, and also at Happymodel and HDZero official online shops.
 
 ## Specifications
