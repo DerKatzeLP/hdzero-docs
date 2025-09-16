@@ -224,7 +224,33 @@ export default defineConfig({
                                 ]
                             },
                         ]
-                    }
+                    },
+                    {
+                        text: 'Camera',
+                        items: [
+                            {
+                                text: 'HDZero Camera Products', link: '/camera-summary.md',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Nano90 Camera', link: '/camera-nano90.md' },
+                                    { text: 'Micro V3 Camera', link: '/camera-micro-v3.md' },
+                                    { text: 'Nano V3 Camera', link: '/camera-nano-v3.md' },
+                                    { text: 'ECO Camera', link: '/camera-eco.md' },
+                                    { text: 'Lux Camera', link: '/camera-lux.md' },
+                                ],
+                            },
+                            {
+                                text: 'Discontinued Cameras', link: '/camera-dis-summary.md',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Micro V2 Camera', link: '/camera-micro-v2.md' },
+                                    { text: 'Nano Camera', link: '/camera-nano.md' },
+                                    { text: 'Nano lite Camera', link: '/camera-nano-lite.md' },
+                                    { text: 'Nano V2 Camera', link: '/camera-nano-v2.md' },
+                                ],
+                            },
+                        ]
+                    },
                 ],
             }
         },
@@ -360,7 +386,33 @@ export default defineConfig({
                                 ]
                             },
                         ]
-                    }
+                    },
+                    {
+                        text: '摄像头',
+                        items: [
+                            {
+                                text: 'HDZero 摄像头产品', link: '/zh/camera-summary.md',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Nano90 摄像头', link: '/zh/camera-nano90.md' },
+                                    { text: 'Micro V3 摄像头', link: '/zh/camera-micro-v3.md' },
+                                    { text: 'Nano V3 摄像头', link: '/zh/camera-nano-v3.md' },
+                                    { text: 'ECO 摄像头', link: '/zh/camera-eco.md' },
+                                    { text: 'Lux 摄像头', link: '/zh/camera-lux.md' },
+                                ],
+                            },
+                            {
+                                text: '已停产摄像头', link: '/zh/camera-dis-summary.md',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Micro V2 摄像头', link: '/zh/camera-micro-v2.md'},
+                                    { text: 'Nano 摄像头', link: '/zh/camera-nano.md'},
+                                    { text: 'Nano lite 摄像头', link: '/zh/camera-nano-lite.md'},
+                                    { text: 'Nano V2 摄像头', link: '/zh/camera-nano-v2.md'},
+                                ],
+                            },
+                        ]
+                    },
                 ],
             }
         },
@@ -401,7 +453,33 @@ export default defineConfig({
                             { text: 'Часто задаваемые вопросы', link: '/ru/vtx-faq' },
                             { text: 'Гарантия', link: '/ru/vtx-warranty' }
                         ]
-                    }
+                    },
+                    {
+                        text: 'Camera',
+                        items: [
+                            {
+                                text: 'HDZero Camera Products', link: '/ru/camera-summary.md',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Nano90 Camera', link: '/ru/camera-nano90.md' },
+                                    { text: 'Micro V3 Camera', link: '/ru/camera-micro-v3.md' },
+                                    { text: 'Nano V3 Camera', link: '/ru/camera-nano-v3.md' },
+                                    { text: 'ECO Camera', link: '/ru/camera-eco.md' },
+                                    { text: 'Lux Camera', link: '/ru/camera-lux.md' },
+                                ],
+                            },
+                            {
+                                text: 'Discontinued Cameras', link: '/ru/camera-dis-summary.md',
+                                collapsed: true,
+                                items: [
+                                    { text: 'Micro V2 Camera', link: '/ru/camera-micro-v2.md' },
+                                    { text: 'Nano Camera', link: '/ru/camera-nano.md' },
+                                    { text: 'Nano lite Camera', link: '/ru/camera-nano-lite.md' },
+                                    { text: 'Nano V2 Camera', link: '/ru/camera-nano-v2.md' },
+                                ],
+                            },
+                        ]
+                    },
                 ]
             }
         }
