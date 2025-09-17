@@ -6,6 +6,8 @@
 
 HDZero AIO15 是全球首款数字视频一体机（AIO），使得 80mm 的 Whoop 无人机重量低于 33.4g。AIO15 集成了基于 G4 的飞控、HDZero 5.8GHz 数字图传、串行 2.4GHz ExpressLRS 3.0 接收器、BlueJay 4 合 1 15Ax4 电调和 5V/1A BEC，非常适合小型 Whoop 自由飞行。
 
+AIO15 采用复合视频接口而非 MIPI，从而减少了占用空间和重量。它与 HDZero Lux 和 Eco 相机完全兼容，但不兼容任何其他带有 MIPI 接口的相机。
+
 该产品已在全球主要的 FPV 经销商处提供，也可在 Happymodel 和 HDZero 官方在线商店购买。
 
 ## 规格
