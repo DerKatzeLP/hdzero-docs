@@ -1,1 +1,12 @@
-# TODO
+# HDZero Camera Targets
+
+| Camera Name                    | Nano90 V2                                                       | Micro V3                            | Nano V3                     | ECO                         | Lux                                                           |
+| ------------------------------ | --------------------------------------------------------------- | ----------------------------------- | --------------------------- | --------------------------- | ------------------------------------------------------------- |
+| Image Sensor                   | 1/3"                                                            | 1/2"                                | 1/2"                        | 1/3"                        | 1/2"                                                          |
+| Interface                      | MIPI                                                            | MIPI                                | MIPI                        | HD composite video          | HD composite video                                            |
+| Resolution                     | 720x540@90fps 4:3<br />720x540@60fps 4:3<br />960x720@60fps 4:3 | 1920x1080@30fps<br />1280x720@60fps | 1280x720@60fps 4:3          | 1280x720@60fps 4:3          | 1280x720@60fps 4:3<br />1280x720@60fps 16:9                   |
+| Max FOV                        | D:162° H:132° V:101°(4:3)                                    | D:157° H:133° V:72°(16:9)        | D:155° H:126° V:94°(4:3) | D:150° H:120° V:98°(4:3) | D:155° H:126° V:94°(4:3)<br />D:170° H:145° V:82°(16:9) |
+| Lens Size                      | M8                                                              | M12                                 | M8                          | M8                          | M8                                                            |
+| Shutter                        | Rolling Shutter                                                 | Rolling Shutter                     | Rolling Shutter             | Rolling Shutter             | Rolling Shutter                                               |
+| Weight                         | 5.2g                                                            | 7.5g                                | 2.2g                        | 1.8g(With Cable)            | 2.3g                                                          |
+| Dimensions<br />(L * W * H mm) | 18 * 14 * 18                                                    | 19 * 19 * 24                        | 14 * 16 * 14                | 14 * 14 * 13                | 14 * 16 * 14                                                  |
