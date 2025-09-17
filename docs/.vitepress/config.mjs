@@ -119,6 +119,7 @@ export default defineConfig({
                             { text: 'General Considerations', link: '/vtx-general', },
                             { text: 'VTX LED Pattern', link: '/vtx-led', },
                             { text: 'VTX Firmware Update Guide', link: '/vtx-firmware-update', },
+                            { text: 'VTX Sockets', link: '/vtx-sockets', },
                             { text: 'FAQ', link: '/vtx-faq', },
                             {
                                 text: 'Discontinued Video Transmitters', link: '/vtx-dis-summary',
@@ -291,6 +292,7 @@ export default defineConfig({
                             { text: '基础说明', link: '/zh/vtx-general', },
                             { text: '图传 LED 模式', link: '/zh/vtx-led', },
                             { text: '图传固件更新指南', link: '/zh/vtx-firmware-update', },
+                            { text: '图传插座', link: '/zh/vtx-sockets', },
                             { text: '常问问题', link: '/zh/vtx-faq', },
                             { text: '保修', link: '/zh/vtx-warranty', },
                         ]
@@ -452,6 +454,7 @@ export default defineConfig({
                             { text: 'Основные рекомендации', link: '/ru/vtx-general' },
                             { text: 'LED-индикация VTX', link: '/ru/vtx-led' },
                             { text: 'Обновление прошивки', link: '/ru/vtx-firmware-update' },
+                            { text: 'VTX Sockets', link: '/ru/vtx-sockets', },
                             { text: 'Часто задаваемые вопросы', link: '/ru/vtx-faq' },
                             { text: 'Гарантия', link: '/ru/vtx-warranty' }
                         ]
