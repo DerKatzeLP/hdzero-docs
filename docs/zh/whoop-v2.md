@@ -1,6 +1,6 @@
 # Whoop V2 VTX
 
-HDZero Whoop lite VTX 是一款数字高清 720p 60fps 视频发射器，能够在 5.8GHz 上传输高达 200mW 的功率。它支持所有使用MIPI接口的HDZero摄像头，包括Nano90。
+HDZero Whoop lite VTX 是一款数字高清视频发射器，能够在 5.8GHz 上传输高达 200mW 的功率。它支持所有使用MIPI接口的HDZero摄像头，包括Nano90。
 
 Whoop V2 VTX电源输入范围为3V ～ 12.6V 。
 
