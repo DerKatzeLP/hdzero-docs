@@ -1,4 +1,4 @@
-# HDZero Nano 90 Camera (Outdated)
+# HDZero Nano 90 V2 Camera
 
 ## Description
 
@@ -15,15 +15,16 @@ It supports various resolutions for different flying environment.
 
 Nano 90 is able to reach to 3ms pixel latency and 14ms frame latency glass to glass with the HDZero goggle.
 
+**Nano 90 V2 changed the lens to RC18D**
 
 ## Specifications
 
-| parameter    | value                    |
-| ------------ | ------------------------ |
-| Image Sensor | 1/3"                     |
-| Interface    | MIPI                     |
+| parameter    | value                     |
+| ------------ | ------------------------- |
+| Image Sensor | 1/3"                      |
+| Interface    | MIPI                      |
 | Resolution   | 720x540@90fps 4:3 <br> 720x540@60fps 4:3 <br> 960x720@60fps 4:3 |
-| Max FOV      | D:160° H:127° V:92°(4:3) |
-| Shutter      | Rolling Shutter          |
-| Net Weight   | 5.2g                     |
-| Dimensions   | L18mm * W14mm * H18mm    |
+| Max FOV      | D:162° H:132° V:101°(4:3) |
+| Shutter      | Rolling Shutter           |
+| Net Weight   | 5.2g                      |
+| Dimensions   | L18mm * W14mm * H18mm     |

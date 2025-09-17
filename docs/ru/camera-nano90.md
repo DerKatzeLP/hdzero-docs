@@ -1,4 +1,4 @@
-# HDZero Nano 90 Camera
+# HDZero Nano 90 Camera (Outdated)
 
 ## Description
 
