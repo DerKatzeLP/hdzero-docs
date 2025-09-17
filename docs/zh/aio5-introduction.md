@@ -6,6 +6,8 @@
 
 HDZero AIO5 是全球首款数字视频 AIO，能够让 65mm 的谁步无人机重量低于 19.5g。AIO5 集成了 F4 飞控、HDZero 5.8GHz 数字图传、SPI 2.4GHz ExpressLRS 3.0 接收器、DSHOT 协议 4 合 1 电调，以及 5V/1A BEC。它非常适合小型谁步竞速和特技飞行。
 
+AIO5 采用复合视频接口而非 MIPI，从而减少了占用空间和重量。它与 HDZero Lux 和 Eco 相机完全兼容，但不兼容任何其他带有 MIPI 接口的相机。
+
 HDZero AIO5 是 Happymodel 和 HDZero 的优秀合作产品，现已在全球主要 FPV 经销商处上架，同时也可在 Happymodel 和 HDZero 官方在线商店购买。
 
 ## 规格
