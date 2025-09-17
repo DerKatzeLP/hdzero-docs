@@ -84,7 +84,10 @@ After goggle is powered on, you will see an image on the OLED displays. Complete
 
 3. Fine adjustment: Open both eyes and look at the merged image. Make small adjustments to the focus and IPD for each eye until it feels visually comfortable and merges into a single clear picture.
 
-**Note: Do not expose the lens directly to sunlight. Otherwise, the OLED displays might be damaged.**
+**Note: 
+1. Do not expose the lens directly to sunlight. Otherwise, the OLED displays might be damaged.
+2. The optical module surface of the HDZero goggles is coated. If wiped forcefully, it may leave permanent scratches that cannot be repaired and are not covered under warranty. It is recommended to use the cleaning cloth provided with the goggles, avoid applying pressure, and wipe gently with care.
+**
 
 ## Head Strap 
 
