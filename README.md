@@ -1,4 +1,10 @@
 # Develop
+## Install Dependencies
+```
+npm i
+```
+
+## Run locally
 ```
 npm run docs:dev
 ```
