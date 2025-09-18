@@ -1,0 +1,12 @@
+:root {
+    --vp-layout-max-width: 100%;
+}
+
+.content-container,
+.content {
+    max-width: 90% !important;
+}
+
+.VPNavBar.has-sidebar .content-body {
+    padding-right: 0 !important;
+}
