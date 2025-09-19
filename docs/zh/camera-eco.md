@@ -1,21 +1,21 @@
-# HDZero ECO Camera (Outdated)
+# HDZero ECO 摄像头（已过时）
 
-## Description
+## 描述
 
-HDZero ECO camera is designed to bring digital FPV to more pilots by offering a low cost, light weight, and durable alternative to analog video. The digital video signal has stable color reproduction and 720p progressive scan video with the low latency HDZero is known for.
+HDZero ECO 摄像头旨在通过提供一种低成本、轻重量且耐用的模拟视频替代方案，让更多飞手能够体验数字 FPV。数字视频信号具有稳定的色彩还原和 720p 逐行扫描视频，并具备 HDZero 一贯的低延迟特性。
 
-HDZero ECO camera was meticulously designed for ultra-lightweight drones like Tiny Whoops, where every fraction of a gram counts. The camera’s huge 98deg vertical FOV is perfect for fast indoor proximity flying. 
+HDZero ECO 摄像头经过精心设计，非常适合像 Tiny Whoops 这样的超轻型无人机，每一克重量都至关重要。摄像头高达 98 度的垂直视场角非常适合快速的室内贴近飞行。
 
-## Specifications
+## 规格
 
-| parameter         | value                    |
+| 参数              | 值                       |
 | ----------------- | ------------------------ |
-| Image Sensor      | 1/3"                     |
-| Interface         | HD composite video       |
-| Resolution        | 1280x720@60fps 4:3       |
-| Max FOV           | D:150° H:120° V:98°(4:3) |
-| Shutter           | Rolling Shutter          |
-| Net Weight        | 1.8g(With Cable)         |
-| Dimensions        | L14mm * W14mm * H13mm    |
-| Input             | 3.3V~5V                  |
-| Power Consumption | 0.5W                     |
+| 图像传感器        | 1/3"                     |
+| 接口              | HD 复合视频              |
+| 分辨率            | 1280x720@60fps 4:3       |
+| 最大视场角        | D:150° H:120° V:98°(4:3) |
+| 快门              | 滚动快门                 |
+| 净重              | 1.8g（含线缆）           |
+| 尺寸              | 长14mm * 宽14mm * 高13mm |
+| 输入电压          | 3.3V~5V                  |
+| 功耗              | 0.5W                     |
