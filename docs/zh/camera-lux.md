@@ -1,27 +1,27 @@
-# HDZero Lux Camera
+# HDZero Lux 摄像头
 
-## Description
+## 描述
 
-The Runcam HDZero Lux camera is compact, lightweight, and durable, making it perfect for tiny whoops and micro drones. It features a ½ inch CMOS sensor that delivers sharp image quality and excellent low-light performance. Lux camera has Wide Dynamic Range (WDR) and offers higher quality by oversampling (1080p ‐> 720p). The camera outputs HD composite video (720p) via a single wire instead of a MIPI cable, reducing footprint, cost, and increasing durability.
+Runcam HDZero Lux 摄像头小巧、轻便且耐用，非常适合 Tiny Whoops 和微型无人机。它配备 ½ 英寸 CMOS 传感器，能够提供清晰的图像质量和出色的低光表现。Lux 摄像头具备宽动态范围（WDR），并通过过采样（1080p -> 720p）提供更高质量。摄像头通过单根线缆输出 HD 复合视频（720p），而非使用 MIPI 线缆，从而减小占用空间、降低成本并提高耐用性。
 
-Optimized for a 4:3 aspect ratio, it can also be configured for a 16:9 aspect ratio with a reduced vertical FOV. Designed meticulously for ultra-lightweight drones like tiny whoops, where every fraction of a gram matters, the camera boasts a large 94-degree vertical FOV, ideal for fast indoor and outdoor proximity flying.
+该摄像头针对 4:3 纵横比进行了优化，也可以配置为 16:9 纵横比（此时垂直视场角会减小）。它经过精心设计，非常适合像 Tiny Whoops 这样的超轻型无人机，每一克重量都至关重要。摄像头拥有 94 度的垂直视场角，非常适合快速的室内外贴近飞行。
 
-## Specifications
+## 规格
 
-| parameter         | value                   |
-| ----------------- | ----------------------- |
-| Image Sensor      | 1/2"                    |
-| Interface         | HD composite video      |
-| Resolution        | 1280x720@60fps          |
-| Max FOV           | FOV D:155° H:126° V:94°(4:3) <br> FOV D:170° H:145° V:82°(16:9) |
-| Shutter           | Rolling Shutter         |
-| Net Weight        | 2.3g                    |
-| Dimensions        | L14mm * W16mm * H14mm   |
-| Input             | 3.3V~5V                 |
-| Power Consumption | 0.5W                    |
+| 参数              | 值                                                            |
+| ----------------- | ------------------------------------------------------------- |
+| 图像传感器        | 1/2"                                                          |
+| 接口              | HD 复合视频                                                   |
+| 分辨率            | 1280x720@60fps                                                |
+| 最大视场角        | FOV D:155° H:126° V:94°(4:3) <br> FOV D:170° H:145° V:82°(16:9) |
+| 快门              | 滚动快门                                                      |
+| 净重              | 2.3g                                                          |
+| 尺寸              | 长14mm * 宽16mm * 高14mm                                       |
+| 输入电压          | 3.3V~5V                                                       |
+| 功耗              | 0.5W                                                          |
 
-## How to change 4:3/16:9
+## 如何切换 4:3/16:9
 
-The HDZero AIO5 and ECO VTX lack a communication mechanism to automatically retrieve the Lux camera settings, such as aspect ratio. Users need to manually set the aspect ratio for both the AIO5/ECO VTX and the Lux camera. Here’s a short video demonstrating how to do that:
+HDZero AIO5 和 ECO VTX 没有自动获取 Lux 摄像头设置（如纵横比）的通信机制。用户需要手动为 AIO5/ECO VTX 和 Lux 摄像头分别设置纵横比。以下是一个演示如何操作的短视频：
 
 https://youtu.be/aenS9-K2mU4?si=9znMQGq9YQZuYC5T
