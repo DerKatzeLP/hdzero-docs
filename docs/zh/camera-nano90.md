@@ -1,29 +1,28 @@
-# HDZero Nano 90 Camera (Outdated)
+# HDZero Nano 90 摄像头（已停产）
 
-## Description
+## 描述
 
-Runcam HDZero Nano 90 camera is the first 90fps camera for HDZero VTX. This camera enables HDZero to be 5ms <strong><em>faster</em></strong> than analog 60i video to show a full field/frame.
+Runcam HDZero Nano 90 摄像头是 HDZero VTX 的首款 90fps 摄像头。该摄像头使 HDZero 比模拟 60i 视频<strong><em>快</em></strong> 5ms，从而显示完整的画面/帧。
 
-Combined with HDZero’s extremely low latency, 90 FPS gives racers and freestyle pilots an unmatched connected flying feel and a competitive edge on the race track. You’ll finish snap rolls sharper, and corner around gates tighter at 90 FPS.
+结合 HDZero 极低的延迟，90 FPS 为赛车和自由飞行的飞手提供无与伦比的飞行感受，并在赛道上带来竞争优势。90 FPS 下，你的翻滚动作会更加干脆利落，过门动作更加紧凑。
 
-Freestylers will appreciate the new 540p60 60 FPS mode that offers better signal penetration and range by reducing HDZero’s video bandwidth.
+自由飞手会喜欢新的 540p60 60 FPS 模式，它通过降低 HDZero 视频带宽，提高了信号穿透力和距离。
 
-It supports various resolutions for different flying environment.
--	720x540p90 – 90 FPS – requires HDZero Goggle
--	720x540p60 – 60 FPS at lower resolution gives better penetration/range
--	960x720p60 – 60 FPS at standard 720p resolution
+支持多种分辨率以适应不同飞行环境：
+- 720x540p90 – 90 FPS – 需要 HDZero 护目镜
+- 720x540p60 – 低分辨率下 60 FPS 提供更好的穿透力/距离
+- 960x720p60 – 标准 720p 分辨率下 60 FPS
 
-Nano 90 is able to reach to 3ms pixel latency and 14ms frame latency glass to glass with the HDZero goggle.
+Nano 90 在 HDZero 护目镜下可实现 3ms 像素延迟和 14ms 画面延迟（玻璃到玻璃）。
 
+## 规格
 
-## Specifications
-
-| parameter    | value                    |
-| ------------ | ------------------------ |
-| Image Sensor | 1/3"                     |
-| Interface    | MIPI                     |
-| Resolution   | 720x540@90fps 4:3 <br> 720x540@60fps 4:3 <br> 960x720@60fps 4:3 |
-| Max FOV      | D:160° H:127° V:92°(4:3) |
-| Shutter      | Rolling Shutter          |
-| Net Weight   | 5.2g                     |
-| Dimensions   | L18mm * W14mm * H18mm    |
+| 参数          | 值                                                |
+| ------------- | ------------------------------------------------- |
+| 图像传感器    | 1/3"                                              |
+| 接口          | MIPI                                              |
+| 分辨率        | 720x540@90fps 4:3 <br> 720x540@60fps 4:3 <br> 960x720@60fps 4:3 |
+| 最大视场角    | D:160° H:127° V:92°(4:3)                         |
+| 快门          | 滚动快门                                         |
+| 净重          | 5.2g                                              |
+| 尺寸          | 长18mm * 宽14mm * 高18mm                          |

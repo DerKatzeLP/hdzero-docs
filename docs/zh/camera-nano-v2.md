@@ -1,17 +1,17 @@
-# HDZero Nano V2 Camera
+# HDZero Nano V2 摄像头
 
-## Description
+## 描述
 
-Runcam Nano V2 HDZero camera is a high definition 1280x720p60 camera designed for HDZero VTX. It supports camera menu for brightness, contrast and other camera settings. It has excellent low light performance.
+Runcam Nano V2 HDZero 摄像头是一款高清 1280x720p60 摄像头，专为 HDZero 图传设计。它支持摄像头菜单，可调节亮度、对比度等设置，在低光环境下表现出色。
 
-## Specifications
+## 规格
 
-| parameter    | value                    |
-| ------------ | ------------------------ |
-| Image Sensor | 1/2"                     |
-| Interface    | MIPI                     |
-| Resolution   | 1280x720@60fps           |
-| Max FOV      | D:155° H:122° V:89°(4:3) |
-| Shutter      | Rolling Shutter          |
-| Net Weight   | 4.3g                     |
-| Dimensions   | L14mm * W16mm * H21mm    |
+| 参数          | 值                       |
+| ------------- | ------------------------ |
+| 图像传感器    | 1/2"                     |
+| 接口          | MIPI                     |
+| 分辨率        | 1280x720@60fps           |
+| 最大视场角    | D:155° H:122° V:89°(4:3) |
+| 快门          | 滚动快门                 |
+| 净重          | 4.3g                     |
+| 尺寸          | 长14mm * 宽16mm * 高21mm |

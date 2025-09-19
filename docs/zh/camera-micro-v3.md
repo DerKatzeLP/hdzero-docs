@@ -1,24 +1,24 @@
-# HDZero Micro V3 Camera
+# HDZero Micro V3 摄像头
 
-## Description
+## 描述
 
-Runcam Micro V3 HDZero camera is optimized for a 16:9 aspect ratio which matches the HDZero Goggle’s 16:9 display to offer the largest and sharpest picture available for the HDZero system. The large lens attached to this camera results in superior sharpness and contrast, reduced fish-eye effect, and excellent low-light performance.
+Runcam Micro V3 HDZero 摄像头针对 16:9 纵横比进行了优化，与 HDZero 头显的 16:9 显示屏匹配，为 HDZero 系统提供最大且最清晰的画面。摄像头配备的大镜头带来更高的锐度和对比度，减少鱼眼效果，并在低光环境下表现出色。
 
-Choose between 720p60 standard resolution mode and 1080p30 high resolution modes. The later option is best for slower flying where high resolution is prioritized over frame rate whereas the 720p60 mode is best for general freestyle flying.
+用户可以在 720p60 标准分辨率模式和 1080p30 高分辨率模式之间选择。高分辨率模式适合飞行较慢、优先考虑画质的情况，而 720p60 模式则适合一般自由飞行。
 
-Compared to Micro V2, the Micro V3 offers:
--	Native 16:9 without vignetting
--	Sharper optic and better low light performance
--	Improved dust resistance
+相比 Micro V2，Micro V3 提供：
+- 原生 16:9 无暗角
+- 更清晰的光学表现和更好的低光性能
+- 改进的防尘性能
 
-# Specifications
+## 规格
 
-| parameter    | value                     |
-| ------------ | ------------------------- |
-| Image Sensor | 1/2"                      |
-| Interface    | MIPI                      |
-| Resolution   | 1920*1080@30fps (native resolution) <br>1280x720p@60fps (oversampled for higher quality) |
-| Max FOV      | D:157° H:133° V:72°(16:9) |
-| Shutter      | Rolling Shutter           |
-| Net Weight   | 7.5g                      |
-| Dimensions   | L19mm * W19mm * H24mm     |
+| 参数          | 值                                                                 |
+| ------------- | ------------------------------------------------------------------ |
+| 图像传感器    | 1/2"                                                                |
+| 接口          | MIPI                                                                |
+| 分辨率        | 1920*1080@30fps（原生分辨率） <br>1280x720p@60fps（过采样以提高画质） |
+| 最大视场角    | D:157° H:133° V:72°(16:9)                                           |
+| 快门          | 滚动快门                                                            |
+| 净重          | 7.5g                                                                |
+| 尺寸          | 长19mm * 宽19mm * 高24mm                                            |

@@ -1,32 +1,32 @@
-# HDZero Nano V3 Camera
+# HDZero Nano V3 摄像头
 
-## Description
+## 描述
 
-Runcam Nano V3 HDZero camera is small and lightweight, making it ideal for whoops and micro drones. A sharp lens with very wide FOV offers the best nano camera image quality for HDZero yet.
+Runcam Nano V3 HDZero 摄像头小巧轻便，非常适合 whoops 和微型无人机。配备清晰镜头和超宽视场角，提供迄今为止 HDZero 最佳的 Nano 摄像头图像质量。
 
-The camera is optimized for 4:3 aspect ratio but can be configured for 16:9 aspect ratio within the camera’s settings menu. With its large FOV lens, 16:9 cut mode offers a comfortable amount of FOV and 16:9 full mode offers a very large FOV, but with vignetting.
+该摄像头优化为 4:3 显示比例，但可以在摄像头设置菜单中配置为 16:9 显示比例。凭借其大视场角镜头，16:9 裁剪模式提供舒适的视野，而 16:9 全模式提供非常大的视野，但会有暗角。
 
-Nano v3 is to replace Nano v2 and Nano lite camera. 
+Nano V3 用于替代 Nano V2 和 Nano Lite 摄像头。
 
-Compared to Nano v2, Nano v3 offers:
--	Larger FOV (94° vs 89°)
--	Sharper optic
--	Reduced weight (half as heavy)
+与 Nano V2 相比，Nano V3 提供：
+- 更大的视场角（94° vs 89°）
+- 更清晰的光学效果
+- 更轻的重量（重量减半）
 
-Compared to Nano lite, Nano v3 offers:
--	Larger FOV (94° vs 84°)
--	Sharper optic
--	Much clearer colors and contrast
--	Marginal weight increase (0.7g)
+与 Nano Lite 相比，Nano V3 提供：
+- 更大的视场角（94° vs 84°）
+- 更清晰的光学效果
+- 颜色和对比度更清晰
+- 轻微增加重量（0.7g）
 
-# Specifications
+## 规格
 
-| parameter    | value                    |
-| ------------ | ------------------------ |
-| Image Sensor | 1/2"                     |
-| Interface    | MIPI                     |
-| Resolution   | 720@60fps 4:3            |
-| Max FOV      | D:155° H:126° V:94°(4:3) |
-| Shutter      | Rolling Shutter          |
-| Net Weight   | 2.2g                     |
-| Dimensions   | L14mm * W16mm * H14mm    |
+| 参数          | 值                       |
+| ------------- | ------------------------ |
+| 图像传感器    | 1/2"                     |
+| 接口          | MIPI                     |
+| 分辨率        | 720@60fps 4:3            |
+| 最大视场角    | D:155° H:126° V:94°(4:3) |
+| 快门          | 滚动快门                 |
+| 净重          | 2.2g                     |
+| 尺寸          | 长14mm * 宽16mm * 高14mm |
