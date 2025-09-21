@@ -14,8 +14,7 @@ Der **HDZero AIO5** ist das weltweit erste digitale Video-AIO (All-in-One; Alles
 
 Er ist ideal für Tiny-Whoop-Racing und Freestyle geeignet.
 
-> Ein 5V/1A BEC (Battery Eliminator Circuit) ist ein
-> elektronischer Spannungsregler, der eine höhere Batteriespannung (z. B. 12V) auf eine stabilisierte Spannung von 5 Volt reduziert und gleichzeitig eine Stromstärke von bis zu 1 Ampere für andere Komponenten, wie Servos oder Empfänger in funkgesteuerten Modellen, bereitstellt, ohne dass eine separate Batterie benötigt wird.
+> Ein 5V/1A BEC (Battery Eliminator Circuit) ist ein elektronischer Spannungsregler, der eine höhere Batteriespannung (z. B. 12V) auf eine stabilisierte Spannung von 5 Volt reduziert und gleichzeitig eine Stromstärke von bis zu 1 Ampere für andere Komponenten, wie Servos oder Empfänger in funkgesteuerten Modellen, bereitstellt, ohne dass eine separate Batterie benötigt wird.
 
 Im Gegensatz zu MIPI verwendet das AIO5 ein **Composite-Video-Interface**, was Fläche und Gewicht reduziert. Es ist vollständig kompatibel mit **HDZero Lux**- und **Eco-Kameras**, jedoch **nicht** mit Kameras, die MIPI-Anschlüsse nutzen.
 

@@ -1,51 +1,44 @@
 # Firmware
 
-## Betaflight firmware
+## Betaflight-Firmware
 
-- Download and install the [Betaflight Configurator](https://github.com/betaflight/betaflight-configurator/releases/tag/10.10.0).
+- Lade den [Betaflight Configurator](https://github.com/betaflight/betaflight-configurator/releases) herunter und installiere ihn.
 
-- Launch the Betaflight Configurator to flash firmware. 
-<img src="/aio15media/image6.png" id="image6">
+- Starte den **Betaflight Configurator**, um die Firmware zu flashen.
+  <img src="/aio15media/image6.png" id="image6">
 
-1. Select the target port
+1. Wähle den Ziel-Port aus
+2. Klicke auf **„Update Firmware“**, um den Firmware-Flasher-Tab zu öffnen
+3. Wähle das Ziel **„HDZero_AIO15“** und die gewünschte Version (Werkversion: **4.4.2 [01-Jun-2023]**)
+4. Klicke auf **„Load Firmware [Online]“**, um die Firmware herunterzuladen
+5. Klicke auf **„Flash Firmware“**, um den Flight Controller zu flashen
 
-2. Click "Update Firmware" to enter Firmware Flasher tab
-
-3. Select target "HDZero_AIO15" and version, The factory version is 4.4.2[01-Jun-2023]
-
-4. Click "Load Firmware[Online] " to download the firmware
-
-5. Click "Flash Firmware" to Flash the Flight controller
-
-## BlueJay ESC firmware
+## BlueJay ESC-Firmware
 
 <img src="/aio15media/image7.png" id="image7">
 
-The factory firmware: Z_H_30_48_v0.19.2.HEX. To flash a new ESC firmware, here is [a Youtube tutorial](https://www.youtube.com/watch?v=yEDhnBUFQNI).
+Die Werk-Firmware lautet: **Z_H_30_48_v0.19.2.HEX**.  
+Um eine neue ESC-Firmware zu flashen, gibt es [dieses YouTube-Tutorial](https://www.youtube.com/watch?v=yEDhnBUFQNI).
 
-After flashing firmware, it is needed to set the Startup Power of each ESC to 1.00 through [BLHeliSuite 16.7.14.9.0.3]https://github.com/4712/BLHeliSuite/releases/tag/16714903
+Nach dem Flashen muss die **Startup Power** jedes ESCs mit [BLHeliSuite 16.7.14.9.0.3](https://github.com/4712/BLHeliSuite/releases/tag/16714903) auf **1.00** eingestellt werden.
 
-Please note that heat dissipation and full charged battery are needed for flashing ESC firmware.
+Bitte achte darauf, dass beim Flashen eine **gute Wärmeabfuhr** sichergestellt ist und ein **vollgeladener Akku** verwendet wird.
 
-## HDZero firmware
+## HDZero-Firmware
 
-- Purchase [HDZero VTX Programmer](https://www.hd-zero.com/product-page/hdzero-vtx-programmer) if you don’t have one;
-
-- Download HDZero Programmer application from https://www.hd-zero.com/document
+- Falls nicht vorhanden, einen [HDZero VTX Programmer](https://www.hd-zero.com/product-page/hdzero-vtx-programmer) kaufen.
+- Lade die **HDZero Programmer Application** von [https://www.hd-zero.com/document](https://www.hd-zero.com/document) herunter.
 
 <img src="/aio15media/image8.png" id="image8">
 
-- Plug the HDZero VTX Programmer into AIO15's VTX FW Connector. And use the USBC cable to connect the programmer tool and PC
+- Stecke den **HDZero VTX Programmer** an den **VTX FW Connector** des AIO15. Verwende ein **USB-C-Kabel**, um Programmer und PC zu verbinden.
+- Starte **HDZeroProgrammer.exe** auf einem Windows-PC.
 
-- Launch the HDZeroProgrammer.exe on a Windows PC
-
-    1. Select the AIO15
-
-    2. Click "Load Online Firmware" and select the version number
-
-    3. Click "Flash VTX". "Connecting VTX ..." will be displayed at the bottom
+  1. Wähle **AIO15** aus
+  2. Klicke auf **„Load Online Firmware“** und wähle die Versionsnummer
+  3. Klicke auf **„Flash VTX“** – unten erscheint **„Connecting VTX ...“**
 
 <img src="/aio15media/image9.jpeg" id="image9">
 <img src="/aio15media/image10.png" id="image10">
 
-The application will automatically download the firmware and flash it.
+Die Anwendung lädt die Firmware automatisch herunter und flasht sie.
