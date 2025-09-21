@@ -1,21 +1,21 @@
-# Welcome to HDZero Documents!
+# Willkommen bei der HDZero Dokumentation!
 
 ![icon](/icon.png)
 
-## What is HDZero?
+## Wer oder Was ist HDZero?
 
-**PUSH YOUR SKILLS TO THE LIMIT**
+**BRING DEINE FÄHIGKEITEN AN IHRE GRENZEN**
 
-HDZero offers industry-leading low latency, giving you more time to react and the best possible chance of hitting that next gap. With its smooth, consistent FPV video feed, you'll experience the same locked-in feeling you get with analog video–but with the clarity of HD.
+HDZero bietet branchenführend niedrige Latenz, was dir mehr Zeit zum Reagieren gibt und die beste Chance bietet, die nächste Lücke perfekt zu meistern. Mit seinem flüssigen, konstanten FPV-Video-Feed erlebst du dasselbe fokussierte Gefühl wie bei Analogvideo – aber mit der Klarheit von HD.
 
-**MAKE IT AN EVENT**
+**MACH ES ZUM ERLEBNIS**
 
-HDZero supports the standard 5.8ghz video channels, meaning you can have up to 8 simultaneous pilots flying either full-quality HDZero or analog video. When you're ready to take a break and spectate, you can tune in to any channel and view the pilot's feed with no loss of quality, giving you the same feeling of being in the air yourself.
+HDZero unterstützt die Standard-5,8-GHz-Videokanäle, sodass bis zu 8 Piloten gleichzeitig fliegen können – entweder mit voller Qualität von HDZero oder analogem Video. Wenn du eine Pause einlegst und zuschaust, kannst du jeden Kanal einstellen und das Video des Piloten ohne Qualitätsverlust ansehen, was dir das Gefühl gibt, selbst in der Luft zu sein.
 
-**UPGRADE YOUR FLEET**
+**VERBESSERE DEINE FLOTTE**
 
-From 1S whoops to long-range wings, HDZero offers a variety of VTX and camera options to suit every build. You may even be able to use the gear you already have–the HDZero receiver will work with any FPV goggle with an HDMI input. HDZero can grow with your needs and fit perfectly into your preferred FPV craft.
+Von 1S Whoops bis zu Langstrecken-Fliegern bietet HDZero verschiedene VTX- und Kameralösungen, die zu jedem Build passen. Möglicherweise kannst du sogar deine bestehende Ausrüstung weiterverwenden – der HDZero-Empfänger funktioniert mit jeder FPV-Brille mit HDMI-Eingang. HDZero wächst mit deinen Bedürfnissen und passt perfekt zu deinem bevorzugten FPV-Fluggerät.
 
-**RAPIDLY EVOLVING SYSTEM**
+**EIN SICH SCHNELL ENTWICKELNDES SYSTEM**
 
-HDZero is rapidly evolving. Please always use the latest firmware that is located at  [www.hd-zero.com/document](http://www.hd-zero.com/document).
+HDZero entwickelt sich schnell weiter. Bitte verwende stets die neueste Firmware, die du auf [www.hd-zero.com/document](http://www.hd-zero.com/document) findest.
