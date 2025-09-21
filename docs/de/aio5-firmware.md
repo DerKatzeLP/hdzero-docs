@@ -1,66 +1,78 @@
 # Firmware
-## Flash Betaflight firmware
-* Download and install the .
-* Launch the Betaflight Configurator
-* To flash 
-firmware :<img src="/aio5media/image12.png" id="image10">
-    1. Select the target port
-    2. Click "Update Firmware" to enter Firmware Flasher tab
-    3. Select target "CRAZYBEEF4SX1280" and version, The factory version is 4.4.2[01-Jun-2023]
-    4. Click "Load Firmware [Online] " to download the firmware
-    5. Click "Flash Firmware" to Flash the Flight controller
-* DFU flash:
- *If you have lost communication with your board follow these steps to restore communication:*
-  1. Power off AIO5
-  2. Enable ‘No reboot sequence’, enable ‘Full chip erase’
-  3. Hold BOOT button and Power on via USB into PC, then release BOOT button
-  4. Install all STM32 drivers and Zadig if required (see [USB Flashing](https://betaflight.com/docs/wiki/guides/current/installing-betaflight) section of Betaflight manual)
-  5. Close Betaflight configurator, Restart Betaflight configurator
-  6. Click "Update Firmware" to enter Firmware Flasher tab
-  7. Select target "CRAZYBEEF4SX1280" and version, The factory version is 4.4.2[01-Jun-2023]
-  8. Click "Load Firmware [Online] " to download the firmware
-  9. Click "Flash Firmware" to Flash the Flight controller
-## Execute CLI
-Download the file from Flight Configurator tab at https://www.hd-zero.com/document, and unzip HDZEROAIO5_RevXYZ.zip into a temporary directory, i.e. c:\123;
-<img src="/aio5media/image13.png">
+
+## Betaflight-Firmware flashen
+
+- Lade **Betaflight Configurator** herunter und installiere ihn.
+- Starte den **Betaflight Configurator**.
+- So wird die Firmware geflasht:
+  <img src="/aio5media/image12.png" id="image10">
+
+  1. Ziel-Port auswählen
+  2. Auf „Update Firmware“ klicken, um den Firmware-Flasher-Tab zu öffnen
+  3. Ziel **CRAZYBEEF4SX1280** und Version auswählen, Werkversion ist **4.4.2 [01-Jun-2023]**
+  4. Auf „Load Firmware [Online]“ klicken, um die Firmware herunterzuladen
+  5. Auf „Flash Firmware“ klicken, um den Flight Controller zu flashen
+
+> „DFU“ ist ein Hardware-naher Modus für Firmware-Updates, Reparaturen und Systemeingriffe.
+
+- DFU-Flashen:  
+  _Falls keine Kommunikation mehr mit deinem Board möglich ist, folge diesen Schritten zur Wiederherstellung:_
+
+  1. AIO5 ausschalten
+  2. „No reboot sequence“ aktivieren, „Full chip erase“ aktivieren
+  3. **BOOT**-Button gedrückt halten und per USB mit dem PC verbinden, dann BOOT loslassen
+  4. Alle STM32-Treiber und Zadig installieren, falls erforderlich (siehe Abschnitt [USB Flashing](https://betaflight.com/docs/wiki/guides/current/installing-betaflight) im Betaflight-Handbuch)
+  5. Betaflight Configurator schließen, dann neu starten
+  6. Auf „Update Firmware“ klicken, um den Firmware-Flasher-Tab zu öffnen
+  7. Ziel **CRAZYBEEF4SX1280** und Version auswählen, Werkversion ist **4.4.2 [01-Jun-2023]**
+  8. Auf „Load Firmware [Online]“ klicken, um die Firmware herunterzuladen
+  9. Auf „Flash Firmware“ klicken, um den Flight Controller zu flashen
+
+## CLI ausführen
+
+Lade die Datei im **Flight Configurator Tab** von [https://www.hd-zero.com/document](https://www.hd-zero.com/document) herunter und entpacke **HDZEROAIO5_RevXYZ.zip** in ein temporäres Verzeichnis, z. B. `c:\123`;  
+<img src="/aio5media/image13.png">  
 <img src="/aio5media/image14.png">
-1. Switch to CLI tab
-2. Click “Load from file”, and
-   - select file c:\123\BTFL_CLI_HDZERO AIO5_1R2.txt for HDZero AIO5 1R2(with BMI270)
-   - select file c:\123\BTFL_CLI_HDZERO AIO5_1R3.txt for HDZero AIO5 1R3(with ICM42688P)
-     
-   *Notes：Check your HDZero AIO5 version here:*
-     <img src="/aio5media/image15.png" id="image13">
-3. Click “Execute”
-<img src="/aio5media/image16.png" id="image14">
 
-## BlueJay ESC firmware
+1. Wechsel zum CLI-Tab
+2. Klicke „Load from file“ und
+   - wähle die Datei `c:\123\BTFL_CLI_HDZERO AIO5_1R2.txt` für **HDZero AIO5 1R2 (mit BMI270)** aus
+   - wähle die Datei `c:\123\BTFL_CLI_HDZERO AIO5_1R3.txt` für **HDZero AIO5 1R3 (mit ICM42688P)** aus
 
-The factory firmware: O_H_5_48_V0.19.2.HEX. To flash a new ESC firmware, here is [a YouTube tutorial](https://www.youtube.com/watch?v=yEDhnBUFQNI).
+_Hinweis: Überprüfe hier deine HDZero AIO5-Version:_  
+<img src="/aio5media/image15.png" id="image13">
+
+3. Auf „Execute“ klicken  
+   <img src="/aio5media/image16.png" id="image14">
+
+## BlueJay ESC-Firmware
+
+Die Werkfirmware ist: **O_H_5_48_V0.19.2.HEX**.  
+Um eine neue ESC-Firmware zu flashen, ist hier ein [YouTube-Tutorial](https://www.youtube.com/watch?v=yEDhnBUFQNI).  
 <img src="/aio5media/image17.png" id="image15">
+
 ::: tip
-Notes:
+Hinweise:
 
-- Before flashing ESC firmware, the Radio needs to be turned off to disconnect the ELRS.
+- Vor dem Flashen der ESC-Firmware muss das Radio ausgeschaltet werden, um die ELRS-Verbindung zu trennen.
+- Nach dem Flashen muss die **Startup Power** jedes ESCs auf **1100 (Minimum)** und **1200 (Maximum)** über [https://esc-configurator.com/](https://esc-configurator.com/) eingestellt werden.
+- Bitte achte auf ausreichende Wärmeableitung und nutze einen vollgeladenen Akku während des Flashens.  
+  :::
 
-- After flashing firmware, it is needed to set the Startup Power of each ESC to 1100 for Minimum and 1200 for Maximum through https://esc-configurator.com/
+## HDZero-Firmware
 
-Please note that heat dissipation and full charged battery are needed for flashing ESC firmware.
-:::
-
- 
-## HDZero firmware
-* Purchase [HDZero VTX Programmer](https://www.hd-zero.com/product-page/hdzero-vtx-programmer) if you don’t have one;
-* Download HDZero Programmer application from https://www.hd-zero.com/document
+- Falls nicht vorhanden, [HDZero VTX Programmer](https://www.hd-zero.com/product-page/hdzero-vtx-programmer) kaufen.
+- Lade die **HDZero Programmer Application** von [https://www.hd-zero.com/document](https://www.hd-zero.com/document) herunter.
 
 <img src="/aio5media/image18.png" id="image16">
 
-* Plug the HDZero VTX Programmer into AIO5's VTX FW Connector. And use the USBC cable to connect the programmer tool and PC
-* Launch the HDZeroProgrammer.exe on a Windows PC
-  1. Select the AIO5
-  2. Click "Load Online Firmware" and select the version number
-  3. Click "Flash VTX". "Connecting VTX ..." will be displayed at the bottom
+- Stecke den HDZero VTX Programmer in den **VTX FW Connector** des AIO5. Verwende ein USB-C Kabel, um Programmer und PC zu verbinden.
+- Starte **HDZeroProgrammer.exe** auf einem Windows-PC.
+
+  1. **AIO5 auswählen**
+  2. „Load Online Firmware“ auswählen und Versionsnummer bestimmen
+  3. Auf „Flash VTX“ klicken – unten erscheint „Connecting VTX ...“
 
 <img src="/aio5media/image19.jpeg" id="image17"><img src="/aio5media/image20.png" id="image18">
 
-The application will automatically download the firmware and flash it.
+Die Anwendung lädt die Firmware automatisch herunter und flasht sie.
