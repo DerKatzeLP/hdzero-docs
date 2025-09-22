@@ -1,21 +1,21 @@
-# HDZero Monitor Operation
+# HDZero Monitor Bedienung
 
-This section describes the general operation of the HDZero Monitor.
+In diesem Abschnitt wird die allgemeine Bedienung des HDZero Monitors beschrieben.
 
-## Band & Channel
+## Band & Kanal
 
-HDZero Monitor does not have a scanning function, you need to set Band & Channel manually.
+Der HDZero Monitor verfügt über keine Suchfunktion, Sie müssen Band & Kanal manuell einstellen.
 
-Band and channel are set separately, which means you can switch to the channel you want faster.
+Band und Kanal werden separat eingestellt, was bedeutet, dass Sie schneller zum gewünschten Kanal wechseln können.
 
-For HDZero, following channels are supported:
+Für HDZero werden folgende Kanäle unterstützt:
 
 * E1
 * F1, F2, F4
 * R1 - R8
 * L1 - L8
 
-For Analog, following channels are supported:
+Für Analog werden folgende Kanäle unterstützt:
 
 * A1 - A8
 * B1 - B8
@@ -24,69 +24,69 @@ For Analog, following channels are supported:
 * R1 - R8
 * L1 - L8
 
-### To Change Band
+### Band wechseln
 
 <img src="/monitormedia/image11.png" id="image9">
 
-###  To Change Channel
+###  Kanal wechseln
 
 <img src="/monitormedia/image12.png" id="image10">
 
-## Sources
+## Quellen
 
-HDZero Monitor supports two signal sources: RF In and Line In. 
+Der HDZero Monitor unterstützt zwei Signalquellen: RF In und Line In. 
 
-For RF In:
+Für RF In:
 
-* HDZero Monitor will automatically switch between RF Analog and RF HDZero until the rf signal is locked.
-* When the RF analog signal is locked, NTSC/PAL will be automatically detected.
-* When the RF analog signal is locked, the VI/AO interface will output the audio from Analog RF.
+* Der HDZero Monitor schaltet automatisch zwischen RF Analog und RF HDZero um, bis das RF-Signal erkannt wird.
+* Wenn das RF-Analogsignal erkannt wird, wird NTSC/PAL automatisch erkannt.
+* Wenn das RF-Analogsignal erkannt wird, gibt die VI/AO-Schnittstelle den Ton vom analogen RF aus.
 
-For Line In:
+Für Line In:
 
-* When the line in signal is locked, NTSC/PAL will be automatically detected.
+* Wenn das Line-In-Signal erkannt wird, wird NTSC/PAL automatisch erkannt.
 
-### To Change Source
+### Quelle wechseln
 
 <img src="/monitormedia/image13.png" id="image11">
 
-## Recording
+## Aufnahme
 
-Insert the SD card into the slot before recording video. The recommended SD card specifications are as follows:
+Stecken Sie die SD-Karte vor der Videoaufnahme in den Slot. Die empfohlenen SD-Karten-Spezifikationen sind:
 
 * 8GB-32GB
-* FAT32, unit size is 4096 Bytes
+* FAT32, Einheitengröße 4096 Bytes
 
-After the SD card is correctly recognized, the SD card OSD located in the upper right corner of the screen will be hidden.
+Nachdem die SD-Karte korrekt erkannt wurde, wird das SD-Karten-OSD oben rechts auf dem Bildschirm ausgeblendet.
 
-When a valid signal is locked, recording will start automatically. When the signal is lost, recording will automatically stop.
+Wenn ein gültiges Signal erkannt wird, startet die Aufnahme automatisch. Wenn das Signal verloren geht, stoppt die Aufnahme automatisch.
 
-You can also manually control the start and stop of recording at any time by the button.
+Sie können die Aufnahme auch jederzeit manuell per Knopfdruck starten und stoppen.
 
-### To Start/Stop Record
+### Aufnahme starten/stoppen
 
 <img src="/monitormedia/image14.png" id="image12">
 
-## Image settings
+## Bildeinstellungen
 
-The following image settings can be set via the HDZero Programmer App:
+Folgende Bildeinstellungen können über die HDZero Programmer App vorgenommen werden:
 
-* Brightness
-* Contrast
-* Saturation
-* Backlight
+* Helligkeit
+* Kontrast
+* Sättigung
+* Hintergrundbeleuchtung
 
-Backlight also supports quick adjustments using Buttons.
+Die Hintergrundbeleuchtung kann auch schnell über die Tasten angepasst werden.
 
-### To Change Backlight
+### Hintergrundbeleuchtung ändern
 
 <div class="page"></div>
 <img src="/monitormedia/image15.png" id="image13">
 
 ## OSD
 
-You can enable/disable the FC OSD display. You need to set it via the HDZero Programmer App.
+Sie können die Anzeige des FC OSD ein- oder ausschalten. Die Einstellung erfolgt über die HDZero Programmer App.
 
-## CAD Model
+## CAD-Modell
 
-You can download the CAD file from [https://github.com/hd-zero/hdzero-tooling](https://github.com/hd-zero/hdzero-tooling), You can print the battery box or sunshield nased on the 3D model.
+Sie können die CAD-Datei von [https://github.com/hd-zero/hdzero-tooling](https://github.com/hd-zero/hdzero-tooling) herunterladen. Sie können das Akkufach oder den Sonnenschutz basierend auf dem 3D-Modell drucken.

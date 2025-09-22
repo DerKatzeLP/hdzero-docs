@@ -1,101 +1,101 @@
 # FAQ
 
-## Discussion
+## Diskussion
 
-HDZero Facebook Group: https://www.facebook.com/groups/HDZero
+HDZero Facebook-Gruppe: https://www.facebook.com/groups/HDZero
 
-HDZero Discord Server: https://discord.gg/JPesSHpmCU
+HDZero Discord-Server: https://discord.gg/JPesSHpmCU
 
-##  Troubleshooting
+##  Fehlerbehebung
 
-**Q1. What causes the red LED on my VTX to blink, or not show up at all?**
+**F1. Warum blinkt die rote LED an meinem VTX oder leuchtet gar nicht?**
 
-A1: The RED LED should be on and not blinking. Please check the following:
+A1: Die ROTE LED sollte dauerhaft leuchten und nicht blinken. Bitte prüfe Folgendes:
 
-- Check power connection to your VTX;
-- Make sure input voltage is within range, see [Power Input](vtx-summary.md);
-- Ensure the power source can provide sufficient current. A 200mW VTX draws around 5 watts, while a Freestyle VTX can require up to 15 watts. Keep in mind, some flight controllers (FCs) may not be capable of supplying adequate amperage.
-- The VTX's power circuit may be damaged, which can result in no red LED or a blinking red LED indicator.
-
----
-
-**Q2. What causes the blue LED on my VTX to blink, or not show up at all?**
-
-A2:  The blue LED reflects the current status of the VTX as follows:
-
-- Absence of the blue LED suggests a critical failure—your VTX may be completely non-operational.
-- Upon boot, three rapid blue LED flickers confirm MSP communication is active, if it is connected with a flight controller
-- The blue LED should remain steadily lit under normal operating conditions.
-- Check LED pattern table if the [blue LED blinks](vtx-led.md#blue-led-pattern)
+- Überprüfe die Stromversorgung deines VTX;
+- Stelle sicher, dass die Eingangsspannung im zulässigen Bereich liegt, siehe [Stromversorgung](vtx-summary.md);
+- Stelle sicher, dass die Stromquelle ausreichend Strom liefern kann. Ein 200mW VTX benötigt ca. 5 Watt, während ein Freestyle VTX bis zu 15 Watt benötigen kann. Beachte, dass einige Flight Controller (FCs) möglicherweise nicht genügend Strom liefern können.
+- Die Stromversorgungsschaltung des VTX könnte beschädigt sein, was zu keiner oder blinkender roter LED führen kann.
 
 ---
 
-**Q3. Why am I experiencing snow noise at minimal range?**
+**F2. Warum blinkt die blaue LED an meinem VTX oder leuchtet gar nicht?**
 
-A3: Under normal conditions, video quality should remain clear at short distances. Please verify the following:
+A2:  Die blaue LED zeigt den aktuellen Status des VTX wie folgt an:
 
-- Check if the VTX is set to P1MW mode—this is indicated by one long flash followed by two short blue LED flashes.
-- The VTX is configured for high RF power output, and placing the goggles or receiver too close causes signal saturation.
-- Position the radio receiver (RX) and its antenna away from the video transmitter (VTX) on the drone to minimize signal interference.
-- Lower the transmit (TX) RF power and increase the separation between the TX and your HDZero goggles or receiver.
-- Do not place VTX next to ESC board.
-- VTX (antenna side) must have 5mm vertical clearance.
-- Replace VTX antenna or pigtail to ensure proper signal transmission.
-- Verify if another VTX (analog, DJI, HDZero) is operating on the same channel.
-- Identify potential Wi-Fi interference; overlapping frequencies typically produce diagonal noise patterns.
--  Faulty RF circuit on the VTX
+- Fehlt die blaue LED, deutet das auf einen kritischen Fehler hin – dein VTX ist möglicherweise komplett defekt.
+- Beim Start bestätigen drei schnelle Blaulicht-Blinker die aktive MSP-Kommunikation, falls mit einem Flight Controller verbunden.
+- Die blaue LED sollte im Normalbetrieb dauerhaft leuchten.
+- Siehe LED-Mustertabelle, falls die [blaue LED blinkt](vtx-led.md#blue-led-pattern)
 
 ---
 
-**Q4: My video feed is working but why is no OSD displayed?**
+**F3. Warum habe ich Schneerauschen auf kürzeste Distanz?**
 
-A4: Here is how HDZero OSD works: HDZero VTX communicates using the MSP protocol to retrieve telemetry data from the flight controller, then transmits this data wirelessly to the goggles or receiver, where it's overlaid onto the video stream.
+A3: Unter normalen Bedingungen sollte die Videoqualität auf kurze Distanz klar bleiben. Bitte prüfe Folgendes:
 
-Ensure proper VTX–FC connection by checking the following:
-
-- VTX/Goggle/Receiver Firmware mismatch: Update both VTX/Goggle/Receiver to the latest firmware
-- Wire connection: UART TX/RX of FC board should be connected with RX and TX pads of VTX respectively.
-- Betaflight setting:  See OSD instruction
-- The UART port on the FC could be damaged. Try another UART port on FC (avoid using soft-serial and SA ports),
-- Try another FC
-
----
-
-**Q5: Why does my video signal become noisy when I arm the quad and apply throttle?**
-
-A5: This might be caused by noisy/insufficient power to VTX. Verify the following:
-
-- If VTX is powered by a BEC of FC, make sure the BEC is capable of supplying adequate amperage.
-- Install a large capacitor (≥350µF, 50V) across the battery leads.
-- It may be due to the radio transmitter affecting the video receiver. Lower TX power and place well away from the goggles or video receiver.
+- Prüfe, ob der VTX auf P1MW-Modus eingestellt ist – dies wird durch einen langen und zwei kurze Blaulicht-Blinker angezeigt.
+- Der VTX ist auf hohe RF-Leistung eingestellt, und die Brille oder der Empfänger ist zu nah, was zu Sättigung führt.
+- Positioniere den Funkempfänger (RX) und dessen Antenne entfernt vom Videosender (VTX) auf der Drohne, um Störungen zu minimieren.
+- Reduziere die Sendeleistung (TX) und vergrößere den Abstand zwischen TX und deinen HDZero-Brillen oder -Empfängern.
+- Platziere den VTX nicht neben dem ESC-Board.
+- Der VTX (Antennenseite) benötigt 5mm vertikalen Abstand.
+- Ersetze die VTX-Antenne oder das Pigtail, um eine ordnungsgemäße Signalübertragung sicherzustellen.
+- Prüfe, ob ein anderer VTX (Analog, DJI, HDZero) auf demselben Kanal arbeitet.
+- Identifiziere mögliche WLAN-Störungen; überlappende Frequenzen erzeugen typischerweise diagonale Störmuster.
+- Defekte RF-Schaltung am VTX
 
 ---
 
-**Q6: Why can’t I receive video with my goggle?**
+**F4: Mein Videobild funktioniert, aber warum wird kein OSD angezeigt?**
 
-A6: It’s a complex issue that could involve multiple components—namely the camera, MIPI cable, VTX, or goggles. Verify the following
+A4: So funktioniert das HDZero OSD: Der HDZero VTX kommuniziert über das MSP-Protokoll mit dem Flight Controller, um Telemetriedaten zu erhalten, und überträgt diese drahtlos an die Brille oder den Empfänger, wo sie ins Videobild eingeblendet werden.
 
-- Blue LED is not solid on:
-  1. If the blue LED is completely off, it means VTX is bad;
-  2. If the blue LED flashes one long and one short periodically, the VTX is in 0mW mode. Use [stick command](vtx-general.md#stick-command-gestures) to exit 0mW mode
-  3. If the blue LED flashes 2 shorts periodically, it indicates that the VTX is unable to detect the camera, it could be (1) damaged camera; (2) bad MIPI cable; (3) loose MIPI cable connection; (4) damaged MIPI connectors on camera and/or VTX; (5) damaged VTX
-  4. Check other [blue LED patterns](vtx-led.md#blue-led-pattern)
-- Blue LED is solid on:
-  1. Verify whether the VTX is set to Low Band while the goggles are configured differently, or vice versa.
-  2. If the Nano90 camera is configured to 540p60 mode, the goggles must be set to HDZero BW = Narrow via the following path: Goggle Menu → Source → HDZero BW.
+Stelle eine korrekte VTX–FC-Verbindung sicher, indem du Folgendes prüfst:
+
+- VTX/Brille/Empfänger Firmware unterschiedlich: Aktualisiere alle auf die neueste Firmware
+- Kabelverbindung: UART TX/RX des FC-Boards sollten mit RX und TX Pads des VTX verbunden sein.
+- Betaflight-Einstellung: Siehe OSD-Anleitung
+- Der UART-Port am FC könnte defekt sein. Probiere einen anderen UART-Port (Soft-Serial und SA-Ports vermeiden),
+- Probiere einen anderen FC
 
 ---
 
-**Q7. Why does the VTX fail to flash properly?**
+**F5: Warum wird mein Videosignal beim Scharfschalten und Gasgeben gestört?**
+
+A5: Dies kann durch Störungen/ungenügende Stromversorgung des VTX verursacht werden. Prüfe Folgendes:
+
+- Wenn der VTX über einen BEC des FC versorgt wird, stelle sicher, dass der BEC ausreichend Strom liefern kann.
+- Installiere einen großen Kondensator (≥350µF, 50V) an den Batterieanschlüssen.
+- Es kann sein, dass der Funksender den Videoempfänger stört. Reduziere die TX-Leistung und halte Abstand zur Brille oder zum Videoempfänger.
+
+---
+
+**F6: Warum empfange ich kein Video mit meiner Brille?**
+
+A6: Es ist ein komplexes Problem, das mehrere Komponenten betreffen kann – nämlich Kamera, MIPI-Kabel, VTX oder Brille. Prüfe Folgendes
+
+- Blaue LED leuchtet nicht dauerhaft:
+  1. Wenn die blaue LED komplett aus ist, ist der VTX defekt;
+  2. Wenn die blaue LED periodisch einmal lang und einmal kurz blinkt, ist der VTX im 0mW-Modus. Mit [Stick-Befehl](vtx-general.md#stick-command-gestures) den 0mW-Modus verlassen
+  3. Wenn die blaue LED periodisch zweimal kurz blinkt, erkennt der VTX die Kamera nicht, mögliche Ursachen: (1) defekte Kamera; (2) defektes MIPI-Kabel; (3) loses MIPI-Kabel; (4) defekte MIPI-Anschlüsse an Kamera und/oder VTX; (5) defekter VTX
+  4. Prüfe weitere [blaue LED-Muster](vtx-led.md#blue-led-pattern)
+- Blaue LED leuchtet dauerhaft:
+  1. Prüfe, ob der VTX auf Low Band eingestellt ist, während die Brille anders konfiguriert ist, oder umgekehrt.
+  2. Wenn die Nano90-Kamera auf 540p60-Modus eingestellt ist, muss die Brille auf HDZero BW = Narrow gestellt werden: Brillenmenü → Source → HDZero BW.
+
+---
+
+**F7. Warum schlägt das Flashen des VTX fehl?**
 
 <img src="/media/image28.png" id="image25">
 
-A7: Make sure all pins on the VTX and the firmware (FW) port of your goggles are perfectly straight—any bent or misaligned pins can disrupt the flashing process. Even a single crooked pin on the VRX module has been known to trigger flashing failures.
+A7: Stelle sicher, dass alle Pins am VTX und am Firmware-(FW)-Port der Brille absolut gerade sind – verbogene oder falsch ausgerichtete Pins können den Flash-Vorgang stören. Schon ein einziger schiefer Pin am VRX-Modul kann Flash-Fehler verursachen.
 
 ---
 
-**Q8: Why is my FC dropping to bootloader when connected to a HDZero VTX?**
+**F8: Warum geht mein FC in den Bootloader, wenn er mit einem HDZero VTX verbunden ist?**
 
-A8. It has been reported that some flight controllers may randomly enter bootloader mode when connected to early-production HDZero VTX modules. To resolve this issue, add a 200-ohm resistor in-line between the FC UART.TX and VTX UART.RX wires.
+A8. Es wurde berichtet, dass einige Flight Controller zufällig in den Bootloader-Modus wechseln, wenn sie mit frühen HDZero VTX-Modulen verbunden sind. Um das Problem zu beheben, füge einen 200-Ohm-Widerstand in die Leitung zwischen FC UART.TX und VTX UART.RX ein.
 
-All HDZero VTX units produced after 2023 already include this resistor by default, eliminating the need for manual fixes on newer hardware.
+Alle HDZero VTX-Einheiten, die nach 2023 produziert wurden, enthalten diesen Widerstand bereits ab Werk, sodass bei neuerer Hardware keine manuelle Nachrüstung nötig ist.

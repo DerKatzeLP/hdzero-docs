@@ -1,8 +1,8 @@
-# Wiring
+# Verdrahtung
 
-This section describes the diagram and wiring of the Halo Flight Controller.
+In diesem Abschnitt werden das Schaltbild und die Verdrahtung des Halo Flight Controllers beschrieben.
 
-## Diagram
+## Schaltbild
 
 <div style="display: flex; justify-content: space-around; text-align: center; gap: 20px;">
 <img src="/halomedia/image8.jpg" style="width:50%; height: 100%" id="image8">
@@ -11,47 +11,47 @@ This section describes the diagram and wiring of the Halo Flight Controller.
 </div>
 <img src="/halomedia/image9.jpg" style="width:60%; height: 100%" id="image9">
 
-## HDZero RACE V3 VTX Wiring
+## HDZero RACE V3 VTX Verdrahtung
 
 <img src="/halomedia/image10.jpg" id="image10">
 
-Unfortunately, the previous batches of HDZero VTX-R3 have different signal definitions for its connector, requiring users to re-pin it (see picture below) to match the correct connections. However, the latest HDZero Race v3 VTX features an updated connector that perfectly matches the Halo FC, enabling seamless plug-and-play installation. 
+Leider haben frühere Chargen des HDZero VTX-R3 unterschiedliche Signalbelegungen am Stecker, sodass Nutzer die Pins umstecken müssen (siehe Bild unten), um die richtigen Verbindungen herzustellen. Die neueste Version des HDZero Race v3 VTX verfügt jedoch über einen aktualisierten Stecker, der perfekt zum Halo FC passt und eine nahtlose Plug-and-Play-Installation ermöglicht.
 
 <img src="/halomedia/image11.png" id="image11">                     
 
-> The previous batches of VTX-R3 (after re-pinning)     
+> Frühere Chargen des VTX-R3 (nach Umstecken der Pins)     
 
 <img src="/halomedia/image12.png" id="image12">
                        
-> The newest batch of HDZero VTX-R3 
+> Neueste Charge des HDZero VTX-R3 
 
-## HDZero Freestyle V2 VTX Wiring
+## HDZero Freestyle V2 VTX Verdrahtung
 
 <img src="/halomedia/image13.jpg" id="image13">
 
-## DJI O3/O4 Wiring
+## DJI O3/O4 Verdrahtung
 
 <img src="/halomedia/image14.jpg" id="image14">
 
-## DJI VISTA Wiring
+## DJI VISTA Verdrahtung
 
 <img src="/halomedia/image15.jpg" id="image15">
 
 <div class="page"></div>
 
-## Wiring of Peripherals (External Radio RX, GPS)
+## Verdrahtung von Peripheriegeräten (externer Radio RX, GPS)
 
 <img src="/halomedia/image16.jpeg" id="image16">
 
 <div class="page"></div>
 
-## LED Strip Wiring (Parallel, all strips share the same config)
+## LED-Streifen-Verdrahtung (parallel, alle Streifen gleiche Konfiguration)
 
 <img src="/halomedia/image17.jpg" id="image17">
 
      
 
-## LED Strip Wiring (Individually, addressable LED strips)
+## LED-Streifen-Verdrahtung (individuell, adressierbare LED-Streifen)
 
 <img src="/halomedia/image18.jpg" id="image18">
 
@@ -59,12 +59,12 @@ Unfortunately, the previous batches of HDZero VTX-R3 have different signal defin
 
 ## Racing Stack 
 
-Here are two examples of how to mount the HDZero Race v3 VTX and the HDZero Halo stack in a racing drone. The configuration on the left fits a frame with 21.5 mm of clearance between the carbon plates, while the one on the right is suited for taller frames with a minimum clearance of 23 mm. To reduce space between FC and ESC, install the FC and ESC with plugs facing downward (note, this requires changing the order of the motors in Betaflight Motors tab).
+Hier sind zwei Beispiele, wie man den HDZero Race v3 VTX und den HDZero Halo Stack in einer Racing-Drohne montiert. Die Konfiguration links passt in einen Rahmen mit 21,5 mm Abstand zwischen den Carbonplatten, die rechts ist für höhere Frames mit mindestens 23 mm Abstand geeignet. Um den Abstand zwischen FC und ESC zu verringern, installiere FC und ESC mit den Steckern nach unten (beachte, dass dies eine Änderung der Motorreihenfolge im Betaflight-Motoren-Tab erfordert).
 
 <img src="/halomedia/image19.png" id="image19"><img src="/halomedia/image20.png" id="image20">
 
-## ELRS Antennas Mount
+## ELRS-Antennenmontage
 
-Use the included antenna retainers—indicated by red circles below—to guide the antenna wires to the top plate and one of the arms. If space is limited, such as on compact racing drones, mounting only one antenna is acceptable.
+Verwende die beiliegenden Antennenhalter – unten durch rote Kreise markiert – um die Antennenkabel zur Top-Plate und zu einem der Arme zu führen. Wenn der Platz begrenzt ist, z. B. bei kompakten Racing-Drohnen, reicht es aus, nur eine Antenne zu montieren.
 
 <img src="/halomedia/image21.jpg" id="image21"><img src="/halomedia/image22.jpg" id="image22">

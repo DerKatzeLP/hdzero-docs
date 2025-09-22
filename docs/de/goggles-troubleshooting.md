@@ -1,13 +1,13 @@
-# Troubleshooting
+# Fehlerbehebung
 
-Support should be attempted in the following manner.
+Support sollte in folgender Reihenfolge erfolgen:
 
-1. Read this manual first
+1. Lies zuerst dieses Handbuch
 
-2. Follow us on Facebook/Discord if possible
+2. Folge uns auf Facebook/Discord, wenn möglich
 
     a. Facebook: https://www.facebook.com/groups/HDZero
 
-    b. Discord Server: https://discord.gg/VSkXzkKPHt
+    b. Discord-Server: https://discord.gg/VSkXzkKPHt
 
-3. Email Technical Support: support@divimath.com
+3. E-Mail an den technischen Support: support@divimath.com

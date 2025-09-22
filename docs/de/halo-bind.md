@@ -1,31 +1,31 @@
-# Bind with ELRS TX radio
+# Binden mit ELRS TX-Fernsteuerung
 
-There are two ways to configure Halo FC for binding:
+Es gibt zwei Möglichkeiten, den Halo FC zum Binden zu konfigurieren:
 
-1. Connect HDZero Halo FC to PC via USB-C. Open Betaflight and connect to the FC. Navigate to the “Receiver” tab and click “Bind” to initiate binding mode; or
+1. Verbinde den HDZero Halo FC per USB-C mit dem PC. Öffne Betaflight und verbinde dich mit dem FC. Navigiere zum Tab „Empfänger“ und klicke auf „Bind“, um den Bindemodus zu starten; oder
 
-2. Power off the Halo FC.
+2. Schalte den Halo FC aus.
 
-    Power-cycle the Halo FC 3 times.
+    Schalte den Halo FC dreimal hintereinander ein und aus.
 
-    - Supply power to the Halo FC
+    - Versorge den Halo FC mit Strom
 
-    - The ELRS LED lights up.
+    - Die ELRS-LED leuchtet auf.
 
-    - Turn it off within 2 seconds.
+    - Schalte ihn innerhalb von 2 Sekunden wieder aus.
 
-    - Repeat 2 more times.
+    - Wiederhole dies noch 2 Mal.
 
-Once RX is in binding mode, insert the ELRS TX module into your OpenTX Radio transmitter, select External RF mode and set it to the CRSF protocol. You will find the ELRS menu in the Radio system (ensure the ELRS.LUA file is copied to the SD-Card tools first). Enter the ELRS menu and press [Bind]. The RX LED on the flight controller will become solid if the binding is successful.
+Sobald sich der RX im Bindemodus befindet, stecke das ELRS TX-Modul in deinen OpenTX-Fernsteuersender, wähle den externen RF-Modus und stelle das Protokoll auf CRSF ein. Du findest das ELRS-Menü im Systemmenü des Senders (stelle sicher, dass die ELRS.LUA-Datei zuvor auf die SD-Karte im Ordner „tools“ kopiert wurde). Öffne das ELRS-Menü und drücke [Bind]. Die RX-LED am Flight Controller leuchtet dauerhaft, wenn das Binden erfolgreich war.
 
 ::: tip
-NOTE: Make sure you use the matching ELRS preset for your link rate, failure to do so can lead to un-commanded movement in turns.
+HINWEIS: Stelle sicher, dass du das passende ELRS-Preset für deine Linkrate verwendest. Andernfalls kann es zu unkontrollierten Bewegungen in Kurven kommen.
 :::
 
-The green ELRS LED on Halo FC status:
+Die grüne ELRS-LED am Halo FC zeigt den Status an:
 
-- **Solid** means bind successful or Connection established;
+- **Dauerhaft an** bedeutet Bindung erfolgreich oder Verbindung hergestellt;
 
-- **Double-flash** means in bind mode;
+- **Doppelblinken** bedeutet Bindemodus aktiv;
 
-- **Flash slowly** means no signal established with the TX module
+- **Langsames Blinken** bedeutet, dass keine Verbindung zum TX-Modul besteht

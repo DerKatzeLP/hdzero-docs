@@ -1,73 +1,73 @@
-# General Considerations
-## Update VTX Firmware
+# Allgemeine Hinweise
+## VTX-Firmware aktualisieren
 
-Please update VTX firmware to the latest version to ensure compatibility with the latest cameras, flight controller software, and video receivers. It is not required for VTX firmware version to match video receiver version, but it is recommended. See [firmware update instructions](vtx-firmware-update.md) below.
+Bitte aktualisiere die VTX-Firmware auf die neueste Version, um Kompatibilität mit den neuesten Kameras, Flight-Controller-Software und Videoempfängern sicherzustellen. Es ist nicht erforderlich, dass die VTX-Firmwareversion mit der des Videoempfängers übereinstimmt, aber es wird empfohlen. Siehe [Firmware-Update-Anleitung](vtx-firmware-update.md) unten.
 
-## Caution: UFL Connectors Are Fragile
+## Achtung: UFL-Steckverbinder sind empfindlich
 
-All HDZero VTXes use a U.FL connector for its smaller footprint and lighter weight. However, it is not a mechanically strong connector. Treat it as if it’s made of glass. Here are notes for installing and uninstalling an antenna:
+Alle HDZero VTX verwenden einen U.FL-Stecker wegen der kompakten Bauweise und des geringen Gewichts. Mechanisch ist dieser Stecker jedoch nicht sehr robust. Behandle ihn, als wäre er aus Glas. Hinweise zur Montage und Demontage einer Antenne:
 
-- Use the included brass or plastic retaining bar on VTXes that include it
+- Verwende die beiliegende Messing- oder Kunststoff-Halteklammer bei VTX, die diese enthalten
 
-- If retaining bar is not used, never run a cable from the UFL connector straight off the side of a board. Instead, run the antenna cable towards the middle of the board, and secure it in one of the following ways as a strain relief:
+- Wird keine Halteklammer verwendet, führe das Kabel vom UFL-Stecker niemals direkt seitlich von der Platine weg. Führe das Antennenkabel stattdessen zur Mitte der Platine und sichere es als Zugentlastung auf eine der folgenden Arten:
 
-  * Temperature resistant glue like E6000
+  * Temperaturbeständiger Kleber wie E6000
 
-    - Avoid using glue on top of the hot components on the board.
+    - Vermeide Kleber auf heißen Bauteilen der Platine.
 
-    - Preferably, apply glue to the side of the board where the cable leaves the top of the board.
+    - Trage Kleber vorzugsweise an der Seite auf, an der das Kabel die Oberseite der Platine verlässt.
 
-  * Kapton tape to secure it to the surface of the VTX
+  * Kaptonband, um das Kabel auf der VTX-Oberfläche zu fixieren
 
-  * Zip tie it to a nearby standoff (be careful not to crush the coax)
+  * Kabelbinder an einem nahegelegenen Abstandshalter (achte darauf, das Koaxialkabel nicht zu quetschen)
 
-- Unless you need maximum RF performance or minimum weight, consider a UFL->SMA pigtail for larger builds. This allows you to thoroughly secure the SMA connector to your aircraft to prevent movement of the antenna cable. Note: a common failure point with SMA connectors is where the coax cable is crimped to the SMA jack; if this joint snaps and is loose, RF performance will suffer greatly.
+- Wenn du nicht maximale HF-Leistung oder minimales Gewicht benötigst, verwende für größere Builds ein UFL->SMA-Pigtail. So kann der SMA-Stecker am Fluggerät befestigt werden, um Bewegungen des Antennenkabels zu verhindern. Hinweis: Eine häufige Fehlerquelle bei SMA-Steckern ist die Crimpstelle des Koaxialkabels am SMA-Stecker; wenn diese Stelle bricht und locker ist, leidet die HF-Leistung erheblich.
 
-- When removing the antenna, use care not to apply too much stress in any one direction. It is best to use a tweezer at the base of the neck of the connector and then pull straight up (do not pry), away from the board, so that force is evenly distributed on each supporting leg of the U.FL jack. There are tools designed to remove/insert UFL connectors from their sockets, which can help avoid damage to the UFL connector or socket.
+- Beim Entfernen der Antenne darauf achten, keine einseitige Belastung auszuüben. Am besten mit einer Pinzette am Hals des Steckers greifen und gerade nach oben (nicht hebeln) von der Platine abziehen, damit die Kraft gleichmäßig auf die Stützbeine des U.FL-Buchse verteilt wird. Es gibt spezielle Werkzeuge zum Entfernen/Einsetzen von UFL-Steckern, die Schäden vermeiden helfen.
 
-Please visit the following link for more information:
+Weitere Informationen findest du unter:
 
 https://www.facebook.com/groups/hdzero/permalink/448657693828864/
 
-## Powering the VTX: BEC
+## VTX-Stromversorgung: BEC
 
-Using a battery eliminator circuit (BEC) is highly recommended to avoid voltage spikes, which can damage the VTX. Although you can power the VTX directly from the battery (VBAT), a BEC will provide more consistent power and will help absorb any voltage spikes, protecting your VTX from over-voltage conditions and under-voltage (brown-outs).
+Die Verwendung eines Battery Eliminator Circuit (BEC) wird dringend empfohlen, um Spannungsspitzen zu vermeiden, die den VTX beschädigen können. Zwar kann der VTX direkt von der Batterie (VBAT) betrieben werden, ein BEC sorgt jedoch für eine stabilere Versorgung und schützt vor Über- und Unterspannung.
 
-It is important to select a BEC that provides voltage that is within the range of what the VTX accepts, and that is capable of supplying enough current to power the VTX. Whether you are using a BEC that is built into your flight controller or a standalone BEC, be sure to check its voltage and current ratings and compare them to the required voltage and current for your VTX.
+Wähle einen BEC, dessen Spannung im Bereich des VTX liegt und der genügend Strom liefern kann. Egal ob BEC im Flight Controller integriert oder separat: Prüfe Spannung und Stromstärke und vergleiche sie mit den Anforderungen deines VTX.
 
-All the FCs that include an integrated BEC for DJI VTXes should also work for HDZero VTXes.
+Alle FCs mit integriertem BEC für DJI VTX sollten auch für HDZero VTX funktionieren.
 
-To summarize:
+Zusammengefasst:
 
-- Check your FC specs to see if you can run your VTX from the FC’s BEC;
+- Prüfe die FC-Spezifikationen, ob du den VTX über das BEC des FC betreiben kannst;
 
-- If not, you could run the VTX from a suitable standalone BEC;
+- Falls nicht, verwende ein geeignetes externes BEC;
 
-- If not, running on VBAT is always the last choice due to the challenging voltage environment in an aircraft.
+- Falls nicht, ist der Betrieb an VBAT die letzte Wahl wegen der rauen Spannungsumgebung im Fluggerät.
 
-- All HDZero VTXes, except Freestyle V2, do not support 6S VBAT.
+- Alle HDZero VTX außer Freestyle V2 unterstützen kein 6S VBAT.
 
-## Mounting Considerations
+## Hinweise zur Montage
 
-It is very important to keep some distance between the VTX and ESC/FC boards for the following reasons:
+Es ist sehr wichtig, Abstand zwischen VTX und ESC/FC-Platinen zu halten:
 
-- The RF portion of VTX is vulnerable to electronic noise caused by ESC/motors;
+- Der HF-Teil des VTX ist anfällig für Störungen durch ESC/Motoren;
 
-- The RF signal can be bounced back from surfaces of boards or carbon fiber plates, and fed back to the power amplifier in the VTX. This will deteriorate the RF signal integrity and could damage the amplifier.
+- Das HF-Signal kann von Platinen- oder Carbonflächen reflektiert und in den Leistungsverstärker des VTX zurückgeführt werden. Dies verschlechtert die Signalqualität und kann den Verstärker beschädigen.
 
-To avoid these concerns, follow this guidance for mounting the VTX:
+Beachte daher folgende Hinweise zur Montage:
 
-- **Do not use tape to mount VTX to drone frame** (except for Freestyle V2)
+- **Kein Klebeband zur Befestigung des VTX am Rahmen verwenden** (außer Freestyle V2)
 
-- If the VTX is mounted on the top of the stack, please keep 5mm distance from the top carbon fiber plates.
+- Wird der VTX oben im Stack montiert, mindestens 5mm Abstand zu den oberen Carbonplatten halten.
 
-- Avoid mounting the VTX in the middle of the stack.
+- Vermeide die Montage in der Mitte des Stacks.
 
-- If the VTX is mounted on the bottom of the stack, the VTX needs to be upside down (U.FL socket faces down) and needs to have a minimum of 5mm distance from the bottom carbon fiber plates.
+- Wird der VTX unten im Stack montiert, muss er auf dem Kopf stehen (U.FL-Buchse nach unten) und mindestens 5mm Abstand zu den unteren Carbonplatten haben.
 
-## OSD/MSP Setup
+## OSD/MSP Einrichtung
 
-### 1. Pre-requisite
+### 1. Voraussetzung
 
 Betaflight >= 4.4.0
 
@@ -77,143 +77,143 @@ KISS ULTRA >= 2.0.1-B35
 
 FlightOne >= 10.1.1.5576 | 10.1 Alpha 29
 
-### 2. Update firmware VTX and VRX
+### 2. Firmware von VTX und VRX aktualisieren
 
-Download the latest firmware: www.hd-zero.com/document
+Lade die neueste Firmware herunter: www.hd-zero.com/document
 
-### 3. Solder/Connect VTX UART to an available UART on your FC board
+### 3. VTX UART an einen freien UART des FC anschließen/löten
 
-See [installation diagram](vtx-installation.md) above
+Siehe [Installationsdiagramm](vtx-installation.md) oben
 
-### 4. Flight controller Configuration (Betaflight)
+### 4. Flight Controller Konfiguration (Betaflight)
 
-1. Connect the FC board to computer with a USB cable
+1. FC mit USB-Kabel am PC anschließen
 
-2. Start Betaflight configurator
+2. Betaflight Configurator starten
 
-3. Go to Port TAB
+3. Zum Port-Tab wechseln
 
-4. Activate VTX (MSP + Displayport) on UART number that is used to connect the VTX
+4. VTX (MSP + Displayport) auf dem UART aktivieren, an dem der VTX angeschlossen ist
 
-5. Save and Reboot
+5. Speichern und Neustarten
 
 ::: tip
-Note: A soft serial UART is not supported for VTX (MSP + Displayport).
+Hinweis: Soft Serial UART wird für VTX (MSP + Displayport) nicht unterstützt.
 :::
 
-As an example: UART5 on picture below is used for VTX (MSP + Displayport).<img src="/media/image8.png" id="image6">
+Beispiel: UART5 im Bild unten wird für VTX (MSP + Displayport) verwendet.<img src="/media/image8.png" id="image6">
 
-### 5. Restart/Connect Flight controller Configuration (Betaflight)
+### 5. Flight Controller Konfiguration (Betaflight) fortsetzen
 
-1. Go to configuration tab
+1. Zum Konfigurations-Tab wechseln
 
-2. Activate OSD function
+2. OSD-Funktion aktivieren
 
-3. SAVE
+3. SPEICHERN
 
 <img src="/media/image9.png" id="image7">
 
-4. Go to OSD tab, and configure the items you want to show on your screen
+4. Zum OSD-Tab wechseln und die gewünschten Elemente konfigurieren
 
-5. SAVE
+5. SPEICHERN
 
-## VTX Tables
+## VTX-Tabellen
 
-The HDZero VTX tables have been integrated into the VTX firmware. It will automatically be configured if power on, which means you don’t need to configure it manually.
+Die HDZero VTX-Tabellen sind in die VTX-Firmware integriert. Sie werden beim Einschalten automatisch konfiguriert, eine manuelle Konfiguration ist nicht nötig.
 
-## SmartAudio (Not Supported)
+## SmartAudio (Nicht unterstützt)
 
-HDZero VTX does no longer supports SmartAudio. Use MSP OSD instead.
+HDZero VTX unterstützt kein SmartAudio mehr. Verwende stattdessen MSP OSD.
 
-## Stick Command Gestures
+## Stick-Befehle
 
 <img src="/media/image10.png" id="image8"><div class="page"></div>
 
-## Using VTX Menu
+## VTX-Menü verwenden
 
-All HDZero VTXes have the following settings for its RF power level management. These settings can be changed using the VTX menu.
+Alle HDZero VTX bieten folgende Einstellungen zur Verwaltung der HF-Leistung. Diese können über das VTX-Menü geändert werden.
 
 <img src="/media/image11.jpeg" id="image9">
 
-### CHANNEL:
+### KANAL:
 
-All VTXes support R1-R8, E1, F1, F2 and F4 channels. You will get an additional 8 channels L1-L8 if you unlock the low band.
+Alle VTX unterstützen die Kanäle R1-R8, E1, F1, F2 und F4. Nach Freischaltung des Low Band stehen zusätzlich L1-L8 zur Verfügung.
 
-### POWER:
+### LEISTUNG:
 
-The desired RF power level is selectable between 25mW, 200mW (and 500mW or MAX for certain VTXes). The actual RF power level depends on the following settings and FC status.
+Die gewünschte HF-Leistung ist zwischen 25mW, 200mW (und 500mW oder MAX bei bestimmten VTX) wählbar. Die tatsächliche Leistung hängt von folgenden Einstellungen und dem FC-Status ab.
 
-### PIT_MODE:  (Set to ’OFF’ if you don’t know how it works)
+### PIT_MODE:  (Auf „AUS“ stellen, wenn du die Funktion nicht kennst)
 
-- OFF: The output RF power will be set to POWER setting.
+- AUS: Die HF-Leistung entspricht der POWER-Einstellung.
 
-- P1MW: The output RF power will be 0.1mW (in order to not interfere with other pilots) in this mode. If the aircraft is armed, RF output power will be automatically set to the POWER within seconds.
+- P1MW: Die HF-Leistung beträgt 0,1mW (um andere Piloten nicht zu stören). Bei aktiviertem Motor wird die Leistung automatisch auf POWER erhöht.
 
-- 0MW: There will be zero RF output in this mode. If aircraft is armed, RF output power will be automatically set to POWER within seconds.
-
-::: tip
-Note that after first arm, the vtx will not enter pit mode again until vbat power is reset
-:::
-
-### LP_MODE:  (Set to ‘OFF’ if you don’t know how it works)
-
-- OFF: The output RF power will be set to POWER setting.
-
-- ON: If PIT_MODE is OFF and the aircraft is disarmed, the RF power level will be forced to 25mW regardless of POWER setting. The output RF power will be set to POWER setting when aircraft is armed.
-
-- 1ST: If PIT_MODE is OFF, the RF power level will be forced to 25mW regardless of POWER setting when aircraft is power on, the output RF power will be set to POWER setting when aircraft is armed.
+- 0MW: Es wird keine HF-Leistung abgegeben. Bei aktiviertem Motor wird die Leistung automatisch auf POWER erhöht.
 
 ::: tip
-Note that after first arm, the vtx will not enter LP mode again until vbat power is reset
+Hinweis: Nach dem ersten Scharfschalten wechselt der VTX erst nach einem VBAT-Reset wieder in den Pit-Mode.
 :::
 
-### OFFSET_25MW: (Set to ‘0’ if you don’t know how it works)
+### LP_MODE:  (Auf „AUS“ stellen, wenn du die Funktion nicht kennst)
 
-It is to fine tune the RF output power to be exactly 25mW. The range is [-10:10], and step size is about 0.1dB per step.
+- AUS: Die HF-Leistung entspricht der POWER-Einstellung.
 
-### TEAM_RACE: (Set to ‘OFF’ if you don’t know how it works)
+- EIN: Wenn PIT_MODE AUS und Motor deaktiviert ist, wird die HF-Leistung auf 25mW begrenzt, unabhängig von der POWER-Einstellung. Bei aktiviertem Motor wird die Leistung auf POWER gesetzt.
 
-- OFF: The RF power of VTXs after power-on is determined by other settings.
+- 1ST: Wenn PIT_MODE AUS, wird die HF-Leistung beim Einschalten auf 25mW begrenzt, bei aktiviertem Motor auf POWER gesetzt.
 
-- MODE1: VTX RF remains off (0mW) after power-up, and exits 0mW under the following conditions: 1. Aircraft is armed. 2. Exit 0mw mode through stick command. 3. Configure VTX power to non-0mW through FC UART. If the UART communication between VTX and FC is disconnected, VTX will turn off the RF until UART communication is restored and repower the VTX.
+::: tip
+Hinweis: Nach dem ersten Scharfschalten wechselt der VTX erst nach einem VBAT-Reset wieder in den LP-Mode.
+:::
 
-- MODE2: VTX RF remains off (0mW) after power-up, and exits 0mW under the following conditions: 1. Aircraft is armed. 2. Exit 0mW mode through stick command. 3. Configure VTX power to non-0mW through FC.
+### OFFSET_25MW: (Auf „0“ stellen, wenn du die Funktion nicht kennst)
+
+Feinabstimmung der HF-Leistung auf exakt 25mW. Bereich [-10:10], Schrittweite ca. 0,1dB.
+
+### TEAM_RACE: (Auf „AUS“ stellen, wenn du die Funktion nicht kennst)
+
+- AUS: Die HF-Leistung nach dem Einschalten wird durch andere Einstellungen bestimmt.
+
+- MODE1: VTX bleibt nach dem Einschalten auf 0mW und verlässt diesen Modus unter folgenden Bedingungen: 1. Motor scharf. 2. Verlassen des 0mW-Modus per Stick-Befehl. 3. VTX-Leistung über FC-UART auf einen Wert ungleich 0mW setzen. Bei unterbrochener UART-Kommunikation schaltet der VTX die HF-Leistung ab, bis die Kommunikation wiederhergestellt und der VTX neu gestartet wird.
+
+- MODE2: Wie MODE1, aber das Verlassen des 0mW-Modus ist nur durch Motor scharf oder Stick-Befehl möglich.
 
 ### SHORTCUTS: 
 
-Two different stick commands are provided for switching or exiting 0mW. See the [Stick Movement diagram](#stick-command-gestures) (OPT_A and OPT_B) for details.
+Zwei verschiedene Stick-Befehle zum Wechseln oder Verlassen von 0mW. Siehe [Stick-Bewegungsdiagramm](#stick-command-gestures) (OPT_A und OPT_B) für Details.
 
 ::: tip
-Notes:
+Hinweise:
 
-- HDZero VTX will still become hot even on P1mW mode. It is better to keep VTX on 0mW when it will be idle for a while. Though the receiver will not have live video on this mode, it will come back as soon as the aircraft is armed.
+- Der HDZero VTX wird auch im P1mW-Modus heiß. Es ist besser, den VTX auf 0mW zu lassen, wenn er längere Zeit nicht genutzt wird. Im 0mW-Modus gibt es kein Live-Video, aber nach dem Scharfschalten ist das Bild sofort wieder da.
 
-- Use sticks shortcut to enter 0mW, and to exit 0mW mode.
+- Mit Stick-Befehlen kann der 0mW-Modus ein- und ausgeschaltet werden.
 :::
 
-### Typical Setting for Racing or daily practicing
+### Typische Einstellung für Rennen oder Training
 
-- Channel: Set to the assigned number
-- Power: 25mW
-- PIT_MODE: OFF
-- LP_MODE: OFF
+- Kanal: Auf zugewiesene Nummer stellen
+- Leistung: 25mW
+- PIT_MODE: AUS
+- LP_MODE: AUS
 - OFFSET_25MW: 0
-- TEAM_RACE: OFF
+- TEAM_RACE: AUS
 - SHORTCUT: OPT_A
 
-  - When you are waiting for ARM command from race director, Use Stick Command (OPT-A  /  \) to enter into 0mW to avoid VTX overheats, no video in goggle
-  - Right before ARM command from director, use Stick Command (OPT-A  \ /) to exit 0mW, you will have video in Goggle right away.
-### Typical Setting for Team Racing
+  - Während du auf das ARM-Kommando des Rennleiters wartest, Stick-Befehl (OPT-A  /  \) nutzen, um in 0mW zu wechseln (VTX wird nicht heiß, kein Video in der Brille)
+  - Kurz vor dem ARM-Kommando Stick-Befehl (OPT-A  \ /) nutzen, um 0mW zu verlassen (Video sofort in der Brille)
+### Typische Einstellung für Team-Rennen
 
-- Channel: Set to the assigned number
-- Power: 25mW
-- PIT_MODE: OFF
-- LP_MODE: OFF
+- Kanal: Auf zugewiesene Nummer stellen
+- Leistung: 25mW
+- PIT_MODE: AUS
+- LP_MODE: AUS
 - OFFSET_25MW: 0
 - TEAM_RACE: MODE1
 - SHORTCUT: OPT_A
 
-  - When VTX boots up, it is on 0mW. It will start to transmit when armed or Stick Command (OPT-A \ /) exit 0mW
-  - When you crash during the race, your VTX might continue transmitting, which will interference your teammate’s video signal that is on the same channel as yours, you need to
-    - Disarm, and use Stick Command (OPT-A  /  \) to enter into 0mW, this will work only when your FC still functions,
-    - VTX will automatically switch to 0mW after several seconds if VTX fails to communicate with FC (FC could be dead because of crash)
+  - Beim Start ist der VTX auf 0mW. Er beginnt zu senden, wenn der Motor scharf ist oder Stick-Befehl (OPT-A \ /) ausgeführt wird
+  - Nach einem Absturz kann der VTX weiter senden und das Signal des Teamkollegen stören. Dann:
+    - Motor deaktivieren und Stick-Befehl (OPT-A  /  \) nutzen, um in 0mW zu wechseln (funktioniert nur, wenn der FC noch läuft)
+    - Bei Kommunikationsverlust mit dem FC schaltet der VTX nach einigen Sekunden automatisch auf 0mW

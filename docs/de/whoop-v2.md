@@ -1,50 +1,50 @@
 # Whoop V2 VTX
 
-The HDZero Whoop lite VTX is a digital HD video transmitter capable of delivering up to 200mW on 5.8GHz. It supports all the HDZero cameras with MIPI connector, including Nano90.
+Der HDZero Whoop Lite VTX ist ein digitaler HD-Video-Sender, der bis zu 200mW auf 5,8GHz liefern kann. Er unterstützt alle HDZero-Kameras mit MIPI-Anschluss, einschließlich Nano90.
 
-The power input range is 3V – 12.6V.
+Der Eingangsspannungsbereich beträgt 3V – 12,6V.
 
-- This VTX does not have reverse polarity protection circuit, it will be permanently damaged if voltage input is connected backwards. This is the number one failure cause. Reverse polarity protection circuit would have prevented VTX from operating at 1S voltage range.
+- Dieser VTX besitzt keinen Verpolungsschutz. Bei vertauschter Spannungsversorgung wird das Gerät dauerhaft beschädigt. Dies ist die häufigste Ausfallursache. Ein Verpolungsschutz hätte verhindert, dass der VTX mit 1S-Spannung betrieben werden kann.
 
-- When powered by a 5V pad of FC/BEC, make sure that 5V has 1.5A current output.
+- Wenn der VTX über ein 5V-Pad des FC/BEC betrieben wird, stellen Sie sicher, dass das 5V-Pad mindestens 1,5A liefern kann.
 
-- When powered by a 1S battery directly, note that a rapid throttle up may cause voltage to drop below 3V instantly, and that will cause video drop.
+- Beim direkten Betrieb mit einer 1S-Batterie beachten Sie, dass ein schnelles Gasgeben zu einem sofortigen Spannungsabfall unter 3V führen kann, was zu einem Videoausfall führt.
 
-- There is no need for an external capacitor when if connected with FC/BEC or 1S battery. However, it is strongly suggested to install a capacitor when powered by a 3S battery.
+- Ein externer Kondensator ist beim Anschluss an FC/BEC oder 1S-Batterie nicht erforderlich. Es wird jedoch dringend empfohlen, einen Kondensator zu installieren, wenn der VTX mit einer 3S-Batterie betrieben wird.
 
-This VTX includes M2 rubber grommets for soft mounting, and a brass bar for antenna retention. Though the VTX can be mounted on racing and other high-speed aircraft, it is highly recommended to consider HDZero Race V3 VTX for such applications.
+Im Lieferumfang sind M2-Gummitüllen zur weichen Montage und eine Messingstange zur Antennenbefestigung enthalten. Obwohl der VTX auf Renn- und anderen Hochgeschwindigkeitsflugzeugen montiert werden kann, wird für solche Anwendungen dringend der HDZero Race V3 VTX empfohlen.
 
-Solder pads:
+Lötpads:
 
 <img src="/media/image13.jpeg" id="image11" width="300">
 
 <table id="table3">
 <tr>
 <td>1</td>
-<td>MIPI Connector</td>
+<td>MIPI-Anschluss</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Power/UART/SA solder pads</td>
+<td>Power/UART/SA Lötpads</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Status LEDs</td>
+<td>Status-LEDs</td>
 </tr>
 <tr>
 <td>4</td>
-<td>u.FL Connector</td>
+<td>u.FL-Anschluss</td>
 </tr>
 </table>
 
 <table id="table4">
 <tr>
 <td>G</td>
-<td>Ground</td>
+<td>Masse (Ground)</td>
 </tr>
 <tr>
 <td>V</td>
-<td>3V -12.6V</td>
+<td>3V - 12,6V</td>
 </tr>
 <tr>
 <td>RX</td>
@@ -57,9 +57,9 @@ Solder pads:
 </table>
 
 ::: tip
-Notes:
+Hinweise:
 
-1. Read first: [General Consideration for VTX Installation](vtx-general.md)
+1. Zuerst lesen: [Allgemeine Hinweise zur VTX-Installation](vtx-general.md)
 
-2. This VTX does not support using a keypad to tune channel and RF output power level. It is designed to work with a flight controller.
+2. Dieser VTX unterstützt keine Kanal- und Leistungseinstellung per Keypad. Er ist für den Betrieb mit einem Flight Controller ausgelegt.
 :::

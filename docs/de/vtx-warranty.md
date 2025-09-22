@@ -1,19 +1,19 @@
-# Warranty
+# Garantie
 
-Due to the nature of this hobby, warranty claims are accepted only for items determined to be Dead on Arrival (DOA).
+Aufgrund der Natur dieses Hobbys werden Garantieansprüche nur für Artikel akzeptiert, die als "Dead on Arrival" (DOA, bei Ankunft defekt) eingestuft werden.
 
-Please note that we do not cover any damages resulting from crashes, misuse, or improper handling under any circumstances. This includes but is not limited to:
+Bitte beachten Sie, dass wir keinerlei Schäden durch Abstürze, unsachgemäße Nutzung oder unsachgemäße Handhabung unter keinen Umständen abdecken. Dies umfasst unter anderem:
 
-- Minor or major crashes
+- Kleine oder große Abstürze
 
-- Hard landings
+- Harte Landungen
 
-- Faulty soldering
+- Fehlerhaftes Löten
 
-- Incorrect polarity connection
+- Falsche Polaritätsverbindung
 
-- Insufficient cooling
+- Unzureichende Kühlung
 
-- Powering the device without an antenna
+- Betrieb des Geräts ohne Antenne
 
-If you experience any issues or have questions, feel free to reach out to us at: support@divimath.com
+Wenn Sie Probleme haben oder Fragen auftreten, kontaktieren Sie uns gerne unter: support@divimath.com

@@ -1,6 +1,6 @@
-# Discontinued Video Transmitters
+# Eingestellte Video-Sender (VTX)
 
-The following VTX models have been discontinued and will no longer be manufactured. Each has a successor version now available.
+Die folgenden VTX-Modelle wurden eingestellt und werden nicht mehr produziert. Für jedes Modell ist eine Nachfolgeversion verfügbar.
 
 <table id="table11">
 <tr>
@@ -13,14 +13,14 @@ The following VTX models have been discontinued and will no longer be manufactur
 <tr>
 </tr>
 <tr>
-<td>Dimension (mm x mm)</td>
+<td>Abmessungen (mm x mm)</td>
 <td>32x32</td>
 <td>27x45</td>
 <td>34x34</td>
 <td>40x40</td>
 </tr>
 <tr>
-<td rowspan="2">Mounting Pattern</td>
+<td rowspan="2">Montagemuster</td>
 <td>25.5x25.5</td>
 <td>20x20</td>
 <td>20x20</td>
@@ -33,25 +33,25 @@ The following VTX models have been discontinued and will no longer be manufactur
 <td>M3(Soft)</td>
 </tr>
 <tr>
-<td rowspan="2">Weight</td>
-<td rowspan="2">5.3grams</td>
-<td rowspan="2">7grams</td>
-<td rowspan="2">6grams</td>
-<td rowspan="2">28grams</td>
+<td rowspan="2">Gewicht</td>
+<td rowspan="2">5,3 Gramm</td>
+<td rowspan="2">7 Gramm</td>
+<td rowspan="2">6 Gramm</td>
+<td rowspan="2">28 Gramm</td>
 </tr>
 <tr>
 </tr>
 <tr>
-<td rowspan="2">Power Input</td>
+<td rowspan="2">Stromversorgung</td>
 <td rowspan="2">7V-17V (2S-4S)</td>
 <td rowspan="2">7V-17V (2S-4S)</td>
 <td rowspan="2">7V-17V (2S-4S)</td>
-<td rowspan="2">2S-6S (2rd batch or later)</td>
+<td rowspan="2">2S-6S (ab 2. Charge)</td>
 </tr>
 <tr>
 </tr>
 <tr>
-<td rowspan="2">Power Consumption</td>
+<td rowspan="2">Leistungsaufnahme</td>
 <td rowspan="2">5~6W</td>
 <td rowspan="2">5~6W</td>
 <td rowspan="2">5~6W</td>
@@ -60,38 +60,38 @@ The following VTX models have been discontinued and will no longer be manufactur
 <tr>
 </tr>
 <tr>
-<td rowspan="2">RF Power Output</td>
-<td rowspan="2">25mW,200mW</td>
-<td rowspan="2">25mW,200mW</td>
-<td rowspan="2">25mW,200mW</td>
-<td rowspan="2">25mW,200mW (500mW,<br>1W if with HAM license</td>
+<td rowspan="2">RF Ausgangsleistung</td>
+<td rowspan="2">25mW, 200mW</td>
+<td rowspan="2">25mW, 200mW</td>
+<td rowspan="2">25mW, 200mW</td>
+<td rowspan="2">25mW, 200mW (500mW,<br>1W mit HAM-Lizenz)</td>
 </tr>
 <tr>
 </tr>
 <tr>
-<td rowspan="2">Secured U.FL</td>
-<td rowspan="2">No</td>
-<td rowspan="2">Yes</td>
-<td rowspan="2">Yes</td>
-<td rowspan="2">Yes</td>
+<td rowspan="2">Gesicherter U.FL</td>
+<td rowspan="2">Nein</td>
+<td rowspan="2">Ja</td>
+<td rowspan="2">Ja</td>
+<td rowspan="2">Ja</td>
 </tr>
 <tr>
 </tr>
 <tr>
-<td rowspan="2">Antenna Included</td>
-<td rowspan="2">Not included</td>
-<td rowspan="2">Not included</td>
-<td rowspan="2">Not included</td>
-<td rowspan="2">Polarized(RHCP)</td>
+<td rowspan="2">Antenne enthalten</td>
+<td rowspan="2">Nicht enthalten</td>
+<td rowspan="2">Nicht enthalten</td>
+<td rowspan="2">Nicht enthalten</td>
+<td rowspan="2">Polarisiert (RHCP)</td>
 </tr>
 <tr>
 </tr>
 <tr>
 <td rowspan="3">MSP</td>
-<td rowspan="3">Yes</td>
-<td rowspan="3">Yes</td>
-<td rowspan="3">Yes</td>
-<td rowspan="3">Yes</td>
+<td rowspan="3">Ja</td>
+<td rowspan="3">Ja</td>
+<td rowspan="3">Ja</td>
+<td rowspan="3">Ja</td>
 </tr>
 <tr>
 </tr>

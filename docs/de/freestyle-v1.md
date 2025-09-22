@@ -1,109 +1,107 @@
 # Freestyle V1 VTX
 
-The HDZero Freestyle V1 VTX offers unprecedented range and performance for the HDZero 5.8GHz digital FPV system. With its high maximum output power and robust construction, this VTX is perfect for freestyle and long-range builds.
+Der HDZero Freestyle V1 VTX bietet eine beispiellose Reichweite und Leistung für das HDZero 5,8GHz Digital-FPV-System. Mit seiner hohen maximalen Ausgangsleistung und robusten Bauweise ist dieser VTX perfekt für Freestyle- und Long-Range-Builds geeignet.
 
 <img src="/media/image46.png" id="image37">
 
-With a tested maximum range of more than 18 miles, the Freestyle V1 VTX will transmit a digital FPV feed as far as you’re willing to fly. Not interested in long range? You’ll also see better performance in urban environments and around obstacles, with none of the color noise or multipath interference issues of analog video.&nbsp;     <img src="/media/image47.png" id="image38">
+Mit einer getesteten maximalen Reichweite von mehr als 29 Kilometern (18 Meilen) überträgt der Freestyle V1 VTX ein digitales FPV-Signal so weit, wie Sie zu fliegen bereit sind. Kein Interesse an Long Range? Sie profitieren auch von besserer Leistung in städtischen Umgebungen und um Hindernisse herum, ohne die Farbrauschen- oder Mehrwege-Interferenzprobleme von Analogvideo. <img src="/media/image47.png" id="image38">
 
 <table id="table17">
 <tr>
 <td>1</td>
-<td>Secured MIPI Connector</td>
+<td>Gesicherter MIPI-Anschluss</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Keypad Connector</td>
+<td>Tastatur-Anschluss</td>
 </tr>
 <tr>
 <td>3</td>
-<td>M3 Mounting Hole</td>
+<td>M3-Befestigungsloch</td>
 </tr>
 <tr>
 <td>4</td>
-<td>Secured U.FL Connector</td>
+<td>Gesicherter U.FL-Anschluss</td>
 </tr>
 <tr>
 <td>5</td>
-<td>FW Update Connector</td>
+<td>FW-Update-Anschluss</td>
 </tr>
 <tr>
 <td>6</td>
-<td>Power/UART Connector</td>
+<td>Strom/UART-Anschluss</td>
 </tr>
 <tr>
 <td>7*</td>
-<td>BEC Power in (2S-6S)</td>
+<td>BEC-Stromeingang (2S-6S)</td>
 </tr>
 <tr>
 <td>8*</td>
-<td>BEC Power Out Pad</td>
+<td>BEC-Stromausgang-Pad</td>
 </tr>
 <tr>
 <td>9</td>
-<td>RHCP Antenna</td>
+<td>RHCP-Antenne</td>
 </tr>
 <tr>
 <td>10</td>
-<td>Power/UART Harness</td>
+<td>Strom/UART-Kabelbaum</td>
 </tr>
 </table>
 
-*: BEC is included for first Batch only.
+*: BEC ist nur bei der ersten Charge enthalten.
 
 <table id="table18">
 <tr>
-<td>Power/UART Connector</td>
-<td>Cable Color</td>
-<td>Connected with</td>
+<td>Strom/UART-Anschluss</td>
+<td>Kabelfarbe</td>
+<td>Verbunden mit</td>
 </tr>
 <tr>
-<td>Ground</td>
-<td>Black</td>
-<td>Ground</td>
+<td>Masse</td>
+<td>Schwarz</td>
+<td>Masse</td>
 </tr>
 <tr>
-<td>Power</td>
-<td>Red</td>
-<td>Power*</td>
+<td>Strom</td>
+<td>Rot</td>
+<td>Strom*</td>
 </tr>
 <tr>
 <td>RX</td>
-<td>Green</td>
+<td>Grün</td>
 <td>FC.TX</td>
 </tr>
 <tr>
 <td>TX</td>
-<td>Yellow</td>
+<td>Gelb</td>
 <td>FC.RX</td>
 </tr>
 <tr>
 <td>SA</td>
-<td>Blue</td>
-<td>FC.SA (TX), Optional</td>
+<td>Blau</td>
+<td>FC.SA (TX), optional</td>
 </tr>
 </table>
 
-*: The 1st batch supports 4S MAX.
+*: Die 1. Charge unterstützt maximal 4S.
 
-The 1st batch of Freestyle V1 VTX, supports 2S-4S, A BEC supporting 2S-6S is included.
+Die 1. Charge des Freestyle V1 VTX unterstützt 2S-4S, ein BEC für 2S-6S ist enthalten.
 
-The 2nd batch and later, supports 2S-6S, and the BEC is not included.
+Die 2. Charge und spätere unterstützen 2S-6S, das BEC ist nicht enthalten.
 <div style="display: flex;gap: 10px;">
 <img src="/media/image48.png" style="height: 100%" width="200">                  
 <img src="/media/image49.png" style="height: 100%" width="200">
 </div>
 
-## Important Notes:
+## Wichtige Hinweise:
 
-- Do not directly power this VTX with a 5S/6S battery for the 1st batch.
+- Versorgen Sie diesen VTX bei der 1. Charge nicht direkt mit einer 5S/6S-Batterie.
 
-  - Use 2S-4S VBAT, or included BEC, or FC with built-in BEC
+  - Verwenden Sie 2S-4S VBAT, das mitgelieferte BEC oder einen FC mit integriertem BEC.
 
-  - The Freestyle VTX consumes up to 15W. If it is connected with FC that has a built-in BEC output, make sure the BEC can provide enough current. For example, if the BEC provides 10V, it needs a minimum of 1.5A current output.
+  - Der Freestyle VTX verbraucht bis zu 15W. Wenn er mit einem FC mit integriertem BEC-Ausgang verbunden ist, stellen Sie sicher, dass das BEC genügend Strom liefern kann. Beispiel: Liefert das BEC 10V, werden mindestens 1,5A Ausgangsstrom benötigt.
 
-- Removing the heat sink is not recommended because it is part of the design.
+- Das Entfernen des Kühlkörpers wird nicht empfohlen, da er Teil des Designs ist.
 
-- Rotate the antenna as shown above before detaching it to reduce the risk of peeling off the UFL connector.
-
-                                                             
+- Drehen Sie die Antenne wie oben gezeigt, bevor Sie sie abziehen, um das Risiko des Abreißens des UFL-Anschlusses zu verringern.

@@ -1,29 +1,29 @@
-# HDZero Nano 90 Camera (Outdated)
+# HDZero Nano 90 Kamera (Veraltet)
 
-## Description
+## Beschreibung
 
-Runcam HDZero Nano 90 camera is the first 90fps camera for HDZero VTX. This camera enables HDZero to be 5ms <strong><em>faster</em></strong> than analog 60i video to show a full field/frame.
+Die Runcam HDZero Nano 90 Kamera ist die erste 90fps-Kamera für den HDZero VTX. Diese Kamera ermöglicht es HDZero, 5ms <strong><em>schneller</em></strong> als analoges 60i-Video ein vollständiges Bild/Feld darzustellen.
 
-Combined with HDZero’s extremely low latency, 90 FPS gives racers and freestyle pilots an unmatched connected flying feel and a competitive edge on the race track. You’ll finish snap rolls sharper, and corner around gates tighter at 90 FPS.
+In Kombination mit der extrem niedrigen Latenz von HDZero bietet 90 FPS Renn- und Freestyle-Piloten ein unvergleichliches, verbundenes Fluggefühl und einen Wettbewerbsvorteil auf der Rennstrecke. Snap Rolls werden schärfer beendet und Kurven um Gates enger geflogen – mit 90 FPS.
 
-Freestylers will appreciate the new 540p60 60 FPS mode that offers better signal penetration and range by reducing HDZero’s video bandwidth.
+Freestyler werden den neuen 540p60 60 FPS Modus schätzen, der durch Reduzierung der Video-Bandbreite von HDZero eine bessere Signalpenetration und Reichweite bietet.
 
-It supports various resolutions for different flying environment.
--	720x540p90 – 90 FPS – requires HDZero Goggle
--	720x540p60 – 60 FPS at lower resolution gives better penetration/range
--	960x720p60 – 60 FPS at standard 720p resolution
+Sie unterstützt verschiedene Auflösungen für unterschiedliche Flugumgebungen:
+-	720x540p90 – 90 FPS – benötigt HDZero Goggle
+-	720x540p60 – 60 FPS bei niedrigerer Auflösung für bessere Durchdringung/Reichweite
+-	960x720p60 – 60 FPS bei Standard-720p-Auflösung
 
-Nano 90 is able to reach to 3ms pixel latency and 14ms frame latency glass to glass with the HDZero goggle.
+Die Nano 90 erreicht mit der HDZero Goggle eine Pixel-Latenz von 3ms und eine Glas-zu-Glas-Frame-Latenz von 14ms.
 
 
-## Specifications
+## Spezifikationen
 
-| parameter    | value                    |
+| Parameter    | Wert                     |
 | ------------ | ------------------------ |
-| Image Sensor | 1/3"                     |
-| Interface    | MIPI                     |
-| Resolution   | 720x540@90fps 4:3 <br> 720x540@60fps 4:3 <br> 960x720@60fps 4:3 |
+| Bildsensor   | 1/3"                     |
+| Schnittstelle| MIPI                     |
+| Auflösung    | 720x540@90fps 4:3 <br> 720x540@60fps 4:3 <br> 960x720@60fps 4:3 |
 | Max FOV      | D:160° H:127° V:92°(4:3) |
-| Shutter      | Rolling Shutter          |
-| Net Weight   | 5.2g                     |
-| Dimensions   | L18mm * W14mm * H18mm    |
+| Verschluss   | Rolling Shutter          |
+| Gewicht      | 5,2g                     |
+| Abmessungen  | L18mm * B14mm * H18mm    |

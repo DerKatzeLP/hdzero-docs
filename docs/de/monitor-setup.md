@@ -1,8 +1,8 @@
-# Setup
+# Einrichtung
 
-This section describes the setup of the HDZero Monitor.
+In diesem Abschnitt wird die Einrichtung des HDZero Monitors beschrieben.
 
-## Diagram
+## Diagramm
 
 <img src="/monitormedia/image3.png" id="image3"><img src="/monitormedia/image4.png" id="image4">
 
@@ -14,12 +14,12 @@ This section describes the setup of the HDZero Monitor.
 
 <div class="page"></div>
 
-## Power
+## Stromversorgung
 
-HDZero Monitor provides two different power supply interfaces: DC(5.5mm*2.1mm) and XT30. And built-in polarity protection.
+Der HDZero Monitor bietet zwei verschiedene Stromversorgungsanschlüsse: DC (5,5mm*2,1mm) und XT30. Mit integriertem Verpolungsschutz.
 
-The voltage range input is 2S-6S(6-25V). Power consumption is approximately 9.0 watts when receiving HDZero video and recording.
+Der Eingangsspannungsbereich beträgt 2S-6S (6-25V). Der Stromverbrauch liegt bei ca. 9,0 Watt beim Empfang von HDZero-Video und bei der Aufnahme.
 
-HDZero Monitor will automatically identify cell counts based on voltage when powered on, and will alarm when the cell voltage is lower than 2.8v(flashing OSD voltage display).
+Der HDZero Monitor erkennt beim Einschalten automatisch die Zellanzahl anhand der Spannung und gibt einen Alarm aus, wenn die Zellenspannung unter 2,8V fällt (blinkende OSD-Spannungsanzeige).
 
-You can also manually set cell counts and warning cell voltage in the HDZero Programmer App.
+Sie können Zellanzahl und Warnspannung auch manuell in der HDZero Programmer App einstellen.

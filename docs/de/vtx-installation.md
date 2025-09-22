@@ -1,12 +1,12 @@
-# VTX Installation Diagram
+# VTX-Installationsdiagramm
 
 <img src="/media/image7.png" id="image5">
 
-## Notes
+## Hinweise
 
-- Use a BEC to power the HDZero VTX whenever feasible. Before connecting, verify the VTX’s specific voltage and current requirements, as well as the BEC output capability of your flight controller.
-- Whenever feasible, opt for the HDZero Halo FC—it enables a solder-free connection to the Race V3 VTX and Freestyle V2 VTX, simplifying assembly and minimizing setup errors.
-- Don’t use SmartAudio (deprecated). Use MSP instead;
-- One UART is needed for OSD, Camera, VTX menu, MSP VTX;
-- Never apply power on VTX without antenna installed and secured;
-- The HDZero VTX itself has no inherent preference for antenna polarization. However, for optimal signal performance, its antenna polarization should be matched with that of the receiving device—such as the HDZero Goggle, HDZero receiver, HDZero monitor.
+- Verwende nach Möglichkeit einen BEC zur Stromversorgung des HDZero VTX. Überprüfe vor dem Anschluss die spezifischen Spannungs- und Stromanforderungen des VTX sowie die BEC-Ausgangsleistung deines Flight Controllers.
+- Wenn möglich, verwende den HDZero Halo FC – dieser ermöglicht eine lötfreie Verbindung zum Race V3 VTX und Freestyle V2 VTX, vereinfacht die Montage und minimiert Fehlerquellen.
+- Verwende kein SmartAudio (veraltet). Nutze stattdessen MSP;
+- Ein UART wird für OSD, Kamera, VTX-Menü, MSP VTX benötigt;
+- Niemals den VTX ohne installierte und befestigte Antenne mit Strom versorgen;
+- Der HDZero VTX selbst hat keine Präferenz für Antennenpolarisation. Für optimale Signalqualität sollte die Polarisation der Antenne jedoch mit der des Empfangsgeräts übereinstimmen – z.B. HDZero Brille, HDZero Empfänger, HDZero Monitor.

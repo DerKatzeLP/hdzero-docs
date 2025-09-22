@@ -1,13 +1,13 @@
-# Firmware Update
+# Firmware-Update
 
-Before updating the firmware, make sure you have downloaded the latest HDZero programmer.
+Bevor Sie die Firmware aktualisieren, stellen Sie sicher, dass Sie den neuesten HDZero Programmer heruntergeladen haben.
 
-You can download it from the website [https://www.hd-zero.com/document](https://www.hd-zero.com/document)
+Sie können ihn von der Website herunterladen: [https://www.hd-zero.com/document](https://www.hd-zero.com/document)
 
 <img src="/monitormedia/image10.png" id="image8">
 
-* Open HDZeroProgrammer.exe and switch to Monitor Tab.
-* Click **Load Online Firmware** and select the latest version, Then Click **Flash Monitor**.
-* Power on the hdzero monitor and connect it to the PC through a USB cable with a type-c interface.
-* The firmware will be downloaded and updated automatically. Do not disconnect the monitor power supply or USB cable before the update is completed.
-* Re-power hdzero monitor after the update is completed.
+* Öffnen Sie HDZeroProgrammer.exe und wechseln Sie zum Monitor-Tab.
+* Klicken Sie auf **Load Online Firmware** und wählen Sie die neueste Version aus, dann klicken Sie auf **Flash Monitor**.
+* Schalten Sie den HDZero Monitor ein und verbinden Sie ihn über ein USB-Kabel mit Typ-C-Anschluss mit dem PC.
+* Die Firmware wird automatisch heruntergeladen und aktualisiert. Trennen Sie während des Updates weder die Stromversorgung noch das USB-Kabel.
+* Schalten Sie den HDZero Monitor nach Abschluss des Updates erneut ein.

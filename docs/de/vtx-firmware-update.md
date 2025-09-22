@@ -1,119 +1,119 @@
-# VTX Firmware Update Guide
+# VTX Firmware-Update Anleitung
 ## HDZero VTX Programmer
 
-<img src="/media/image24.png" id="image21">It is highly recommended to use [HDZero VTX Programmer](https://www.hd-zero.com/product-page/hdzero-vtx-programmer) to update VTX. Only Windows system is supported for now.
+<img src="/media/image24.png" id="image21">Es wird dringend empfohlen, den [HDZero VTX Programmer](https://www.hd-zero.com/product-page/hdzero-vtx-programmer) für das Update des VTX zu verwenden. Nur Windows-Systeme werden derzeit unterstützt.
 
-1. Download the HDZeroProgrammer.zip from [HDZero Download](https://www.hd-zero.com/document).    
-2. Extract HDZeroProgrammer.exe from the zip achieve to C:\HDZero
+1. Lade die HDZeroProgrammer.zip von [HDZero Download](https://www.hd-zero.com/document) herunter.    
+2. Entpacke HDZeroProgrammer.exe aus der ZIP-Datei nach C:\HDZero
 
-## Update VTX Firmware with HDZero Programmer
+## VTX Firmware mit HDZero Programmer aktualisieren
 
-Launch C:\HDZero\ HDZeroProgrammer.exe. All compatible HDZero VTX models eligible for firmware updates will automatically appear in the list shown below.
+Starte C:\HDZero\HDZeroProgrammer.exe. Alle kompatiblen HDZero VTX-Modelle, die für Firmware-Updates geeignet sind, erscheinen automatisch in der unten gezeigten Liste.
 
 <img src="/media/image25.png" id="image22">
 
-1. Select the VTX type that you want to update
-2. “Load Online Firmware” will fetch firmware from GitHub, and select the one you want to use, or
-3. “Load Local firmware” to specify a local HDZERO_TX.bin,
-4. “Flash VTX” to start the updating process.
+1. Wähle den VTX-Typ aus, den du aktualisieren möchtest
+2. „Load Online Firmware“ lädt die Firmware von GitHub, wähle die gewünschte Version aus, oder
+3. „Load Local firmware“, um eine lokale HDZERO_TX.bin auszuwählen,
+4. „Flash VTX“, um den Update-Prozess zu starten.
 
-## Download VTX Firmware
+## VTX Firmware herunterladen
 
-If you’re behind a firewall that restricts access to GitHub, you’ll need to manually download the VTX firmware and perform a local flashing process.
+Wenn du dich hinter einer Firewall befindest, die den Zugriff auf GitHub einschränkt, musst du die VTX-Firmware manuell herunterladen und lokal flashen.
 
-The firmware can be downloaded from VTX Firmware sector of [HDZero Download](https://www.hd-zero.com/document). The revision number is formatted HDZEROVTX_RevYYYYMMDD.zip where “YYYYMMDD” denotes its release date.
+Die Firmware kann im Bereich VTX Firmware von [HDZero Download](https://www.hd-zero.com/document) heruntergeladen werden. Die Revisionsnummer ist im Format HDZEROVTX_RevYYYYMMDD.zip, wobei „YYYYMMDD“ das Veröffentlichungsdatum angibt.
 
 <img src="/media/image26.png" id="image23">
 
-HDZEROVTX_RevYYYYMMDD.zip file includes firmware for all compatible HDZero VTX and AIO models listed below. Inside each ZIP archive, you’ll find a HDZERO_TX.bin file, which contains the specific firmware for that VTX type.
+Die Datei HDZEROVTX_RevYYYYMMDD.zip enthält Firmware für alle kompatiblen HDZero VTX- und AIO-Modelle, die unten aufgeführt sind. In jedem ZIP-Archiv findest du eine HDZERO_TX.bin-Datei, die die spezifische Firmware für diesen VTX-Typ enthält.
 
 <img src="/media/image27.png" id="image24">
 
-## Update VTX Firmware with HDZero Goggle or HDZero Receiver
+## VTX Firmware mit HDZero Brille oder HDZero Empfänger aktualisieren
 
-### Steps to update VTX firmware with HDZero Goggle
+### Schritte zum Firmware-Update mit der HDZero Brille
 
-The HDZero goggle can flash firmware to a HDZero video transmitter via its FW port. Here are the steps:
+Die HDZero-Brille kann Firmware über ihren FW-Port auf einen HDZero Video-Sender flashen. Vorgehensweise:
 
-1. Copy HDZERO_TX.bin to root directory of a SD card that is formatted as FAT32
+1. Kopiere HDZERO_TX.bin ins Stammverzeichnis einer als FAT32 formatierten SD-Karte
 
-2. Power on the goggle
+2. Schalte die Brille ein
 
-3. Connect the VTX and HDZero goggle with the included programming cable
+3. Verbinde den VTX und die HDZero-Brille mit dem beiliegenden Programmierkabel
 
-4. Go to Main menu | Firmware |Update VTX, the display will show the status of the flashing process
+4. Gehe ins Hauptmenü | Firmware | Update VTX, das Display zeigt den Status des Flash-Vorgangs an
 
-5. Disconnect the VTX
+5. Trenne den VTX
 
-6. This VTX is now flashed with the latest firmware
+6. Der VTX ist nun mit der neuesten Firmware geflasht
 
-### Steps to update VTX firmware with HDZero Receiver
+### Schritte zum Firmware-Update mit dem HDZero Empfänger
 
-1. Format SD card (Choose FAT32 and Allocation Unit size to 4096 bytes);
+1. SD-Karte formatieren (FAT32 und Zuordnungseinheit 4096 Bytes wählen);
 
-2. Power off VRX if it is on;
+2. VRX ausschalten, falls eingeschaltet;
 
-3. Unzip HDZERO_TX.bin from the corresponding VTX zip file onto SD-card, and insert SD to the VRX module;
+3. HDZERO_TX.bin aus der entsprechenden VTX-ZIP-Datei auf die SD-Karte entpacken und SD-Karte ins VRX-Modul einlegen;
 
-4. Connect cable with module and VTX;
+4. Kabel mit Modul und VTX verbinden;
 
-5. Power on VRX module;
+5. VRX-Modul einschalten;
 
-6. If “Wait to Connect VTX…” or “Check cable …”, make sure (4) is secured;
+6. Bei „Wait to Connect VTX…“ oder „Check cable …“ sicherstellen, dass (4) korrekt verbunden ist;
 
-7. If “Firmware update failed”, Repeat steps from (1);
+7. Bei „Firmware update failed“ die Schritte ab (1) wiederholen;
 
-8. If “Firmware update successful”, VTX is updated;
+8. Bei „Firmware update successful“ ist der VTX aktualisiert;
 
-9. The HDZERO_TX.bin file is removed from the SD card automatically.
+9. Die HDZERO_TX.bin wird automatisch von der SD-Karte entfernt.
 
 ::: tip
-Note: Putting an empty file named as “DONOTREMOVE.txt” file on SD card root directory will prevent HDZERO_TX.bin from being removed. It is useful when updating multiple VTXes.
+Hinweis: Eine leere Datei namens „DONOTREMOVE.txt“ im Stammverzeichnis der SD-Karte verhindert das automatische Löschen der HDZERO_TX.bin. Dies ist nützlich, wenn mehrere VTX geflasht werden sollen.
 :::
 
-## Unlock RF Power Limit
+## RF-Leistungsbegrenzung aufheben
 
-HDZero Freestyle V1/V2 VTX is compliant with FCC 47 CFR 97.215(c). It is limited to 25mW/200mW out of the box, but it is capable of up to 1W if you have the required HAM radio license to use this power output. Download the special firmware from Utilities section on [HDZero Download](https://www.hd-zero.com/document) to enable higher RF output modes.
+Der HDZero Freestyle V1/V2 VTX entspricht FCC 47 CFR 97.215(c). Ab Werk ist die Leistung auf 25mW/200mW begrenzt, kann aber mit entsprechender HAM-Lizenz bis zu 1W erreichen. Lade die spezielle Firmware aus dem Bereich Utilities auf [HDZero Download](https://www.hd-zero.com/document) herunter, um höhere RF-Ausgangsmodi zu aktivieren.
 
-Here are the steps:
+Vorgehensweise:
 
-1. Download firmware Unlock_FreestyleVTX.zip.
+1. Firmware Unlock_FreestyleVTX.zip herunterladen.
 
-2. Unzip it to the root directory of SD Card.
+2. Entpacke sie ins Stammverzeichnis der SD-Karte.
 
-3. Flash this firmware to the VTX.
+3. Flashe diese Firmware auf den VTX.
 
-4. Power on the VTX with main battery power, BLUE LED will flash 3 times after it is done. This step unlocks VTX.
+4. Schalte den VTX mit Hauptakku ein, die BLAUE LED blinkt nach Abschluss 3-mal. Damit ist der VTX freigeschaltet.
 
-5. Power the VTX off.
+5. VTX ausschalten.
 
-6. Unzip normal VTX firmware to the root directory of SD Card.
+6. Normale VTX-Firmware ins Stammverzeichnis der SD-Karte entpacken.
 
-7. Flash this firmware to the VTX.
+7. Diese Firmware auf den VTX flashen.
 
-8. The higher RF output options will now be available.
+8. Die höheren RF-Ausgangsoptionen stehen nun zur Verfügung.
 
 ::: tip
-Notes:
+Hinweise:
 
-1. Follow the above step strictly. DO NOT skip the step 4.
-2. Once the VTX is unlocked, there is no need to unlock it again when there is newer firmware available.
+1. Die Schritte müssen strikt eingehalten werden. Schritt 4 darf NICHT übersprungen werden.
+2. Nach dem Freischalten muss der VTX bei späteren Firmware-Updates nicht erneut freigeschaltet werden.
 :::
 
-## Unlock Low Band
+## Low Band freischalten
 
-The VTX low band option needs to be unlocked before it can be used. Make sure your region allows low band before unlocking.
+Die Low-Band-Option des VTX muss vor der Nutzung freigeschaltet werden. Stelle sicher, dass die Nutzung in deiner Region erlaubt ist.
 
-Here are the steps:
+Vorgehensweise:
 
-1. Download Unlock_Lowband.zip from www.hd-zero.com/document
+1. Unlock_Lowband.zip von www.hd-zero.com/document herunterladen
 
-2. Unzip and flash as a firmware update to your VTX.
+2. Entpacken und als Firmware-Update auf den VTX flashen.
 
-3. Power on the VTX with main battery power. The BLUE LED should flash 5 times and then goes out, to indicate that the unlock has completed.
+3. VTX mit Hauptakku einschalten. Die BLAUE LED blinkt 5-mal und erlischt dann, um den Abschluss der Freischaltung anzuzeigen.
 
-4. Flash the latest release firmware to your VTX. When you switch channels in the VTX menu you will see additional channels from L1 to L8.
+4. Die aktuelle Release-Firmware auf den VTX flashen. Im VTX-Menü erscheinen nun zusätzliche Kanäle von L1 bis L8.
 
 ::: tip
-Note: Follow the above step strictly. DO NOT skip the step 3.
+Hinweis: Die Schritte müssen strikt eingehalten werden. Schritt 3 darf NICHT übersprungen werden.
 :::

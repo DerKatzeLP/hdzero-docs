@@ -1,13 +1,13 @@
-# OLED Display Disclaimer
+# OLED-Display-Hinweis
 
-1. Due to the nature of OLED technology, the presence of dead pixels is not uncommon and may occur during manufacturing. Please note the following guidelines:
+1. Aufgrund der OLED-Technologie können Pixelfehler während der Herstellung auftreten. Beachte bitte folgende Richtlinien:
 
-    - **Single dead pixel**: This is considered normal and does not affect product performance.
+    - **Einzelner Pixelfehler**: Gilt als normal und beeinträchtigt die Produktleistung nicht.
 
-    - **Two consecutive dead pixels** (in any direction—horizontal, vertical, or diagonal): Acceptable if the total number does not exceed **four instances**.
+    - **Zwei aufeinanderfolgende Pixelfehler** (in beliebiger Richtung – horizontal, vertikal oder diagonal): Akzeptabel, sofern die Gesamtanzahl **vier Instanzen** nicht überschreitet.
 
-    - **Three or more consecutive dead pixels** (in any direction): This is considered **abnormal** and may qualify for warranty evaluation or replacement.
+    - **Drei oder mehr aufeinanderfolgende Pixelfehler** (in beliebiger Richtung): Gilt als **nicht normal** und kann für eine Garantieprüfung oder einen Austausch qualifizieren.
 
-2. OLED displays can provide more vivid colors than traditional LCD panels, However, if they are displaying the same content for an extended period of time, it may come across issues like "Image retention" or "Image burn-in".
+2. OLED-Displays bieten lebendigere Farben als herkömmliche LCD-Panels. Wenn jedoch über längere Zeit dasselbe Bild angezeigt wird, können Probleme wie „Bildspeicherung“ oder „Einbrennen“ auftreten.
 
-*We appreciate your understanding and strive to maintain the highest quality standards.*
+*Wir danken für dein Verständnis und streben stets höchste Qualitätsstandards an.*

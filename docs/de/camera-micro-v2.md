@@ -1,17 +1,17 @@
-# HDZero Micro V2 Camera (Outdated)
+# HDZero Micro V2 Kamera (Veraltet)
 
-## Description
+## Beschreibung
 
-Runcam Micro V2 HDZero camera is a 4:3 and 16:9 selectable high definition 720p60 camera designed for HDZero VTX. It supports the camera menu for brightness, contrast, saturation, HV flip and other camera settings. It has excellent low light performance for its ultra-high sensitive sensor.
+Die Runcam Micro V2 HDZero Kamera ist eine 4:3- und 16:9-umschaltbare High-Definition-720p60-Kamera, die für den HDZero VTX entwickelt wurde. Sie unterstützt das Kameramenü für Helligkeit, Kontrast, Sättigung, HV-Flip und weitere Kameraeinstellungen. Sie bietet eine hervorragende Low-Light-Performance dank ihres ultra-empfindlichen Sensors.
 
-## Specifications
+## Technische Daten
 
-| parameter    | value                    |
-| ------------ | ------------------------ |
-| Image Sensor | 1/2"                     |
-| Interface    | MIPI                     |
-| Resolution   | 1280x720@60fps           |
-| Max FOV      | D:130° H:89° V:??°(16:9) |
-| Shutter      | Rolling Shutter          |
-| Net Weight   | 8.5g                     |
-| Dimensions   | L19mm * W19mm * H21mm    |
+| Parameter    | Wert                    |
+| ------------ | ----------------------- |
+| Bildsensor   | 1/2"                    |
+| Schnittstelle| MIPI                    |
+| Auflösung    | 1280x720@60fps          |
+| Max. FOV     | D:130° H:89° V:??°(16:9)|
+| Verschluss   | Rolling Shutter         |
+| Gewicht      | 8,5g                    |
+| Maße         | L19mm * B19mm * H21mm   |

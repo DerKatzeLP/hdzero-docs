@@ -1,63 +1,63 @@
-# HDZero Goggle Operation
+# HDZero Goggle Bedienung
 
-This section describes the general operation of the HDZero goggle.
+Dieser Abschnitt beschreibt die allgemeine Bedienung der HDZero Goggle.
 
-## Controls
+## Bedienelemente
 
-- Dial Pad
+- Drehrad
 
-- Enter Button
+- Enter-Taste
 
-- Func Button 
+- Func-Taste 
 
 <img src="/gogglesmedia/image10.png" id="image5">
 
-## Video view and Menu view
+## Videoansicht und Menüansicht
 
 <img src="/gogglesmedia/image11.png" id="image6">
 
-## Video Source
+## Videoquelle
 
-The HDZero goggle can display video from any of 5 sources:
+Die HDZero Goggle kann Video von 5 Quellen anzeigen:
 
-- Built-in HDZero digital receiver
+- Integrierter HDZero Digitalempfänger
 
-- Built-in Analog receiver (appliable to Goggle 2 only)
+- Integrierter Analogempfänger (nur Goggle 2)
 
-- AV in
+- AV-Eingang
 
-- Expansion Module in (such as with an analog video receiver)
+- Erweiterungsmodul-Eingang (z.B. mit analogem Videomodul)
 
-- HDMI in
+- HDMI-Eingang
 
-## HDZero Digital Receiver
+## HDZero Digitalempfänger
 
-The “Scan Now” option on the main menu will scan the following channels for an HDZero video signal:
+Die Option „Jetzt scannen“ im Hauptmenü durchsucht folgende Kanäle nach einem HDZero-Videosignal:
 
-- R1-R8, E1, F1, F2, and F4 channels, or
+- R1-R8, E1, F1, F2 und F4 Kanäle, oder
 
-- L1-L8 if low band is selected 
+- L1-L8, wenn Low Band ausgewählt ist
 
-“Scan Now” will perform the following: 
+„Jetzt scannen“ führt Folgendes aus:
 
-- Scan the above channels,
+- Scannt die oben genannten Kanäle,
 
-- Lock on to the channel if there is only one valid channel with a signal, or 
+- Sperrt auf den Kanal, wenn nur ein gültiges Signal gefunden wird, oder
 
-- Let you choose between the channels if it has found two or more channels, or
+- Lässt dich zwischen Kanälen wählen, wenn zwei oder mehr gefunden werden, oder
 
-- Continue to scan after 5 seconds if no signal is detected, or
+- Setzt das Scannen nach 5 Sekunden fort, wenn kein Signal erkannt wird, oder
 
-- Wait for a long press of the Enter button to exit to the main menu
+- Wartet auf langen Druck der Enter-Taste, um ins Hauptmenü zurückzukehren
 
 ::: tip
-Notes:
+Hinweise:
 
- 1. To enable low band, (1)VTX side: Set to Lowband at VTX menu, (2) Goggle side: set Source -> HDZero Band to Lowband. Here are the center frequencies for L1-L8.
+ 1. Um Low Band zu aktivieren: (1) VTX-Seite: Im VTX-Menü auf Lowband stellen, (2) Goggle-Seite: Quelle -> HDZero Band auf Lowband stellen. Hier die Mittenfrequenzen für L1-L8:
 
 <table id="table4">
 <tr>
-<td>Low Band Channel</td>
+<td>Low Band Kanal</td>
 <td>L1</td>
 <td>L2</td>
 <td>L3</td>
@@ -68,7 +68,7 @@ Notes:
 <td>L8</td>
 </tr>
 <tr>
-<td>Frequency (MHz)</td>
+<td>Frequenz (MHz)</td>
 <td>5362</td>
 <td>5399</td>
 <td>5436</td>
@@ -80,139 +80,139 @@ Notes:
 </tr>
 </table>
 
-2. Only Nano 90 camera supports 540p60 mode. When it is set to 540p60, the goggle needs to set Source > HDZero BW to Narrow.  All other modes need to set Source > HDZero BW to Wide.
+2. Nur die Nano 90 Kamera unterstützt 540p60-Modus. Bei 540p60 muss die Goggle unter Quelle > HDZero BW auf Narrow stehen. Alle anderen Modi benötigen Wide.
 :::
-## Analog Input
+## Analogeingang
 
-The HDZero goggle takes analog video input from (1) the AV input jack or, (2) the external Expansion Module (not included, available on the [HDZero shop](http://www.hd-zero.com/shop)) or, (3) built-in analog receiver for Goggle 2. The goggle processes analog video from either of these inputs in the same way, but the Expansion Module provides an easy plug-and-play experience if you are using a standard FPV analog module. There is a soft switch available in the goggle menu to turn on the power to the module bay. **This must be turned on for the module bay to be powered and is off by default.**
+Die HDZero Goggle nimmt analoges Videosignal entgegen von (1) der AV-Buchse, (2) dem externen Erweiterungsmodul (nicht enthalten, erhältlich im [HDZero Shop](http://www.hd-zero.com/shop)) oder (3) dem integrierten Analogempfänger bei Goggle 2. Die Verarbeitung ist identisch, aber das Erweiterungsmodul bietet Plug-and-Play für Standard-FPV-Module. Im Menü gibt es einen Softschalter, um das Modul-Bay mit Strom zu versorgen (standardmäßig aus).
 
-The HDZero goggle uses a novel approach to process the analog input, resulting in improved analog video quality: 
+Die Goggle nutzt einen neuartigen Ansatz zur Signalverarbeitung für bessere Analogqualität:
 
-- It uses a video decoder with an adaptive comb filter to separate Y/C from the composite video;
+- Videodecoder mit adaptivem Kammfilter zur Trennung von Y/C aus dem Composite-Signal
 
-- It uses a deinterlacer to convert fields to frames, instead of doubling the interlaced lines;
+- Deinterlacer zur Umwandlung von Halbbildern in Vollbilder (kein Zeilendoppler)
 
-- It uses an upscaler to record and display the video;   
+- Upscaler für Aufnahme und Anzeige
 
 <img src="/gogglesmedia/image12.png">
 
-> FIG 4. Signal Processing Path for Analog Input of Goggle 1
+> ABB 4. Signalverarbeitung für Analog-Eingang Goggle 1
 
 <img src="/gogglesmedia/image13.png" id="image7">
 
-> FIG 5. Signal Processing Path for Analog Input of Goggle 2
+> ABB 5. Signalverarbeitung für Analog-Eingang Goggle 2
 
-## Fan Management
+## Lüftersteuerung
 
-There is one fan on the top of the goggle and one fan on each side of the goggle. All fans are soft mounted to reduce vibration and noise. There are three temperature sensors on top and sides of the goggle.
+Es gibt einen Lüfter oben und je einen an den Seiten der Goggle. Alle Lüfter sind weich gelagert zur Reduktion von Vibrationen und Geräuschen. Drei Temperatursensoren befinden sich oben und an den Seiten.
 
- These fans are critical to goggle performance: 
+Diese Lüfter sind entscheidend für die Leistung:
 
-- The top fan provides cooling for the OLED displays and defogging for the optical lens;
+- Der obere Lüfter kühlt die OLED-Displays und verhindert Beschlagen
 
-- The side fans provide cooling for the IO and RF boards inside the goggle 
+- Die Seitenlüfter kühlen IO- und RF-Boards
 
- They will prevent goggle from being too hot, improving OLED life span and ensuring maximum HDZero RF performance.
+Sie verhindern Überhitzung, verlängern die OLED-Lebensdauer und sichern maximale HDZero RF-Leistung.
 
-Top fan can be set to a 1-5, and side fans for 2-9 level, corresponding from minimum to max speed.
+Der obere Lüfter kann auf Stufe 1-5, die Seitenlüfter auf 2-9 eingestellt werden (min-max).
 
-There are two control modes for side fans:
+Es gibt zwei Modi für die Seitenlüfter:
 
-- Automatic mode: Goggle firmware will automatically speed up/down the fan on each side; 
+- Automatik: Die Firmware regelt die Geschwindigkeit automatisch
 
-- Manual mode: You can manually set the speed for each fan;
+- Manuell: Geschwindigkeit kann für jeden Lüfter eingestellt werden
 
-- Regardless of the current mode, the goggle firmware will enter into **rescue** mode under these situations:
+- Unabhängig vom Modus schaltet die Firmware in den **Rescue**-Modus, wenn:
 
-    1. temperature sensor on top reports hot: top fan goes to max speed;
+    1. Temperatursensor oben meldet Hitze: oberer Lüfter auf max
 
-    2. temperature sensor on left/right reports hot: left/right fan goes to max speed;
+    2. Temperatursensor links/rechts meldet Hitze: linker/rechter Lüfter auf max
 
-You can change the top fan speed by pressing and holding the Func Button. You can monitor the top fan speed changes on the goggle OSD to quickly change the amount of air blowing onto your face and the optic lenses while in the Video view. 
+Die Geschwindigkeit des oberen Lüfters kann durch langes Drücken der Func-Taste geändert werden. Die Änderung wird im OSD angezeigt.
 
 ::: tip
-Notes: 
+Hinweise: 
 
-1. Only the side fans have automatic mode. The top fan is always in manual mode unless it is in rescue mode.
+1. Nur die Seitenlüfter haben Automatikmodus. Der obere Lüfter ist immer manuell, außer im Rescue-Modus.
 
-2. It is recommended to use automatic mode for side fans, and set top fan speed as desired level.
+2. Automatikmodus für Seitenlüfter empfohlen, obere Lüftergeschwindigkeit nach Wunsch einstellen.
 :::
 
-## Image Settings
+## Bildeinstellungen
 
-The HDZero goggle has an image processor to fine tune video before feeding to DVR and display. It includes:
+Die Goggle hat einen Bildprozessor zur Feinabstimmung vor DVR und Anzeige:
 
-- Brightness
+- Helligkeit
 
-- Saturation
+- Sättigung
 
-- Contrast
+- Kontrast
 
-## OLED Control
+## OLED-Steuerung
 
-For OLED display, you may set OLED brightness to the desired level. Note that the OLED brightness setting applies to the OLED display only.
+Die OLED-Helligkeit kann nach Wunsch eingestellt werden (gilt nur für das Display).
 
-If the HDZero goggle detects no movement or no key input for programmed time (1/3/5/7 minutes), it will dim the OLED display as an alarm, and it will wait for another one minute before turning off both the display and HDZero digital receiver with a short beep. The OLED display and HDZero receiver will resume normal operation if the goggle detects movement or any key input. This feature can be disabled by setting the waiting time to “Never”.
+Wird keine Bewegung oder Tastenbetätigung erkannt (1/3/5/7 Minuten), dimmt die Goggle das OLED als Warnung und schaltet nach einer weiteren Minute Display und HDZero-Empfänger mit kurzem Piepton ab. Bewegung oder Tastendruck reaktiviert alles. Diese Funktion kann durch „Nie“ deaktiviert werden.
 
-OLED displays can provide more vivid colors than traditional LCD panels, However, if they are displaying the same content for an extended period of time, it may come across issues like "Image retention" or "Image burn-in". It is highly recommended to use the above OLED auto off feature or “Go Sleep” from main menu to turn off OLED while not using the goggle.
+OLED-Displays bieten lebendige Farben, können aber bei statischem Bild „Image Retention“ oder „Burn-in“ bekommen. Es wird empfohlen, die OLED-Auto-Off-Funktion oder „Go Sleep“ zu nutzen.
 
 ## DVR 
 
-The HDZero goggles integrates a DVR for both the HDZero digital receiver and analog input. These are the DVR options:
+Die Goggle hat einen DVR für HDZero und Analog-Eingang. Optionen:
 
-- **Automatic Record**: DVR will start to record when it detects there is valid HDZero RF on the current channel, and stops recording when the signal is no longer detected. 
+- **Automatische Aufnahme**: Startet bei erkanntem HDZero RF, stoppt bei Signalverlust
 
-- **Manual Record**: DVR will start/stop only if Func button is clicked. 
+- **Manuelle Aufnahme**: Start/Stopp nur per Func-Taste
 
-- **MP4 format or TS format**: MP4 format is better supported by many video editing applications. However, MP4 files can be corrupted if the goggle loses power before the file is closed after recording, which can happen if the goggle runs out of battery or the power cord is unplugged unexpectedly. Unlike the MP4 format, the TS format saves the stream instantly to DVR without any risk of corrupted files, even if the goggle suddenly loses power. TS format is preferred. 
+- **MP4- oder TS-Format**: MP4 ist kompatibler, kann aber bei Stromverlust beschädigt werden. TS speichert sofort und ist sicherer. TS wird empfohlen.
 
-- **H264/H265**. The DVR must use the H264 format when recording 90fps video (it records in 1280x720x90 for better quality). It uses the H265 format in all other cases.
+- **H264/H265**: Bei 90fps-Aufnahme H264 (1280x720x90), sonst H265
 
-- **Audio**: You can choose to record audio or not. There are 3 audio sources that can be recorded:
+- **Audio**: Aufnahme optional. Drei Quellen:
 
-    - Built-in microphone
+    - Integriertes Mikrofon
 
-    - Line in (From Line in/out port, usually from an external MIC)
+    - Line In (Line in/out, meist externes Mikro)
 
-    - AV in (From AV in Jack or built-in analog receiver audio output)
+    - AV In (AV-Buchse oder Analogempfänger)
 
-**The file system on SD card can be corrupted by suddenly power off while goggle is writing data to it.**
+**Das Dateisystem der SD-Karte kann durch plötzliches Ausschalten während des Schreibens beschädigt werden.**
 
-HDZero Goggle operates on a Linux-based system, and it is unable to store final emergency data when powered off abruptly. This can result in corrupted SD card file systems and video files that won’t play. Here are tips on how to avoid powering off while recording is ongoing:
+Die Goggle läuft unter Linux und kann bei abruptem Ausschalten keine Notfalldaten speichern. Das kann zu beschädigten Dateien führen. Tipps:
 
-- Auto record mode: after quad is landed, do one of the following 
+- Automatikmodus: Nach Landung entweder
 
-    - Long press “Enter” button to switch to menu mode, then power off the goggle, or
+    - Lange Enter drücken für Menü, dann ausschalten, oder
 
-    - Power off quad first, and wait for 10 seconds, then power off the goggle
+    - Quad ausschalten, 10 Sekunden warten, dann Goggle ausschalten
 
-- Manual record mode:  Click “Func” button to stop DVR before power off the goggle
+- Manueller Modus: Vor dem Ausschalten Func-Taste drücken, um DVR zu stoppen
 
-- Select “Scan and Fix” if Windows or Mac reports problem when SD card is inserted.
+- „Scan and Fix“ wählen, wenn Windows/Mac Probleme meldet
 
 ::: tip
-Note: It is convenient to start/stop DVR with ELRS backpack function. See [ESP32/Backpack Module](#esp32-backpack-module).
+Hinweis: Start/Stopp des DVR ist bequem per ELRS-Backpack möglich. Siehe [ESP32/Backpack-Modul](#esp32backpack-module).
 
  
 
-TABLE 3: DVR resolution
+TABELLE 3: DVR-Auflösung
 
 <table id="table5">
 <tr>
 <td></td>
-<td>Input Source</td>
-<td>Recording resolution</td>
+<td>Eingangsquelle</td>
+<td>Auflösung</td>
 <td>Encoder</td>
 </tr>
 <tr>
 <td>1</td>
-<td>HDZero 60fps Camera</td>
+<td>HDZero 60fps Kamera</td>
 <td>1280x720x60fps</td>
 <td>H.265</td>
 </tr>
 <tr>
 <td>2</td>
-<td>HDZero 90fps Camera</td>
+<td>HDZero 90fps Kamera</td>
 <td>1280x720x90fps</td>
 <td>H.264</td>
 </tr>
@@ -231,70 +231,70 @@ TABLE 3: DVR resolution
 <tr>
 <td>5</td>
 <td>HDMI in</td>
-<td>The same as input resolution and frame rate</td>
+<td>Wie Eingangsauflösung und Bildrate</td>
 <td>H.264</td>
 </tr>
 </table>
 :::
 
-## Playback
+## Wiedergabe
 
-The HDZero goggle can play back DVR recordings. 
+Die Goggle kann DVR-Aufnahmen abspielen.
 
-- The player lists the recent recording first. Use Dial up/down to select a file, and click to play it
+- Die neuesten Aufnahmen werden zuerst gelistet. Mit Drehrad auswählen und klicken zum Abspielen
 
-- On controller bar, use Dial Up/Down to seek video (5 seconds forward/backward), and click to play/pause 
+- Im Controller-Balken mit Drehrad vor/zurück (5 Sekunden), klicken für Pause/Play
 
-- Long press the Enter button to exit the controller bar, and long press Enter again to exit the player.
+- Langes Drücken der Enter-Taste verlässt den Controller-Balken, nochmal lang drücken beendet den Player
 
 ::: tip
-Notes: 
+Hinweise: 
 
-1. The player will ignore files that are less than 5MB.
+1. Dateien unter 5MB werden ignoriert.
 
-2. The playback feature is designed for quick review—whether checking a recording or locating the final moments of a lost drone. Please note that it does not play back at full frame rate.
+2. Die Wiedergabe dient zur schnellen Kontrolle, nicht für volle Bildrate.
 :::
 ## OSD
 
-The goggle supports OSD from flight controller (FC OSD) and OSD of its own status (Goggle OSD). You may select if both OSD should be recorded with video stream at Record Options sub-menu.
+Die Goggle unterstützt OSD vom Flugcontroller (FC OSD) und eigenes Status-OSD (Goggle OSD). Im Menü kann gewählt werden, ob beide OSDs mit aufgezeichnet werden.
 
-Goggle OSD can be shown/ hidden by clicking the Enter button under Video view. The positions of Goggle OSD items are fixed on current firmware.
+Goggle OSD kann per Enter-Taste im Video-Modus ein-/ausgeblendet werden. Die Positionen sind in der aktuellen Firmware fest.
 
-The goggle has built-in OSD fonts for BetaFlight, Arduino and iNav. It will automatically load the corresponding font according to type of flight controller that is connected with HDZero video transmitter. You can also customize FC OSD by putting bitmap files under SD card root directory/resource/OSD/FC.
+Es sind OSD-Fonts für BetaFlight, Arduino und iNav integriert. Die Goggle lädt automatisch den passenden Font je nach Flugcontroller. Eigene FC-OSD-Fonts können als Bitmap unter SD-Karte/resource/OSD/FC abgelegt werden.
 
-## Tune Channel
+## Kanalwahl
 
-By Dialing up/down, video channel number can be tuned on video mode for HDZero receiver, or built-in analog receiver on Goggle 2. However, this can be disabled by putting a file named as “no_dial.txt” on SD card root directory when booting up. 
+Mit Drehrad kann im Videomodus der Kanal für HDZero- oder Analogempfänger (Goggle 2) gewählt werden. Dies kann deaktiviert werden, indem eine Datei „no_dial.txt“ ins SD-Karten-Stammverzeichnis gelegt wird.
 
-The video channel number can also be tuned by ELRS backpack as described below.
+Die Kanalwahl ist auch per ELRS-Backpack möglich.
 
-## ESP32/Backpack Module
+## ESP32/Backpack-Modul
 
-The HDZero Goggle supports a built-in ESP32 Backpack that achieves:
+Die Goggle unterstützt ein integriertes ESP32-Backpack für:
 
-- Tune channel number of built-in HDZero
+- Kanalwahl HDZero-Empfänger
 
-- Tune channel number of built-in Analog receiver for Goggle 2
+- Kanalwahl Analogempfänger (Goggle 2)
 
-- Wireless head tracking
+- Drahtloses Headtracking
 
-- Start/Stop DVR using a radio switch
+- Start/Stopp DVR per Funkschalter
 
-### Update ELRS backpack firmware
+### ELRS-Backpack-Firmware aktualisieren
 
-- Install **ExpressLRS Configurator** from [Releases](https://github.com/ExpressLRS/ExpressLRS-Configurator/releases)
+- **ExpressLRS Configurator** von [Releases](https://github.com/ExpressLRS/ExpressLRS-Configurator/releases) installieren
 
-- Open **ExpressLRS Configurator** to build firmware for goggle:
+- Firmware für Goggle bauen:
 
-    1. Switch to Backpack menu
+    1. Auf Backpack-Menü wechseln
 
-    2. Select the same release version with the radio backpack
+    2. Gleiche Release-Version wie beim Radio-Backpack wählen
 
-    3. Select target HDZero Goggles -> Built-in ESP32 Backpack
+    3. Ziel HDZero Goggles -> Built-in ESP32 Backpack wählen
 
-    4. Set the same binding phrase as the radio backpack, otherwise your backpack needs to be bonded manually
+    4. Gleichen Bind-Phrase wie beim Radio-Backpack setzen, sonst manuell binden
 
-    5. Click “BUILD”. A folder will pop up automatically containing the following 4 files when completed. Copy them to “ELRS” directory under SD card root
+    5. „BUILD“ klicken. Es erscheinen 4 Dateien, diese ins „ELRS“-Verzeichnis der SD-Karte kopieren:
 
         a. boot_app0.bin
 
@@ -304,134 +304,132 @@ The HDZero Goggle supports a built-in ESP32 Backpack that achieves:
 
         d. partitions.bin
 
-- Insert SD card to HDZero Goggle
+- SD-Karte in die Goggle einlegen
 
-- Goggle main Menu: Firmware -> Update ESP32 to flash Backpack firmware for the Goggle
+- Hauptmenü: Firmware -> ESP32 aktualisieren, um Backpack-Firmware zu flashen
 
 <img src="/gogglesmedia/image14.png" id="image8">    <img src="/gogglesmedia/image15.png" id="image9">
 
-### Bind HDZero Goggle and ELRS TX
+### HDZero Goggle und ELRS TX binden
 
-Please flash your ELRS Transmitter backpack firmware of Radio to the same version as HDZero Goggle Backpack firmware. Refer to [Tx Backpack Setup](https://www.expresslrs.org/hardware/backpack/backpack-tx-setup/).
+Bitte gleiche Backpack-Firmware-Version auf Sender und Goggle verwenden. Siehe [Tx Backpack Setup](https://www.expresslrs.org/hardware/backpack/backpack-tx-setup/).
 
-If the binding phrase of goggle is different with Radio, it is needed to bind manually for first use.
+Bei unterschiedlichem Bind-Phrase muss manuell gebunden werden:
 
-1. Goggle: ELRS -> Backpack = on
+1. Goggle: ELRS -> Backpack = an
 
 2. Goggle: ELRS -> Bind
 
 3. Radio: ExpressLRS Lua -> Bind
 
-After a few seconds, the goggle will display success if the binding is complete.
+Nach wenigen Sekunden zeigt die Goggle Erfolg an.
 
-### Start/Stop DVR Using a Switch
+### DVR Start/Stopp per Schalter
 
-The HDZero goggle supports start/stop recording using a switch on radio. Here are steps to setup on Goggle and Radio:
+Die Goggle unterstützt Start/Stopp der Aufnahme per Funkschalter. Einrichtung:
 
-1. Goggle: Record Option -> Record Mode = Manual
+1. Goggle: Aufnahmeoption -> Aufnahmemodus = Manuell
 
-2. Radio ExpressLRS Lua -> Backpack -> DVR Rec = AUXn↑ | AUXn↓, where n is aux channel number of the switch which is specified to start/stop Goggle DVR.
+2. Radio ExpressLRS Lua -> Backpack -> DVR Rec = AUXn↑ | AUXn↓, wobei n der AUX-Kanal des Schalters ist
 
-### Set Channel Number Using Radio
+### Kanalwahl per Funk
 
-The HDZero goggle supports set channel number using ExpressLRS Lua on radio. Here are steps to setup on Radio:
+Die Goggle unterstützt Kanalwahl per ExpressLRS Lua:
 
-1. Enter Radio ExpressLRS Lua -> VTX Admin
+1. Radio ExpressLRS Lua -> VTX Admin öffnen
 
-2. Set Band and Channel you want to
+2. Band und Kanal wählen
 
-3. Send VTx
+3. VTx senden
 
-**Note: Channel number of both HDZero receiver and built-in Analog Receiver can be set by the method.**
+**Hinweis: Kanalwahl gilt für HDZero- und Analogempfänger.**
 
 <div class="page"></div>
 
-## WiFi Module 
+## WiFi-Modul 
 
-The HDZero Goggle 1 expansion module V2 and Goggle 2 supports WIFI video streaming to smart phone, desktop or laptop. Multiple devices can wirelessly connect to the goggle and receive the video simultaneously.
+Das HDZero Goggle 1 Erweiterungsmodul V2 und Goggle 2 unterstützen WiFi-Video-Streaming auf Smartphone, Desktop oder Laptop. Mehrere Geräte können gleichzeitig verbinden.
 
-Control over the behavior of the WiFi module is completely managed from within the WiFi Module page.  Users have the ability to configure the goggle as a Host (Access Point) or a Client (Join Network). 
+Die Steuerung erfolgt komplett über die WiFi-Modul-Seite im Menü. Es kann als Host (Access Point) oder Client (Netzwerk beitreten) konfiguriert werden.
 
-WiFi Module page supports both “Basic” and “Advanced” configuration fields.
+Die WiFi-Modul-Seite bietet „Basis“- und „Erweitert“-Felder.
 
-### Basic Fields
+### Basis-Felder
 
-- Enable – Powers On or Off the WiFi Module hardware.
+- Aktivieren – Schaltet das WiFi-Modul ein/aus
 
-- Mode – Host (Access Point) or Client (Join Network).
+- Modus – Host (Access Point) oder Client (Netzwerk beitreten)
 
-- SSID – User can specify a Host and Client network names individually based on Mode.
+- SSID – Netzwerkname für Host und Client getrennt einstellbar
 
-- Password – User can specify a Host and Client network password individually based on Mode.
+- Passwort – Passwort für Host und Client getrennt einstellbar
 
-    > Note that password requires a minimum of 8 characters.
+    > Passwort muss mindestens 8 Zeichen haben
 
-- Apply Settings – Stores and configures the WiFi Module hardware with the settings the user has modified.
+- Einstellungen anwenden – Speichert und konfiguriert das WiFi-Modul
 
 <img src="/gogglesmedia/image16.png" id="image10">
 
-### Advanced Fields
+### Erweiterte Felder
 
-- DHCP – This setting only applies to Client Mode.
+- DHCP – Nur im Client-Modus relevant
 
-    > Note the Address specified will be requested for use by the WiFi.  Ultimately it is up to the router to find and available address if the address requested is not in use, then the one specified will be used.
+    > Die angegebene Adresse wird angefragt, Router kann aber eine andere vergeben
 
-- Address – The network ip address.
+- Adresse – Netzwerk-IP-Adresse
 
-    > This setting applies for both Host and Client modes.
+    > Gilt für Host- und Client-Modus
 
-- Netmask – The network subnet mask.
+- Netmask – Subnetzmaske
 
-    > This setting applies for both Host and Client modes.
+    > Gilt für Host- und Client-Modus
 
-- Gateway – The network gateway ip address.
+- Gateway – Gateway-IP-Adresse
 
-    > This setting applies for both Host and Client modes.
+    > Gilt für Host- und Client-Modus
 
-- DNS – the Domain Network Service ip address.
+- DNS – Domain Network Service IP-Adresse
 
-- RF Channel – This setting only applies to Host Mode and a user can specify which radio frequency channel they want to communicate on.
+- RF-Kanal – Nur im Host-Modus, wählbarer Funkkanal
 
 <img src="/gogglesmedia/image17.png" id="image11">
 
-### System Fields
+### Systemfelder
 
-- Root PW – Update the root password for the goggles.
+- Root-PW – Root-Passwort für die Goggle ändern
 
-    > This applies to SSH and SCP communications.
+    > Gilt für SSH und SCP
 
-- SSH – Enable/Disable Access to the goggles.
+- SSH – SSH-Zugriff aktivieren/deaktivieren
 
-    > Defaults to disabled as a security precaution.
+    > Standardmäßig aus Sicherheitsgründen deaktiviert
 
 <img src="/gogglesmedia/image18.png" id="image12">
 
-Finally, if either page is modified “Basic” or “Advanced”, the user must return back to the “Basic” page and select “Apply Settings” in order to configure the WiFi Module.
+Nach Änderungen in „Basis“ oder „Erweitert“ muss auf der „Basis“-Seite „Einstellungen anwenden“ gewählt werden.
 
-In order to establish a wireless video stream with the HDZero Goggles via a smartphone or computer, the user must follow these steps:
+Um einen Videostream per WLAN mit Smartphone oder PC herzustellen:
 
-1. The “Basic” page within the WiFi Module page will contain the necessary information in order to establish communications with the HDZero Goggles:
+1. Die „Basis“-Seite zeigt die nötigen Infos:
 
-    a. **Host Mode** – Refer to the SSID and Password fields in order to join the HDZero Goggle wireless network.
+    a. **Host-Modus** – SSID und Passwort zum Verbinden mit dem Goggle-WLAN
 
-    b. **Client Mode** – Refer to your wireless access point user manual.
+    b. **Client-Modus** – Siehe Handbuch des WLAN-Zugangspunkts
 
-2. Install VLC app (or other similar app that supports RTSP) on your device.
+2. VLC-App (oder andere RTSP-fähige App) installieren
 
-3. Open the above app, choose “Open Network Stream”, and type the RTSP URL provided by the “Basic” page footnote as it will provided the necessary URL in order to establish a video stream via VLC app, below is the default ip address if the user has not made modifications within the  “Advanced” page: 
+3. In der App „Netzwerkstream öffnen“ wählen und die RTSP-URL aus der Fußnote der „Basis“-Seite eingeben. Standard-IP, falls nicht geändert:
 
     > rtsp://192.168.2.122:8554/hdzero 
 
-Video latency is expected due to networking protocols, buffering schema of the app, and OS platforms. 
+Videoverzögerung ist durch Netzwerkprotokolle, Pufferung und Betriebssystem zu erwarten.
 
-## Real Time Clock 
+## Echtzeituhr (RTC)
 
-The HDZero Goggle includes a Real Time Clock (RTC). Goggle 1 is shipped without a pre-installed battery, whereas Goggle 2 comes equipped with one.  If the battery is missing or depleted, the device will lose its stored date and time information.  However, the RTC can still be configured via the Clock Page which will set the system clock and hardware clock upon invoking “Set Clock”. For users who have installed an aftermarket battery this only needs to be done once.  Otherwise, when the goggle boots up it will revert to the last date and time the user had specified since applying “Set Clock” command.
-
-  
+Die Goggle enthält eine Echtzeituhr. Goggle 1 wird ohne Batterie geliefert, Goggle 2 mit. Fehlt die Batterie oder ist sie leer, gehen Datum und Uhrzeit verloren. Die RTC kann über die Clock-Seite eingestellt werden („Set Clock“). Mit nachgerüsteter Batterie nur einmal nötig, sonst wird beim Start der letzte Wert übernommen.
 
 <img src="/gogglesmedia/image19.png" id="image13">
 
-An aftermarket battery could be CR2032 laptop battery with MX1.25-2P male connector. An example can be found [here](https://www.amazon.com/dp/B08M6FXT8Q?ref=ppx_yo2ov_dt_b_product_details&th=1&fbclid=IwAR0W2mmgafoAp03hVMCtfE8o-vBdCsCR-B5YXFN_fpaUc31RkRhlUvJvIog).
+Eine passende Batterie ist z.B. eine CR2032 mit MX1.25-2P-Stecker, siehe [hier](https://www.amazon.com/dp/B08M6FXT8Q?ref=ppx_yo2ov_dt_b_product_details&th=1&fbclid=IwAR0W2mmgafoAp03hVMCtfE8o-vBdCsCR-B5YXFN_fpaUc31RkRhlUvJvIog).
 
-**Note: It is user’s full responsibility for any damage due to opening the goggle to install the battery.**
+**Hinweis: Das Öffnen der Goggle zum Einbau der Batterie geschieht auf eigene Verantwortung!**

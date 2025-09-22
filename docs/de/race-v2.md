@@ -1,75 +1,75 @@
 # Race V2 VTX
 
-The HDZero Race VTX is a digital HD video transmitter capable of delivering up to 200mW on 5.8GHz. It supports all the HDZero cameras with MIPI connector, including Nano90.
+Der HDZero Race VTX ist ein digitaler HD-Video-Sender, der bis zu 200mW auf 5,8GHz liefern kann. Er unterstützt alle HDZero-Kameras mit MIPI-Anschluss, einschließlich Nano90.
 
-The power input range is 7V – 17V.
+Der Eingangsspannungsbereich beträgt 7V – 17V.
 
 <img src="/media/image42.png">
 
 <table id="table16">
 <tr>
 <td>1</td>
-<td>Power In (G=Ground, V=7-17V)</td>
+<td>Stromversorgung (G=Masse, V=7-17V)</td>
 </tr>
 <tr>
 <td>2</td>
-<td>T1/R1 UART Connection to FC</td>
+<td>T1/R1 UART-Verbindung zum FC</td>
 </tr>
 <tr>
 <td>3</td>
-<td>T2, Reserved, <br>R2/SA, SA Pin</td>
+<td>T2, Reserviert, <br>R2/SA, SA-Pin</td>
 </tr>
 <tr>
 <td>4</td>
-<td>u.FL Antenna Connector</td>
+<td>u.FL-Antennenanschluss</td>
 </tr>
 <tr>
 <td>5</td>
-<td>u.FL Antenna Retention Holes</td>
+<td>u.FL-Antennen-Befestigungslöcher</td>
 </tr>
 <tr>
 <td>6</td>
-<td>MIPI connector</td>
+<td>MIPI-Anschluss</td>
 </tr>
 <tr>
 <td>7</td>
-<td>MIPI connector retention Holes</td>
+<td>MIPI-Anschluss-Befestigungslöcher</td>
 </tr>
 <tr>
 <td>8</td>
-<td>Firmware Update Connector</td>
+<td>Firmware-Update-Anschluss</td>
 </tr>
 <tr>
 <td>9</td>
-<td>Power on LED (red)</td>
+<td>Power-LED (rot)</td>
 </tr>
 <tr>
 <td>10</td>
-<td>Status LED (blue)</td>
+<td>Status-LED (blau)</td>
 </tr>
 <tr>
 <td>11</td>
-<td>u.FL Antenna Retention Screws/Nut/Plate</td>
+<td>u.FL-Antennen-Befestigungsschrauben/Mutter/Platte</td>
 </tr>
 <tr>
 <td>12</td>
-<td>Rubber Grommet (M4 to M3), <br>1mm O-Ring</td>
+<td>Gummitülle (M4 auf M3), <br>1mm O-Ring</td>
 </tr>
 <tr>
 <td>13</td>
-<td>Zip ties</td>
+<td>Kabelbinder</td>
 </tr>
 <tr>
 <td>14</td>
-<td>Connecting wire</td>
+<td>Verbindungskabel</td>
 </tr>
 <tr>
 <td>15</td>
-<td>20x20 M4 mounting holes</td>
+<td>20x20 M4 Befestigungslöcher</td>
 </tr>
 </table>
 
-## Mounting a u.FL antenna or pigtail
+## Montage einer u.FL-Antenne oder eines Pigtails
 
 <div style="display: flex;gap: 10px;">
 <img src="/media/image43.png">
@@ -77,23 +77,20 @@ The power input range is 7V – 17V.
 <img src="/media/image45.png">
 </div>
 
-There are 2 methods to mount the antenna on VTX:
+Es gibt 2 Methoden, um die Antenne am VTX zu befestigen:
 
-- Use included retention screws, nuts and plate;
+- Mit den beiliegenden Befestigungsschrauben, Muttern und Platte;
+- Mit den beiliegenden Kabelbindern.
 
-- Use included zip-ties.
+## Anschluss des MIPI-Kabels
 
-
-
-## Connecting MIPI cable
-
-Use the included zip-tie to secure MIPI cable and protect MIPI connector.
+Verwenden Sie den beiliegenden Kabelbinder, um das MIPI-Kabel zu sichern und den MIPI-Anschluss zu schützen.
 
 
 ::: tip
-Notes:
+Hinweise:
 
-- Read first: [General Consideration for VTX Installation](vtx-general.md)
+- Zuerst lesen: [Allgemeine Hinweise zur VTX-Installation](vtx-general.md)
 
-- **Make sure to use a wider top plate to fully cover this VTX for protection.**
+- **Verwenden Sie unbedingt eine breitere Top-Plate, um diesen VTX vollständig zu schützen.**
 :::

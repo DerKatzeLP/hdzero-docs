@@ -1,53 +1,53 @@
-# Introduction
+# Einführung
 
 <div style="display: flex; align-items: center; justify-content: space-around; margin: 40px">
 <img src="/boxmedia/image2.png">
 </div>
-The HDZero BoxPro is an all-in-one FPV box style goggle for digital, analog and HDMI video. Please take the time to read through this operating manual thoroughly before using.
+Die HDZero BoxPro ist eine All-in-One FPV-Brille im Box-Stil für digitale, analoge und HDMI-Videosignale. Bitte nimm dir die Zeit, dieses Handbuch vor der Benutzung sorgfältig zu lesen.
 
-## Features
+## Merkmale
 
-- Power on/off sliding switch – be confident that the goggle is on or off at a glance or by feel
-- Designed for open source, the goggle runs Linux. All code for the user interface is open source
-- 100Hz 1800 nits LCD display
-- Supports diopter lens inserts
-- By integrating the entire goggle display pipeline with HDZero’s fixed-latency video transmission, these goggles achieve 4ms glass-to-glass sub-frame latency with no jitter or dropped frames
-- Integrated two 7dBi Patch 5.8GHz antennas
-- Included two 2dBi linear 5.8GHz SMA antennas
-- Adjustable speed fan cools the internals and prevents screen fogging.
-- Integrated HDZero receiver with 4 antennas, supporting all HDZero modes
-- Integrated analog receiver that shares an antenna with the HDZero receiver
-- HDMI input with 1ms latency, supporting resolutions up to 1080p60 and 720p100
-- HDMI output
-- Built-in microphone for DVR
-- 3.5mm combination headphone / microphone jack for audio and external mic
-- 3.5mm analog video/audio input for use with ground station inputs
-- 3.5mm head tracker output using 6-axis smart inertial measurement to enable pan+tilt support
-- Integrated 2D deinterlacer that adds no delay for analog input
-- Built-in H.265 DVR for HDZero, analog and HDMI input
-- Built-in ESP32 (Optional)
-- Built-in 2.4Ghz WiFi video streaming module for live streaming (Optional)
+- Ein-/Ausschalter als Schiebeschalter – auf einen Blick oder durch Ertasten erkennbar, ob die Brille ein- oder ausgeschaltet ist
+- Für Open Source entwickelt, läuft die Brille unter Linux. Der gesamte Code für die Benutzeroberfläche ist Open Source
+- 100Hz 1800 nits LCD-Display
+- Unterstützt Dioptrieneinsätze
+- Durch die Integration der gesamten Display-Pipeline mit der HDZero-Festlatenz-Videoübertragung erreicht diese Brille eine Glas-zu-Glas-Latenz von 4ms ohne Jitter oder Frameverluste
+- Integrierte zwei 7dBi Patch 5.8GHz Antennen
+- Zwei 2dBi lineare 5.8GHz SMA Antennen im Lieferumfang
+- Einstellbarer Lüfter kühlt das Innere und verhindert Beschlagen des Bildschirms
+- Integrierter HDZero-Empfänger mit 4 Antennen, unterstützt alle HDZero-Modi
+- Integrierter Analogempfänger, der eine Antenne mit dem HDZero-Empfänger teilt
+- HDMI-Eingang mit 1ms Latenz, unterstützt Auflösungen bis 1080p60 und 720p100
+- HDMI-Ausgang
+- Eingebautes Mikrofon für DVR
+- 3,5mm Kombi-Kopfhörer-/Mikrofonbuchse für Audio und externes Mikrofon
+- 3,5mm Analog-Video-/Audioeingang für Groundstation-Eingänge
+- 3,5mm Headtracker-Ausgang mit 6-Achsen-Smart-Inertialsensor für Pan+Tilt-Unterstützung
+- Integrierter 2D-Deinterlacer ohne Verzögerung für analogen Eingang
+- Integrierter H.265 DVR für HDZero, Analog und HDMI-Eingang
+- Integriertes ESP32 (Optional)
+- Integriertes 2,4GHz WiFi-Video-Streaming-Modul für Livestreaming (Optional)
 
 <div class="page"></div>
 
-## Specification
+## Spezifikationen
 
-- HDMI input to-goggle glass latency: 1ms
-- Analog Camera glass-to-goggle glass latency: 3ms
-- HDZero Camera glass-to-goggle glass latency: 4ms
-- 100Hz 1800 nits LCD display
-- FOV: 56deg
-- Input voltage: 7V-25.2V  (2S-6S)
-- Typical Power consumption: 14.5W (with HDZero RF on), or 10W (with Analog RF on)
-- Weight: 348g
-- Dimension: 166x114x92mm
+- HDMI-Eingang zu Brillenglas-Latenz: 1ms
+- Analoge Kamera Glas-zu-Brillenglas-Latenz: 3ms
+- HDZero Kamera Glas-zu-Brillenglas-Latenz: 4ms
+- 100Hz 1800 nits LCD-Display
+- Sichtfeld: 56°
+- Eingangsspannung: 7V-25,2V (2S-6S)
+- Typischer Stromverbrauch: 14,5W (mit HDZero RF), oder 10W (mit Analog RF)
+- Gewicht: 348g
+- Abmessungen: 166x114x92mm
 
-## Included Accessories
+## Lieferumfang
 
-- 1x HDZero BoxPro goggle
-- 2x linear antennas
-- 1x foam face pad
-- 1x goggle strap
-- 1x 1200mm XT60 cable
-- 1x thick canvas goggle bag with sleeve to stow the antennas
-- 1x Lens cloth
+- 1x HDZero BoxPro Brille
+- 2x lineare Antennen
+- 1x Schaumstoff-Gesichtspolster
+- 1x Brillenband
+- 1x 1200mm XT60-Kabel
+- 1x dicke Canvas-Tasche mit Fach für Antennen
+- 1x Reinigungstuch für die Linse

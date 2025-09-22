@@ -1,54 +1,54 @@
-# VTX LED Pattern
+# VTX LED-Muster
 
-All HDZero VTXes have two LEDs: Red and Blue.
+Alle HDZero VTXs verfügen über zwei LEDs: Rot und Blau.
 
-## Red LED
+## Rote LED
 
-The red LED serves as the power indicator. If it's off or flashing, this signals a VTX failure. A healthy unit should display a steady red light. If there is no red light, check if power wires to VTX are connected, and check if voltage is expected value with a multi-meter.
+Die rote LED dient als Stromanzeige. Wenn sie aus oder blinkt, signalisiert dies einen VTX-Fehler. Ein funktionierendes Gerät zeigt ein dauerhaftes rotes Licht. Wenn kein rotes Licht zu sehen ist, prüfen Sie, ob die Stromkabel zum VTX angeschlossen sind und ob die Spannung mit einem Multimeter den Sollwert hat.
 
-## Blue LED Pattern
+## Blaues LED-Muster
 
-Working status indicator light.
+Statusanzeige für den Betriebszustand.
 
-Upon boot, three rapid LED flickers confirm MSP communication with FC is active.
+Beim Start bestätigen drei schnelle LED-Blinker, dass die MSP-Kommunikation mit dem FC aktiv ist.
 
-Specific modes are represented with patterns of long (1 seconds) and short (1/4 seconds) pulses, within a 4 seconds timeframe.
+Bestimmte Modi werden durch Muster aus langen (1 Sekunde) und kurzen (1/4 Sekunde) Pulsen innerhalb eines Zeitraums von 4 Sekunden dargestellt.
 
 <img src="/media/image12.png" id="image10">
 
 <table id="table2">
 <tr>
-<td>BLUE LED pattern</td>
-<td>What does it mean?</td>
-<td>What to do?</td>
+<td>BLAUES LED-Muster</td>
+<td>Bedeutung</td>
+<td>Was tun?</td>
 </tr>
 <tr>
-<td>2 short flashes</td>
-<td>Camera not detected</td>
-<td>Reseat MIPI cable on VTX and Camera<br>Check if MIPI cable is damaged<br>Check MIPI connector for damage<br>Replace Camera</td>
+<td>2 kurze Blitze</td>
+<td>Kamera nicht erkannt</td>
+<td>MIPI-Kabel am VTX und an der Kamera neu einstecken<br>Prüfen, ob das MIPI-Kabel beschädigt ist<br>MIPI-Stecker auf Beschädigung prüfen<br>Kamera austauschen</td>
 </tr>
 <tr>
-<td>3 short flashes</td>
-<td>Over-heating</td>
-<td>Use a fan to cool VTX</td>
+<td>3 kurze Blitze</td>
+<td>Überhitzung</td>
+<td>Lüfter zur Kühlung des VTX verwenden</td>
 </tr>
 <tr>
-<td>4 short flashes</td>
-<td>RF failure</td>
-<td>Replace VTX</td>
+<td>4 kurze Blitze</td>
+<td>RF-Fehler</td>
+<td>VTX austauschen</td>
 </tr>
 <tr>
-<td>1 long 1 short flash</td>
-<td>In 0 mW mode</td>
-<td>Use Stick command (\ /) exit 0mW</td>
+<td>1 langer, 1 kurzer Blitz</td>
+<td>Im 0 mW Modus</td>
+<td>Stick-Befehl (\ /) verwenden, um 0mW zu verlassen</td>
 </tr>
 <tr>
-<td>1 long 2 short flashes</td>
-<td>In 0.1mW mode</td>
-<td>Turn off PIT mode</td>
+<td>1 langer, 2 kurze Blitze</td>
+<td>Im 0,1 mW Modus</td>
+<td>PIT-Modus ausschalten</td>
 </tr>
 </table>
 
 ::: tip
-Note: The first three LED patterns indicate error conditions and take priority over all others. If an error is active—such as the VTX entering heat protection mode—it will override other settings. For example, setting the board to 0mW won't visibly change the LED if heat protection is engaged.
+Hinweis: Die ersten drei LED-Muster zeigen Fehlerzustände an und haben Vorrang vor allen anderen. Wenn ein Fehler aktiv ist – z.B. wenn der VTX in den Hitzeschutzmodus wechselt – überschreibt dies andere Einstellungen. Beispielsweise ändert sich die LED-Anzeige beim Umschalten auf 0mW nicht sichtbar, wenn der Hitzeschutz aktiv ist.
 :::

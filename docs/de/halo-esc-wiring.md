@@ -1,7 +1,7 @@
-# Wiring
+# Verdrahtung
 
-This section describes the diagram and wiring of the Halo ESC.
+In diesem Abschnitt wird das Schaltbild und die Verdrahtung des Halo ESC beschrieben.
 
-## Diagram
+## Schaltbild
 
 <img src="/halomedia/image32.png" id="image32">

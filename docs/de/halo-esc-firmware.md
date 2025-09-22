@@ -1,34 +1,33 @@
-# Configuration/Firmware
+# Konfiguration/Firmware
 
 ## BLHeli32
 
-- Download BLHeliSuite32 https://github.com/bitdump/BLHeli/releases/tag/Rev32.10
+- Lade BLHeliSuite32 herunter: https://github.com/bitdump/BLHeli/releases/tag/Rev32.10
 
-- Remove all propellers from the drone that flight controller and Halo ESC are correctly installed
+- Entferne alle Propeller von der Drohne, stelle sicher, dass Flight Controller und Halo ESC korrekt installiert sind
 
-- Power on the drone, and connect the FC to PC via USB
+- Schalte die Drohne ein und verbinde den FC per USB mit dem PC
 
-- Execute BLHeliSuite32.exe
+- Starte BLHeliSuite32.exe
 
-- Select ESC Setup tab, Port | Connect | Check
+- Wähle den Tab ESC Setup, dann Port | Connect | Check
 
-- Adjust parameters as needed, Write Setup to save the setting to ESCs
+- Passe die Parameter nach Bedarf an, klicke auf Write Setup, um die Einstellungen auf die ESCs zu speichern
 
 <img src="/halomedia/image33.png" id="image33">
 
 ## AM32
 
+- Entferne alle Propeller von der Drohne, stelle sicher, dass Flight Controller und Halo ESC korrekt installiert sind
 
-- Remove all propellers from the drone that flight controller and Halo ESC are correctly installed
+- Schalte die Drohne ein und verbinde den FC per USB mit dem PC
 
-- Power on the drone, and connect the FC to PC via USB
+- Öffne den AM32 Configurator: https://am32.ca/
 
-- Open the AM32 Configurator: https://am32.ca/
+- Klicke auf Port Select und Connect, dann auf Read.
 
-- Click Port Select and Connect, then Read.
+- Passe die Parameter nach Bedarf an und speichere sie anschließend.
 
-- Adjust parameters as needed, then Save.
-
-*If needed, click [Flash firmware] to update the ESC firmware*
+*Falls nötig, klicke auf [Flash firmware], um die ESC-Firmware zu aktualisieren*
 
 <img src="/halomedia/image34.png" id="image34">

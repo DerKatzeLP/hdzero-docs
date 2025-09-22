@@ -1,29 +1,29 @@
-# Operation
+# Bedienung
 
-## Boot
+## Start
 
 <img src="/eventmedia/image2.png" id="image2">
 
-## Work (Display auto off with 60 seconds)
+## Betrieb (Display schaltet sich nach 60 Sekunden automatisch ab)
 
 <img src="/eventmedia/image3.png" id="image3">
 
-* "UP/DN" key Selects between Channels
-* Short Press “Enter” Moves tri-angle cursor
-* Long Press “Enter” toggles channel mode.
-* Star means “HDZero Only”
-* Sequare means “Analog Only”
+* Mit der "UP/DN"-Taste zwischen den Kanälen wechseln
+* Kurzer Druck auf „Enter“ bewegt den Dreiecks-Cursor
+* Langer Druck auf „Enter“ wechselt den Kanalmodus
+* Stern bedeutet „Nur HDZero“
+* Quadrat bedeutet „Nur Analog“
 
 <img src="/eventmedia/image4.png" id="image4">
 
-- D0: ON when it is connected to a PC with USB cable
+- D0: AN, wenn mit einem PC per USB-Kabel verbunden
 
 - D1-D4:
 
-    **OFF**: No HDZero/Analog Detected
+    **AUS**: Kein HDZero/Analog erkannt
 
-    **ON**: HDZero Locked
+    **AN**: HDZero verbunden
 
-    **BLINK**: Analog Locked
+    **BLINKT**: Analog verbunden
 
-- D5: Power LED
+- D5: Power-LED

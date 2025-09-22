@@ -1,55 +1,55 @@
 # ECO VTX
 
-HDZero ECO Bundle is designed to bring digital FPV to more pilots by offering a low cost, light weight, and durable alternative to analog video. The digital video signal has stable color reproduction and 720p progressive scan video with the low latency HDZero is known for. This budget-friendly Air Unit is a groundbreaking product—it's the first VTX/camera combination that utilizes a HD composite video signal, eliminating the need for a delicate MIPI cable. The ECO FPV System was meticulously designed for ultra-lightweight drones like Tiny Whoops, where every fraction of a gram counts. The camera's huge 98deg vertical FOV is perfect for fast indoor proximity flying. The ECO VTX weighs approximately 4.5g, while the camera (including wires) comes in at about 1.6g. With the included 0.2g dipole antenna, the entire Eco Bundle weighs about mere 6.3g in total.
+Das HDZero ECO Bundle wurde entwickelt, um digitales FPV mehr Piloten zugänglich zu machen, indem es eine kostengünstige, leichte und robuste Alternative zu analogem Video bietet. Das digitale Videosignal bietet eine stabile Farbwiedergabe und 720p-Progressive-Scan-Video mit der niedrigen Latenz, für die HDZero bekannt ist. Diese preisgünstige Air Unit ist ein bahnbrechendes Produkt – es ist die erste VTX/Kamera-Kombination, die ein HD-Komposit-Videosignal nutzt und somit kein empfindliches MIPI-Kabel benötigt. Das ECO FPV System wurde speziell für ultraleichte Drohnen wie Tiny Whoops entwickelt, bei denen jedes Gramm zählt. Das riesige vertikale Sichtfeld der Kamera von 98° ist perfekt für schnelles Indoor-Fliegen auf engem Raum. Der ECO VTX wiegt ca. 4,5g, während die Kamera (inklusive Kabel) etwa 1,6g wiegt. Mit der beiliegenden 0,2g-Dipolantenne wiegt das gesamte Eco Bundle nur etwa 6,3g.
 <img src="/media/image21.png" id="image18">
 <table id="table8">
 <tr>
 <td>1</td>
-<td>FW Update Connector</td>
+<td>FW-Update-Anschluss</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Camera Connector</td>
+<td>Kameraanschluss</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Keypad Connector</td>
+<td>Tastaturanschluss</td>
 </tr>
 <tr>
 <td>4</td>
-<td>Power(4-12V)/UART Connector</td>
+<td>Stromversorgung(4-12V)/UART-Anschluss</td>
 </tr>
 <tr>
 <td>5</td>
-<td>Secured U.FL Connector</td>
+<td>Gesicherter U.FL-Anschluss</td>
 </tr>
 </table>
 
 <table id="table9">
 <tr>
-<td>Camera Connector</td>
-<td>Cable Color</td>
-<td>Connected with</td>
+<td>Kameraanschluss</td>
+<td>Kabelfarbe</td>
+<td>Verbunden mit</td>
 </tr>
 <tr>
 <td>5V</td>
-<td>Red</td>
-<td>Camera Power</td>
+<td>Rot</td>
+<td>Kamera Stromversorgung</td>
 </tr>
 <tr>
 <td>GND</td>
-<td>Red</td>
-<td>Camera Ground</td>
+<td>Rot</td>
+<td>Kamera Masse</td>
 </tr>
 <tr>
 <td>CAM</td>
-<td>Yellow</td>
-<td>Camera Video</td>
+<td>Gelb</td>
+<td>Kamera Video</td>
 </tr>
 <tr>
 <td>OSD</td>
-<td>White</td>
-<td>Camera Menu</td>
+<td>Weiß</td>
+<td>Kamera Menü</td>
 </tr>
 <tr>
 <td>SCL</td>
@@ -69,28 +69,28 @@ HDZero ECO Bundle is designed to bring digital FPV to more pilots by offering a 
 
 <table id="table10">
 <tr>
-<td>Power/UART Connector</td>
-<td>Cable Color</td>
-<td>Connected with</td>
+<td>Stromversorgung/UART-Anschluss</td>
+<td>Kabelfarbe</td>
+<td>Verbunden mit</td>
 </tr>
 <tr>
 <td>V</td>
-<td>Red</td>
-<td>Power</td>
+<td>Rot</td>
+<td>Stromversorgung</td>
 </tr>
 <tr>
 <td>G</td>
-<td>Black</td>
-<td>Ground</td>
+<td>Schwarz</td>
+<td>Masse</td>
 </tr>
 <tr>
 <td>T</td>
-<td>White</td>
+<td>Weiß</td>
 <td>FC.RX</td>
 </tr>
 <tr>
 <td>R</td>
-<td>Yellow</td>
+<td>Gelb</td>
 <td>FC.TX</td>
 </tr>
 </table>
@@ -98,11 +98,11 @@ HDZero ECO Bundle is designed to bring digital FPV to more pilots by offering a 
 <img src="/media/image23.jpeg" id="image20">
 
 ::: tip
-Notes:
+Hinweise:
 
-- The following connection methods are recommended when using BEC power supply:
-  - The BEC only support 5V, it needs a minimum of 2.0A current output.
-  - It is recommended to connect the BEC to the capacitor as shown for the 1R2 batch.
-  - It is recommended to connect the BEC to the pad as shown for not 1R2 batch.
-- Use VBAT (1S or 2S) for power supply when BEC is not available
+- Die folgenden Anschlussmethoden werden empfohlen, wenn eine BEC-Stromversorgung verwendet wird:
+  - Das BEC unterstützt nur 5V und benötigt mindestens 2,0A Ausgangsstrom.
+  - Es wird empfohlen, das BEC wie für die 1R2-Charge gezeigt an den Kondensator anzuschließen.
+  - Für nicht 1R2-Chargen wird empfohlen, das BEC wie gezeigt an das Pad anzuschließen.
+- Verwenden Sie VBAT (1S oder 2S) zur Stromversorgung, wenn kein BEC verfügbar ist.
 :::

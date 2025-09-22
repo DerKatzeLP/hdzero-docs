@@ -1,27 +1,27 @@
-# HDZero Lux Camera
+# HDZero Lux Kamera
 
-## Description
+## Beschreibung
 
-The Runcam HDZero Lux camera is compact, lightweight, and durable, making it perfect for tiny whoops and micro drones. It features a ½ inch CMOS sensor that delivers sharp image quality and excellent low-light performance. Lux camera has Wide Dynamic Range (WDR) and offers higher quality by oversampling (1080p ‐> 720p). The camera outputs HD composite video (720p) via a single wire instead of a MIPI cable, reducing footprint, cost, and increasing durability.
+Die Runcam HDZero Lux Kamera ist kompakt, leicht und robust und eignet sich perfekt für Tiny Whoops und Micro-Drohnen. Sie verfügt über einen 1/2-Zoll-CMOS-Sensor, der eine scharfe Bildqualität und hervorragende Low-Light-Performance liefert. Die Lux Kamera bietet Wide Dynamic Range (WDR) und eine höhere Qualität durch Oversampling (1080p -> 720p). Das Videosignal wird als HD-Composite-Video (720p) über eine einzelne Leitung statt eines MIPI-Kabels ausgegeben, was Platz spart, Kosten senkt und die Haltbarkeit erhöht.
 
-Optimized for a 4:3 aspect ratio, it can also be configured for a 16:9 aspect ratio with a reduced vertical FOV. Designed meticulously for ultra-lightweight drones like tiny whoops, where every fraction of a gram matters, the camera boasts a large 94-degree vertical FOV, ideal for fast indoor and outdoor proximity flying.
+Optimiert für das 4:3-Format, kann sie auch auf 16:9 umgestellt werden (mit reduziertem vertikalen Sichtfeld). Die Kamera wurde speziell für ultraleichte Drohnen wie Tiny Whoops entwickelt, bei denen jedes Gramm zählt. Das große vertikale Sichtfeld von 94° ist ideal für schnelles Indoor- und Outdoor-Fliegen auf engem Raum.
 
-## Specifications
+## Technische Daten
 
-| parameter         | value                   |
+| Parameter         | Wert                    |
 | ----------------- | ----------------------- |
-| Image Sensor      | 1/2"                    |
-| Interface         | HD composite video      |
-| Resolution        | 1280x720@60fps          |
-| Max FOV           | FOV D:155° H:126° V:94°(4:3) <br> FOV D:170° H:145° V:82°(16:9) |
-| Shutter           | Rolling Shutter         |
-| Net Weight        | 2.3g                    |
-| Dimensions        | L14mm * W16mm * H14mm   |
-| Input             | 3.3V~5V                 |
-| Power Consumption | 0.5W                    |
+| Bildsensor        | 1/2"                    |
+| Schnittstelle     | HD Composite Video      |
+| Auflösung         | 1280x720@60fps          |
+| Max. FOV          | FOV D:155° H:126° V:94°(4:3) <br> FOV D:170° H:145° V:82°(16:9) |
+| Verschluss        | Rolling Shutter         |
+| Gewicht           | 2,3g                    |
+| Maße              | L14mm * B16mm * H14mm   |
+| Eingang           | 3,3V~5V                 |
+| Stromverbrauch    | 0,5W                    |
 
-## How to change 4:3/16:9
+## Umschalten zwischen 4:3/16:9
 
-The HDZero AIO5 and ECO VTX lack a communication mechanism to automatically retrieve the Lux camera settings, such as aspect ratio. Users need to manually set the aspect ratio for both the AIO5/ECO VTX and the Lux camera. Here’s a short video demonstrating how to do that:
+Die HDZero AIO5 und ECO VTX verfügen über keinen Kommunikationsmechanismus, um die Lux Kamera-Einstellungen wie das Seitenverhältnis automatisch auszulesen. Nutzer müssen das Seitenverhältnis sowohl an der AIO5/ECO VTX als auch an der Lux Kamera manuell einstellen. Hier ein kurzes Video, das zeigt, wie das geht:
 
 https://youtu.be/aenS9-K2mU4?si=9znMQGq9YQZuYC5T

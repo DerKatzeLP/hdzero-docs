@@ -1,61 +1,61 @@
-# HDZero BoxPro Operation
+# HDZero BoxPro Bedienung
 
-This section describes the general operation of the HDZero BoxPro.
+Dieser Abschnitt beschreibt die allgemeine Bedienung der HDZero BoxPro.
 
-## Controls
+## Bedienelemente
 
-- Dial Pad
+- Steuerkreuz
 
-- Enter Button
+- Enter-Taste
 
-- Func Button
+- Funktions-Taste
 
 <img src="/boxmedia/image9.png" id="image4">
 
-## Video view and Menu view
+## Videoansicht und Menüansicht
 
 <img src="/boxmedia/image10.png" id="image5">
 
 <div class="page"></div>
 
-### Video Source
+### Videoquelle
 
-The HDZero BoxPro can display video from any of 4 sources:
+Die HDZero BoxPro kann Videos von einer der folgenden 4 Quellen anzeigen:
 
-- Built-in HDZero digital receiver
+- Integrierter HDZero Digitalempfänger
 
-- Built-in Analog digital receiver
+- Integrierter Analogempfänger
 
-- AV in
+- AV-Eingang
 
-- HDMI in
+- HDMI-Eingang
 
-### HDZero Digital Receiver
+### HDZero Digitalempfänger
 
-The “Scan Now” option on the main menu will scan the following channels for an HDZero video signal:
+Die Option „Jetzt scannen“ im Hauptmenü durchsucht folgende Kanäle nach einem HDZero-Videosignal:
 
-- R1-R8, E1, F1, F2, and F4 channels, or
+- R1-R8, E1, F1, F2 und F4 Kanäle, oder
 
-- L1-L8 if low band is selected
+- L1-L8, wenn Lowband ausgewählt ist
 
-“Scan Now” will perform the following:
+„Jetzt scannen“ führt Folgendes aus:
 
-- Scan the above channels,
+- Scannt die oben genannten Kanäle,
 
-- Lock on to the channel if there is only one valid channel with a signal, or
+- Sperrt auf den Kanal, wenn nur ein gültiges Signal gefunden wird, oder
 
-- Let you choose between the channels if it has found two or more channels, or
+- Lässt dich zwischen den Kanälen wählen, wenn zwei oder mehr gefunden werden, oder
 
-- Continue to scan after 5 seconds if no signal is detected, or
+- Setzt das Scannen nach 5 Sekunden fort, wenn kein Signal erkannt wird, oder
 
-- Wait for a long press of the Enter button to exit to the main menu
+- Wartet auf langen Druck der Enter-Taste, um ins Hauptmenü zurückzukehren
 
 ::: tip
-Note 1: To enable low band, set Source -> HDZero Band to **Lowband**. Here is the center frequencies for L1-L8.
+Hinweis 1: Um Lowband zu aktivieren, stelle Quelle -> HDZero Band auf **Lowband**. Hier sind die Mittenfrequenzen für L1-L8.
 
 <table id="table4">
 <tr>
-<td>Low Band Channel</td>
+<td>Low Band Kanal</td>
 <td>L1</td>
 <td>L2</td>
 <td>L3</td>
@@ -66,7 +66,7 @@ Note 1: To enable low band, set Source -> HDZero Band to **Lowband**. Here is th
 <td>L8</td>
 </tr>
 <tr>
-<td>Frequency (MHz)</td>
+<td>Frequenz (MHz)</td>
 <td>5362</td>
 <td>5399</td>
 <td>5436</td>
@@ -80,115 +80,115 @@ Note 1: To enable low band, set Source -> HDZero Band to **Lowband**. Here is th
 :::
 
 ::: tip
-Note 2: The HDZero provides the lowest and fixed latency when used with the HDZero Nano 90 camera. This Nano 90 camera supports 540p60 mode exclusively. When it is set to 540p60, the goggle needs to set Source > HDZero BW to Narrow.
+Hinweis 2: Die HDZero bietet die niedrigste und festeste Latenz mit der HDZero Nano 90 Kamera. Diese unterstützt ausschließlich 540p60. Ist sie auf 540p60 eingestellt, muss die Brille unter Quelle > HDZero BW auf Narrow gestellt werden.
 
-All other modes need to set Source > HDZero BW to Wide.
+Alle anderen Modi benötigen Quelle > HDZero BW auf Wide.
 :::
 
-## Analog Receiver
+## Analogempfänger
 
-The HDZero BoxPro takes analog video input from either the AV input jack or the built-in analog RF receiver.
+Die HDZero BoxPro nimmt analoges Videosignal entweder über den AV-Eingang oder den integrierten analogen RF-Empfänger entgegen.
 
-The HDZero BoxPro uses a novel approach to process the analog input, resulting in improved analog video quality:
+Die BoxPro verwendet einen neuartigen Ansatz zur Verarbeitung des analogen Signals, was zu verbesserter Bildqualität führt:
 
-It uses a video decoder with an adaptive comb filter to separate Y/C from the composite video;
+- Ein Videodecoder mit adaptivem Kammfilter trennt Y/C vom Composite-Video
 
-It uses a deinterlacer to convert fields to frames, instead of doubling the interlaced lines;
+- Ein Deinterlacer wandelt Halbbilder in Vollbilder um, statt Zeilen zu verdoppeln
 
-It uses an upscaler to record and display the video;
+- Ein Upscaler zeichnet das Video auf und zeigt es an
 
 <img src="/boxmedia/image11.png" id="image6">
 
-FIG 4. Signal Processing Path for Analog Input
+ABB. 4. Signalverarbeitungspfad für analogen Eingang
 
 ## Auto Scan
 
-HDZero BoxPro has options to let goggle boot to desired modes after power on.
+Die BoxPro kann beim Einschalten automatisch in den gewünschten Modus starten.
 
-HDZero:      Main Menu → Auto Scan  → Auto Scan = ON | Last
+HDZero:      Hauptmenü → Auto Scan  → Auto Scan = EIN | Letzter
 
-                                        Default = HDZero
+                                        Standard = HDZero
 
-Analog:       Main Menu → Auto Scan  → Default = Analog
+Analog:       Hauptmenü → Auto Scan  → Standard = Analog
 
-Last time:    Main Menu → Auto Scan  → Default = Last<br><br>
+Letzter:      Hauptmenü → Auto Scan  → Standard = Letzter<br><br>
 
-## Fan Management
+## Lüftersteuerung
 
-There is one fan on the top of the goggle. It cools the internals and prevents screen fogging.
+Oben auf der Brille befindet sich ein Lüfter. Er kühlt das Innere und verhindert das Beschlagen des Bildschirms.
 
-The fan speed can be set to a 1-5 level, corresponding from minimum to max speed.
+Die Lüftergeschwindigkeit kann auf Stufe 1-5 eingestellt werden, von minimal bis maximal.
 
-There are two control modes for side fans:
+Es gibt zwei Steuerungsmodi für die Seitenlüfter:
 
-- Automatic mode: Goggle firmware will automatically speed up/down;
+- Automatikmodus: Die Firmware regelt die Geschwindigkeit automatisch
 
-- Manual mode: You can manually set the speed for each fan;
+- Manueller Modus: Du kannst die Geschwindigkeit für jeden Lüfter manuell einstellen
 
-Regardless of the current mode, top fan will go to max speed if temperature sensor reports a reading that is too hot.
+Unabhängig vom Modus läuft der obere Lüfter auf maximaler Geschwindigkeit, wenn der Temperatursensor eine zu hohe Temperatur meldet.
 
-You can change the fan speed by pressing and holding the Func Button. You can monitor the fan speed changes on the goggle OSD to quickly change the amount of air blowing onto your face and the optic lenses while in the Video view.
+Die Lüftergeschwindigkeit kann durch langes Drücken der Funktions-Taste geändert werden. Die Änderung wird im OSD angezeigt, um die Luftmenge schnell anzupassen.
 
-## Image Settings
+## Bildeinstellungen
 
-The HDZero goggle has an image processor to fine tune video before feeding to DVR and display. It includes:
+Die BoxPro verfügt über einen Bildprozessor zur Feinabstimmung des Videos vor der Aufnahme und Anzeige. Dazu gehören:
 
-- Brightness
+- Helligkeit
 
-- Saturation
+- Sättigung
 
-- Contrast
+- Kontrast
 
-- LCD Brightness
+- LCD-Helligkeit
 
 ::: tip
-Note: "Brightness" refers to the image brightness processed by the video processor, while "LCD Brightness" pertains to the backlight of the LCD display.
+Hinweis: „Helligkeit“ bezieht sich auf die Bildhelligkeit, die vom Videoprozessor verarbeitet wird, während „LCD-Helligkeit“ die Hintergrundbeleuchtung des LCD-Displays betrifft.
 :::
 
-## LCD Auto Off
+## LCD-Auto-Aus
 
-If the HDZero BoxPro detects no movement or no key input for programmed time (1/3/5/7 minutes), it will dim the LCD display as an alarm, and it will wait for another one minute before turning off both the display and HDZero digital receiver with a short beep. The LCD display and HDZero receiver will resume normal operation if the goggle detects movement or any key input. This feature can be disabled by setting the waiting time to “Never”.
+Wenn die BoxPro keine Bewegung oder Tasteneingabe für eine programmierte Zeit (1/3/5/7 Minuten) erkennt, wird das LCD als Warnung abgedunkelt und nach einer weiteren Minute sowohl das Display als auch der HDZero-Empfänger mit einem kurzen Piepton ausgeschaltet. Die Anzeige und der Empfänger werden wieder aktiviert, wenn Bewegung oder eine Taste erkannt wird. Diese Funktion kann durch Einstellung auf „Nie“ deaktiviert werden.
 
-It is highly recommended to use the above LCD auto off feature or “Go Sleep” from main menu to turn off LCD while not using the goggle.
+Es wird empfohlen, die LCD-Auto-Aus-Funktion oder „Go Sleep“ im Hauptmenü zu nutzen, um das LCD bei Nichtgebrauch auszuschalten.
 
 ## DVR
 
-The HDZero BoxPro integrates a DVR for the HDZero digital receiver, analog input (RF or AV in), and HDMI input. These are the DVR options:
+Die BoxPro integriert einen DVR für den HDZero-Empfänger, analogen Eingang (RF oder AV) und HDMI-Eingang. Folgende DVR-Optionen stehen zur Verfügung:
 
-- Automatic Record: DVR will start to record when it detects there is valid HDZero RF on the current channel, and stops recording when the signal is no longer detected.
+- Automatische Aufnahme: Startet, wenn ein gültiges HDZero-RF-Signal erkannt wird, und stoppt, wenn das Signal verloren geht.
 
-- Manual Record: DVR will start/stop only if Func button is clicked.
+- Manuelle Aufnahme: Start/Stop nur durch Drücken der Funktions-Taste.
 
-- MP4 format or TS format: MP4 format is better supported by many video editing applications. However, MP4 files can be corrupted if the goggle loses power before the file is closed after recording, which can happen if the goggle runs out of battery or the power cord is unplugged unexpectedly. Unlike the MP4 format, the TS format saves the stream instantly to DVR without any risk of corrupted files, even if the goggle suddenly loses power.
+- MP4- oder TS-Format: MP4 wird von vielen Videoprogrammen besser unterstützt, kann aber bei Stromverlust beschädigt werden. TS speichert den Stream sofort und ist unempfindlich gegen Stromausfall.
 
-- H264/H265. The DVR must use the H264 format when recording 90fps video (it records in 1280x720x90 for better quality). It uses the H265 format in all other cases.
+- H264/H265: Bei 90fps-Aufnahmen wird H264 verwendet (1280x720x90), sonst H265.
 
-- Audio: You can choose to record audio or not. There are 3 audio sources that can be recorded:
+- Audio: Es kann Audio aufgenommen werden von:
 
-    1. Built-in microphone
+    1. Eingebautem Mikrofon
 
-    2. Line in (From Line in/out Jack), aka external microphone
+    2. Line-In (externer Mikrofoneingang)
 
-    3. AV in (From AV in Jack)
+    3. AV-In
 
-TABLE 3: DVR resolution
+TABELLE 3: DVR-Auflösung
 
 <table id="table5">
 <tr>
 <td></td>
-<td>Input Source</td>
-<td>Recording resolution</td>
+<td>Eingangsquelle</td>
+<td>Auflösung</td>
 <td>Encoder</td>
 </tr>
 <tr>
 <td>1</td>
-<td>HDZero 60fps Camera</td>
+<td>HDZero 60fps Kamera</td>
 <td>1280x720x60fps</td>
 <td>H.265</td>
 </tr>
 <tr>
 <td>2</td>
-<td>HDZero 90fps Camera</td>
+<td>HDZero 90fps Kamera</td>
 <td>1280x720x90fps</td>
 <td>H.264</td>
 </tr>
@@ -214,174 +214,160 @@ TABLE 3: DVR resolution
 
 ::: warning
 
-**The file system on SD card can be corrupted by suddenly power off while goggle is writing data to it.**
+**Das Dateisystem der SD-Karte kann beschädigt werden, wenn die Brille während des Schreibens plötzlich ausgeschaltet wird.**
 
-  The HDZero BoxPro runs on Linux, and it does not have a big capacitor that saves power for saving the last emergency bits. The DVR will not work if SD file system is corrupted. Here are tips on how to avoid powering off while recording is ongoing:
+  Die BoxPro läuft unter Linux und hat keinen großen Kondensator für Notabschaltung. Der DVR funktioniert nicht, wenn das Dateisystem beschädigt ist. Tipps, um Stromausfall während der Aufnahme zu vermeiden:
 
-- Auto record mode: after quad is landed, do one of the following
+- Automatikmodus: Nach der Landung des Quads entweder
 
-    - Long press “Enter” button to switch to menu mode, then power off the goggle, or
+    - Lange „Enter“-Taste drücken, um ins Menü zu wechseln, dann Brille ausschalten, oder
 
-    - Power off quad first, and wait for 10 seconds, then power off the goggle
+    - Quad zuerst ausschalten, 10 Sekunden warten, dann Brille ausschalten
 
-- Manual record mode:  Click “Func” button to stop DVR before power off the goggle
+- Manueller Modus: Vor dem Ausschalten Aufnahme mit „Func“-Taste stoppen
 
-- Select “Scan and Fix” if Windows or Mac reports problem when SD card is inserted.
+- „Scan and Fix“ wählen, falls Windows/Mac Probleme mit der SD-Karte meldet
 
 :::
 
-## DVR for HDMI in
+## DVR für HDMI-Eingang
 
-Here is how DVR works when source is set to HDMI in:
+So funktioniert der DVR bei HDMI-Quelle:
 
-- BoxPro will automatically start recording and:
+- BoxPro startet automatisch die Aufnahme und:
 
-- Restart recording when HDMI in resolution changes.
+- Startet neu, wenn sich die HDMI-Auflösung ändert
 
-- Restart recording when recording time reaches 10 minutes.
+- Startet neu, wenn die Aufnahmezeit 10 Minuten erreicht
 
-- Stop recording when HDMI in source is lost.
+- Stoppt, wenn HDMI-Quelle verloren geht
 
-- Stop recording when SD card storage is less than 100MB or SD card is ejected.
+- Stoppt, wenn weniger als 100MB Speicher frei sind oder SD-Karte entfernt wird
 
 ::: tip
-Note: When source is set to HDMI in, there is no Goggle OSD, include recording icon, battery status, etc.
+Hinweis: Bei HDMI-Quelle gibt es kein Brillen-OSD, auch kein Aufnahme-Icon, Batteriestatus etc.
 :::
 
-## Playback
+## Wiedergabe
 
-The HDZero BoxPro can play back DVR recordings.
+Die BoxPro kann DVR-Aufnahmen abspielen.
 
-- The player lists the recent recording first. Use Dial up/down to select a file, and click to play it
+- Die neuesten Aufnahmen werden zuerst gelistet. Mit Steuerkreuz hoch/runter auswählen und klicken zum Abspielen
 
-- On controller bar, use Dial Up/Down to seek video (5 seconds forward/backward), and click to play/pause
+- In der Steuerleiste mit Steuerkreuz vor/zurück (je 5 Sekunden), klicken für Pause/Wiedergabe
 
-- Long press the Enter button to exit the controller bar, and long press Enter again to exit the player.
+- Langes Drücken der Enter-Taste verlässt die Steuerleiste, nochmal lang drücken verlässt den Player
 
 ::: tip
-Note: The player will ignore files that are less than 5MB.
+Hinweis: Dateien unter 5MB werden ignoriert.
 :::
 
 ## OSD
 
-The goggle supports OSD from flight controller (FC OSD) and OSD of its own status (Goggle OSD). You may select if both OSD should be recorded with video stream at Record Options sub-menu.
+Die Brille unterstützt OSD vom Flight Controller (FC OSD) und eigenes Status-OSD (Goggle OSD). Im Menü „Record Options“ kann gewählt werden, ob beide OSD mit aufgezeichnet werden.
 
-Goggle OSD can be shown/ hidden by clicking the Enter button under Video view. The positions of Goggle OSD items can be changed at OSD | Adjust OSD Elements.
+Das Goggle OSD kann durch Drücken der Enter-Taste im Videomodus ein-/ausgeblendet werden. Die Positionen der OSD-Elemente lassen sich unter OSD | OSD-Elemente anpassen ändern.
 
-The goggle has built-in OSD fonts for BetaFlight, Arduino and iNav. It will automatically load the corresponding font according to type of flight controller that is connected with HDZero video transmitter. You can also customize FC OSD by putting bitmap files under SD card root directory/resource/OSD/FC.
+Die Brille hat eingebaute OSD-Schriftarten für BetaFlight, Arduino und iNav. Die passende Schriftart wird automatisch geladen. Eigene FC-OSD können als Bitmap unter SD-Karte/resource/OSD/FC abgelegt werden.
 
 ::: tip
-Note: When source is set to HDMI in, there is no Goggle OSD, include recording icon, battery status, etc.
+Hinweis: Bei HDMI-Quelle gibt es kein Brillen-OSD, auch kein Aufnahme-Icon, Batteriestatus etc.
 :::
 
-## Tune Channel
+## Kanalwahl
 
-By Dialing up/down, video channel number can be tuned on video mode for HDZero receiver input. However, this can be disabled by putting a file named as “no_dial.txt” on SD card root directory when booting up.
+Mit Steuerkreuz hoch/runter kann im Videomodus der Kanal für den HDZero-Empfänger eingestellt werden. Dies kann deaktiviert werden, indem eine Datei „no_dial.txt“ ins Hauptverzeichnis der SD-Karte gelegt wird.
 
-## WiFi Module (Optional)
+## WiFi-Modul (Optional)
 
-The HDZero BoxPro supports WIFI video streaming to smart phone, desktop or laptop, if it includes WIFI/ESP32 module. Multiple devices can wirelessly connect to the goggle and receive the video simultaneously.
+Die BoxPro unterstützt WiFi-Video-Streaming auf Smartphone, PC oder Laptop, falls das WiFi/ESP32-Modul verbaut ist. Mehrere Geräte können gleichzeitig verbinden.
 
-Control over the behavior of the WiFi Module is completely managed from within the WiFi Module page. Users have the ability to configure the goggle as a Host (Access Point) or a Client (Join Network).
+Die Steuerung erfolgt komplett über die WiFi-Modul-Seite im Menü. Dort kann die Brille als Host (Access Point) oder Client (Netzwerk beitreten) konfiguriert werden.
 
-WiFi Module page supports both “Basic” and “Advanced” configuration fields.
+Die Seite bietet „Basis“- und „Erweitert“-Felder.
 
-#### Basic Fields:
+#### Basis-Felder:
 
-- Enable – Powers On or Off the WiFi Module hardware.
+- Aktivieren – Schaltet das WiFi-Modul ein/aus
 
-- Mode – Host (Access Point) or Client (Join Network).
+- Modus – Host (Access Point) oder Client (Netzwerk beitreten)
 
-- SSID – User can specify a Host and Client network names individually based on Mode.
+- SSID – Netzwerkname für Host/Client
 
-- Password – User can specify a Host and Client network password individually based on Mode.
+- Passwort – Passwort für Host/Client (mind. 8 Zeichen)
 
-    > Note that password requires a minimum of 8 characters.
-
-- Apply Settings – Stores and configures the WiFi Module hardware with the settings the user has modified.  << change the following pic>>>
+- Einstellungen übernehmen – Speichert und konfiguriert das Modul mit den geänderten Einstellungen
 
 <img src="/boxmedia/image12.png" id="image7">
 
-#### Advanced Fields:
+#### Erweiterte Felder:
 
-- DHCP – This setting only applies to Client Mode.
+- DHCP – Nur im Client-Modus relevant
 
-    > Note the Address specified will be requested for use by the WiFi.  Ultimately it is up to the router to find and available address if the address requested is not in use, then the one specified will be used.
+- Adresse – IP-Adresse (für Host und Client)
 
-- Address – The network IP address.
+- Netzmaske – Subnetzmaske (für Host und Client)
 
-    > This setting applies for both Host and Client modes.
+- Gateway – Gateway-IP (für Host und Client)
 
-- Netmask – The network subnet mask.
+- DNS – DNS-Server-IP
 
-    > This setting applies for both Host and Client modes.
-
-- Gateway – The network gateway IP address.
-
-    > This setting applies for both Host and Client modes.
-
-- DNS – the Domain Network Service IP address.
-
-- RF Channel – This setting only applies to Host Mode and a user can specify which radio frequency channel they want to communicate on.
+- RF-Kanal – Nur im Host-Modus, wählbarer Funkkanal
 
 <img src="/boxmedia/image13.png" id="image8">
 
-#### System Fields:
+#### System-Felder:
 
-- Root PW – Update the root password for the goggles.
+- Root-PW – Root-Passwort für die Brille ändern (gilt für SSH/SCP)
 
-    > This applies to SSH and SCP communications.
-
-- SSH – Enable/Disable Access to the goggles.
-
-    > Defaults to disabled as a security precaution.
+- SSH – SSH-Zugriff aktivieren/deaktivieren (standardmäßig deaktiviert)
 
 <img src="/boxmedia/image14.png" id="image9">
 
-Finally, if either page is modified “Basic” or “Advanced”, the user must return back to the “Basic” page and select “Apply Settings” in order to configure the WiFi Module.
+Nach Änderungen in „Basis“ oder „Erweitert“ muss auf der „Basis“-Seite „Einstellungen übernehmen“ gewählt werden.
 
-In order to establish a wireless video stream with the HDZero BoxPro via a smartphone or computer, the user must follow these steps:
+Um einen Videostream per WLAN herzustellen:
 
-1. The “Basic” page within the WiFi Module page will contain the necessary information in order to establish communications with the HDZero BoxPro:
+1. Die „Basis“-Seite zeigt die nötigen Infos:
 
-    a. Host Mode – Refer to the SSID and Password fields in order to join the HDZero BoxPro wireless network.
+    a. Host-Modus – SSID und Passwort zum Verbinden mit dem WLAN der Brille
 
-    b. Client Mode – Refer to your wireless access point user manual.
+    b. Client-Modus – Siehe Anleitung deines WLAN-Routers
 
-2. Install VLC app (or other similar app that supports RTSP) on your device.
+2. VLC-App (oder andere RTSP-fähige App) installieren
 
-3. Open the above app, choose “Open Network Stream”, and type the RTSP URL provided by the “Basic” page footnote as it will provided the necessary URL in order to establish a video stream via VLC app, below is the default ip address if the user has not made modifications within the  “Advanced” page:
+3. In der App „Netzwerkstream öffnen“ wählen und die RTSP-URL aus der Fußnote der „Basis“-Seite eingeben. Standard-IP, falls nicht geändert:
 
     > rtsp://192.168.2.122:8554/hdzero
 ::: tip
-Note: Video latency is expected due to networking protocols, buffering schema of the app, and OS platforms.
+Hinweis: Die Video-Latenz hängt von Netzwerk, App und Betriebssystem ab.
 :::
 
-## ESP32/Backpack Module (Optional)
+## ESP32/Backpack-Modul (Optional)
 
-The HDZero BoxPro supports a built-in ESP32 Backpack that achieves:
+Die BoxPro unterstützt ein integriertes ESP32-Backpack für:
 
-- Set channel number of built-in HDZero or Analog receiver depending on Source input
+- Kanalwahl für HDZero/Analog je nach Quelle
 
-- Wireless head tracking
+- Drahtloses Headtracking
 
-- Start/Stop DVR using a radio switch
+- Start/Stop DVR per Funkschalter
 
-### Update BoxPro Backpack Firmware
+### Backpack-Firmware aktualisieren
 
-- Create a folder name as ELRS in the root directory of the SD card
+- Ordner „ELRS“ im Hauptverzeichnis der SD-Karte anlegen
 
-- Using **ExpressLRS Configurator** to build firmware for goggle:
+- Mit **ExpressLRS Configurator** Firmware für die Brille bauen:
 
-    1. Switch to Backpack menu
+    1. Zum Backpack-Menü wechseln
 
-    2. Select the same release version with the radio backpack
+    2. Gleiche Release-Version wie beim Radio-Backpack wählen
 
-    3. Select target HDZero Goggles -> Built-in ESP32 Backpack
+    3. Ziel: HDZero Goggles -> Built-in ESP32 Backpack
 
-    4. Set the same binding phrase as the radio backpack, otherwise your backpack needs to be bound manually
+    4. Gleicher Bind-Phrase wie beim Radio-Backpack, sonst manuell binden
 
-    5. Build the firmware. A folder will pop up automatically containing the following 4 files when completed. Copy them to the above ELRS folder created on SD card
+    5. Firmware bauen, die folgenden 4 Dateien ins ELRS-Ordner auf SD-Karte kopieren:
 
         √ boot_app0.bin
 
@@ -391,40 +377,40 @@ The HDZero BoxPro supports a built-in ESP32 Backpack that achieves:
 
         √ partitions.bin
 
-- Insert SD card to the goggle
+- SD-Karte in die Brille stecken
 
-- Flash Backpack firmware at BoxPro: Firmware -> Update ESP32
+- Firmware flashen: Firmware -> Update ESP32
 
 <img src="/boxmedia/image15.png" id="image10">         <img src="/boxmedia/image16.png" id="image11">
 
-### Bind BoxPro and Radio
+### BoxPro und Radio binden
 
-Please flash your ELRS TX of Radio to the same version as BoxPro Backpack firmware version. Refer to ELRS official [Tx Backpack Setup](https://www.expresslrs.org/hardware/backpack/backpack-tx-setup/) here.
+Bitte ELRS TX des Radios auf gleiche Version wie Backpack flashen. Siehe ELRS [Tx Backpack Setup](https://www.expresslrs.org/hardware/backpack/backpack-tx-setup/).
 
-If the binding phrase of goggle is different with Radio, it is needed to bind manually for first use.
+Falls Bind-Phrase unterschiedlich, muss beim ersten Mal manuell gebunden werden.
 
-1. BoxPro:  ELRS -> Backpack = on
+1. BoxPro:  ELRS -> Backpack = an
 
 2. BoxPro:  ELRS -> Bind
 
 3. Radio:  ExpressLRS Lua -> Bind
 
-After a few seconds, the goggle will display success if the binding is complete.
+Nach wenigen Sekunden zeigt die Brille Erfolg an.
 
-### Start/Stop DVR using a radio switch
+### DVR per Funkschalter starten/stoppen
 
-The HDZero goggle supports start/stop recording using a switch on radio. Here are steps to setup on BoxPro and Radio:
+Die Brille unterstützt Start/Stop der Aufnahme per Funkschalter. Einrichtung:
 
-1. BoxPro:  Record Option -> Record Mode = Manual
+1. BoxPro:  Record Option -> Record Mode = Manuell
 
-2. Radio:  ExpressLRS Lua -> Backpack -> DVR Rec = AUXn↑ | AUXn↓, where n is aux channel number for the switch on radio.
+2. Radio:  ExpressLRS Lua -> Backpack -> DVR Rec = AUXn↑ | AUXn↓, wobei n der AUX-Kanal des Schalters ist
 
-## Real Time Clock (RTC)
+## Echtzeituhr (RTC)
 
-The HDZero BoxPro is equipped with a Real Time Clock. For initial setup, the RTC can be configured through the Clock Page, which will set both the system clock and hardware clock when you use the "Set Clock" function. Otherwise, when the goggles boot up, they will default to the last date and time set by the user since the "Set Clock" command was last applied.
+Die BoxPro ist mit einer Echtzeituhr ausgestattet. Die Erstkonfiguration erfolgt über die Clock-Seite, die sowohl System- als auch Hardware-Uhr setzt. Beim Start wird die zuletzt gesetzte Zeit verwendet.
 
 <img src="/boxmedia/image17.png" id="image12">
 
-The pre-installed battery may eventually die and can be replaced with an aftermarket CR1220 battery. After replacing the battery, you'll need to invoke the "Set Clock" function to set the correct time and date.
+Die eingebaute Batterie kann irgendwann leer sein und durch eine CR1220 ersetzt werden. Danach muss die Uhr neu gestellt werden.
 
-**Please note that the user assumes full responsibility for any damage incurred while opening the goggles to install a replacement battery.**
+**Hinweis: Das Öffnen der Brille zum Batteriewechsel erfolgt auf eigene Gefahr!**

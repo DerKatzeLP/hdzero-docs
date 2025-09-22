@@ -1,24 +1,24 @@
-# HDZero Micro V3 Camera
+# HDZero Micro V3 Kamera
 
-## Description
+## Beschreibung
 
-Runcam Micro V3 HDZero camera is optimized for a 16:9 aspect ratio which matches the HDZero Goggle’s 16:9 display to offer the largest and sharpest picture available for the HDZero system. The large lens attached to this camera results in superior sharpness and contrast, reduced fish-eye effect, and excellent low-light performance.
+Die Runcam Micro V3 HDZero Kamera ist für das 16:9-Format optimiert, das dem 16:9-Display der HDZero-Brille entspricht und das größte und schärfste Bild für das HDZero-System bietet. Das große Objektiv dieser Kamera sorgt für überlegene Schärfe und Kontrast, reduziert den Fisheye-Effekt und bietet eine hervorragende Low-Light-Performance.
 
-Choose between 720p60 standard resolution mode and 1080p30 high resolution modes. The later option is best for slower flying where high resolution is prioritized over frame rate whereas the 720p60 mode is best for general freestyle flying.
+Es kann zwischen 720p60-Standardauflösung und 1080p30-Hochauflösungsmodus gewählt werden. Letzterer ist ideal für langsameres Fliegen, bei dem hohe Auflösung wichtiger ist als Bildrate, während der 720p60-Modus für allgemeines Freestyle-Fliegen geeignet ist.
 
-Compared to Micro V2, the Micro V3 offers:
--	Native 16:9 without vignetting
--	Sharper optic and better low light performance
--	Improved dust resistance
+Im Vergleich zur Micro V2 bietet die Micro V3:
+-	Natives 16:9 ohne Vignettierung
+-	Schärfere Optik und bessere Low-Light-Performance
+-	Verbesserte Staubresistenz
 
-# Specifications
+# Technische Daten
 
-| parameter    | value                     |
-| ------------ | ------------------------- |
-| Image Sensor | 1/2"                      |
-| Interface    | MIPI                      |
-| Resolution   | 1920*1080@30fps (native resolution) <br>1280x720p@60fps (oversampled for higher quality) |
-| Max FOV      | D:157° H:133° V:72°(16:9) |
-| Shutter      | Rolling Shutter           |
-| Net Weight   | 7.5g                      |
-| Dimensions   | L19mm * W19mm * H24mm     |
+| Parameter    | Wert                     |
+| ------------ | ------------------------ |
+| Bildsensor   | 1/2"                     |
+| Schnittstelle| MIPI                     |
+| Auflösung    | 1920*1080@30fps (native Auflösung) <br>1280x720p@60fps (oversampled für höhere Qualität) |
+| Max. FOV     | D:157° H:133° V:72°(16:9)|
+| Verschluss   | Rolling Shutter          |
+| Gewicht      | 7,5g                     |
+| Maße         | L19mm * B19mm * H24mm    |

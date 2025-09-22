@@ -1,188 +1,188 @@
-# HDZero Firmware Update
+# HDZero Firmware-Update
 
-Download the latest Goggle firmware from [HDZero download](https://www.hd-zero.com/document). 
+Lade die neueste Goggle-Firmware von [HDZero Download](https://www.hd-zero.com/document) herunter.
 
 <table id="table6">
 <tr>
 <td></td>
-<td>Downloaded Firmware (.Zip file)</td>
-<td>Zip File Content</td>
-<td >Purpose</td>
+<td>Heruntergeladene Firmware (.Zip-Datei)</td>
+<td>Inhalt der Zip-Datei</td>
+<td >Zweck</td>
 </tr>
 <tr>
 <td rowspan="2">HDZero Goggle 1</td>
 <td rowspan="2">HDZEROGOGGLE_<br>Revyyyymmdd.zip</td>
 <td>HDZERO_GOGGLE_nnn.bin</td>
-<td>To flash firmware from Goggle main menu</td>
+<td>Zum Flashen der Firmware über das Goggle-Hauptmenü</td>
 </tr>
 <tr>
 <td>Recovery/HDZG_OS.bin<br>Recovery/HDZG_BOOT.bin<br>Recovery/HDZGOGGLE_RX.bin<br>Recovery/HDZGOGGLE_VA.bin</td>
-<td>For emergency recovery</td>
+<td>Für Notfall-Wiederherstellung</td>
 </tr>
 <tr>
 <td rowspan="2">HDZero Goggle 2</td>
 <td rowspan="2">HDZEROGOGGLE2_<br>Revyyyymmdd.zip</td>
 <td>HDZERO_GOGGLE2_nnn.bin</td>
-<td>To flash firmware from Goggle main menu</td>
+<td>Zum Flashen der Firmware über das Goggle-Hauptmenü</td>
 </tr>
 <tr>
 <td>Recovery/HDZG_OS.bin<br>Recovery/HDZGOGGLE_RX.bin<br>Recovery/HDZGOGGLE_VA.bin</td>
-<td>For emergency recovery</td>
+<td>Für Notfall-Wiederherstellung</td>
 </tr>
 </table>
 
-> TABLE 4.  Goggle Firmware File
+> TABELLE 4. Goggle Firmware-Dateien
 
-## Flashing Firmware to the Goggle
+## Firmware auf die Goggle flashen
 
-The HDZero Goggle runs on Linux. Its firmware contains the customized Linux distribution and its application software. We only need to update the application instead of updating the whole OS and application in most cases. However, there are some rare cases where the OS could become corrupted, such as losing power during update process. It is also possible that changes may have to be made to the OS in the future to add new functionality.
+Die HDZero Goggle läuft unter Linux. Ihre Firmware enthält die angepasste Linux-Distribution und die Anwendungssoftware. In den meisten Fällen muss nur die Anwendung aktualisiert werden, nicht das gesamte Betriebssystem. In seltenen Fällen kann das Betriebssystem beschädigt werden, z.B. bei Stromausfall während des Updates. Es ist auch möglich, dass zukünftig Änderungen am Betriebssystem vorgenommen werden müssen, um neue Funktionen hinzuzufügen.
 
-Before you start to update firmware, go to Main menu|Firmware|Current version. It should be in the following format:
+Vor dem Update der Firmware gehe zu Hauptmenü|Firmware|Aktuelle Version. Sie sollte folgendes Format haben:
 
-    - n.xx.yyy, or
+    - n.xx.yyy, oder
 
     - app:n-xx rx yy va zzz
 
-If n is greater or equal than 9, take [Normal Goggle Firmware Update Process](#normal-goggle-firmware-update-process-for-n≥-9), otherwise take [A Special One Time Goggle Firmware Update Process](#a-special-one-time-goggle-firmware-update-process-for-n--9).
+Wenn n größer oder gleich 9 ist, folge dem [normalen Goggle Firmware-Update-Prozess](#normaler-goggle-firmware-update-prozess-für-n≥-9), andernfalls folge dem [speziellen einmaligen Goggle Firmware-Update-Prozess](#spezieller-einmaliger-goggle-firmware-update-prozess-für-n--9).
 
-### Normal Goggle Firmware Update Process (for n≥ 9)
+### Normaler Goggle Firmware-Update-Prozess (für n≥ 9)
 
-1. Disconnect all cables from the goggle. Keep the power cable only;
+1. Trenne alle Kabel von der Goggle. Nur das Stromkabel angeschlossen lassen;
 
-2. Prepare the firmware file:
+2. Firmware-Datei vorbereiten:
 
-    a. For Goggle 1: HDZERO_GOGGLE_nnn.bin
+    a. Für Goggle 1: HDZERO_GOGGLE_nnn.bin
 
-    b. For Goggle 2: HDZERO_GOGGLE2_nnn.bin
+    b. Für Goggle 2: HDZERO_GOGGLE2_nnn.bin
 
-    Copy it to root directory of SD card that is formatted as FAT32, and make sure there is no previous firmware in the root directory;
+    Kopiere sie ins Stammverzeichnis der als FAT32 formatierten SD-Karte und stelle sicher, dass keine vorherige Firmware im Stammverzeichnis liegt;
 
-3. Power on the goggle;
+3. Schalte die Goggle ein;
 
-4. Go to Main menu | Firmware | Update Goggle, the display will show the current version;
+4. Gehe zu Hauptmenü | Firmware | Goggle aktualisieren, das Display zeigt die aktuelle Version an;
 
-5. Wait for the completion (about 3 minutes), then power off; 
+5. Warte bis zum Abschluss (ca. 3 Minuten), dann schalte aus;
 
-6. Done!
+6. Fertig!
 
-### A Special One Time Goggle Firmware Update Process (for n < 9)
+### Spezieller einmaliger Goggle Firmware-Update-Prozess (für n < 9)
 
-1. Disconnect all cables from the goggle. Keep the power cable only;
+1. Trenne alle Kabel von der Goggle. Nur das Stromkabel angeschlossen lassen;
 
-2. Extract HDZERO_GOGGLE- nnn.bin/HDZG_BOOT.bin/HDZG_OS.bin, and copy them to root directory of a FAT32 formatted SD card;
+2. Extrahiere HDZERO_GOGGLE- nnn.bin/HDZG_BOOT.bin/HDZG_OS.bin und kopiere sie ins Stammverzeichnis einer als FAT32 formatierten SD-Karte;
 
-3. Insert SD card, Select Main menu | Firmware | Update Goggle. Power off after completion;
+3. SD-Karte einlegen, Hauptmenü | Firmware | Goggle aktualisieren auswählen. Nach Abschluss ausschalten;
 
-4. Power on goggle, wait for 2 min then power off;
+4. Goggle einschalten, 2 Minuten warten, dann ausschalten;
 
-5. Power on goggle, wait for 5 mins then power off;
+5. Goggle einschalten, 5 Minuten warten, dann ausschalten;
 
-6. Done! 
+6. Fertig!
 
 ::: tip
-Note:
-     (1)HDZG_BOOT.bin/HDZG_OS.bin will be removed from SD card if update successfully. (2) Have to wait for the above specified time, DO NOT move to next step in a hurry.
+Hinweis:
+     (1) HDZG_BOOT.bin/HDZG_OS.bin werden von der SD-Karte entfernt, wenn das Update erfolgreich war. (2) Die oben angegebene Zeit muss abgewartet werden, NICHT voreilig zum nächsten Schritt übergehen.
 :::
-The goggle can be bricked under some rare cases. If the goggle is on the firmware version n  is 9 or later before bricked, follow [Goggle Emergency Firmware Update Process](#goggle-emergency-firmware-update-process-for-n≥-9); if n is earlier than version 9 or you are not sure which version it was on, please follow [Goggle Emergency Firmware Update Process using Phoenix App](#goggle-emergency-firmware-update-process-using-phoenix-app--for-all-versions) using Phoeix App.
+Die Goggle kann in seltenen Fällen unbrauchbar werden. Wenn die Goggle vor dem Brick auf Firmware-Version n ≥ 9 war, folge dem [Goggle Notfall-Firmware-Update-Prozess](#goggle-notfall-firmware-update-prozess-für-n≥-9); wenn n kleiner als Version 9 war oder du dir nicht sicher bist, folge dem [Goggle Notfall-Firmware-Update-Prozess mit Phoenix App](#goggle-notfall-firmware-update-prozess-mit-phoenix-app--für-alle-versionen) mit der Phoenix App.
 
-### Goggle Emergency Firmware Update Process  (for n≥ 9)
+### Goggle Notfall-Firmware-Update-Prozess  (für n≥ 9)
 
-1. Disconnect all cables from the goggle. Keep the power cable only;
+1. Trenne alle Kabel von der Goggle. Nur das Stromkabel angeschlossen lassen;
 
-2. Extract HDZG_OS.bin/ HDZGOGGLE_RX.BIN/ HDZGOGGLE_VA.BIN, and copy them to root directory of a FAT32 formatted SD card, and insert SD card to the goggle;
+2. Extrahiere HDZG_OS.bin/ HDZGOGGLE_RX.BIN/ HDZGOGGLE_VA.BIN und kopiere sie ins Stammverzeichnis einer als FAT32 formatierten SD-Karte, dann SD-Karte in die Goggle einlegen;
 
-3. Power on goggle, wait for 5 min then power off;
+3. Goggle einschalten, 5 Minuten warten, dann ausschalten;
 
-4. Done! 
+4. Fertig!
 
 ::: tip
-Note:
-     (1)HDZG_OS.bin/ HDZGOGGLE_RX.BIN/HDZGOGGLE_VA.BIN will be removed from SD card if update successfully. 
-     (2) Have to wait for the above specified time, DO NOT move to next step in a hurry.
+Hinweis:
+     (1) HDZG_OS.bin/ HDZGOGGLE_RX.BIN/HDZGOGGLE_VA.BIN werden von der SD-Karte entfernt, wenn das Update erfolgreich war.
+     (2) Die oben angegebene Zeit muss abgewartet werden, NICHT voreilig zum nächsten Schritt übergehen.
 :::
  
 
-### Goggle Emergency Firmware Update Process using Phoenix App  (for all versions)
+### Goggle Notfall-Firmware-Update-Prozess mit Phoenix App  (für alle Versionen)
 
-Download PhoenixCard.zip from the [HDZero download](https://www.hd-zero.com/document) site, and extract it to a location on a Windows machine, for example, C:\PhoenixCard. This is a one-time process. There is no Mac or Linux version for now.
+Lade PhoenixCard.zip von der [HDZero Download](https://www.hd-zero.com/document) Seite herunter und entpacke sie z.B. nach C:\PhoenixCard auf einem Windows-PC. Dies ist ein einmaliger Vorgang. Es gibt derzeit keine Mac- oder Linux-Version.
 
-Download the latest firmware package from the [HDZero download](https://www.hd-zero.com/document) site, and extract all files in the zip file to your local drive, i.e. C:\Temp.
+Lade das neueste Firmware-Paket von der [HDZero Download](https://www.hd-zero.com/document) Seite herunter und entpacke alle Dateien aus der Zip-Datei auf dein Laufwerk, z.B. C:\Temp.
 
-1. Launch C:\PhoenixCard\PhoenixCard.exe; 
+1. Starte C:\PhoenixCard\PhoenixCard.exe;
 
-2. Follow the steps on FIG.5 to make a bootable SD card; 
+2. Folge den Schritten in ABB.5, um eine bootfähige SD-Karte zu erstellen;
 
 <img src="/gogglesmedia/image20.png" id="image14">
 
-> FIG 5. Make a bootable SD Card
+> ABB 5. Bootfähige SD-Karte erstellen
 
-3. Eject the SD card from Windows, and insert the SD card into the SD card slot of the goggle;
+3. SD-Karte aus Windows auswerfen und in die Goggle einlegen;
 
- Unplug all of the cables, i.e., HDMI in/out, Line in/out, AV in. Keep the power cable only. Power on the goggle, you will hear a long beep im/gogglesmediately. Wait for 3 minutes and you will hear another long beep;
+ Ziehe alle Kabel ab, z.B. HDMI in/out, Line in/out, AV in. Nur das Stromkabel angeschlossen lassen. Goggle einschalten, du hörst sofort einen langen Piepton. Warte 3 Minuten, dann ertönt ein weiterer langer Piepton;
 
-4. Power off the goggle, and pull out the SD card from the goggle. (Do not power on goggle now);
+4. Goggle ausschalten und SD-Karte entfernen (jetzt nicht einschalten);
 
-5. Follow the FIG.6 to restore the SD Card from BOOT mode, and format it as FAT32 on Windows;
+5. Folge ABB.6, um die SD-Karte aus dem BOOT-Modus wiederherzustellen und formatiere sie als FAT32 unter Windows;
 
 <img src="/gogglesmedia/image22.png" id="image16">
 <img src="/gogglesmedia/image21.png" id="image15">
 
-> FIG 6. Restore a SD Card
+> ABB 6. SD-Karte wiederherstellen
 
-6. Copy HDZGOGGLE_RX.bin and HDZGOGGLE_VA.bin to the SD card root directory;
+6. Kopiere HDZGOGGLE_RX.bin und HDZGOGGLE_VA.bin ins Stammverzeichnis der SD-Karte;
 
-7. Insert SD card into goggle, power on the goggle, wait for 2 minutes, and there will be a long beep;
+7. SD-Karte in die Goggle einlegen, Goggle einschalten, 2 Minuten warten, dann ertönt ein langer Piepton;
 
-8. (Optional) Pull out the SD card, and check SD card contents on the PC. The 2 files should be removed if flash process is successful;
+8. (Optional) SD-Karte entfernen und am PC überprüfen. Die 2 Dateien sollten entfernt sein, wenn der Flash-Vorgang erfolgreich war;
 
-9. Power the goggle off and then on again.
+9. Goggle ausschalten und wieder einschalten.
 
 ::: tip
-Notes: 
+Hinweise: 
 
-(1) A bootable SD card has a hidden partition that Windows Explorer will not show. And it can’t be removed even SD card is formatted with Windows Explorer. It means the goggle will flash itself from the bootable SD card unexpectedly and mess up goggle firmware if a bootable SD card is inserted when the goggle is powered on.
+(1) Eine bootfähige SD-Karte hat eine versteckte Partition, die im Windows Explorer nicht angezeigt wird. Sie bleibt auch nach dem Formatieren mit dem Explorer erhalten. Wird eine bootfähige SD-Karte eingelegt, wenn die Goggle eingeschaltet wird, kann dies zu unerwartetem Flashen und Firmware-Problemen führen.
 
-(2) The above Step (5) must be followed strictly to get rid of the hidden bootable partition. Otherwise, it will brick the goggle when goggle is powered with this SD card inserted. If this happens, you will need to repeat the emergency firmware update process described in this section.
+(2) Schritt (5) muss strikt befolgt werden, um die versteckte bootfähige Partition zu entfernen. Andernfalls kann die Goggle gebrickt werden. In diesem Fall muss der Notfall-Firmware-Update-Prozess wiederholt werden.
 
-(3) Have to wait for the above specified time, DO NOT move to next step in a hurry.
+(3) Die oben angegebene Zeit muss abgewartet werden, NICHT voreilig zum nächsten Schritt übergehen.
 
-(4) When the goggle is bricked, it shows HDZero Boot screen and will not get into Main menu.  
+(4) Wenn die Goggle gebrickt ist, zeigt sie den HDZero Boot-Bildschirm und gelangt nicht ins Hauptmenü.
 :::
 
-## Flashing Firmware to a HDZero VTX
+## Firmware auf einen HDZero VTX flashen
 
-The HDZero goggle can flash firmware to a HDZero video transmitter via its FW port. Here are the steps:
+Die HDZero Goggle kann Firmware auf einen HDZero Video-Sender (VTX) über dessen FW-Port flashen. Vorgehensweise:
 
-### To flash a single VTX:
+### Einzelnen VTX flashen:
 
-1. Copy HDZERO_TX.bin to root directory of a SD card that is formatted as FAT32 
+1. Kopiere HDZERO_TX.bin ins Stammverzeichnis einer als FAT32 formatierten SD-Karte
 
-2. Power on the goggle
+2. Goggle einschalten
 
-3. Connect the VTX and HDZero goggle with the included programming cable
+3. VTX und HDZero Goggle mit dem mitgelieferten Programmierkabel verbinden
 
-4. Go to Main menu | Firmware |Update VTX, the display will show the status of the flashing process 
+4. Hauptmenü | Firmware | VTX aktualisieren auswählen, der Status des Flash-Vorgangs wird angezeigt
 
-5. Disconnect the VTX
+5. VTX trennen
 
-6. This VTX is now flashed with the latest firmware
+6. Der VTX ist nun mit der neuesten Firmware geflasht
 
-### To flash multiple VTXes of the same type:
+### Mehrere VTX desselben Typs flashen:
 
-1. Copy HDZERO_TX.bin to root directory of a SD card that is formatted as FAT32 
+1. Kopiere HDZERO_TX.bin ins Stammverzeichnis einer als FAT32 formatierten SD-Karte
 
-2. Power on the goggle
+2. Goggle einschalten
 
-3. Connect one VTX to the HDZero goggle with the included programming cable
+3. Einen VTX mit dem mitgelieferten Programmierkabel an die HDZero Goggle anschließen
 
-4. Go to Main menu | Firmware | Update VTX, the display will show the status, 
+4. Hauptmenü | Firmware | VTX aktualisieren auswählen, der Status wird angezeigt
 
-5. Disconnect the VTX, this VTX is flashed
+5. VTX trennen, dieser VTX ist geflasht
 
-6. Repeat 3-5 for the other VTXes
+6. Schritte 3-5 für die anderen VTX wiederholen
 
 ::: tip
-Note: 
+Hinweis: 
 
-Flashing VTX firmware with Goggle is highly not recommended for Goggle safety consideration. [HDZero Programming Cable](https://www.hd-zero.com/product-page/hdzero-programming-cable) is preferred for its convenience and safety. However, a Windows system is needed to run the HDZero Programmer app, Mac is not supported for now.
+Das Flashen der VTX-Firmware mit der Goggle wird aus Sicherheitsgründen nicht empfohlen. Das [HDZero Programmierkabel](https://www.hd-zero.com/product-page/hdzero-programming-cable) ist wegen Komfort und Sicherheit vorzuziehen. Allerdings wird ein Windows-System für die HDZero Programmer App benötigt, Mac wird derzeit nicht unterstützt.
 :::

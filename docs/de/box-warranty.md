@@ -1,3 +1,3 @@
-# Warranty
+# Garantie
 
-The HDZero BoxPro can be exchanged for a new unit within 7 days for any manufacturing defects if returned in new condition. The optic module will be warrantied for repair for 12 months, and all other components, for 2 years, if there are no signs of excessive use. Buyer will be responsible for shipping costs. If beyond the warranty period, we will provide repair services for a cost. For assistance with warranty issues, please contact support@divimath.com.
+Die HDZero BoxPro kann innerhalb von 7 Tagen bei Herstellungsfehlern gegen ein neues Gerät getauscht werden, sofern sie sich im Neuzustand befindet. Das Optikmodul hat 12 Monate Garantie auf Reparatur, alle anderen Komponenten 2 Jahre, sofern keine übermäßige Nutzung erkennbar ist. Der Käufer trägt die Versandkosten. Nach Ablauf der Garantie bieten wir kostenpflichtige Reparaturen an. Bei Garantiefragen wende dich bitte an support@divimath.com.

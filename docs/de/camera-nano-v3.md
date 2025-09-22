@@ -1,32 +1,32 @@
-# HDZero Nano V3 Camera
+# HDZero Nano V3 Kamera
 
-## Description
+## Beschreibung
 
-Runcam Nano V3 HDZero camera is small and lightweight, making it ideal for whoops and micro drones. A sharp lens with very wide FOV offers the best nano camera image quality for HDZero yet.
+Die Runcam Nano V3 HDZero Kamera ist klein und leicht, was sie ideal für Whoops und Micro-Drohnen macht. Eine scharfe Linse mit sehr großem Sichtfeld bietet die bisher beste Bildqualität einer Nano-Kamera für HDZero.
 
-The camera is optimized for 4:3 aspect ratio but can be configured for 16:9 aspect ratio within the camera’s settings menu. With its large FOV lens, 16:9 cut mode offers a comfortable amount of FOV and 16:9 full mode offers a very large FOV, but with vignetting.
+Die Kamera ist für das 4:3-Format optimiert, kann aber im Einstellungsmenü der Kamera auch auf 16:9 umgestellt werden. Mit ihrem großen FOV-Objektiv bietet der 16:9-Cut-Modus ein angenehmes Sichtfeld und der 16:9-Full-Modus ein sehr großes Sichtfeld, allerdings mit Vignettierung.
 
-Nano v3 is to replace Nano v2 and Nano lite camera. 
+Die Nano V3 ersetzt die Nano V2 und Nano Lite Kamera.
 
-Compared to Nano v2, Nano v3 offers:
--	Larger FOV (94° vs 89°)
--	Sharper optic
--	Reduced weight (half as heavy)
+Im Vergleich zur Nano V2 bietet die Nano V3:
+-	Größeres Sichtfeld (94° vs 89°)
+-	Schärfere Optik
+-	Geringeres Gewicht (halb so schwer)
 
-Compared to Nano lite, Nano v3 offers:
--	Larger FOV (94° vs 84°)
--	Sharper optic
--	Much clearer colors and contrast
--	Marginal weight increase (0.7g)
+Im Vergleich zur Nano Lite bietet die Nano V3:
+-	Größeres Sichtfeld (94° vs 84°)
+-	Schärfere Optik
+-	Viel klarere Farben und Kontrast
+-	Nur geringfügig höheres Gewicht (0,7g)
 
-# Specifications
+# Technische Daten
 
-| parameter    | value                    |
-| ------------ | ------------------------ |
-| Image Sensor | 1/2"                     |
-| Interface    | MIPI                     |
-| Resolution   | 720@60fps 4:3            |
-| Max FOV      | D:155° H:126° V:94°(4:3) |
-| Shutter      | Rolling Shutter          |
-| Net Weight   | 2.2g                     |
-| Dimensions   | L14mm * W16mm * H14mm    |
+| Parameter     | Wert                     |
+| ------------- | ------------------------ |
+| Bildsensor    | 1/2"                     |
+| Schnittstelle | MIPI                     |
+| Auflösung     | 720@60fps 4:3            |
+| Max. FOV      | D:155° H:126° V:94°(4:3) |
+| Verschluss    | Rolling Shutter          |
+| Gewicht       | 2,2g                     |
+| Maße          | L14mm * B16mm * H14mm    |

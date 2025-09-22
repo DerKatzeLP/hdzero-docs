@@ -4,7 +4,7 @@
 <img src="/halomedia/image2.png" id="image35">
 </div>
 
-The HDZero Halo Stack features the Halo Flight Controller paired with the Halo ESC. It has 4 variations:
+Der HDZero Halo Stack besteht aus dem Halo Flight Controller und dem Halo ESC. Es gibt vier Varianten:
 
 - Halo Flight Controller (MPU6000) + Halo ESC (AM32)
 
@@ -14,7 +14,7 @@ The HDZero Halo Stack features the Halo Flight Controller paired with the Halo E
 
 - Halo Flight Controller (ICM42688) + Halo ESC (BLHeLi32)
 
-## Includes  
+## Lieferumfang  
 
 <div style="display: flex; align-items: center; justify-content: space-around; margin: 40px">
 <img src="/halomedia/image35.png" id="image35">
@@ -24,24 +24,24 @@ The HDZero Halo Stack features the Halo Flight Controller paired with the Halo E
 
 - 1x HDZero Halo ESC
 
-- 1x ESC cable (8-pin SH1.0, 30mm)
+- 1x ESC-Kabel (8-polig SH1.0, 30mm)
 
-- 1x XT60 cable (70mm,12AWG)
+- 1x XT60-Kabel (70mm, 12AWG)
 
-- 1x 35V/1000uf capacitor
+- 1x 35V/1000uF Kondensator
 
-- 9x Rubber grommet (4.5mm height)
+- 9x Gummitülle (4,5mm Höhe)
 
-- 6x Rubber grommet (6.6mm height)
+- 6x Gummitülle (6,6mm Höhe)
 
-- 5x Nylon washer (M3 1.0mm thick)
+- 5x Nylon-Unterlegscheibe (M3 1,0mm dick)
 
-- 5x 304 Steel nuts (M3 2.3mm thick)
+- 5x 304 Stahlmuttern (M3 2,3mm dick)
 
-- 4x 12.9 Carbon steel screws (M3 25mm length)
+- 4x 12.9 Carbonstahl-Schrauben (M3 25mm Länge)
 
-- 1x ELRS T-sharp short antenna (40mm)
+- 1x ELRS T-sharp Kurzantenne (40mm)
 
-- 1x ELRS T-sharp long antenna (90mm)
+- 1x ELRS T-sharp Langantenne (90mm)
 
-- 2x ELRS Antenna retainers
+- 2x ELRS Antennenhalter

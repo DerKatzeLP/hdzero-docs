@@ -1,37 +1,37 @@
-# Introduction
+# Einführung
 
 <div style="display: flex; align-items: center; justify-content: space-around; margin: 40px">
 <img src="/eventmedia/image1.png">
 </div>
 
-Designed in collaboration with racing pilots and MultiGP event coordinators, the HDZero Event VRX makes it seamless to integrate HDZero into race DVR and live stream setups. 
+In Zusammenarbeit mit Rennpiloten und MultiGP-Eventkoordinatoren entwickelt, ermöglicht das HDZero Event VRX eine nahtlose Integration von HDZero in Race-DVR- und Livestream-Setups.
 
-The Event VRX automatically switches between analog and HDZero video based on received video signal. This means separate software is not needed to switch the recorded video between the two and no special setup is needed ahead of time. 
+Das Event VRX schaltet automatisch zwischen analogem und HDZero-Video um, je nach empfangenem Videosignal. Das bedeutet, dass keine separate Software benötigt wird, um das aufgezeichnete Video zwischen den beiden umzuschalten, und keine spezielle Einrichtung im Voraus erforderlich ist.
 
-The Event VRX outputs both HDZero and analog video on HDMI and CVBS outputs. This means you can use existing legacy analog video capture equipment such as an Owl DVR box or analog capture card, keeping cost and complexity to a minimum. 
+Das Event VRX gibt sowohl HDZero- als auch Analogvideo über HDMI- und CVBS-Ausgänge aus. Das bedeutet, dass vorhandene analoge Videoaufnahmegeräte wie eine Owl DVR-Box oder eine analoge Capture-Karte weiterhin verwendet werden können, wodurch Kosten und Komplexität minimiert werden.
 
-The Event VRX packs four 2-antenna HDZero receivers into one enclosure, which reduces cost and simplifies setup. The 2-antenna HDZero receivers have less noise rejection than full goggle VRX’s with 4 antennas, but still have excellent video reception for outdoor race events. 8 analog receivers are included, setup in a diversity arrangement (2 analog receivers per channel).
+Das Event VRX vereint vier 2-Antennen-HDZero-Empfänger in einem Gehäuse, was Kosten spart und die Einrichtung vereinfacht. Die 2-Antennen-HDZero-Empfänger haben zwar eine geringere Störunterdrückung als vollständige Goggle-VRXs mit 4 Antennen, bieten aber dennoch eine ausgezeichnete Videoempfangsqualität für Outdoor-Rennveranstaltungen. 8 analoge Empfänger sind enthalten, die in einer Diversity-Anordnung (2 analoge Empfänger pro Kanal) arbeiten.
 
-## Features
+## Funktionen
 
-- Effortless HDZero and analog auto-switching receiver for racing events 
+- Müheloser HDZero- und Analog-Auto-Switching-Empfänger für Rennveranstaltungen
 
-- 4 channels per box, each of which can receive either an HDZero or analog signal 
+- 4 Kanäle pro Box, jeder kann entweder ein HDZero- oder ein Analogsignal empfangen
 
-- 4x HDMI and 4x CVBS (composite analog) outputs so you can connect to HDMI capture cards or to legacy analog DVR recorders 
+- 4x HDMI- und 4x CVBS-(Composite-Analog-)Ausgänge, sodass Sie HDMI-Capture-Karten oder ältere analoge DVR-Recorder anschließen können
 
-- Both digital and analog signals are output on HDMI and CVBS – system chooses video source based on signal
+- Sowohl digitale als auch analoge Signale werden über HDMI und CVBS ausgegeben – das System wählt die Videoquelle je nach Signal
 
-- 2x SMA antenna jacks that are shared between all 4 channels, so you only need 2 antennas for 4 channels of video 
+- 2x SMA-Antennenbuchsen, die zwischen allen 4 Kanälen geteilt werden, sodass nur 2 Antennen für 4 Videokanäle benötigt werden
 
-- Rugged steel enclosure that is designed for mounting to a tower 
+- Robustes Stahlgehäuse, das für die Montage an einem Turm ausgelegt ist
 
-- 2D De-interlacer improves analog video quality on HDMI output 
+- 2D-De-Interlacer verbessert die analoge Videoqualität am HDMI-Ausgang
 
-- OLED configuration screen for channel and setting changes 
+- OLED-Konfigurationsbildschirm für Kanal- und Einstellungsauswahl
 
-- 30W power draw, 8-20V DC input 
+- 30W Leistungsaufnahme, 8-20V DC-Eingang
 
-- AC to DC Power supply included 
+- AC-zu-DC-Netzteil im Lieferumfang enthalten
 
-- Firmware updates via USB and included Windows PC software 
+- Firmware-Updates über USB und mitgelieferte Windows-PC-Software
